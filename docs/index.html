@@ -3,73 +3,169 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Newswire Hollywood</title>
-<meta name="description" content="Entertainment news, wire distribution, and industry intelligence.">
+<title>Newswire Hollywood — Entertainment News, The Business Behind The Business</title>
+<meta name="description" content="Breaking entertainment news out of Los Angeles. Film, television, music, fashion, sports, deals, and how AI and big tech are remaking Hollywood.">
+<meta property="og:title" content="Newswire Hollywood">
+<meta property="og:description" content="The business behind the business.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
+:root{
+  --ink:#000;
+  --body:#2B2B2B;
+  --paper:#fff;
+  --rule:#D6D4D0;
+  --rule-soft:#EDEBE8;
+  --signal:#D1002E;
+  --date:#B8860B;
+  --hed:'Archivo Narrow',Arial Narrow,sans-serif;
+  --txt:'Newsreader',Georgia,serif;
+  --wrap:1180px;
+}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Georgia,'Times New Roman',serif;background:#fff;color:#111;line-height:1.5}
-header{border-bottom:3px solid #111;padding:28px 20px 20px}
-.wrap{max-width:1100px;margin:0 auto}
-.logo{font-size:42px;font-weight:700;letter-spacing:-1px;text-transform:uppercase}
-.logo span{color:#c00}
-.tag{font-family:Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#666;margin-top:6px}
-nav{border-bottom:1px solid #ddd;padding:12px 20px}
-nav a{font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#111;text-decoration:none;margin-right:26px}
-nav a:hover{color:#c00}
-main{padding:36px 20px 60px}
-.lead{border-bottom:1px solid #ddd;padding-bottom:32px;margin-bottom:32px}
-.kicker{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#c00;margin-bottom:10px}
-.lead h1{font-size:46px;line-height:1.1;letter-spacing:-1px;margin-bottom:14px}
-.lead p{font-size:19px;color:#333}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:32px}
-article{border-top:2px solid #111;padding-top:14px}
-article h2{font-size:22px;line-height:1.2;margin-bottom:8px}
-article h2 a{color:#111;text-decoration:none}
-article h2 a:hover{color:#c00}
-article p{font-size:15px;color:#444}
-.meta{font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-top:10px}
-footer{border-top:3px solid #111;padding:26px 20px;font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#666}
-@media(max-width:600px){.logo{font-size:30px}.lead h1{font-size:32px}}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
+
+/* masthead */
+.masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
+.brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
+.brand em{font-style:normal;color:var(--signal)}
+.standfirst{font-family:var(--hed);font-weight:500;font-size:12px;letter-spacing:.18em;color:#9A9A9A;margin-top:7px;text-transform:uppercase}
+
+/* nav */
+.nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
+.nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
+.nav a:hover{color:var(--signal)}
+.nav .hot{color:var(--signal)}
+
+/* ticker */
+.reel{background:#F7F5F2;border-bottom:1px solid var(--rule);display:flex;align-items:stretch;overflow:hidden}
+.reel-tag{background:var(--signal);color:#fff;font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;display:flex;align-items:center;padding:0 14px;flex:none}
+.reel-tag span{width:7px;height:7px;background:#fff;border-radius:50%;margin-right:8px;animation:blip 1.6s steps(1,end) infinite}
+@keyframes blip{0%,60%{opacity:1}61%,100%{opacity:.25}}
+.reel-track{display:flex;align-items:center;gap:42px;padding:9px 0 9px 22px;font-family:var(--hed);font-size:14px;font-weight:500;white-space:nowrap;animation:crawl 46s linear infinite}
+.reel-track b{color:var(--signal);font-weight:700;margin-right:7px}
+.reel:hover .reel-track{animation-play-state:paused}
+@keyframes crawl{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.reel-track{animation:none}.reel-tag span{animation:none}}
+
+/* layout */
+main{padding:30px 0 0}
+.cols{display:grid;grid-template-columns:1fr;gap:34px}
+@media(min-width:960px){.cols{grid-template-columns:minmax(0,1fr) 312px;gap:44px}}
+
+/* lead */
+.lead{border-bottom:1px solid var(--rule);padding-bottom:26px;margin-bottom:26px}
+.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:9px}
+.lead h1{font-family:var(--hed);font-weight:700;font-size:clamp(34px,7vw,58px);line-height:1.02;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
+.lead .dek{font-size:20px;line-height:1.45;max-width:36em}
+.byline{font-family:var(--hed);font-size:12.5px;letter-spacing:.05em;color:#8A8A8A;margin-top:14px}
+
+/* story grid */
+.stories{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.stories{grid-template-columns:1fr 1fr}}
+.story{border-top:2px solid var(--ink);padding-top:12px}
+.story h2{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.12;color:var(--ink);margin-bottom:7px}
+.story:hover h2{color:var(--signal)}
+.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
+.story .byline{margin-top:9px;font-size:11.5px}
+.section-rule{font-family:var(--hed);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:7px;margin:38px 0 20px}
+
+/* rail */
+.rail{display:grid;gap:30px;align-content:start}
+.mod{border:1px solid var(--rule)}
+.mod-head{font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.13em;text-transform:uppercase;padding:11px 14px;color:#fff;background:var(--ink)}
+.mod-body{padding:14px}
+.pulse li{list-style:none;padding:11px 0;border-bottom:1px solid var(--rule-soft);font-size:15.5px;line-height:1.4}
+.pulse li:last-child{border:0;padding-bottom:0}
+.pulse span{font-family:var(--hed);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8A8A;display:block;margin-top:5px}
+.cal-head{background:var(--date)}
+.cal li{list-style:none;display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
+.cal li:last-child{border:0;padding-bottom:0}
+.cal .when{font-family:var(--hed);font-weight:700;font-size:12px;letter-spacing:.06em;color:var(--date);text-transform:uppercase;flex:none;width:62px;padding-top:2px}
+.cal .what{font-size:15px;line-height:1.35}
+.cal .what em{font-style:normal;display:block;font-family:var(--hed);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:#8A8A8A;margin-top:4px}
+.mod-foot{border-top:1px solid var(--rule);padding:11px 14px;font-family:var(--hed);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.mod-foot a:hover{color:var(--signal)}
+
+/* calendar strip */
+.strip{background:var(--ink);color:#fff;margin-top:52px;padding:44px 0}
+.strip h2{font-family:var(--hed);font-weight:700;font-size:clamp(26px,5vw,40px);line-height:1.05;letter-spacing:-.4px;margin-bottom:10px}
+.strip p{color:#B4B4B4;max-width:44em;font-size:17px}
+.strip .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:#2A2A2A;margin-top:28px;border:1px solid #2A2A2A}
+.strip .cell{background:var(--ink);padding:18px 16px}
+.strip .cell h3{font-family:var(--hed);font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase;color:var(--date);margin-bottom:6px}
+.strip .cell p{font-size:14.5px;color:#9A9A9A}
+
+/* footer */
+footer{border-top:3px solid var(--ink);margin-top:52px;padding:30px 0 46px;font-family:var(--hed);font-size:13.5px;color:#6A6A6A}
+footer nav{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:16px}
+footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
 </style>
 </head>
 <body>
-<header><div class="wrap">
-<div class="logo">Newswire <span>Hollywood</span></div>
-<div class="tag">Entertainment News &middot; Wire Distribution &middot; Industry Intelligence</div>
-</div></header>
 
-<nav><div class="wrap">
-<a href="/">Home</a><a href="#film">Film</a><a href="#tv">TV</a><a href="#music">Music</a><a href="#deals">Deals</a><a href="#carpet">Red Carpet</a><a href="#wire">The Wire</a>
-</div></nav>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="/">Newswire <em>Hollywood</em></a>
+    <div class="standfirst">The business behind the business</div>
+  </div>
+</header>
 
-<main><div class="wrap">
-<section class="lead">
-<div class="kicker">Breaking</div>
-<h1>Newswire Hollywood is live.</h1>
-<p>Entertainment news, wire distribution, and industry intelligence out of Los Angeles.</p>
-</section>
+<nav class="nav" aria-label="Sections">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="#film">Film</a></li>
+    <li><a href="#tv">Television</a></li>
+    <li><a href="#music">Music</a></li>
+    <li><a href="#fashion">Fashion</a></li>
+    <li><a href="#sports">Sports</a></li>
+    <li><a href="#deals">Deals</a></li>
+    <li><a class="hot" href="#ai">AI &amp; Big Tech</a></li>
+    <li><a href="calendar.html">The Calendar</a></li>
+    <li><a href="#carpet">Red Carpet</a></li>
+    <li><a href="#wire">The Wire</a></li>
+    <li><a href="pressroom.html">Press Room</a></li>
+  </ul>
+</nav>
 
-<div class="grid">
-<article>
-<h2><a href="#">Story slot one</a></h2>
-<p>Published stories land here automatically once the newsroom agents are running.</p>
-<div class="meta">Newswire Hollywood</div>
-</article>
-<article>
-<h2><a href="#">Story slot two</a></h2>
-<p>Originated, syndicated, and sponsored content each carry their own tag.</p>
-<div class="meta">Newswire Hollywood</div>
-</article>
-<article>
-<h2><a href="#">Story slot three</a></h2>
-<p>The wire desk feeds this column.</p>
-<div class="meta">Newswire Hollywood</div>
-</article>
+<div class="reel" aria-label="Live updates">
+  <div class="reel-tag"><span></span>Live</div>
+  <div class="reel-track">
+    <div><b>Deals</b>Streaming consolidation talks resume</div>
+    <div><b>AI</b>Studio adopts synthetic performer disclosure rules</div>
+    <div><b>Awards</b>Guild nomination windows open this month</div>
+    <div><b>Music</b>Grammy week venue schedule firms up</div>
+    <div><b>Fashion</b>Show calendars released for the next cycle</div>
+    <div><b>Deals</b>Streaming consolidation talks resume</div>
+    <div><b>AI</b>Studio adopts synthetic performer disclosure rules</div>
+    <div><b>Awards</b>Guild nomination windows open this month</div>
+    <div><b>Music</b>Grammy week venue schedule firms up</div>
+    <div><b>Fashion</b>Show calendars released for the next cycle</div>
+  </div>
 </div>
-</div></main>
 
-<footer><div class="wrap">
-&copy; 2026 Newswire Hollywood. All rights reserved. &nbsp;&middot;&nbsp; Los Angeles
-</div></footer>
-</body>
-</html>
+<main>
+<div class="wrap cols">
+
+  <div>
+    <article class="lead">
+      <span class="kicker">Breaking</span>
+      <h1>Newswire Hollywood is open for business</h1>
+      <p class="dek">Breaking entertainment news out of Los Angeles — film, television, music, fashion, sports, and the deals that move all of it. Plus the story nobody is covering closely enough: what artificial intelligence and big tech are doing to this industry.</p>
+      <div class="byline">Newswire Hollywood Staff</div>
+    </article>
+
+    <div class="stories">
+      <article class="story">
+        <h2>Where the streaming consolidation goes next</h2>
+        <p>The remaining independents are running out of room, and the buyers have gotten selective about what they will pay for.</p>
+        <div class="byline">Deals Desk</div>
+      </article>
