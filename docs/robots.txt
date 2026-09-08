@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://newswirehollywood.com/sitemap.xml
+Sitemap: https://newswirehollywood.com/news-sitemap.xml
