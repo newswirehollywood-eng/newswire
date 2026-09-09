@@ -5,10 +5,11 @@ Running list of what is built, what is next, and what needs a decision from Terr
 ## BUILT
 
 Repo, standing rules in CLAUDE.md, folder structure
-Events Calendar agent
-Rapid Response Desk agent
-Live homepage on GitHub Pages
-NewsArticle organization schema on homepage
+Events Calendar agent — real, loadable by Claude Code at .claude/agents/events-calendar-agent.md
+Rapid Response Desk agent (doc only — not yet made real like the Events Calendar agent)
+Live homepage on GitHub Pages — was rendering blank white from a truncated file, fixed 2026-09-09
+NewsArticle / NewsMediaOrganization / CollectionPage schema on every live page
+Email alias naming decided (see runbook/services.md) — not active until Terry sets up the mailbox backend
 
 ## NEXT — SEO MACHINERY
 
@@ -51,7 +52,6 @@ Industry and Tech Pulse, four agents
 
 ## NEEDS A DECISION FROM TERRY
 
-Domain name and registrar
 Affiliate distribution channel names
 Instagram handles and whether the account is Business or Creator
 House style: voice, sourcing threshold, corrections policy

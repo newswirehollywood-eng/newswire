@@ -25,10 +25,7 @@ Cost: free. No account needed.
 ## NEEDED NEXT
 
 DOMAIN REGISTRAR
-Status: NOT PURCHASED. This is the top blocker.
-Recommended: Cloudflare Registrar, at-cost pricing, or Namecheap.
-Cost: roughly 10 to 15 dollars a year.
-Once purchased: enter it under Custom domain on the Pages settings screen above.
+Status: LIVE. newswirehollywood.com is purchased and pointed at GitHub Pages — confirmed working via docs/CNAME and a real GitHub Pages deployment. Not a blocker anymore.
 
 FORMSPREE
 Where: formspree.io
@@ -58,8 +55,20 @@ Status: not chosen. Needs a decision.
 
 BUSINESS EMAIL
 Purpose: a real address on our own domain, not a personal one. Credentialing desks check this.
-Cost: free tiers exist through Zoho or through the registrar. Google Workspace is paid.
-Status: blocked until the domain is purchased.
+Cost: free tiers exist through Zoho (web-only, no IMAP on the free tier) or a free Cloudflare-forwarding-to-Gmail setup (see the tradeoffs logged 2026-09-09 in the social/email conversation). Google Workspace is paid.
+Status: no longer blocked — the domain is live. Terry has something set up on the newswirehollywood.com side already; aliases are decided (below), not yet active.
+
+ALIASES — confirmed 2026-09-09, naming is settled, Terry activates them once the mailbox backend is chosen
+Already promised publicly on docs/pressroom.html, so these five must exist exactly as named:
+  news@newswirehollywood.com — news desk, general editorial tips
+  calendar@newswirehollywood.com — calendar listings
+  wire@newswirehollywood.com — press releases and wire submissions
+  advertising@newswirehollywood.com — advertising and partnerships
+  corrections@newswirehollywood.com — corrections
+Recommended additions, not yet promised anywhere so lower priority:
+  tips@newswirehollywood.com — a dedicated confidential tip line reads differently to a source than a general news@ address, and Rule 25 (contact discipline) calls out tip lines specifically
+  hello@newswirehollywood.com — catch-all for anything that doesn't fit the others
+All of these can forward to one real inbox Terry checks — they don't need separate mailboxes, just routing rules — so the naming decision doesn't depend on which backend (Zoho vs. Cloudflare+Gmail) gets picked.
 
 ## MONITORING AND RESEARCH, FREE
 
