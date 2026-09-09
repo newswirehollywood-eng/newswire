@@ -29,3 +29,29 @@ Start at zero cost: press-kit requests (with written permission, recorded) for t
 ## What's still missing
 
 No image has an actual license attached yet — this file is the menu, not a decision. Needs from Terry: which path to pursue first (press-kit requests, hiring/assigning a photographer, or a paid subscription), and if paid, confirmation of the spend before it happens.
+
+## Outreach — started 2026-09-09, blocked on a verified address
+
+Terry asked to actually start getting photos for the two live stories. Here's exactly where that stands:
+
+This session can search the web but cannot browse a live page directly — a direct fetch of both venue/organization sites below was blocked. That means I can hand you correct, copy-paste-ready message text, but I will not hand you an email address I can't verify, because a search-engine snippet returned a Television Academy contact dated "2023" (almost certainly stale — we're covering the 78th Emmys) and a Catalina Jazz Club address that came back redacted, not usable. Sending either risks exactly the bounced-or-wrong-year outcome that makes an outlet look sloppy.
+
+**What Terry needs to do** (two minutes, from a normal browser): open each link below, confirm the current press contact, and send the message under it.
+
+1. **Television Academy / Emmys 2026** — current media contacts page: https://www.televisionacademy.com/awards/logistics/emmys/media/contacts — confirm today's listed contact (not the 2023 one a search turned up), then send:
+
+> Subject: Photo permission request — Newswire Hollywood, Emmys 2026 coverage
+>
+> Hello — Newswire Hollywood is covering the 78th Primetime Emmy Awards (our party guide is live at newswirehollywood.com/emmys-2026.html). We'd like written permission to use press-kit imagery from your media resources in our coverage, with full credit and license source recorded per image. Could you point us to the correct press image resources and confirm terms of use? Happy to provide outlet details or answer any questions.
+>
+> — Newswire Hollywood Awards Desk
+
+2. **Catalina Jazz Club / Freda Payne show** — contact page: https://catalinajazzclub.com/contact/ — confirm the actual listed address, then send:
+
+> Subject: Photo permission request — Newswire Hollywood, Freda Payne / Legendary Ladies of Jazz coverage
+>
+> Hello — Newswire Hollywood covered Freda Payne's upcoming Legendary Ladies of Jazz show at Catalina (live at newswirehollywood.com/freda-payne-catalina.html). We'd like written permission to use a press photo of the venue or performance in our story, with full credit and license source recorded. Could you point us to available press images and confirm terms of use?
+>
+> — Newswire Hollywood Music Desk
+
+Once either reply comes back with a real "yes, here's the image and here's how to credit it," send it my way and I'll add it to the live page with the license recorded, per Rule 22 — that's a same-day turnaround on my end.
