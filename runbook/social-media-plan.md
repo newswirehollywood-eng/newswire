@@ -30,3 +30,19 @@ Terry asked whether this should be his team or handled here. Split it by task:
 1. The actual platform list + handles (can't plan around accounts I haven't been told about)
 2. Instagram account type (Business/Creator) — blocks knowing what's even connectable later
 3. A yes/no on starting the zero-cost version now (drafted captions for the team to post manually) while the paid automated version waits on a Metricool decision
+
+## The inventory — fill this in, that's the whole ask right now
+
+This is Phase 4 inventory only, not automation — per the 2026-09-09 decision, posting automation waits until this exists and Phase 3/4 infrastructure is built. Copy this table, fill in what actually exists, send it back:
+
+| Platform | Handle | Who owns the login | Active or dormant |
+|---|---|---|---|
+| Instagram | | | |
+| X / Twitter | | | |
+| TikTok | | | |
+| Facebook | | | |
+| YouTube | | | |
+| Threads | | | |
+| (add any other platform with an existing account) | | | |
+
+"Who owns the login" matters for the automation decision later — a tool like Metricool needs to connect to the real account, so whoever holds that password is who authorizes the connection when that day comes.
