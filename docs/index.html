@@ -7,6 +7,8 @@
 <meta name="description" content="Breaking entertainment news from Los Angeles. Emmy week coverage, the Hollywood events calendar, film, television, music, fashion, and how AI is remaking the industry.">
 <meta property="og:title" content="Newswire Hollywood">
 <meta property="og:description" content="The business behind the business.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://newswirehollywood.com/">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,30 +29,166 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
 .nav a:hover{color:var(--signal)}
 .nav .hot{color:var(--signal)}
-.reel{background:#F7F5F2;border-bottom:1px solid var(--rule);display:flex;overflow:hidden}
-.reel-tag{background:var(--signal);color:#fff;font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;display:flex;align-items:center;padding:0 14px;flex:none}
-.reel-tag span{width:7px;height:7px;background:#fff;border-radius:50%;margin-right:8px;animation:blip 1.6s steps(1,end) infinite}
-@keyframes blip{0%,60%{opacity:1}61%,100%{opacity:.25}}
-.reel-track{display:flex;align-items:center;gap:42px;padding:9px 0 9px 22px;font-family:var(--hed);font-size:14px;font-weight:500;white-space:nowrap;animation:crawl 44s linear infinite}
-.reel-track b{color:var(--signal);font-weight:700;margin-right:7px}
-.reel:hover .reel-track{animation-play-state:paused}
-@keyframes crawl{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(prefers-reduced-motion:reduce){.reel-track,.reel-tag span{animation:none}}
-main{padding:30px 0 0}
-.cols{display:grid;grid-template-columns:1fr;gap:34px}
-@media(min-width:960px){.cols{grid-template-columns:minmax(0,1fr) 312px;gap:44px}}
-.lead{border-bottom:1px solid var(--rule);padding-bottom:26px;margin-bottom:26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:9px}
-.lead h1{font-family:var(--hed);font-weight:700;font-size:clamp(34px,7vw,58px);line-height:1.02;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.lead h1 a:hover{color:var(--signal)}
-.lead .dek{font-size:20px;line-height:1.45;max-width:36em}
-.byline{font-family:var(--hed);font-size:12.5px;letter-spacing:.05em;color:#8A8A8A;margin-top:14px}
-.stories{display:grid;grid-template-columns:1fr;gap:26px}
-@media(min-width:620px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:12px}
+.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
+.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:10px}
+.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(32px,7vw,56px);line-height:1.02;letter-spacing:-.8px;color:var(--ink);margin-bottom:13px}
+.hero p{font-size:19px;max-width:40em}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,28px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:44px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:22px}
+.lead{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:8px}
+.lead .kicker{color:var(--date)}
+.lead h2{font-family:var(--hed);font-weight:700;font-size:clamp(28px,5.5vw,42px);line-height:1.06;letter-spacing:-.6px;color:var(--ink);margin-bottom:12px}
+.lead h2 a:hover{color:var(--signal)}
+.lead .dek{font-size:19px;line-height:1.5;max-width:38em;color:#3C3C3C}
+.byline{font-family:var(--hed);font-size:12px;letter-spacing:.05em;color:#8A8A8A;margin-top:13px}
+.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:26px}
+@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
+.story{border-top:2px solid var(--ink);padding-top:13px}
 .story .kicker{font-size:10.5px;margin-bottom:6px}
-.story h2{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.12;color:var(--ink);margin-bottom:7px}
-.story:hover h2{color:var(--signal)}
+.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
+.story:hover h3{color:var(--signal)}
 .story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
 .story .byline{margin-top:9px;font-size:11.5px}
-.section-rule{font-family:var(--hed);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);bord
+.vert{border-top:2px solid var(--rule);padding-top:13px}
+.vert h3{font-family:var(--hed);font-weight:600;font-size:18px;color:var(--ink);margin-bottom:6px}
+.vert p{font-size:14.5px;color:#6A6A6A;line-height:1.5}
+.ev{border-bottom:1px solid var(--rule-soft);padding:17px 0;display:grid;grid-template-columns:1fr;gap:6px}
+@media(min-width:760px){.ev{grid-template-columns:100px 1fr 190px;gap:22px;align-items:baseline}}
+.ev .when{font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--date)}
+.ev .when.now{color:var(--signal)}
+.ev h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.15;color:var(--ink);margin-bottom:4px}
+.ev p{font-size:15px;color:#4A4A4A;line-height:1.45}
+.ev .venue{font-family:var(--hed);font-size:13.5px;color:#6A6A6A;line-height:1.3}
+.card{border:1px solid var(--rule);margin-bottom:18px}
+.card-head{background:var(--ink);color:#fff;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.13em;text-transform:uppercase;padding:11px 15px}
+.card-body{padding:15px}
+.card-body p{font-size:15px;color:#4A4A4A;margin-bottom:10px}
+.card-body p:last-child{margin-bottom:0}
+.card-body b{color:var(--ink)}
+.trio{display:grid;grid-template-columns:1fr;gap:16px;margin-top:20px}
+@media(min-width:820px){.trio{grid-template-columns:1fr 1fr 1fr}}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:52px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);margin-top:0;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
+footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+</style>
+</head>
+<body>
+
+<header class="masthead"><div class="wrap">
+<a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
+<div class="standfirst">The business behind the business</div>
+</div></header>
+
+<nav class="nav"><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="index.html#film">Film</a></li>
+<li><a href="index.html#tv">Television</a></li>
+<li><a href="index.html#music">Music</a></li>
+<li><a href="index.html#fashion">Fashion</a></li>
+<li><a href="index.html#deals">Deals</a></li>
+<li><a class="hot" href="index.html#ai">AI &amp; Big Tech</a></li>
+<li><a href="calendar.html">The Calendar</a></li>
+<li><a href="pressroom.html">Press Room</a></li>
+</ul></nav>
+
+<main><div class="wrap">
+
+<div class="hero">
+  <span class="kicker">Los Angeles</span>
+  <h1>The business behind the business</h1>
+  <p>Breaking entertainment news, the industry calendar, and the deals, talent and technology stories that move Hollywood — reported from Los Angeles, distributed to the trade.</p>
+</div>
+
+<div class="lead" id="tv">
+  <span class="kicker">Television &middot; Emmy week</span>
+  <h2><a href="emmys-2026.html">Emmys 2026: the complete party guide</a></h2>
+  <p class="dek">Television's biggest week runs through downtown Los Angeles and West Hollywood September 8&ndash;14. The 78th Primetime Emmy Awards air Monday from the Peacock Theater, hosted by Mariska Hargitay, with The Pitt leading the field at 25 nominations. Here is the full schedule — the ceremony, the Governors Gala, the studio afterparties, and the nominee events in between.</p>
+  <div class="byline">Newswire Hollywood Awards Desk</div>
+</div>
+
+<h2 class="sect">Also today</h2>
+<p class="sect-note">Original reporting and what our calendar desk is tracking this week.</p>
+
+<div class="stories">
+<div class="story" id="music">
+  <span class="kicker">Music</span>
+  <h3><a href="freda-payne-catalina.html">Freda Payne returns to Catalina with a tribute to the women who built the songbook</a></h3>
+  <p>The two-time Grammy nominee brings <em>Legendary Ladies of Jazz</em> to Hollywood on September 26, with Kenny Lattimore hosting and Thomasina Gross channeling Eartha Kitt.</p>
+  <div class="byline">Newswire Hollywood Music Desk</div>
+</div>
+<div class="story">
+  <span class="kicker">Calendar</span>
+  <h3><a href="calendar.html">This week in Los Angeles: Emmy week in full</a></h3>
+  <p>Studio and streamer nominee events, gifting suites and charity luncheons run citywide through the weekend, ahead of Monday's ceremony and the Governors Gala. Our calendar desk tracks the credentialing deadlines before they close.</p>
+  <div class="byline">Newswire Hollywood Calendar Desk</div>
+</div>
+</div>
+
+<h2 class="sect">Coverage verticals</h2>
+<p class="sect-note">Original reporting is publishing into each of these as our newsroom scales. Emmy week and music are live now.</p>
+
+<div class="stories">
+<div class="vert" id="film">
+  <h3>Film</h3>
+  <p>Premieres, festivals, and the fall awards runway. Coverage begins as our newsroom's first film stories publish.</p>
+</div>
+<div class="vert" id="fashion">
+  <h3>Fashion</h3>
+  <p>Red carpets, fashion week, and the stylists and houses dressing the industry. Tracked on <a href="calendar.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">the calendar</a> now; editorial coverage to follow.</p>
+</div>
+<div class="vert" id="deals">
+  <h3>Deals</h3>
+  <p>Talent, packaging, and the transactions behind the business. Coverage begins as our newsroom's first deals reporting publishes.</p>
+</div>
+<div class="vert" id="ai">
+  <h3>AI &amp; Big Tech</h3>
+  <p>How artificial intelligence and big technology platforms are remaking production, distribution and the labor of the industry. Priced and reported as trade coverage, not consumer tech.</p>
+</div>
+</div>
+
+<h2 class="sect">Three ways stories reach this wire</h2>
+<div class="trio">
+<div class="card">
+  <div class="card-head">Originated</div>
+  <div class="card-body"><p>We find it, report it, write it, and publish it under our own byline. This is our editorial reporting.</p></div>
+</div>
+<div class="card">
+  <div class="card-head">Syndicated in</div>
+  <div class="card-body"><p>Written elsewhere, run on our site, always tagged and attributed to the outlet that reported it first.</p></div>
+</div>
+<div class="card">
+  <div class="card-head">Paid out</div>
+  <div class="card-body"><p>A client pays for distribution. We format it and it runs clearly labeled as sponsored — never mixed with editorial. <a href="pressroom.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Rate card and submissions</a>.</p></div>
+</div>
+</div>
+
+</div></main>
+
+<section class="band" id="ethics"><div class="wrap">
+<h2>Standards &amp; corrections</h2>
+<p>Sourcing, embargoes, image licensing, and how we handle corrections are covered in full in our <a href="pressroom.html#standards">editorial standards</a>. Spotted an error? Send it through the <a href="pressroom.html#standards">Press Room</a> — we post every correction we act on.</p>
+</div></section>
+
+<footer><div class="wrap" id="contact">
+<nav>
+<a href="index.html">Home</a>
+<a href="emmys-2026.html">Emmys 2026</a>
+<a href="calendar.html">The Calendar</a>
+<a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
+</nav>
+<div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Newswire Hollywood","url":"https://newswirehollywood.com/","description":"Breaking entertainment news, the Hollywood events calendar, and industry intelligence from Los Angeles.","email":"news@newswirehollywood.com","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://newswirehollywood.com/pressroom.html#standards","correctionsPolicy":"https://newswirehollywood.com/pressroom.html#standards"}
+</script>
+
+</body>
+</html>
