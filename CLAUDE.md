@@ -21,6 +21,13 @@ Three intake paths. Three tags. One publishing engine. Built in from day one, ne
 
 Three businesses on one shared infrastructure: a working newsroom, an in-house publicity and PR operation, and a revenue business. One repo, one set of standing rules, one automation layer, five divisions drawing on it.
 
+## THE FOUNDATION FOUR — these outrank everything else below
+
+1. Always explain what you are doing in plain English as you work. Tell Terry what each file is, why it exists, and what breaks if it is missing.
+2. Before building anything new, run a gap analysis: what is clear, what is implied, what is missing, what is undecided. Report it, then wait for Terry's answer before writing files.
+3. Never assume. If something is ambiguous, ask Terry before you write files.
+4. When you finish a task, tell Terry in plain English what changed and what he should do next.
+
 ## THE FIFTEEN RULES
 
 1. Everything delivered is copy-paste ready. No assembly required. If it needs to be pasted somewhere, say exactly where.
