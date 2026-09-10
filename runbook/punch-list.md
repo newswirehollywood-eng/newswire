@@ -50,13 +50,18 @@ Publicity division, five agents
 Revenue division, four agents
 Industry and Tech Pulse, four agents
 
-## NEEDS A DECISION FROM TERRY
+## WHEN TERRY'S BACK — the whole current list in one place, so nothing has to be held in his head
 
-Affiliate distribution channel names
-Instagram handles and whether the account is Business or Creator
-House style: voice, sourcing threshold, corrections policy
-Masthead names and publish authority
-Newsletter platform choice
+Read top to bottom, each is quick, none require research first:
+
+1. **Send the two photo permission emails.** Drafted and ready in `runbook/photo-sourcing.md` — one for the Emmys 2026 Television Academy contact, one for Catalina Jazz Club. Has to come from Terry's own address or it reads as fake. Not sent as of 2026-09-10.
+2. **Fill in the social media table.** `runbook/social-media-plan.md` has a blank table (platform / handle / who owns the login / active or dormant) for whatever Newswire Hollywood accounts already exist. Nothing else on social can move until this is filled in.
+3. **Google Search Console.** Terry said he'd get the verification code himself (meta tag, not an HTML file) and paste it back — still pending as of 2026-09-10.
+4. **Confirm the exact masthead title wording.** Everything else about the desk/byline system is built and live; this one field in `data/masthead.json` is the only thing waiting on Terry.
+5. **Email setup, two browser-only steps** (`.claude/agents/email-triage-agent.md` has the details): Cloudflare Email Routing forwarding news@ into a real Gmail inbox, then a Google Cloud OAuth credential for that inbox. Offered to walk through both live, screen by screen, whenever Terry's ready.
+6. **Affiliate distribution channel names** — real names only, can't be researched or guessed.
+
+Lower priority, no rush: Formspree signup (pending, not blocking), newsletter platform choice (on hold per Terry's own instruction, do not build until told).
 
 ## PRODUCT LINE
 
