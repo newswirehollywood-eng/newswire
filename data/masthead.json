@@ -1,0 +1,28 @@
+{
+  "desks": [
+    { "desk": "Newswire Hollywood Staff", "byline": "By the Newswire Hollywood Staff", "coverage_scope": "general / publication-level", "editor_in_charge": null, "members": [] },
+    { "desk": "Breaking News Desk", "byline": "By the Breaking News Desk, Newswire Hollywood", "coverage_scope": "rapid response, developing stories", "editor_in_charge": null, "members": [] },
+    { "desk": "Film Desk", "byline": "By the Film Desk, Newswire Hollywood", "coverage_scope": "film", "editor_in_charge": null, "members": [] },
+    { "desk": "Television Desk", "byline": "By the Television Desk, Newswire Hollywood", "coverage_scope": "TV", "editor_in_charge": null, "members": [] },
+    { "desk": "Music Desk", "byline": "By the Music Desk, Newswire Hollywood", "coverage_scope": "music", "editor_in_charge": null, "members": [] },
+    { "desk": "Style Desk", "byline": "By the Style Desk, Newswire Hollywood", "coverage_scope": "fashion, red carpet looks, best-dressed", "editor_in_charge": null, "members": [] },
+    { "desk": "Deals Desk", "byline": "By the Deals Desk, Newswire Hollywood", "coverage_scope": "business, dealmaking, executive moves", "editor_in_charge": null, "members": [] },
+    { "desk": "AI & Technology Desk", "byline": "By the AI & Technology Desk, Newswire Hollywood", "coverage_scope": "AI and big tech in entertainment", "editor_in_charge": null, "members": [] },
+    { "desk": "Awards Desk", "byline": "By the Awards Desk, Newswire Hollywood", "coverage_scope": "seasonal, January-March, guild through Oscars", "editor_in_charge": null, "members": [] },
+    { "desk": "Red Carpet Desk", "byline": "By the Red Carpet Desk, Newswire Hollywood", "coverage_scope": "carpets, premieres, arrivals, party coverage", "editor_in_charge": null, "members": [] },
+    { "desk": "Global Desk", "byline": "By the Global Desk, Newswire Hollywood", "coverage_scope": "international, affiliate and syndicated", "editor_in_charge": null, "members": [] },
+    { "desk": "Photo Desk", "byline": "By the Photo Desk, Newswire Hollywood", "coverage_scope": "image credits and captions", "editor_in_charge": null, "members": [] },
+    { "desk": "Calendar Desk", "byline": "By the Calendar Desk, Newswire Hollywood", "coverage_scope": "the Hollywood events calendar", "editor_in_charge": null, "members": [] }
+  ],
+  "people": [
+    {
+      "name": "Terry Bryant",
+      "title": "TBD - awaiting Terry's confirmation of exact wording, not yet assigned publicly",
+      "desk_assignments": [],
+      "bio": null,
+      "contact": null,
+      "start_date": null,
+      "status": "staff"
+    }
+  ]
+}
