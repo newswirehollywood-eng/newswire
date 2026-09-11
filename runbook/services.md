@@ -55,8 +55,8 @@ Status: not chosen. Needs a decision.
 
 BUSINESS EMAIL
 Purpose: a real address on our own domain, not a personal one. Credentialing desks check this.
-Cost: free tiers exist through Zoho (web-only, no IMAP on the free tier) or a free Cloudflare-forwarding-to-Gmail setup (see the tradeoffs logged 2026-09-09 in the social/email conversation). Google Workspace is paid.
-Status: no longer blocked — the domain is live. Terry has something set up on the newswirehollywood.com side already; aliases are decided (below), not yet active.
+Backend: confirmed 2026-09-11 — info@newswirehollywood.com already exists, GoDaddy-hosted, running on Microsoft 365/Outlook. Not Gmail, not Zoho — the earlier free-path research assumed no mailbox existed yet; corrected now that it does. Already-paid-for, so Microsoft Graph API access for the triage agent rides on that existing subscription at no new cost.
+Status: mailbox is live. Aliases are decided (below), not yet created in the Microsoft 365 admin center as of 2026-09-11.
 
 ALIASES — confirmed 2026-09-09, naming is settled, Terry activates them once the mailbox backend is chosen
 Already promised publicly on docs/pressroom.html, so these five must exist exactly as named:
