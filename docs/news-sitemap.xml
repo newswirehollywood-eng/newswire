@@ -34,4 +34,15 @@
       <news:title>Toronto Opens With 'Being Heumann,' Sian Heder's Follow-Up to 'CODA'</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://newswirehollywood.com/sony-warner-anthropic-lawsuit.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Newswire Hollywood</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-11</news:publication_date>
+      <news:title>Sony Music Publishing, Warner Chappell Sue Anthropic Over Song Lyrics in AI Training Data</news:title>
+    </news:news>
+  </url>
 </urlset>
