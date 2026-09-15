@@ -18,6 +18,14 @@ Purpose: hosts the site. Serves from the docs folder on the main branch.
 Cost: free.
 Settings: github.com/newswirehollywood-eng/newswire/settings/pages
 
+GITHUB ACTIONS AUTOMATION — added 2026-09-15
+.github/workflows/news-sitemap.yml — daily, rebuilds docs/news-sitemap.xml keeping only articles published in the last 48 hours. Plain Python string/XML handling, not an AI call.
+.github/workflows/link-check.yml — weekly, confirms every internal link resolves, logs breaks to runbook/errors.md. Does not check external links.
+Cost: free, same public-repo unlimited Actions minutes as everything else here. Neither workflow calls the Anthropic API, so this is a different cost category than the "on-demand agent" pattern used for Events Calendar/Trend Watch/Email Triage — this runs unattended for real at zero ongoing cost, because it's deterministic scripting, not an LLM call.
+
+GMAIL / GOOGLE CALENDAR / GOOGLE DRIVE — noticed connected 2026-09-15
+Status: tools appeared available in this session; not yet confirmed with Terry whether this is meant to be the real inbox for the Email Triage agent, or a separate account entirely. May replace the GoDaddy/Microsoft 365 Graph API plan from 2026-09-11 — needs Terry to confirm which mailbox is the real one before more is built on either path.
+
 GOOGLE FONTS
 Purpose: Archivo Narrow and Newsreader, loaded on every page.
 Cost: free. No account needed.

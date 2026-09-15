@@ -5,27 +5,30 @@ Running list of what is built, what is next, and what needs a decision from Terr
 ## BUILT
 
 Repo, standing rules in CLAUDE.md, folder structure
-Events Calendar agent — real, loadable by Claude Code at .claude/agents/events-calendar-agent.md
-Rapid Response Desk agent (doc only — not yet made real like the Events Calendar agent)
+Events Calendar agent — real, loadable by Claude Code at .claude/agents/events-calendar-agent.md, ran its first real sweep 2026-09-11 (14 events, 14 contacts, confidence marked honestly)
+Trend Watch agent — real, ran twice (2026-09-10, 2026-09-11), output in pulse/trend-watch-brief.md
+Email Triage agent — real definition at .claude/agents/email-triage-agent.md, blocked on Graph API setup (see below — also see the Gmail note)
+Rapid Response Desk agent (doc only — not yet made real like the above three)
 Live homepage on GitHub Pages — was rendering blank white from a truncated file, fixed 2026-09-09
 NewsArticle / NewsMediaOrganization / CollectionPage schema on every live page
 Email alias naming decided (see runbook/services.md) — not active until Terry sets up the mailbox backend
+Real desk-byline system live everywhere (style/house-style.md, data/masthead.json) — never-invent-a-person rule enforced
+5 real published articles: Emmys 2026, Freda Payne/Catalina, TIFF 2026, the Sony/Warner-Anthropic lawsuit, the IMAX box office record
 
-## NEXT — SEO MACHINERY
+BUILT 2026-09-15, full SEO/pages pass:
+News sitemap fixed — was carrying stale entries older than 48 hours (a real bug, now corrected), auto-regenerates daily via .github/workflows/news-sitemap.yml, dry-run tested against the real repo before being trusted
+Standard sitemap.xml — every real page now listed with accurate lastmod dates
+robots.txt — already referenced both sitemaps correctly, no change needed
+docs/_template-article.html — commented placeholder template for the next new article
+9 section pages built: film.html, television.html, music.html, fashion.html, sports.html, deals.html, ai-tech.html, international.html, wire.html — same masthead/nav/footer as home, real links to existing coverage where it exists, honest "coverage begins" notes where it doesn't (sports and international currently have zero real content — sports is a new category this pass introduced that was never part of the original vertical list; flagging that as a real question for Terry, not assuming it belongs)
+Nav on every page (including the 8 pre-existing ones) now points to real section URLs instead of index.html anchors
+Wire separation: wire.html carries syndicated/sponsored only, tagged, currently empty (nothing has run through either intake path yet), excluded from news-sitemap by construction
+Weekly link-check workflow (.github/workflows/link-check.yml) — dry-run tested against the real repo, logs to runbook/errors.md, does not check external links (would need network calls out of scope for this pass)
+IndexNow ping on publish and Google Search Console verification — still not done, see the list below
 
-News sitemap, auto-generated, 48-hour window only
-Standard XML sitemap
-robots.txt
-Article template with NewsArticle schema
-IndexNow ping on publish
-Google Search Console verification
+## DISCOVERED THIS PASS, NOT YET ACTED ON
 
-## NEXT — PAGES
-
-The Calendar, public facing
-Press Room: media kit, rate card, credentialing, wire submission
-Social page with live feeds
-The Wire: syndicated and sponsored, tagged
+Gmail, Google Calendar, and Google Drive tools are now connected to this session (appeared 2026-09-15). This may replace the GoDaddy/Microsoft Graph API plan discussed 2026-09-11 for the Email Triage agent — worth confirming with Terry which mailbox is actually meant to be the real one before building further, rather than assuming.
 
 ## NEXT — REVENUE
 
@@ -62,6 +65,10 @@ Read top to bottom, each is quick, none require research first:
 6. **Affiliate distribution channel names** — real names only, can't be researched or guessed.
 
 Lower priority, no rush: Formspree signup (pending, not blocking), newsletter platform choice (on hold per Terry's own instruction, do not build until told).
+
+Note on the 2026-09-15 build order: it listed "domain name and registrar" as still blocked on Terry. That's stale — the domain has been live since 2026-09-07 (see runbook/services.md). Not re-blocking on something already resolved.
+
+New from this pass: decide whether "Sports" is a real vertical for Newswire Hollywood or should be cut — it was added to the section-page list this pass without being part of the original coverage plan, and has zero content behind it right now.
 
 ## PRODUCT LINE
 

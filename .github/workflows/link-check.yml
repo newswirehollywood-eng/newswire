@@ -1,0 +1,75 @@
+name: Weekly link check
+
+# What this does, plain English: once a week, scans every page in docs/
+# for internal links (href="something.html") and confirms the file it
+# points to actually exists in docs/. Anything broken gets appended to
+# runbook/errors.md with the date, the broken link, and which page it was
+# found on - logged, not buried, per the standing rule that errors get
+# catalogued. This does not check external links (deadline.com, Getty,
+# etc.) - that would need network calls to sites outside this repo, which
+# is a separate, heavier check not built here.
+#
+# Cost: zero. Plain Python file-existence checks on a GitHub-hosted runner,
+# not a call to any AI model - free Actions minutes on this public repo.
+#
+# Trigger: weekly on schedule, manually from the Actions tab, or by telling
+# Claude Code "run the link check."
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every internal link resolves
+        id: check
+        run: |
+          python3 <<'PYEOF'
+          import glob, re, os
+          from datetime import date
+
+          existing = {os.path.basename(p) for p in glob.glob("docs/*.html")}
+          broken = []
+
+          for path in sorted(glob.glob("docs/*.html")):
+              html = open(path, encoding="utf-8").read()
+              for m in re.finditer(r'href="([a-zA-Z0-9_./-]+\.html)[^"]*"', html):
+                  target = m.group(1).split("/")[-1]
+                  if target not in existing:
+                      broken.append((os.path.basename(path), target))
+
+          if broken:
+              today = date.today().isoformat()
+              lines = []
+              for page, target in broken:
+                  lines.append(
+                      f"{today} - broken internal link - {page} links to "
+                      f"{target}, which does not exist in docs/ - "
+                      f"found by the weekly link-check workflow"
+                  )
+              with open("runbook/errors.md", "a", encoding="utf-8") as f:
+                  f.write("\n" + "\n".join(lines) + "\n")
+              print(f"found {len(broken)} broken link(s), logged to runbook/errors.md")
+          else:
+              print("no broken internal links found")
+          PYEOF
+
+      - name: Commit log if anything was broken
+        run: |
+          git config user.name "newswire-hollywood-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- runbook/errors.md; then
+            echo "nothing to log"
+          else
+            git add runbook/errors.md
+            git commit -m "Auto: log broken internal links from weekly check"
+            git push
+          fi

@@ -1,0 +1,123 @@
+name: Regenerate news sitemap
+
+# What this does, plain English: Google News sitemaps are only supposed to
+# list articles published in the last 48 hours. This runs once a day, scans
+# every article page in docs/ for its real datePublished (from the
+# NewsArticle JSON-LD already on the page), keeps only the ones still inside
+# that 48-hour window, and rewrites docs/news-sitemap.xml to match. If
+# nothing published in the last two days, it writes an empty sitemap rather
+# than leaving stale entries in - an empty file is honest, a stale one is not.
+#
+# Cost: zero. This is plain Python string/XML handling on a GitHub-hosted
+# runner, not a call to any AI model - it runs on GitHub's free Actions
+# minutes (unlimited on this public repo) with no other cost attached.
+#
+# Trigger: daily on schedule, or manually from the Actions tab's
+# "Run workflow" button, or by telling Claude Code "run the news sitemap
+# workflow" (which would use the same script logic locally, or trigger this
+# workflow via the GitHub API/UI).
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild docs/news-sitemap.xml from real article dates
+        run: |
+          python3 <<'PYEOF'
+          import glob, json, re
+          from datetime import datetime, timedelta, timezone
+
+          now = datetime.now(timezone.utc)
+          window_start = now - timedelta(hours=48)
+
+          # Pages that are not NewsArticle content - never eligible for the
+          # news sitemap regardless of any JSON-LD they carry.
+          EXCLUDE = {
+              "index.html", "calendar.html", "pressroom.html", "wire.html",
+              "film.html", "television.html", "music.html", "fashion.html",
+              "sports.html", "deals.html", "ai-tech.html", "international.html",
+          }
+
+          entries = []
+          for path in sorted(glob.glob("docs/*.html")):
+              fname = path.split("/")[-1]
+              if fname.startswith("_") or fname in EXCLUDE:
+                  continue
+              html = open(path, encoding="utf-8").read()
+              m = re.search(
+                  r'<script type="application/ld\+json">(.*?)</script>',
+                  html, re.DOTALL,
+              )
+              if not m:
+                  continue
+              try:
+                  data = json.loads(m.group(1))
+              except json.JSONDecodeError:
+                  continue
+              if data.get("@type") != "NewsArticle":
+                  continue
+              date_str = data.get("datePublished")
+              headline = data.get("headline")
+              if not date_str or not headline:
+                  continue
+              try:
+                  pub = datetime.fromisoformat(date_str).replace(tzinfo=timezone.utc)
+              except ValueError:
+                  continue
+              if pub < window_start:
+                  continue
+              entries.append((fname, headline, date_str))
+
+          lines = [
+              '<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+              '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
+          ]
+          for fname, headline, date_str in entries:
+              escaped = (
+                  headline.replace("&", "&amp;").replace("<", "&lt;")
+                  .replace(">", "&gt;").replace('"', "&quot;")
+              )
+              lines += [
+                  "  <url>",
+                  f"    <loc>https://newswirehollywood.com/{fname}</loc>",
+                  "    <news:news>",
+                  "      <news:publication>",
+                  "        <news:name>Newswire Hollywood</news:name>",
+                  "        <news:language>en</news:language>",
+                  "      </news:publication>",
+                  f"      <news:publication_date>{date_str}</news:publication_date>",
+                  f"      <news:title>{escaped}</news:title>",
+                  "    </news:news>",
+                  "  </url>",
+              ]
+          lines.append("</urlset>")
+          lines.append("")
+
+          with open("docs/news-sitemap.xml", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+
+          print(f"kept {len(entries)} article(s) inside the 48-hour window")
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "newswire-hollywood-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- docs/news-sitemap.xml; then
+            echo "no change"
+          else
+            git add docs/news-sitemap.xml
+            git commit -m "Auto: regenerate news-sitemap.xml (48-hour window)"
+            git push
+          fi

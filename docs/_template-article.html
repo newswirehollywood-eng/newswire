@@ -1,13 +1,62 @@
+<!--
+ARTICLE TEMPLATE — Newswire Hollywood
+
+This file is not published (underscore prefix keeps it out of normal
+navigation, though GitHub Pages will still serve it if requested directly —
+that's fine, it's not linked from anywhere real).
+
+HOW TO USE: copy this file, rename it to the story's slug (e.g.
+some-real-headline.html), then replace every {{PLACEHOLDER}} below.
+Do not leave a placeholder in a published file — if a field doesn't
+apply, remove it rather than publish a visible {{PLACEHOLDER}}.
+
+FIELDS TO REPLACE:
+  {{PAGE_TITLE}}         - <title> tag text, ends in " | Newswire Hollywood"
+  {{META_DESCRIPTION}}   - one or two real sentences, no placeholder text
+  {{OG_TITLE}}           - usually same as the headline
+  {{CANONICAL_URL}}      - https://newswirehollywood.com/{{SLUG}}.html
+  {{BADGE_LABEL}}        - a real status badge: "Filed, not resolved",
+                           "Shipped", "Announced only", a desk name, etc.
+                           Never invent urgency that isn't real.
+  {{KICKER}}             - the vertical/desk label shown above the headline
+  {{HEADLINE}}           - the real headline
+  {{DEK}}                - one or two sentences summarizing the real story
+  {{DESK_NAME}}          - one of the standing desks from style/house-style.md
+                           (Film Desk, Music Desk, AI & Technology Desk, etc.)
+                           Never a fabricated human byline — desk only,
+                           unless a real named person actually wrote it.
+  {{PUBLISH_DATE}}       - real date, "Sept 15, 2026" format
+  {{BODY_PARAGRAPHS}}    - the actual reported content, sourced, cited
+  {{FACT_CARD_ROWS}}     - optional <dt>/<dd> pairs for a quick-reference
+                           card (see freda-payne-catalina.html or
+                           tiff-2026-being-heumann.html for real examples).
+                           Delete the whole .card block if not needed.
+  {{ISO_DATE}}           - YYYY-MM-DD for the JSON-LD datePublished/dateModified
+  {{JSON_HEADLINE}}      - same as {{HEADLINE}}, JSON-escaped if it contains quotes
+  {{JSON_DESCRIPTION}}   - same as {{META_DESCRIPTION}}
+
+AFTER PUBLISHING A NEW ARTICLE, ALSO DO THIS (not automated, do it by hand):
+  1. Add a <url> entry to docs/sitemap.xml with the real lastmod date
+  2. If published within the last 48 hours, add a <url> entry to
+     docs/news-sitemap.xml too (it gets pruned automatically by
+     .github/workflows/news-sitemap.yml, but add it manually now so it's
+     not missing until the next scheduled run)
+  3. Link it from the relevant section page (film.html, music.html, etc.)
+     and from index.html's "On our radar" or lead story area if it's a
+     top story
+  4. Never fabricate a photo. If there's no licensed image, this
+     template has no image slot at all - leave it that way.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>'The Odyssey' Breaks IMAX's All-Time Box Office Record | Newswire Hollywood</title>
-<meta name="description" content="'The Odyssey' has grossed $289 million in IMAX, passing Avatar's $270 million record, on the way to $1.627 billion worldwide and the highest-grossing R-rated film ever.">
-<meta property="og:title" content="'The Odyssey' Breaks IMAX's All-Time Box Office Record">
+<title>{{PAGE_TITLE}} | Newswire Hollywood</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta property="og:title" content="{{OG_TITLE}}">
 <meta property="og:type" content="article">
-<link rel="canonical" href="https://newswirehollywood.com/the-odyssey-imax-record.html">
+<link rel="canonical" href="{{CANONICAL_URL}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
@@ -54,7 +103,7 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
-<div class="dateline">Los Angeles, California &middot; Friday, September 11, 2026</div>
+<div class="dateline">Los Angeles, California &middot; {{TODAY_LONG_DATE}}</div>
 </div></header>
 
 <nav class="nav"><ul>
@@ -66,7 +115,6 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
-<li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
 
@@ -74,39 +122,23 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <article class="art">
 
 <div class="top">
-  <span class="badge">Box office</span><span class="kicker">Deals &amp; Numbers</span>
-  <h1>'The Odyssey' breaks IMAX's all-time box office record</h1>
-  <p class="dek">Christopher Nolan's epic has grossed $289 million in IMAX alone, passing Avatar's $270 million record, on its way to $1.627 billion worldwide — the highest-grossing R-rated film in history.</p>
-  <div class="byline"><b>By the Deals Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 11, 2026 &nbsp;|&nbsp; Los Angeles</div>
+  <span class="badge">{{BADGE_LABEL}}</span><span class="kicker">{{KICKER}}</span>
+  <h1>{{HEADLINE}}</h1>
+  <p class="dek">{{DEK}}</p>
+  <div class="byline"><b>By the {{DESK_NAME}}, Newswire Hollywood</b> &nbsp;|&nbsp; {{PUBLISH_DATE}} &nbsp;|&nbsp; Los Angeles</div>
 </div>
 
-<p>"The Odyssey," released in July 2026, has become the highest-grossing IMAX release of all time, taking in $289 million through the format worldwide and surpassing "Avatar's" longstanding $270 million record. The film also posted the highest second-weekend IMAX gross ever recorded, at $48 million — an unusual hold that points to strong word-of-mouth rather than a front-loaded opening.</p>
+{{BODY_PARAGRAPHS}}
 
-<p>Globally, the film has grossed $1.627 billion, making it the highest-grossing R-rated film in box office history — a category previously dominated by franchise action and horror titles, not adaptations of a 3,000-year-old epic poem.</p>
-
-<h2>Why the number matters beyond the headline</h2>
-
-<p>IMAX's business model depends on a small number of tentpole releases converting premium-format tickets into outsized revenue relative to a film's total footprint in theaters. A record this size, on an R-rated title with adult-skewing marketing rather than a four-quadrant franchise release, is a data point studios and exhibitors will study closely heading into next year's slate decisions — R-rated event filmmaking has been a harder sell to greenlight than franchise IP for most of the last decade.</p>
-
+<!-- Optional fact card - delete this whole block if the story doesn't need one -->
 <div class="card">
-  <div class="card-head">The numbers</div>
+  <div class="card-head">At a glance</div>
   <div class="card-body">
     <dl>
-      <dt>IMAX gross</dt>
-      <dd>$289 million, an all-time record (previous record: Avatar, $270 million)</dd>
-      <dt>Second-weekend IMAX gross</dt>
-      <dd>$48 million, also a record</dd>
-      <dt>Worldwide gross</dt>
-      <dd>$1.627 billion</dd>
-      <dt>Notable distinction</dt>
-      <dd>Highest-grossing R-rated film in box office history</dd>
-      <dt>Release</dt>
-      <dd>July 2026</dd>
+      {{FACT_CARD_ROWS}}
     </dl>
   </div>
 </div>
-
-<p>Newswire Hollywood's Deals Desk will keep tracking how this record shapes studio greenlighting decisions through the rest of awards season.</p>
 
 </article>
 </main>
@@ -124,11 +156,11 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 {
 "@context":"https://schema.org",
 "@type":"NewsArticle",
-"headline":"'The Odyssey' Breaks IMAX's All-Time Box Office Record",
-"description":"'The Odyssey' has grossed $289 million in IMAX, passing Avatar's $270 million record, on the way to $1.627 billion worldwide.",
-"datePublished":"2026-09-11",
-"dateModified":"2026-09-11",
-"author":{"@type":"Organization","name":"Deals Desk, Newswire Hollywood"},
+"headline":"{{JSON_HEADLINE}}",
+"description":"{{JSON_DESCRIPTION}}",
+"datePublished":"{{ISO_DATE}}",
+"dateModified":"{{ISO_DATE}}",
+"author":{"@type":"Organization","name":"{{DESK_NAME}}, Newswire Hollywood"},
 "publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}
 }
 </script>
