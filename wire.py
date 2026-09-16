@@ -166,11 +166,29 @@ def _tag(block, name):
     return text.strip()
 
 
+# Things that appear in feeds looking like images but are not photographs:
+# analytics pixels, share buttons, avatars, spacers. A card showing one of
+# these looks broken, so they never count as the item's picture.
+NOT_A_PHOTO = re.compile(
+    r"(pixel|/stats?[/.]|track|beacon|feedburner|doubleclick|gravatar|"
+    r"emoji|spacer|blank\.|1x1|avatar|badge|logo|button|icon)", re.I)
+
+
+def looks_like_photo(url):
+    if not url.startswith("http"):
+        return False
+    if NOT_A_PHOTO.search(url):
+        return False
+    if re.search(r"\.gif(\?|$)", url, re.I):
+        return False
+    return True
+
+
 def _attr_url(block, pattern):
     """First url="..." on a tag matching pattern, if it looks like an image."""
     for m in re.finditer(pattern, block, re.I):
         url = html.unescape(m.group(1)).strip()
-        if url.startswith("http"):
+        if looks_like_photo(url):
             return url
     return ""
 
@@ -187,12 +205,24 @@ def extract_image(block):
         tag = m.group(0)
         if re.search(r'type=["\']image/', tag, re.I) or not re.search(r'type=', tag, re.I):
             u = _attr_url(tag, r'\burl=["\']([^"\']+)["\']')
-            if u and re.search(r"\.(jpe?g|png|webp|gif)", u, re.I):
+            if u and re.search(r"\.(jpe?g|png|webp)", u, re.I):
                 return u
-    body = _tag(block, "content:encoded") or _tag(block, "description")
-    m = re.search(r'<img[^>]*\bsrc=["\']([^"\']+)["\']', html.unescape(body), re.I)
-    if m and m.group(1).startswith("http"):
-        return m.group(1)
+    for tag_name in ("content:encoded", "description", "content", "summary"):
+        body = _tag(block, tag_name)
+        if not body:
+            continue
+        for m in re.finditer(r'<img[^>]*\bsrc=["\']([^"\']+)["\']', html.unescape(body), re.I):
+            if looks_like_photo(m.group(1)):
+                return m.group(1)
+    # Last resort: the first image URL published anywhere in the item. Feeds
+    # carry thumbnails under tags we have not anticipated (media:group,
+    # post-thumbnail, image href, og:image mirrors), and this catches those
+    # without inventing anything - it is still only ever a URL the outlet
+    # itself published in its own feed.
+    for m in re.finditer(r'["\'(>\s](https?://[^"\'<>)\s]+\.(?:jpe?g|png|webp))', block, re.I):
+        url = html.unescape(m.group(1))
+        if looks_like_photo(url):
+            return url
     return ""
 
 
