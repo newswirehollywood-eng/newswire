@@ -1,0 +1,14 @@
+{
+  "_note": "Feeds wire.py pulls every hour. 'status' is written back by wire.py on each run: ok means the feed resolved and parsed, anything else is the reason it was dropped that run. A dropped feed never breaks the run - the script skips it and keeps going.",
+  "feeds": [
+    {"name": "Variety", "url": "https://variety.com/feed/"},
+    {"name": "Deadline", "url": "https://deadline.com/feed/"},
+    {"name": "The Wrap", "url": "https://www.thewrap.com/feed/"},
+    {"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/feed/"},
+    {"name": "Billboard", "url": "https://www.billboard.com/feed/"},
+    {"name": "Rolling Stone", "url": "https://www.rollingstone.com/feed/"},
+    {"name": "Music Business Worldwide", "url": "https://www.musicbusinessworldwide.com/feed/"},
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"}
+  ]
+}

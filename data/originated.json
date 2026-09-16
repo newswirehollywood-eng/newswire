@@ -1,0 +1,50 @@
+{
+  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
+  "articles": [
+    {
+      "title": "Emmys 2026: the winners",
+      "dek": "The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. \"Hacks\" took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.",
+      "url": "emmys-2026.html",
+      "section": "television",
+      "tag": "Live / Updating",
+      "byline": "By the Awards Desk, Newswire Hollywood",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'",
+      "dek": "The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.",
+      "url": "tiff-2026-being-heumann.html",
+      "section": "film",
+      "tag": "Toronto 2026",
+      "byline": "By the Film Desk, Newswire Hollywood",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "'The Odyssey' breaks IMAX's all-time box office record",
+      "dek": "$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.",
+      "url": "the-odyssey-imax-record.html",
+      "section": "deals",
+      "tag": "Box office",
+      "byline": "By the Deals Desk, Newswire Hollywood",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data",
+      "dek": "35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking up to $150,000 per work. Filed, not resolved - and yes, Claude is what runs this newsroom's agents, disclosed plainly in the piece.",
+      "url": "sony-warner-anthropic-lawsuit.html",
+      "section": "ai-tech",
+      "tag": "Filed, not resolved",
+      "byline": "By the AI & Technology Desk, Newswire Hollywood",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Freda Payne returns to Catalina with a tribute to the women who built the songbook",
+      "dek": "The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.",
+      "url": "freda-payne-catalina.html",
+      "section": "music",
+      "tag": "Music",
+      "byline": "By the Music Desk, Newswire Hollywood",
+      "date": "2026-09-07"
+    }
+  ]
+}
