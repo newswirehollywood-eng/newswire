@@ -26,6 +26,15 @@ Wire separation: wire.html carries syndicated/sponsored only, tagged, currently 
 Weekly link-check workflow (.github/workflows/link-check.yml) — dry-run tested against the real repo, logs to runbook/errors.md, does not check external links (would need network calls out of scope for this pass)
 IndexNow ping on publish and Google Search Console verification — still not done, see the list below
 
+BUILT 2026-09-16, Emmys front-page treatment:
+"Emmys 2026" added as a red nav item, linking to emmys-2026.html, on all 18 live pages
+Red banner strip on the homepage under the nav, linking straight to the winners/red carpet coverage
+Homepage dateline corrected from a stale Sept 11 to the real current date, and the Sept 11 remembrance banner retired now that the day has passed — it was still showing as of Sept 16, which misrepresented the date
+Video section added to emmys-2026.html: three responsive 16:9 slots, each clearly marked "awaiting real video ID" with a commented-out iframe ready for Terry to paste a real YouTube ID into. No placeholder video, no guessed IDs — matches the same standard as the no-stock-photos rule.
+sitemap.xml lastmod dates bumped to match — every listed page actually changed today
+
+NOT built: the "wire.py" hourly Emmys-feed cron from the same build order. That file does not exist anywhere in this repo — verified by searching every file in the repo for .py files, found none. See runbook/errors.md, 2026-09-16. A real Emmy-keyword RSS filter is buildable from scratch as a new GitHub Actions workflow whenever Terry wants it built for real, on the same zero-cost pattern as news-sitemap.yml and link-check.yml.
+
 ## DISCOVERED THIS PASS, NOT YET ACTED ON
 
 Gmail, Google Calendar, and Google Drive tools are now connected to this session (appeared 2026-09-15). This may replace the GoDaddy/Microsoft Graph API plan discussed 2026-09-11 for the Email Triage agent — worth confirming with Terry which mailbox is actually meant to be the real one before building further, rather than assuming.
