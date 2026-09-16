@@ -4,19 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Deals | Newswire Hollywood</title>
-<meta name="description" content="Newswire Hollywood's Deals desk: talent, packaging, and the transactions behind the business.">
-<meta property="og:title" content="Deals">
+<meta name="description" content="Newswire Hollywood's Deals desk: Talent, packaging, and the transactions behind the business.">
+<meta property="og:title" content="Deals | Newswire Hollywood">
+<meta property="og:description" content="Newswire Hollywood's Deals desk: Talent, packaging, and the transactions behind the business.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/deals.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -26,34 +29,60 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav a.current{color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(30px,6vw,50px);line-height:1;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.hero p{font-size:17.5px;max-width:42em;color:#4A4A4A}
-.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:32px}
-@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:13px}
-.story .kicker2{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
-.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
-.story:hover h3{color:var(--signal)}
-.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
-.story .byline{margin-top:9px;font-size:11.5px;font-family:var(--hed);color:#8A8A8A}
-.empty{border-top:2px solid var(--rule);padding:28px 0;margin-top:32px;color:#6A6A6A;font-size:16px;max-width:42em}
-footer{border-top:3px solid var(--ink);margin-top:52px;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
+.carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
+.carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
+.carpet-track span{padding:0 26px;flex:none}
+.carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
-<div class="dateline">Los Angeles, California &middot; Tuesday, September 15, 2026</div>
+<div class="dateline">Los Angeles, California &middot; Wednesday, September 16, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="film.html">Film</a></li>
@@ -62,41 +91,44 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html" class="current">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
 <li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
 <li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<section class="lede">
+<div class="lede-fill" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)"></div>
+<div class="lede-shade"></div>
+<div class="wrap"><div class="lede-copy">
+<div class="tagrow"><span class="tag ours">Box office</span></div>
+<h1><a href="the-odyssey-imax-record.html">'The Odyssey' breaks IMAX's all-time box office record</a></h1>
+<p>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.</p>
+<div class="credit">By the Deals Desk, Newswire Hollywood</div>
+</div></div>
+</section>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">Deals Desk</span>
-  <h1>Deals</h1>
-  <p>Talent, packaging, and the transactions behind the business.</p>
-</div>
-
-<div class="story">
-  <span class="kicker2">Box office</span>
-  <h3><a href="the-odyssey-imax-record.html">'The Odyssey' breaks IMAX's all-time box office record</a></h3>
-  <p>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide — the highest-grossing R-rated film in history.</p>
-  <div class="byline">By the Deals Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div>
-
+<h2 class="sect">Deals on the wire</h2>
+<p class="sect-note">From the trades' own feeds, credited and linked to the outlet that reported it. Rebuilt hourly, seven-day window.</p>
+<div class="grid"><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag flag">Exclusive</span><span class="tag">Deals</span></div><h3><a href="https://www.hollywoodreporter.com/business/business-news/james-cameron-lightstorm-buys-3d-production-outsyders-1236696603/" target="_blank" rel="noopener">James Cameron’s Lightstorm Acquires 3D Tech Production Company Outsyders (Exclusive)</a></h3><p>Outsyders worked with Cameron for 3D work on Paramount’s 'Billie Eilish – Hit Me Hard and Soft: The Tour,' and on films like 'Lilo &amp; Stitch' and 'Blue Angels.'</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/business/business-news/james-cameron-lightstorm-buys-3d-production-outsyders-1236696603/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/05/KPop-Demon-Hunters-04-e1784726646544.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://deadline.com/2026/09/disney-kpop-deal-kakao-korea-kpop-demon-hunters-1237104978/" target="_blank" rel="noopener">Disney Seeking Next Big K-Pop Hit After Striking Ten-Project Deal With Kakao</a></h3><p>Could Disney be about to unearth the next big K-pop hit? Disney Korea has struck a deal with Kakao Entertainment to launch what they are calling a “K-culture fund” and is aiming to pursue around 10 projects…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/disney-kpop-deal-kakao-korea-kpop-demon-hunters-1237104978/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="The Wrap"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.thewrap.com/industry-news/public-policy-legal/shrinking-crew-member-sues-warner-bros-wrongful-termination-sexual-harassment/" target="_blank" rel="noopener">‘Shrinking’ Crew Member Sues Warner Bros. for Wrongful Termination, Alleges EP Randall Winston Groped Her</a></h3><p>“In three seasons on ‘Shrinking,’ Plaintiff was never disciplined or written up,” the filing notes The post ‘Shrinking’ Crew Member Sues Warner Bros. for Wrongful Termination, Alleges EP Randall Winston Groped…</p><div class="credit"><b>The Wrap</b> &middot; <a href="https://www.thewrap.com/industry-news/public-policy-legal/shrinking-crew-member-sues-warner-bros-wrongful-termination-sexual-harassment/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.musicbusinessworldwide.com/panic-at-the-disco-company-sues-online-sellers-over-counterfeit-merch/" target="_blank" rel="noopener">Panic! at the Disco company sues online sellers over counterfeit merch</a></h3><p>The suit brings two counts under the Lanham Act: trademark infringement and counterfeiting Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/panic-at-the-disco-company-sues-online-sellers-over-counterfeit-merch/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.musicbusinessworldwide.com/universal-music-group-sues-distrokid-ai-generated-slop/" target="_blank" rel="noopener">Universal Music Group sues DistroKid, accusing it of ‘unlawful practices’ and ‘flooding platforms with AI-generated slop’</a></h3><p>Key parts of UMG's suit center on DistroKid's alleged involvement with AI-made music. Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/universal-music-group-sues-distrokid-ai-generated-slop/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/" target="_blank" rel="noopener">AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round</a></h3><p>Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.musicbusinessworldwide.com/5-things-you-need-to-know-about-elevenlabs-the-umg-ai-partner-with-an-11b-valuation-and-big-ambitions-in-music/" target="_blank" rel="noopener">5 things You Need to Know About ElevenLabs, the UMG AI partner with an $11B valuation – and big ambitions in music.</a></h3><p>UMG and ElevenLabs announced a licensing agreement, which will see the latter build a fan platform for remixes, mashups, and &quot;new track interpretations.&quot; Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/5-things-you-need-to-know-about-elevenlabs-the-umg-ai-partner-with-an-11b-valuation-and-big-ambitions-in-music/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.musicbusinessworldwide.com/samsung-moves-to-dismiss-dua-lipas-15m-lawsuit-arguing-she-holds-no-trademark-in-her-own-image/" target="_blank" rel="noopener">Samsung moves to dismiss Dua Lipa’s $15M lawsuit, arguing she holds no trademark in her own image</a></h3><p>The motion is scheduled to be heard on December 14 in the US District Court for the Central District of California. Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/samsung-moves-to-dismiss-dua-lipas-15m-lawsuit-arguing-she-holds-no-trademark-in-her-own-image/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Deals</span></div><h3><a href="https://www.musicbusinessworldwide.com/elevenlabs-launched-music-v2-5-shortly-after-announcing-its-umg-licensing-deal/" target="_blank" rel="noopener">ElevenLabs launched Music v2.5 – shortly after announcing its UMG licensing deal.</a></h3><p>The model went live on September 11 and is now the default “for prompted and reference generation” in ElevenMusic, the company said. Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/elevenlabs-launched-music-v2-5-shortly-after-announcing-its-umg-licensing-deal/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article></div>
 </div></main>
-
 <footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-16 12:05 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"Deals | Newswire Hollywood","description":"Newswire Hollywood's Deals desk: talent, packaging, and the transactions behind the business.","url":"https://newswirehollywood.com/deals.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Deals | Newswire Hollywood","description":"Newswire Hollywood's Deals desk: Talent, packaging, and the transactions behind the business.","url":"https://newswirehollywood.com/deals.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
 </script>
 </body>
 </html>

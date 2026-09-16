@@ -4,19 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Television | Newswire Hollywood</title>
-<meta name="description" content="Newswire Hollywood's Television desk: Emmy week, upfronts, and the shows defining the season.">
-<meta property="og:title" content="Television">
+<meta name="description" content="Newswire Hollywood's Television desk: Series, streamers, showrunners, and the awards race.">
+<meta property="og:title" content="Television | Newswire Hollywood">
+<meta property="og:description" content="Newswire Hollywood's Television desk: Series, streamers, showrunners, and the awards race.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/television.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -26,34 +29,60 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav a.current{color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(30px,6vw,50px);line-height:1;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.hero p{font-size:17.5px;max-width:42em;color:#4A4A4A}
-.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:32px}
-@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:13px}
-.story .kicker2{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
-.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
-.story:hover h3{color:var(--signal)}
-.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
-.story .byline{margin-top:9px;font-size:11.5px;font-family:var(--hed);color:#8A8A8A}
-.empty{border-top:2px solid var(--rule);padding:28px 0;margin-top:32px;color:#6A6A6A;font-size:16px;max-width:42em}
-footer{border-top:3px solid var(--ink);margin-top:52px;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
+.carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
+.carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
+.carpet-track span{padding:0 26px;flex:none}
+.carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
-<div class="dateline">Los Angeles, California &middot; Tuesday, September 15, 2026</div>
+<div class="dateline">Los Angeles, California &middot; Wednesday, September 16, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="film.html">Film</a></li>
@@ -62,41 +91,44 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
 <li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
 <li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<section class="lede">
+<div class="lede-fill" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)"></div>
+<div class="lede-shade"></div>
+<div class="wrap"><div class="lede-copy">
+<div class="tagrow"><span class="tag ours">Live / Updating</span></div>
+<h1><a href="emmys-2026.html">Emmys 2026: the winners</a></h1>
+<p>The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. &quot;Hacks&quot; took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.</p>
+<div class="credit">By the Awards Desk, Newswire Hollywood</div>
+</div></div>
+</section>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">Television Desk</span>
-  <h1>Television</h1>
-  <p>Emmy week, upfronts, and the shows defining the season.</p>
-</div>
-
-<div class="story">
-  <span class="kicker2">Emmy week</span>
-  <h3><a href="emmys-2026.html">Emmys 2026: the complete party guide</a></h3>
-  <p>Television's biggest week runs through downtown Los Angeles and West Hollywood — the ceremony, the official gala, the studio afterparties, and the nominee events in between, plus what to expect on the red carpet.</p>
-  <div class="byline">By the Awards Desk, Newswire Hollywood &nbsp;|&nbsp; Updated Sept 9, 2026</div>
-</div>
-
+<h2 class="sect">Television on the wire</h2>
+<p class="sect-note">From the trades' own feeds, credited and linked to the outlet that reported it. Rebuilt hourly, seven-day window.</p>
+<div class="grid"><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/09/Jodie-Whittaker-Pip-e1789468416721.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://deadline.com/2026/09/jodie-whittaker-itv-drama-in-contempt-1237103764/" target="_blank" rel="noopener">Jodie Whittaker To Star As Hotshot Media Lawyer In ITV Drama ‘In Contempt’</a></h3><p>EXCLUSIVE: Jodie Whittaker’s next starring role will be a hotshot media lawyer in ITV drama In Contempt. Ahead of her role in Hulu pilot Chicks and a part in the London-set Only Murders in the Building Season…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/jodie-whittaker-itv-drama-in-contempt-1237103764/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/09/Hands-up-2_c_Seriesly-Berlin_William-Veder-e1789539511360.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://deadline.com/2026/09/seriesly-berlin-pitch-winners-hands-up-1237104964/" target="_blank" rel="noopener">Seriesly Berlin Crowns ‘Hands Up’, Music Drama Featuring Israeli &amp; Palestinian Characters</a></h3><p>Seriesly Berlin kept up its reputation for backing complex TV series with its latest batch of award winners. Hands Up, a music drama series pitch from the U.S. focused on an Israeli musician and a Palestinian…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/seriesly-berlin-pitch-winners-hands-up-1237104964/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2026/09/GettyImages-2294867389.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://variety.com/2026/tv/news/stephen-colbert-jimmy-kimmel-late-night-1236863664/" target="_blank" rel="noopener">Does Stephen Colbert Miss Late Night TV?: ‘Nope!’</a></h3><p>Hot off his Emmy win for outstanding variety series, Stephen Colbert went on “Jimmy Kimmel Live!” Tuesday night and revealed if he ever thinks about returning to late night television. “Late night TV. I…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/tv/news/stephen-colbert-jimmy-kimmel-late-night-1236863664/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://www.thewrap.com/wp-content/uploads/2026/09/rj-decker-kevin-ranking-adelaide-clemens-disney.jpg?width=1024&amp;height=576&amp;fit=bounds" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://www.thewrap.com/creative-content/tv-shows/scott-speedman-dwts-rj-decker-crossover-interview/" target="_blank" rel="noopener">Scott Speedman Breaks Down the ‘DWTS’ Robbery That Kicked Off ‘RJ Decker’ Season 2</a></h3><p>The actor also tells TheWrap about his most anticipated guest star to come and his status on “Grey’s Anatomy” The post Scott Speedman Breaks Down the ‘DWTS’ Robbery That Kicked Off ‘RJ Decker’ Season 2…</p><div class="credit"><b>The Wrap</b> &middot; Photo: The Wrap &middot; <a href="https://www.thewrap.com/creative-content/tv-shows/scott-speedman-dwts-rj-decker-crossover-interview/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://www.thewrap.com/wp-content/uploads/2026/09/dwts-harry-shum-jr-jenna-johnson-disney.jpeg?width=1024&amp;height=576&amp;fit=bounds" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://www.thewrap.com/creative-content/tv-shows/dancing-with-the-stars-premiere-season-35-night-1-results-dwts/" target="_blank" rel="noopener">‘DWTS’ Season 35 Premiere: Paralympian Ezra Frech Wows With Kelly Clarkson Tango</a></h3><p>&quot;Grey's Anatomy&quot; star Harry Shum Jr. scores the highest scores and one couple goes home amid Night One voting glitches The post ‘DWTS’ Season 35 Premiere: Paralympian Ezra Frech Wows With Kelly Clarkson Tango…</p><div class="credit"><b>The Wrap</b> &middot; Photo: The Wrap &middot; <a href="https://www.thewrap.com/creative-content/tv-shows/dancing-with-the-stars-premiere-season-35-night-1-results-dwts/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="The Wrap"></div></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://www.thewrap.com/creative-content/tv-shows/rj-decker-season-2-episode-release-schedule/" target="_blank" rel="noopener">‘RJ Decker’ Season 2 Episode Release Schedule</a></h3><p>He's back on the case The post ‘RJ Decker’ Season 2 Episode Release Schedule appeared first on TheWrap .</p><div class="credit"><b>The Wrap</b> &middot; <a href="https://www.thewrap.com/creative-content/tv-shows/rj-decker-season-2-episode-release-schedule/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="Rolling Stone"></div></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://www.rollingstone.com/music/music-news/american-idol-shakeup-moving-hollywood-to-georgia-1235627339/" target="_blank" rel="noopener">‘American Idol’ Shakeup Will See Show Move From Hollywood to Georgia</a></h3><p>After more than two decades, the long-running singing competition will produce its upcoming Season 25 in a new home</p><div class="credit"><b>Rolling Stone</b> &middot; <a href="https://www.rollingstone.com/music/music-news/american-idol-shakeup-moving-hollywood-to-georgia-1235627339/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/" target="_blank" rel="noopener">The AI data center boom is colliding with cities scarred by big industry</a></h3><p>National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="Rolling Stone"></div></div><div class="tagrow"><span class="tag">Television</span></div><h3><a href="https://www.rollingstone.com/music/music-features/taylor-swift-emmys-skit-easter-eggs-1235626882/" target="_blank" rel="noopener">All of the Easter Eggs in Taylor Swift’s Emmys Skit</a></h3><p>We break down the biggest clues, including what the hell “saccharide, Aries, from the vineyard, north or south” might mean</p><div class="credit"><b>Rolling Stone</b> &middot; <a href="https://www.rollingstone.com/music/music-features/taylor-swift-emmys-skit-easter-eggs-1235626882/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article></div>
 </div></main>
-
 <footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-16 12:05 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"Television | Newswire Hollywood","description":"Newswire Hollywood's Television desk: Emmy week, upfronts, and the shows defining the season.","url":"https://newswirehollywood.com/television.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Television | Newswire Hollywood","description":"Newswire Hollywood's Television desk: Series, streamers, showrunners, and the awards race.","url":"https://newswirehollywood.com/television.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
 </script>
 </body>
 </html>

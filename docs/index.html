@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Newswire Hollywood — Entertainment News, The Business Behind The Business</title>
-<meta name="description" content="Breaking entertainment news from Los Angeles. Emmy week coverage, the Hollywood events calendar, film, television, music, fashion, and how AI is remaking the industry.">
-<meta property="og:title" content="Newswire Hollywood">
-<meta property="og:description" content="The business behind the business.">
+<meta name="description" content="Breaking entertainment news from Los Angeles: film, television, music, fashion, deals, and how AI is remaking the industry. Our own reporting plus the wire, updated hourly.">
+<meta property="og:title" content="Newswire Hollywood — Entertainment News, The Business Behind The Business">
+<meta property="og:description" content="Breaking entertainment news from Los Angeles: film, television, music, fashion, deals, and how AI is remaking the industry. Our own reporting plus the wire, updated hourly.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
@@ -14,11 +14,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -28,222 +29,117 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav .hot{color:var(--signal)}
-.emmy-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
-.emmy-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
-.emmy-banner a:hover{border-bottom-color:#fff}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
 .carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
 .carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
 .carpet-track span{padding:0 26px;flex:none}
 .carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:40px 0 28px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(34px,7.5vw,62px);line-height:.98;letter-spacing:-1.1px;color:var(--ink);margin-bottom:14px}
-.hero p{font-size:19px;max-width:40em}
-h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,28px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:44px 0 6px}
-.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:22px}
-.lead{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:8px}
-.lead .kicker{color:var(--date)}
-.lead h2{font-family:var(--hed);font-weight:700;font-size:clamp(28px,5.5vw,42px);line-height:1.06;letter-spacing:-.6px;color:var(--ink);margin-bottom:12px}
-.lead h2 a:hover{color:var(--signal)}
-.lead .dek{font-size:19px;line-height:1.5;max-width:38em;color:#3C3C3C}
-.byline{font-family:var(--hed);font-size:12px;letter-spacing:.05em;color:#8A8A8A;margin-top:13px}
-.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:26px}
-@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:13px}
-.story .kicker{font-size:10.5px;margin-bottom:6px}
-.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
-.story:hover h3{color:var(--signal)}
-.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
-.story .byline{margin-top:9px;font-size:11.5px}
-.vert{border-top:2px solid var(--rule);padding-top:13px}
-.vert h3{font-family:var(--hed);font-weight:600;font-size:18px;color:var(--ink);margin-bottom:6px}
-.vert p{font-size:14.5px;color:#6A6A6A;line-height:1.5}
-.ev{border-bottom:1px solid var(--rule-soft);padding:17px 0;display:grid;grid-template-columns:1fr;gap:6px}
-@media(min-width:760px){.ev{grid-template-columns:100px 1fr 190px;gap:22px;align-items:baseline}}
-.ev .when{font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--date)}
-.ev .when.now{color:var(--signal)}
-.ev h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.15;color:var(--ink);margin-bottom:4px}
-.ev p{font-size:15px;color:#4A4A4A;line-height:1.45}
-.ev .venue{font-family:var(--hed);font-size:13.5px;color:#6A6A6A;line-height:1.3}
-.card{border:1px solid var(--rule);margin-bottom:18px}
-.card-head{background:var(--ink);color:#fff;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.13em;text-transform:uppercase;padding:11px 15px}
-.card-body{padding:15px}
-.card-body p{font-size:15px;color:#4A4A4A;margin-bottom:10px}
-.card-body p:last-child{margin-bottom:0}
-.card-body b{color:var(--ink)}
-.remember{background:#111;color:#D8D8D8;text-align:center;padding:14px 18px;font-family:var(--hed);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
-.remember b{color:#fff;font-weight:600}
-.trio{display:grid;grid-template-columns:1fr;gap:16px;margin-top:20px}
-@media(min-width:820px){.trio{grid-template-columns:1fr 1fr 1fr}}
-.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:52px}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
 .band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
 .band p{color:#B4B4B4;max-width:48em}
 .band a{color:var(--date);border-bottom:1px solid var(--date)}
-footer{border-top:3px solid var(--ink);margin-top:0;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
 footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
 <div class="dateline">Los Angeles, California &middot; Wednesday, September 16, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
-<li><a href="index.html">Home</a></li>
+<li><a href="index.html" class="current">Home</a></li>
 <li><a href="film.html">Film</a></li>
 <li><a href="television.html">Television</a></li>
 <li><a href="music.html">Music</a></li>
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
 <li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
 <li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
-<div class="emmy-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
-
-<div class="carpet"><div class="carpet-track">
-<span>EMMYS 2026</span><span>EMMY WEEK</span><span>NEWSWIRE HOLLYWOOD</span><span>THE BUSINESS BEHIND THE BUSINESS</span><span>EMMYS 2026</span><span>EMMY WEEK</span><span>NEWSWIRE HOLLYWOOD</span><span>THE BUSINESS BEHIND THE BUSINESS</span>
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<div class="carpet"><div class="carpet-track"><span>EMMYS 2026</span><span>EMMY WEEK</span><span>NEWSWIRE HOLLYWOOD</span><span>THE 78TH PRIMETIME EMMY AWARDS</span><span>EMMYS 2026</span><span>EMMY WEEK</span><span>NEWSWIRE HOLLYWOOD</span><span>THE 78TH PRIMETIME EMMY AWARDS</span></div></div>
+<section class="lede">
+<div class="lede-fill" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)"></div>
+<div class="lede-shade"></div>
+<div class="wrap"><div class="lede-copy">
+<div class="tagrow"><span class="tag ours">Live / Updating</span></div>
+<h1><a href="emmys-2026.html">Emmys 2026: the winners</a></h1>
+<p>The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. &quot;Hacks&quot; took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.</p>
+<div class="credit">By the Awards Desk, Newswire Hollywood</div>
 </div></div>
-
+</section>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">Los Angeles</span>
-  <h1>The business behind the business</h1>
-  <p>Breaking entertainment news, the industry calendar, and the deals, talent and technology stories that move Hollywood — reported from Los Angeles, distributed to the trade.</p>
-</div>
-
-<div class="lead" id="tv">
-  <span class="kicker">Television &middot; Live &middot; Updating</span>
-  <h2><a href="emmys-2026.html">Emmys 2026: the winners</a></h2>
-  <p class="dek">The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. "Hacks" took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast. Full winners list updating now, plus what happened on the carpet.</p>
-  <div class="byline">By the Awards Desk, Newswire Hollywood &nbsp;|&nbsp; Updated Sept 15, 2026</div>
-</div>
-
-<h2 class="sect">Also today</h2>
-<p class="sect-note">Original reporting and what our calendar desk is tracking this week.</p>
-
-<div class="stories">
-<div class="story" id="film">
-  <span class="kicker">Film &middot; Toronto 2026</span>
-  <h3><a href="tiff-2026-being-heumann.html">Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</a></h3>
-  <p>The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</p>
-  <div class="byline">By the Film Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div>
-<div class="story" id="music">
-  <span class="kicker">Music</span>
-  <h3><a href="freda-payne-catalina.html">Freda Payne returns to Catalina with a tribute to the women who built the songbook</a></h3>
-  <p>The two-time Grammy nominee brings <em>Legendary Ladies of Jazz</em> to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.</p>
-  <div class="byline">By the Music Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 7, 2026</div>
-</div>
-<div class="story">
-  <span class="kicker">Calendar</span>
-  <h3><a href="calendar.html">This week in Los Angeles: Emmy week in full</a></h3>
-  <p>Studio and streamer nominee events, gifting suites and charity luncheons run citywide through the weekend, ahead of Monday's ceremony and the Governors Gala. Our calendar desk tracks the credentialing deadlines before they close.</p>
-  <div class="byline">By the Calendar Desk, Newswire Hollywood &nbsp;|&nbsp; Updated daily</div>
-</div>
-</div>
-
-<h2 class="sect">Coverage verticals</h2>
-<p class="sect-note">Original reporting is publishing into each of these as our newsroom scales. Emmy week and music are live now.</p>
-
-<div class="stories">
-<div class="vert">
-  <h3>Film</h3>
-  <p>Premieres, festivals, and the fall awards runway. <a href="tiff-2026-being-heumann.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Read our first film coverage</a>, live now.</p>
-</div>
-<div class="vert" id="fashion">
-  <h3>Fashion</h3>
-  <p>Red carpets, fashion week, and the stylists and houses dressing the industry. Tracked on <a href="calendar.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">the calendar</a> now; editorial coverage to follow.</p>
-</div>
-<div class="vert" id="deals">
-  <h3>Deals</h3>
-  <p>Talent, packaging, and the transactions behind the business. <a href="the-odyssey-imax-record.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Read our first deals coverage</a>, live now.</p>
-</div>
-<div class="vert" id="ai">
-  <h3>AI &amp; Big Tech</h3>
-  <p>How artificial intelligence and big technology platforms are remaking production, distribution and the labor of the industry. <a href="sony-warner-anthropic-lawsuit.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Read our first AI &amp; Tech coverage</a>, live now.</p>
-</div>
-</div>
-
-<h2 class="sect">On our radar</h2>
-<p class="sect-note">What our Industry &amp; Tech Pulse desk is tracking right now — confirmed and sourced, sorted by what's actually real versus what's only been announced.</p>
-
-<div class="stories">
-<div class="story">
-  <span class="badge">Box office</span><span class="kicker">Deals &amp; Numbers</span>
-  <h3><a href="the-odyssey-imax-record.html">'The Odyssey' breaks IMAX's all-time box office record</a></h3>
-  <p>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide — the highest-grossing R-rated film in history.</p>
-  <div class="byline">By the Deals Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div>
-<div class="story">
-  <span class="badge">Filed, not resolved</span><span class="kicker">AI &amp; Big Tech</span>
-  <h3><a href="sony-warner-anthropic-lawsuit.html">Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</a></h3>
-  <p>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking up to $150,000 per work. Filed, not resolved — and yes, Claude is what runs this newsroom's agents, disclosed plainly in the piece.</p>
-  <div class="byline">By the AI &amp; Technology Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div>
-<div class="story">
-  <span class="badge">Shipped</span><span class="kicker">AI &amp; Labor</span>
-  <h3>SAG-AFTRA's AI contract terms are ratified — the real rulebook, not a proposal</h3>
-  <p>Members approved the union's four-year AMPTP deal (91.4% in favor, June 2026): producers can only substitute an AI performer for a live actor with "significant additional value," plus digital-replica consent and notice-and-bargain rights. This is the operative contract right now.</p>
-  <div class="byline">Pulse Desk &nbsp;|&nbsp; Sept 10, 2026</div>
-</div>
-<div class="story">
-  <span class="badge" style="background:var(--signal)">Announced only</span><span class="kicker">AI &amp; Talent</span>
-  <h3>The AI "actress" with a real feature film — and no release date</h3>
-  <p>Tilly Norwood's existing shorts are real and watchable; the announced feature "Misaligned" isn't — no trailer, no distributor, no date. SAG-AFTRA has publicly said it doesn't consider her an actor. We're keeping those two facts separate on purpose.</p>
-  <div class="byline">Pulse Desk &nbsp;|&nbsp; Sept 10, 2026</div>
-</div>
-</div>
-
-<h2 class="sect">Three ways stories reach this wire</h2>
-<div class="trio">
-<div class="card">
-  <div class="card-head">Originated</div>
-  <div class="card-body"><p>We find it, report it, write it, and publish it under our own byline. This is our editorial reporting.</p></div>
-</div>
-<div class="card">
-  <div class="card-head">Syndicated in</div>
-  <div class="card-body"><p>Written elsewhere, run on our site, always tagged and attributed to the outlet that reported it first.</p></div>
-</div>
-<div class="card">
-  <div class="card-head">Paid out</div>
-  <div class="card-body"><p>A client pays for distribution. We format it and it runs clearly labeled as sponsored — never mixed with editorial. <a href="pressroom.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Rate card and submissions</a>.</p></div>
-</div>
-</div>
-
+<h2 class="sect">Our reporting</h2>
+<p class="sect-note">Originated by Newswire Hollywood desks. Every one of these is ours, reported and bylined.</p>
+<div class="grid"><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="Newswire Hollywood"></div></div><div class="tagrow"><span class="tag ours">Toronto 2026</span></div><h3><a href="tiff-2026-being-heumann.html">Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</a></h3><p>The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</p><div class="credit">By the Film Desk, Newswire Hollywood</div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="Newswire Hollywood"></div></div><div class="tagrow"><span class="tag ours">Box office</span></div><h3><a href="the-odyssey-imax-record.html">'The Odyssey' breaks IMAX's all-time box office record</a></h3><p>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.</p><div class="credit">By the Deals Desk, Newswire Hollywood</div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="Newswire Hollywood"></div></div><div class="tagrow"><span class="tag ours">Filed, not resolved</span></div><h3><a href="sony-warner-anthropic-lawsuit.html">Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</a></h3><p>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking up to $150,000 per work. Filed, not resolved - and yes, Claude is what runs this newsroom's agents, disclosed plainly in the piece.</p><div class="credit">By the AI &amp; Technology Desk, Newswire Hollywood</div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="Newswire Hollywood"></div></div><div class="tagrow"><span class="tag ours">Music</span></div><h3><a href="freda-payne-catalina.html">Freda Payne returns to Catalina with a tribute to the women who built the songbook</a></h3><p>The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.</p><div class="credit">By the Music Desk, Newswire Hollywood</div></article></div>
+<h2 class="sect">The wire</h2>
+<p class="sect-note">Headlines and photos from the trades' own feeds, credited to the outlet that reported them, linking straight to their story. Refreshed hourly; anything older than seven days drops off on its own.</p>
+<div class="grid"><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2025/06/GettyImages-2221857723.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/house-entertainment-caucus-sydney-kamlager-dove-1237104672/" target="_blank" rel="noopener">House Lawmakers Launch Movies, Music, Entertainment &amp; Sports Caucus</a></h3><p>EXCLUSIVE: A group of House lawmakers is launching a new caucus focused on the economic and cultural impact of movies, music, entertainment and sports. The Movies, Music, Entertainment &amp; Sports (MoMEntS)…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/house-entertainment-caucus-sydney-kamlager-dove-1237104672/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag flag">Exclusive</span><span class="tag">Deals</span></div><h3><a href="https://www.hollywoodreporter.com/business/business-news/james-cameron-lightstorm-buys-3d-production-outsyders-1236696603/" target="_blank" rel="noopener">James Cameron’s Lightstorm Acquires 3D Tech Production Company Outsyders (Exclusive)</a></h3><p>Outsyders worked with Cameron for 3D work on Paramount’s 'Billie Eilish – Hit Me Hard and Soft: The Tour,' and on films like 'Lilo &amp; Stitch' and 'Blue Angels.'</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/business/business-news/james-cameron-lightstorm-buys-3d-production-outsyders-1236696603/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag flag">Exclusive</span><span class="tag">The Wire</span></div><h3><a href="https://www.hollywoodreporter.com/business/business-news/amazon-music-podcast-partnerships-1236702306/" target="_blank" rel="noopener">Amazon Music Strikes New Podcast Partnerships In Expanded Video Push (Exclusive)</a></h3><p>The platform will be adding more video podcasts as the industry makes more moves into the space.</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/business/business-news/amazon-music-podcast-partnerships-1236702306/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="The Verge"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation" target="_blank" rel="noopener">A brief history of AI executives calling for regulation</a></h3><p></p><div class="credit"><b>The Verge</b> &middot; <a href="https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Verge"></div></div><div class="tagrow"><span class="tag">The Wire</span></div><h3><a href="https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review" target="_blank" rel="noopener">Nintendo opens up Fire Emblem with the gigantic Fortune’s Weave</a></h3><p></p><div class="credit"><b>The Verge</b> &middot; <a href="https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="The Verge"></div></div><div class="tagrow"><span class="tag">The Wire</span></div><h3><a href="https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture" target="_blank" rel="noopener">The iPhone 18 Pro’s big camera update is all about the small gains</a></h3><p></p><div class="credit"><b>The Verge</b> &middot; <a href="https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2026/09/Bad-Lieutenant-Tokyo.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">The Wire</span></div><h3><a href="https://variety.com/2026/film/news/bad-lieutenant-tokyo-review-1236863418/" target="_blank" rel="noopener">‘Bad Lieutenant: Tokyo’ Review: Takashi Miike’s Loose Remake is a Complete Nonstarter</a></h3><p>The second re-imagining of “Bad Lieutenant” — Abel Ferrara’s 1992 neo-noir starring Harvey Keitel — Takashi Miike’s baffling “Bad Lieutenant: Tokyo” borrows the broad strokes of the original, but tells its own…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/film/news/bad-lieutenant-tokyo-review-1236863418/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://i.imgur.com/2HpFicp.png" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.billboard.com/culture/tv-film/american-idol-production-leaving-los-angeles-atlanta-1236341409/" target="_blank" rel="noopener">‘American Idol’ Production Leaving Los Angeles After 25 Years For Atlanta</a></h3><p>The move is the latest blow to the city, which has seen an exodus of productions as shows and movies seek more lucrative tax credits elsewhere.</p><div class="credit"><b>Billboard</b> &middot; Photo: Billboard &middot; <a href="https://www.billboard.com/culture/tv-film/american-idol-production-leaving-los-angeles-atlanta-1236341409/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/09/GettyImages-2294930717.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/islamic-republic-state-media-attacks-venice-winner-actress-1237105034/" target="_blank" rel="noopener">Islamic Republic State Media Attacks Venice Prize-Winner Lelah Marzban Over Women’s Rights Speech</a></h3><p>Laleh Marzban, who won Best Actress in Venice Film Festival’s Orizzonti sidebar, has become the subject of a harsh smear campaign by Islamic Republic state media over comments in her acceptance speech…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/islamic-republic-state-media-attacks-venice-winner-actress-1237105034/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.hollywoodreporter.com/tv/tv-news/stephen-colbert-jimmy-kimmel-live-interview-1236703294/" target="_blank" rel="noopener">Colbert Shaves His Beard Off, Talks Emmys and ‘Lord of the Rings’ Movie on ‘Jimmy Kimmel Live!’</a></h3><p>The former 'Late Show' host also gave Jimmy Kimmel his precious Captain America shield.</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/tv/tv-news/stephen-colbert-jimmy-kimmel-live-interview-1236703294/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="Music Business Worldwide"></div></div><div class="tagrow"><span class="tag">Music</span></div><h3><a href="https://www.musicbusinessworldwide.com/mnrk-music-group-acquires-recorded-catalog-of-zakk-wyldes-black-label-society/" target="_blank" rel="noopener">MNRK Music Group acquires recorded catalog of Zakk Wylde’s Black Label Society</a></h3><p>Catalog spans more than two decades and contains 11 studio albums Source</p><div class="credit"><b>Music Business Worldwide</b> &middot; <a href="https://www.musicbusinessworldwide.com/mnrk-music-group-acquires-recorded-catalog-of-zakk-wyldes-black-label-society/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">International</span></div><h3><a href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/" target="_blank" rel="noopener">Amazon launches Alexa+ in India with Hindi support</a></h3><p>Amazon is letting all customers use Alexa+ assistant in early access period</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article></div>
 </div></main>
-
-<section class="band" id="ethics"><div class="wrap">
+<section class="band"><div class="wrap">
 <h2>Standards &amp; corrections</h2>
-<p>Sourcing, embargoes, image licensing, and how we handle corrections are covered in full in our <a href="pressroom.html#standards">editorial standards</a>. Spotted an error? Send it through the <a href="pressroom.html#standards">Press Room</a> — we post every correction we act on.</p>
+<p>Sourcing, embargoes, image licensing and corrections are covered in our
+<a href="pressroom.html#standards">editorial standards</a>. Wire cards credit and link to the outlet
+that did the reporting; we do not republish their article text. Spotted an error?
+<a href="pressroom.html#standards">Send it through the Press Room</a>.</p>
 </div></section>
-
-<footer><div class="wrap" id="contact">
+<footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
-<a href="emmys-2026.html">Emmys 2026</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
 <a href="pressroom.html#advertise">Advertise</a>
 <a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-16 12:05 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Newswire Hollywood","url":"https://newswirehollywood.com/","description":"Breaking entertainment news, the Hollywood events calendar, and industry intelligence from Los Angeles.","email":"news@newswirehollywood.com","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://newswirehollywood.com/pressroom.html#standards","correctionsPolicy":"https://newswirehollywood.com/pressroom.html#standards"}
 </script>
-
 </body>
 </html>

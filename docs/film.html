@@ -4,19 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Film | Newswire Hollywood</title>
-<meta name="description" content="Newswire Hollywood's Film desk: premieres, festivals, and the fall awards runway.">
-<meta property="og:title" content="Film">
+<meta name="description" content="Newswire Hollywood's Film desk: Premieres, festivals, and the fall awards runway.">
+<meta property="og:title" content="Film | Newswire Hollywood">
+<meta property="og:description" content="Newswire Hollywood's Film desk: Premieres, festivals, and the fall awards runway.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/film.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -26,34 +29,60 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav a.current{color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(30px,6vw,50px);line-height:1;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.hero p{font-size:17.5px;max-width:42em;color:#4A4A4A}
-.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:32px}
-@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:13px}
-.story .kicker2{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
-.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
-.story:hover h3{color:var(--signal)}
-.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
-.story .byline{margin-top:9px;font-size:11.5px;font-family:var(--hed);color:#8A8A8A}
-.empty{border-top:2px solid var(--rule);padding:28px 0;margin-top:32px;color:#6A6A6A;font-size:16px;max-width:42em}
-footer{border-top:3px solid var(--ink);margin-top:52px;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
+.carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
+.carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
+.carpet-track span{padding:0 26px;flex:none}
+.carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
-<div class="dateline">Los Angeles, California &middot; Tuesday, September 15, 2026</div>
+<div class="dateline">Los Angeles, California &middot; Wednesday, September 16, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="film.html" class="current">Film</a></li>
@@ -62,41 +91,44 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
 <li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
 <li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<section class="lede">
+<div class="lede-fill" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)"></div>
+<div class="lede-shade"></div>
+<div class="wrap"><div class="lede-copy">
+<div class="tagrow"><span class="tag ours">Toronto 2026</span></div>
+<h1><a href="tiff-2026-being-heumann.html">Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</a></h1>
+<p>The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</p>
+<div class="credit">By the Film Desk, Newswire Hollywood</div>
+</div></div>
+</section>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">Film Desk</span>
-  <h1>Film</h1>
-  <p>Premieres, festivals, and the fall awards runway.</p>
-</div>
-
-<div class="story">
-  <span class="kicker2">Toronto 2026</span>
-  <h3><a href="tiff-2026-being-heumann.html">Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</a></h3>
-  <p>The 51st Toronto International Film Festival began September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</p>
-  <div class="byline">By the Film Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div>
-
+<h2 class="sect">Film on the wire</h2>
+<p class="sect-note">From the trades' own feeds, credited and linked to the outlet that reported it. Rebuilt hourly, seven-day window.</p>
+<div class="grid"><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2025/06/GettyImages-2221857723.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/house-entertainment-caucus-sydney-kamlager-dove-1237104672/" target="_blank" rel="noopener">House Lawmakers Launch Movies, Music, Entertainment &amp; Sports Caucus</a></h3><p>EXCLUSIVE: A group of House lawmakers is launching a new caucus focused on the economic and cultural impact of movies, music, entertainment and sports. The Movies, Music, Entertainment &amp; Sports (MoMEntS)…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/house-entertainment-caucus-sydney-kamlager-dove-1237104672/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://i.imgur.com/2HpFicp.png" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.billboard.com/culture/tv-film/american-idol-production-leaving-los-angeles-atlanta-1236341409/" target="_blank" rel="noopener">‘American Idol’ Production Leaving Los Angeles After 25 Years For Atlanta</a></h3><p>The move is the latest blow to the city, which has seen an exodus of productions as shows and movies seek more lucrative tax credits elsewhere.</p><div class="credit"><b>Billboard</b> &middot; Photo: Billboard &middot; <a href="https://www.billboard.com/culture/tv-film/american-idol-production-leaving-los-angeles-atlanta-1236341409/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/09/GettyImages-2294930717.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/islamic-republic-state-media-attacks-venice-winner-actress-1237105034/" target="_blank" rel="noopener">Islamic Republic State Media Attacks Venice Prize-Winner Lelah Marzban Over Women’s Rights Speech</a></h3><p>Laleh Marzban, who won Best Actress in Venice Film Festival’s Orizzonti sidebar, has become the subject of a harsh smear campaign by Islamic Republic state media over comments in her acceptance speech…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/islamic-republic-state-media-attacks-venice-winner-actress-1237105034/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.hollywoodreporter.com/tv/tv-news/stephen-colbert-jimmy-kimmel-live-interview-1236703294/" target="_blank" rel="noopener">Colbert Shaves His Beard Off, Talks Emmys and ‘Lord of the Rings’ Movie on ‘Jimmy Kimmel Live!’</a></h3><p>The former 'Late Show' host also gave Jimmy Kimmel his precious Captain America shield.</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/tv/tv-news/stephen-colbert-jimmy-kimmel-live-interview-1236703294/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.hollywoodreporter.com/movies/movie-news/oscars-spain-la-bola-negra-best-international-feature-film-1236703314/" target="_blank" rel="noopener">Oscars: Spain Picks ‘La Bola Negra’ for Best International Feature Film Race</a></h3><p>The Spanish-language epic, from the fondly nicknamed &quot;Los Javis,&quot; was the breakout winner from Cannes and launched a competitive bidding war, which Netflix won.</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/movies/movie-news/oscars-spain-la-bola-negra-best-international-feature-film-1236703314/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/05/200723.webp" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/la-bola-negra-spain-oscars-international-feature-film-1237104996/" target="_blank" rel="noopener">Oscars: Spain Selects ‘La Bola Negra’ For International Feature Film Race</a></h3><p>Javier Calvo and Javier Ambrossi’s breakout Cannes title La Bola Negra has been selected as Spain’s entry for the Best International Feature Film category at the 99th Academy Awards. The Spanish Film Academy…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/la-bola-negra-spain-oscars-international-feature-film-1237104996/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/09/MixCollage-16-Sep-2026-09-31-AM-8007.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/richard-curtis-audio-sitcom-bill-nighy-jim-broadbent-1237104987/" target="_blank" rel="noopener">Bill Nighy Playing Socially-Challenged Literary Titan In Richard Curtis’ Debut Audio Sitcom</a></h3><p>EXCLUSIVE: Richard Curtis is returning to the sitcom game, this time through audio. The Vicar of Dibley, Blackadder and Mr Bean writer-director is making Greatest Living Writer for BBC Radio 4 starring Bill…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/richard-curtis-audio-sitcom-bill-nighy-jim-broadbent-1237104987/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2026/09/L-R-Miguel-Bernadeau-Guitarricadelafuente.jpeg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://variety.com/2026/film/awards/oscars-spain-javier-calvo-javier-ambrossi-la-bola-negra-1236863433/" target="_blank" rel="noopener">Oscars: Spain Selects ‘La Bola Negra’ for International Feature Race</a></h3><p>“La Bola Negra,” Javier Calvo and Javier Ambrossi’s Cannes Festival sensation, is Spain’s submission for the 2027 international feature film Academy Award. Rodrigo Sorogoyen’s “The Beloved, ”starring Javier…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/film/awards/oscars-spain-javier-calvo-javier-ambrossi-la-bola-negra-1236863433/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/05/GettyImages-2276702391.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://deadline.com/2026/09/cate-blanchett-tokyo-film-festival-displacement-film-fund-1237103780/" target="_blank" rel="noopener">Cate Blanchett To Attend Tokyo Film Festival With Displacement Film Fund Shorts</a></h3><p>Cate Blanchett will attend this year’s Tokyo Film Festival with a series of short films supported by her Displacement Film Fund. TIFF will screen five short works produced with support from the Displacement…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/cate-blanchett-tokyo-film-festival-displacement-film-fund-1237103780/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2026/09/Possible-Love1.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://variety.com/2026/film/markets-festivals/weta-fx-kimball-thurston-netflix-busan-creative-asia-ai-panel-1236863937/" target="_blank" rel="noopener">Peter Jackson’s Weta FX to Talk AI as Netflix’s Creative Asia Spotlights ‘Possible Love’ in Busan</a></h3><p>Netflix and the Busan International Film Festival (BIFF) are bringing back Creative Asia for a third consecutive year, with the program set for Oct. 10 at Dongseo University’s Centum Campus. BIFF, the Asian…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/film/markets-festivals/weta-fx-kimball-thurston-netflix-busan-creative-asia-ai-panel-1236863937/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="Rolling Stone"></div></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://www.rollingstone.com/tv-movies/tv-movie-news/jimmy-kimmel-stephen-colbert-beard-emmys-lord-of-the-rings-1235627508/" target="_blank" rel="noopener">Watch Jimmy Kimmel Goad Stephen Colbert Into Shaving Off His Beard on Air</a></h3><p>The former Late Show host appeared on Jimmy Kimmel Live to discuss his Emmy wins and writing a new Lord of the Rings movie</p><div class="credit"><b>Rolling Stone</b> &middot; <a href="https://www.rollingstone.com/tv-movies/tv-movie-news/jimmy-kimmel-stephen-colbert-beard-emmys-lord-of-the-rings-1235627508/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-02-at-18.30.52_5e8cebf0-3x2cr-sh-res.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">Film</span></div><h3><a href="https://variety.com/2026/film/festivals/busan-jury-members-mecenat-sonje-netpac-fipresci-awards-1236863934/" target="_blank" rel="noopener">Busan Names Jury Members for Mecenat, Sonje, Netpac, Fipresci Awards</a></h3><p>The 31st Busan International Film Festival (BIFF) has finalized jury members across four award categories: the BIFF Mecenat Award, the Sonje Award, the Netpac Award and the Fipresci Award. The BIFF Mecenat…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/film/festivals/busan-jury-members-mecenat-sonje-netpac-fipresci-awards-1236863934/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article></div>
 </div></main>
-
 <footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-16 12:05 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"Film | Newswire Hollywood","description":"Newswire Hollywood's Film desk: premieres, festivals, and the fall awards runway.","url":"https://newswirehollywood.com/film.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Film | Newswire Hollywood","description":"Newswire Hollywood's Film desk: Premieres, festivals, and the fall awards runway.","url":"https://newswirehollywood.com/film.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
 </script>
 </body>
 </html>

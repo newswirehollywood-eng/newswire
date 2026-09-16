@@ -3,20 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI & Big Tech | Newswire Hollywood</title>
-<meta name="description" content="Newswire Hollywood's AI & Technology desk: how AI and big tech platforms are remaking production, distribution, and labor in entertainment.">
-<meta property="og:title" content="AI & Big Tech">
+<title>AI &amp; Big Tech | Newswire Hollywood</title>
+<meta name="description" content="Newswire Hollywood's AI &amp; Big Tech desk: How AI and the platforms are remaking production, distribution and labour.">
+<meta property="og:title" content="AI &amp; Big Tech | Newswire Hollywood">
+<meta property="og:description" content="Newswire Hollywood's AI &amp; Big Tech desk: How AI and the platforms are remaking production, distribution and labour.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/ai-tech.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -26,34 +29,60 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav a.current{color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(30px,6vw,50px);line-height:1;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.hero p{font-size:17.5px;max-width:42em;color:#4A4A4A}
-.stories{display:grid;grid-template-columns:1fr;gap:26px;margin-top:32px}
-@media(min-width:680px){.stories{grid-template-columns:1fr 1fr}}
-.story{border-top:2px solid var(--ink);padding-top:13px}
-.story .kicker2{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
-.story h3{font-family:var(--hed);font-weight:600;font-size:21px;line-height:1.15;color:var(--ink);margin-bottom:7px}
-.story:hover h3{color:var(--signal)}
-.story p{font-size:15.5px;line-height:1.5;color:#4A4A4A}
-.story .byline{margin-top:9px;font-size:11.5px;font-family:var(--hed);color:#8A8A8A}
-.empty{border-top:2px solid var(--rule);padding:28px 0;margin-top:32px;color:#6A6A6A;font-size:16px;max-width:42em}
-footer{border-top:3px solid var(--ink);margin-top:52px;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
+.carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
+.carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
+.carpet-track span{padding:0 26px;flex:none}
+.carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
-<div class="dateline">Los Angeles, California &middot; Tuesday, September 15, 2026</div>
+<div class="dateline">Los Angeles, California &middot; Wednesday, September 16, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="film.html">Film</a></li>
@@ -62,46 +91,44 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html" class="current">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
 <li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
 <li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<section class="lede">
+<div class="lede-fill" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)"></div>
+<div class="lede-shade"></div>
+<div class="wrap"><div class="lede-copy">
+<div class="tagrow"><span class="tag ours">Filed, not resolved</span></div>
+<h1><a href="sony-warner-anthropic-lawsuit.html">Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</a></h1>
+<p>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking up to $150,000 per work. Filed, not resolved - and yes, Claude is what runs this newsroom's agents, disclosed plainly in the piece.</p>
+<div class="credit">By the AI &amp; Technology Desk, Newswire Hollywood</div>
+</div></div>
+</section>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">AI & Technology Desk</span>
-  <h1>AI & Big Tech</h1>
-  <p>How artificial intelligence and big technology platforms are remaking production, distribution and the labor of the industry. Priced and reported as trade coverage, not consumer tech.</p>
-</div>
-
-<div class="story">
-  <span class="kicker2">Filed, not resolved</span>
-  <h3><a href="sony-warner-anthropic-lawsuit.html">Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</a></h3>
-  <p>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking up to $150,000 per work.</p>
-  <div class="byline">By the AI & Technology Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 11, 2026</div>
-</div><div class="story">
-  <span class="kicker2">Shipped</span>
-  <h3><a href="index.html">SAG-AFTRA's AI contract terms are ratified — the real rulebook, not a proposal</a></h3>
-  <p>Members approved the union's four-year AMPTP deal (91.4% in favor, June 2026): producers can only substitute an AI performer for a live actor with “significant additional value.”</p>
-  <div class="byline">By the Pulse Desk, Newswire Hollywood &nbsp;|&nbsp; Sept 10, 2026</div>
-</div>
-
+<h2 class="sect">AI &amp; Big Tech on the wire</h2>
+<p class="sect-note">From the trades' own feeds, credited and linked to the outlet that reported it. Rebuilt hourly, seven-day window.</p>
+<div class="grid"><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Verge"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation" target="_blank" rel="noopener">A brief history of AI executives calling for regulation</a></h3><p></p><div class="credit"><b>The Verge</b> &middot; <a href="https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://deadline.com/wp-content/uploads/2026/05/Wonder-boys-0-e1778675691196_1d74e4.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://deadline.com/2026/09/wonder-studios-la-office-caa-fanfix-1237104999/" target="_blank" rel="noopener">Wonder Studios: AI Producer Expands LA Office By Hiring CAA Agent &amp; Ex-Westbrook Executive</a></h3><p>EXCLUSIVE: Wonder Studios, the UK-based AI production outfit valued at $50 million last year, has expanded its Los Angeles operation with two hires. Inder Gill, a media finance agent at CAA, is joining Wonder…</p><div class="credit"><b>Deadline</b> &middot; Photo: Deadline &middot; <a href="https://deadline.com/2026/09/wonder-studios-la-office-caa-fanfix-1237104999/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://variety.com/wp-content/uploads/2026/09/MixCollage-15-Sep-2026-10-02-PM-8592.jpg" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://variety.com/2026/film/global/markus-lehmusruusu-oscar-submission-squirrel-kaurismaki-1236863403/" target="_blank" rel="noopener">Markus Lehmusruusu’s Finnish Oscar Entry ‘The Squirrel’ Earns Aki Kaurismäki’s Stamp of Approval: ‘He Said It’s Like ‘2001: A Space Odyssey,’ but Better…</a></h3><p>Markus Lehmusruusu’s futuristic drama “The Squirrel” has just been selected as the Finnish Oscar submission, and it already has a notable fan. “Aki Kaurismäki called it a masterpiece. He said it was like…</p><div class="credit"><b>Variety</b> &middot; Photo: Variety &middot; <a href="https://variety.com/2026/film/global/markus-lehmusruusu-oscar-submission-squirrel-kaurismaki-1236863403/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="Billboard"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.billboard.com/music/music-news/the-seekers-earliest-tv-appearance-unearthed-watch-1236341372/" target="_blank" rel="noopener">The Seekers’ Earliest Known TV Appearance Has Been Unearthed: Watch</a></h3><p>The eight-minute video was captured in 1964 and shows The Seekers performing “A Closer Walk with Thee” and “Myra.”</p><div class="credit"><b>Billboard</b> &middot; <a href="https://www.billboard.com/music/music-news/the-seekers-earliest-tv-appearance-unearthed-watch-1236341372/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Hollywood Reporter"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.hollywoodreporter.com/movies/movie-news/robert-de-niro-dodgers-manager-tommy-lasorda-sports-film-1236703048/" target="_blank" rel="noopener">Robert De Niro in Talks to Play Legendary Dodgers Manager Tommy Lasorda in Sports Film ‘Tommy &amp; Me’</a></h3><p>Reid Carolin has also been tapped to direct the pic for Skydance Sports.</p><div class="credit"><b>The Hollywood Reporter</b> &middot; <a href="https://www.hollywoodreporter.com/movies/movie-news/robert-de-niro-dodgers-manager-tommy-lasorda-sports-film-1236703048/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><img src="https://www.billboard.com/wp-content/uploads/2025/11/Ricardo-Montaner-2025-Press-cr-Alex-Pasmino-billboard-1800.jpg?w=237&amp;h=147&amp;crop=1" alt="" loading="lazy"></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.billboard.com/music/chart-beat/aria-vega-chevere-first-billboard-number-1-ryan-castro-1236341241/" target="_blank" rel="noopener">How ‘Chévere’: ARIA VEGA ‘Couldn’t Be Happier’ as She Earns First Billboard No. 1 With Ryan Castro Collab</a></h3><p>The song leads Latin Airplay &amp; Latin Rhythm Airplay charts.</p><div class="credit"><b>Billboard</b> &middot; Photo: Billboard &middot; <a href="https://www.billboard.com/music/chart-beat/aria-vega-chevere-first-billboard-number-1-ryan-castro-1236341241/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="The Wrap"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.thewrap.com/media-platforms/politics/robert-f-kennedy-jr-sister-reacts-kennedy-center-shutdown-blames-trump/" target="_blank" rel="noopener">RFK Jr.’s Sister Rips Into Trump Over Kennedy Center Shutdown, Says He Bankrupts What He Touches</a></h3><p>“It’s a bankruptcy because he adds his name to it,” Kerry Kennedy declares The post RFK Jr.’s Sister Rips Into Trump Over Kennedy Center Shutdown, Says He Bankrupts What He Touches appeared first on TheWrap .</p><div class="credit"><b>The Wrap</b> &middot; <a href="https://www.thewrap.com/media-platforms/politics/robert-f-kennedy-jr-sister-reacts-kennedy-center-shutdown-blames-trump/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/" target="_blank" rel="noopener">We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says</a></h3><p>AI isn't some new form of &quot;alien mind,&quot; according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#3A0A16 0%,#12060A 55%,#D1002E 145%)" data-outlet="The Verge"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september" target="_blank" rel="noopener">AI and data centers are incredibly unpopular in every poll</a></h3><p></p><div class="credit"><b>The Verge</b> &middot; <a href="https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(135deg,#2A2013 0%,#0F0C07 55%,#B8860B 140%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/" target="_blank" rel="noopener">Meta now lets AI agents handle the boring parts of WhatsApp Business setup</a></h3><p>A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(160deg,#1A1A1A 0%,#0A0A0A 50%,#7A0019 130%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/" target="_blank" rel="noopener">The AI graveyard: a running list of projects and startups that didn’t make it</a></h3><p>From Apple's repeatedly delayed Siri AI to OpenAI's messy &quot;super app&quot; launch, here's a look at the AI projects that shut down or missed expectations.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article><article class="card"><div class="shot"><div class="well" style="background:linear-gradient(200deg,#241C0A 0%,#100D05 55%,#8A6400 135%)" data-outlet="TechCrunch AI"></div></div><div class="tagrow"><span class="tag">AI &amp; Big Tech</span></div><h3><a href="https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/" target="_blank" rel="noopener">US data centers could consume more natural gas than Germany and Japan combined by 2035</a></h3><p>The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.</p><div class="credit"><b>TechCrunch AI</b> &middot; <a href="https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/" target="_blank" rel="noopener">Read it there &rarr;</a></div></article></div>
 </div></main>
-
 <footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-16 12:05 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"AI & Big Tech | Newswire Hollywood","description":"Newswire Hollywood's AI & Technology desk: how AI and big tech platforms are remaking entertainment.","url":"https://newswirehollywood.com/ai-tech.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"AI &amp; Big Tech | Newswire Hollywood","description":"Newswire Hollywood's AI &amp; Big Tech desk: How AI and the platforms are remaking production, distribution and labour.","url":"https://newswirehollywood.com/ai-tech.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
 </script>
 </body>
 </html>
