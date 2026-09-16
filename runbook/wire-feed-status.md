@@ -42,3 +42,19 @@ Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as ol
 | Music Business Worldwide | ok | 10 | 0 | - |
 | TechCrunch AI | ok | 20 | 0 | - |
 | The Verge | ok | 10 | 0 | - |
+
+## Run 2026-09-16 12:08 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | - |
+| Billboard | ok | 10 | 3 | - |
+| Rolling Stone | ok | 10 | 0 | - |
+| Music Business Worldwide | ok | 10 | 0 | - |
+| TechCrunch AI | ok | 20 | 0 | - |
+| The Verge | ok | 10 | 10 | - |
