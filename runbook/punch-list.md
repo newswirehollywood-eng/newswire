@@ -33,7 +33,16 @@ Homepage dateline corrected from a stale Sept 11 to the real current date, and t
 Video section added to emmys-2026.html: three responsive 16:9 slots, each clearly marked "awaiting real video ID" with a commented-out iframe ready for Terry to paste a real YouTube ID into. No placeholder video, no guessed IDs — matches the same standard as the no-stock-photos rule.
 sitemap.xml lastmod dates bumped to match — every listed page actually changed today
 
-NOT built: the "wire.py" hourly Emmys-feed cron from the same build order. That file does not exist anywhere in this repo — verified by searching every file in the repo for .py files, found none. See runbook/errors.md, 2026-09-16. A real Emmy-keyword RSS filter is buildable from scratch as a new GitHub Actions workflow whenever Terry wants it built for real, on the same zero-cost pattern as news-sitemap.yml and link-check.yml.
+BUILT 2026-09-16, the publishing engine — this is the big one:
+wire.py at the repo root now owns the homepage and the seven section pages. Nobody hand-types an index page again.
+It pulls 9 trade feeds hourly (Variety, Deadline, The Wrap, Hollywood Reporter, Billboard, Rolling Stone, Music Business Worldwide, TechCrunch AI, The Verge), takes each item's headline, summary, timestamp and photo straight out of the feed's own fields, routes it into a section by keyword, and rebuilds the pages.
+Photos are real now. They come from the outlet's own feed, credited to the outlet, with the card linking out to their story. No photo in the feed means a house gradient well, never a bare card and never an invented image.
+data/originated.json is the manifest of our own reporting. It sits above the wire on every page. IMPORTANT: a new article page that is not added to that file will appear on no index page.
+data/event-takeovers.json runs date-gated event skins. The Emmys one expires Sept 18 and removes itself everywhere, including from the hand-written pages via the TAKEOVER markers. No takeover ever needs removing by hand again.
+.github/workflows/wire.yml runs hourly with a "Run workflow" button, and only commits when the pages actually changed.
+Every run's feed results land in runbook/wire-feed-status.md.
+
+NOT built earlier, now superseded: the "wire.py" hourly Emmys-feed cron from the earlier build order. That file does not exist anywhere in this repo — verified by searching every file in the repo for .py files, found none. See runbook/errors.md, 2026-09-16. A real Emmy-keyword RSS filter is buildable from scratch as a new GitHub Actions workflow whenever Terry wants it built for real, on the same zero-cost pattern as news-sitemap.yml and link-check.yml.
 
 ## DISCOVERED THIS PASS, NOT YET ACTED ON
 

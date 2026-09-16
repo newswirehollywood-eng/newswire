@@ -283,6 +283,24 @@ def parse_feed(text, source_name):
     return items
 
 
+def diagnose_no_photos(text):
+    """A feed that returns items but no photos is either publishing images in a
+    shape we do not read, or not publishing them at all. Those need different
+    fixes, so say which it is in the status log instead of leaving it a
+    mystery."""
+    first = re.search(r"<(item|entry)\b.*?</\1>", text, re.S | re.I)
+    block = first.group(0) if first else text[:4000]
+    found = [t for t in ("media:content", "media:thumbnail", "media:group",
+                         "enclosure", "content:encoded", "<img")
+             if t in block.lower()]
+    if not found:
+        return "feed publishes no image fields at all"
+    urls = re.findall(r"https?://[^\"'<>)\s]+\.(?:jpe?g|png|webp|gif)", block, re.I)
+    if urls and all(not looks_like_photo(u) for u in urls):
+        return "only non-photo assets (%s)" % ", ".join(sorted(found))
+    return "carries %s but no usable photo URL" % ", ".join(sorted(found))
+
+
 def collect(feeds, dry_run=False):
     """Fetch every feed. Returns (items, per-feed status rows)."""
     items, status = [], []
@@ -301,7 +319,8 @@ def collect(feeds, dry_run=False):
             status.append((name, url, "dropped", "no parseable items", 0, 0))
             continue
         with_photo = sum(1 for i in parsed if i["image"])
-        status.append((name, url, "ok", "", len(parsed), with_photo))
+        note = "" if with_photo else diagnose_no_photos(text)
+        status.append((name, url, "ok", note, len(parsed), with_photo))
         items.extend(parsed)
     return items, status
 
