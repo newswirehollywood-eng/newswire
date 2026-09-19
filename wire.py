@@ -694,6 +694,122 @@ def build_section(slug, ours, wire_items, takeover, now_la, now_utc, feed_ok, fe
     return "\n".join(p for p in parts if p) + "\n"
 
 
+LABELS = {
+    "community":  ("COMMUNITY",  "Local Los Angeles. Ours, or submitted by the organization named."),
+    "syndicated": ("SYNDICATED", "Written elsewhere, carried here with attribution and a link out."),
+    "sponsored":  ("SPONSORED",  "Paid placement. Labeled, and never selected or edited by the Newsroom."),
+}
+LABEL_ORDER = ["community", "syndicated", "sponsored"]
+
+
+def wire_item_html(item):
+    """One item on The Wire. The label is not decoration - a reader has to be able
+    to tell in one glance who wrote this and whether anyone paid for it."""
+    kind = item.get("type", "community")
+    if kind not in LABELS:
+        kind = "community"
+    label = LABELS[kind][0]
+
+    parts = ['<article class="wireitem">']
+    parts.append('<span class="lbl %s">%s</span>' % (kind, label))
+    parts.append("<h3>%s</h3>" % esc(item.get("headline", "")))
+
+    if item.get("when_text") or item.get("where"):
+        bits = [b for b in (item.get("when_text"), item.get("where")) if b]
+        parts.append('<div class="whenwhere">%s</div>'
+                     % " &middot; ".join(esc(b) for b in bits))
+
+    if item.get("dek"):
+        parts.append('<p class="dek">%s</p>' % esc(item["dek"]))
+
+    for para in [p for p in item.get("body", "").split("\n") if p.strip()]:
+        parts.append('<p class="para">%s</p>' % esc(para.strip()))
+
+    meta = []
+    if kind == "sponsored":
+        payer = item.get("paid_by", "").strip()
+        meta.append("<b>Paid content.</b> %s" % (
+            ("Paid for by %s." % esc(payer)) if payer
+            else "Paid placement, distributed on behalf of a client."))
+    if item.get("source"):
+        if item.get("source_url"):
+            meta.append('Source: <a href="%s" target="_blank" rel="noopener"><b>%s</b></a>'
+                        % (esc(item["source_url"]), esc(item["source"])))
+        else:
+            meta.append("Source: <b>%s</b>" % esc(item["source"]))
+    if item.get("contact"):
+        meta.append("Contact: %s" % item["contact"])
+    if item.get("date"):
+        meta.append("Filed %s" % esc(item["date"]))
+    if meta:
+        parts.append('<div class="wiremeta">%s</div>' % " &middot; ".join(meta))
+
+    parts.append("</article>")
+    return "".join(parts)
+
+
+def build_wire(wire_data, takeover, now_la, now_utc, feed_ok, feed_total):
+    """docs/wire.html, generated. It used to be hand-typed and carried nothing at
+    all, so it sat empty with a frozen dateline. Now it is built from
+    data/wire-items.json on every run like every other index page."""
+    items = wire_data.get("items", [])
+    email = wire_data.get("submissions_email", "").strip()
+    title = "The Wire | Newswire Hollywood"
+    desc = ("Local Los Angeles items, syndicated coverage carried with attribution, "
+            "and clearly labeled sponsored releases.")
+
+    parts = [head_html(title, desc, "https://newswirehollywood.com/wire.html")]
+    parts.append("<body>")
+    parts.append(masthead_html(now_la))
+    parts.append(nav_html("wire.html", takeover))
+    parts.append(banner_html(takeover))
+    parts.append('<div class="wrap"><div class="hero">')
+    parts.append('<span class="kicker">The Wire</span>')
+    parts.append("<h1>The Wire</h1>")
+    parts.append("<p>Local Los Angeles, and everything that reaches this site by a path "
+                 "other than our own newsroom. Three kinds of item run here, each labeled "
+                 "so you can tell them apart at a glance.</p>")
+    parts.append("</div></div>")
+    parts.append('<main><div class="wrap">')
+
+    parts.append('<p class="sect-note">%s</p>' % " ".join(
+        '<span class="lbl %s">%s</span> %s' % (k, LABELS[k][0], esc(LABELS[k][1]))
+        for k in LABEL_ORDER))
+
+    if items:
+        ordered = sorted(
+            items,
+            key=lambda i: (LABEL_ORDER.index(i.get("type", "community"))
+                           if i.get("type") in LABELS else 0,
+                           "" if not i.get("date") else i["date"]),
+            reverse=False)
+        ordered = sorted(ordered, key=lambda i: i.get("date", ""), reverse=True)
+        parts.append("".join(wire_item_html(i) for i in ordered))
+    else:
+        parts.append('<div class="empty">Nothing on the wire yet. Items added to '
+                     'data/wire-items.json appear here on the next hourly run &mdash; '
+                     'nobody types into this page by hand.</div>')
+
+    if email:
+        parts.append('<div class="submit">')
+        parts.append("<h3>Submit to The Wire</h3>")
+        parts.append("<p>Local organizations, venues and publicists: send releases, event "
+                     "listings and community notices to "
+                     '<a href="mailto:%s"><b>%s</b></a>.</p>' % (esc(email), esc(email)))
+        parts.append("<p>Include a date, a location and a named contact we can reach. "
+                     "We run local items free. Paid distribution is a separate service and "
+                     "anything paid for is labeled as such on this page.</p>")
+        parts.append("</div>")
+
+    parts.append("</div></main>")
+    parts.append(footer_html(now_utc, feed_ok, feed_total))
+    parts.append("""<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"The Wire","description":"%s","url":"https://newswirehollywood.com/wire.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+</script>""" % esc(desc))
+    parts.append("</body>\n</html>")
+    return "\n".join(p for p in parts if p) + "\n"
+
+
 # --------------------------------------------------------------------------
 # takeover sync on the hand-written pages
 # --------------------------------------------------------------------------
@@ -814,12 +930,24 @@ def main():
             ours_by_section[a["section"]].append(entry)
     ours_all.sort(key=lambda a: a.get("date", ""), reverse=True)
 
+    wire_data = {}
+    wire_items_path = os.path.join(DATA, "wire-items.json")
+    if os.path.exists(wire_items_path):
+        try:
+            with open(wire_items_path, encoding="utf-8") as f:
+                wire_data = json.load(f)
+        except (ValueError, OSError) as exc:
+            # A typo in the JSON must not take the whole site build down with it.
+            print("wire-items.json unreadable, skipping The Wire: %s" % exc)
+            wire_data = {}
+
     home_wire = fresh[:HOME_WIRE_COUNT] if fresh else []
     pages = {"index.html": build_index(ours_all, home_wire, live, now_la, now_utc,
                                        feed_ok, len(status))}
     for slug, _label, _blurb, _kw in SECTIONS:
         pages[slug + ".html"] = build_section(slug, ours_by_section[slug], by_section[slug],
                                               live, now_la, now_utc, feed_ok, len(status))
+    pages["wire.html"] = build_wire(wire_data, live, now_la, now_utc, feed_ok, len(status))
 
     written = []
     for name, content in pages.items():

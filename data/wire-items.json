@@ -1,0 +1,42 @@
+{
+  "_note": "The Wire. Everything that reaches the site by a path other than the newsroom's own reporting, plus local Los Angeles community items. wire.py reads this file every run and rebuilds docs/wire.html from it - that page is no longer hand-typed. Add an item here and it is live within the hour.",
+
+  "_how_to_add_an_item": "Copy any block below, change the fields, keep the commas right. Only 'type', 'headline', 'body' and 'date' are required. Everything else can be left out and the page just omits it.",
+
+  "_types": {
+    "community": "Local Los Angeles - an event, a listing, a neighborhood item, a release from a community organization. Labeled COMMUNITY.",
+    "syndicated": "Written somewhere else and carried here with attribution. MUST have source and source_url - the label links out to them. Labeled SYNDICATED.",
+    "sponsored": "A client paid for this. Labeled SPONSORED in gold, and the label is not optional - it is an indexing requirement, not a style choice. 'paid_by' is required so the page can name who paid."
+  },
+
+  "_fields": "type | headline | dek | body | date (YYYY-MM-DD) | source | source_url | paid_by | contact | where | when_text",
+
+  "_rule": "Nothing goes on this page that is not real. No invented organizations, no placeholder people, no made-up releases. An unknown field is left out, never guessed at.",
+
+  "submissions_email": "info@newswirehollywood.com",
+
+  "items": [
+    {
+      "type": "community",
+      "headline": "Academy Museum sets sixth annual gala for October 17, honoring Theron, Domingo and Carpenter",
+      "dek": "The Academy Museum of Motion Pictures returns to Wilshire Boulevard for its benefit gala, with Steven Spielberg, Kate Capshaw and Robert Rodriguez co-chairing.",
+      "body": "The Academy Museum of Motion Pictures holds its sixth annual gala on Saturday, October 17 at the museum, 6067 Wilshire Blvd. Charlize Theron, Colman Domingo and John Carpenter are this year's honorees. Steven Spielberg, Kate Capshaw and Robert Rodriguez are co-chairing, and Rolex presents.\n\nThe gala is the museum's principal annual fundraiser, supporting exhibitions, its film program and education work. Attendance is by invitation and sponsorship; there is no public ticket sale.\n\nPress accreditation runs through the Academy Museum press office. Newswire Hollywood's calendar desk has the museum's press line at (310) 247-3000 and registers through academymuseum.org/press. A credentialing deadline had not been published when this listing was filed.",
+      "date": "2026-09-18",
+      "where": "Academy Museum of Motion Pictures, 6067 Wilshire Blvd, Los Angeles, CA 90036",
+      "when_text": "Saturday, October 17, 2026",
+      "source": "Newswire Hollywood events desk",
+      "contact": "Academy Museum press office &middot; (310) 247-3000 &middot; academymuseum.org/press"
+    },
+    {
+      "type": "community",
+      "headline": "Governors Awards return to Ovation Hollywood November 15 for Close, Norman and Scott",
+      "dek": "The Academy's 17th Governors Awards hands Honorary Oscars to Glenn Close, Floyd Norman and Ridley Scott, with the Thalberg going to producers Christine Vachon and Pamela Koffler.",
+      "body": "The Academy of Motion Picture Arts and Sciences holds the 17th Governors Awards on Sunday, November 15 in the Ray Dolby Ballroom at Ovation Hollywood, 6801 Hollywood Blvd.\n\nGlenn Close, animator Floyd Norman and Ridley Scott receive Honorary Awards. Christine Vachon and Pamela Koffler, the producing partnership behind Killer Films, receive the Irving G. Thalberg Memorial Award. Jennifer Todd produces the evening, which the Academy presents with Rolex.\n\nThe ceremony is by invitation and is not ticketed to the public. Credentials route through the Academy press office at Credentials@oscars.org, the Academy's published credentials address, with registration at press.oscars.org. The credentialing deadline for this cycle had not been published when this listing was filed.",
+      "date": "2026-09-18",
+      "where": "Ray Dolby Ballroom at Ovation Hollywood, 6801 Hollywood Blvd, Los Angeles, CA 90028",
+      "when_text": "Sunday, November 15, 2026",
+      "source": "Newswire Hollywood events desk",
+      "contact": "Academy press office &middot; Credentials@oscars.org &middot; press.oscars.org"
+    }
+  ]
+}
