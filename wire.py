@@ -698,7 +698,7 @@ def build_section(slug, ours, wire_items, takeover, now_la, now_utc, feed_ok, fe
 # takeover sync on the hand-written pages
 # --------------------------------------------------------------------------
 
-def sync_takeover_markers(active_ids, dry_run=False):
+def sync_takeover_markers(active_ids, now_la, dry_run=False):
     """The article pages, calendar, press room and wire page are hand-written and
     wire.py does not regenerate them. Their nav still has to gain and lose the
     takeover item on the same schedule, so each carries a marked block:
@@ -707,8 +707,15 @@ def sync_takeover_markers(active_ids, dry_run=False):
 
     While the takeover is live the block holds the nav item. Once it expires the
     block is emptied - markers stay put as the anchor for the next takeover. This
-    is why no takeover ever needs removing by hand."""
+    is why no takeover ever needs removing by hand.
+
+    Same pass also restamps the dateline. Those pages carried a hand-typed date
+    that nobody remembers to change, so the calendar and press room were reading
+    eight days old on a live news site. Now every page says today."""
     touched = []
+    dateline_re = re.compile(
+        r'(<div class="dateline">Los Angeles, California &middot; )[^<]*(</div>)')
+    today = now_la.strftime("%A, %B %-d, %Y")
     pattern = re.compile(r"<!-- TAKEOVER:([a-z0-9-]+) -->(.*?)<!-- /TAKEOVER:\1 -->", re.S)
     for name in sorted(os.listdir(DOCS)):
         if not name.endswith(".html"):
@@ -726,6 +733,7 @@ def sync_takeover_markers(active_ids, dry_run=False):
             return "<!-- TAKEOVER:%s -->%s<!-- /TAKEOVER:%s -->" % (tid, want, tid)
 
         updated = pattern.sub(replace, original)
+        updated = dateline_re.sub(r"\g<1>" + today + r"\g<2>", updated)
         if updated != original:
             touched.append(name)
             if not dry_run:
@@ -831,7 +839,7 @@ def main():
     if live:
         active_ids[live["id"]] = ('<li><a href="%s" style="color:var(--signal)">%s</a></li>'
                                   % (live["link"], live["nav_label"]))
-    touched = sync_takeover_markers(active_ids, dry_run)
+    touched = sync_takeover_markers(active_ids, now_la, dry_run)
 
     if not dry_run:
         write_status_log(status, now_utc, len(fresh), dropped_old)
