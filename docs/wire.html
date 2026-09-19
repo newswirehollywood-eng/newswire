@@ -4,19 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Wire | Newswire Hollywood</title>
-<meta name="description" content="Newswire Hollywood's wire: syndicated coverage carried with attribution, and paid distribution labeled as sponsored. Never mixed with our own editorial reporting.">
-<meta property="og:title" content="The Wire">
+<meta name="description" content="Local Los Angeles items, syndicated coverage carried with attribution, and clearly labeled sponsored releases.">
+<meta property="og:title" content="The Wire | Newswire Hollywood">
+<meta property="og:description" content="Local Los Angeles items, syndicated coverage carried with attribution, and clearly labeled sponsored releases.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://newswirehollywood.com/wire.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
+:root{--ink:#000;--body:#2B2B2B;--paper:#FDFBF6;--rule:#D6D4D0;--rule-soft:#EDEBE8;--signal:#D1002E;--date:#B8860B;--flag:#F5C518;--hed:'Archivo Narrow',Arial Narrow,sans-serif;--txt:'Newsreader',Georgia,serif;--wrap:1180px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:17px;line-height:1.55}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+img{display:block;max-width:100%}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 18px}
 .masthead{background:var(--ink);color:#fff;padding:18px 0 14px}
 .brand{font-family:var(--hed);font-weight:700;font-size:34px;line-height:.95;letter-spacing:-.5px;text-transform:uppercase;display:block}
@@ -26,33 +29,60 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .nav{background:var(--ink);border-top:1px solid #262626;overflow-x:auto}
 .nav ul{display:flex;list-style:none;white-space:nowrap;gap:22px;padding:11px 18px;max-width:var(--wrap);margin:0 auto}
 .nav a{font-family:var(--hed);font-weight:600;font-size:13.5px;letter-spacing:.06em;color:#E8E8E8;text-transform:uppercase}
-.nav a:hover{color:var(--signal)}
-.nav a.current{color:var(--signal)}
-.hero{border-bottom:3px solid var(--ink);padding:34px 0 26px}
-.kicker{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);display:inline-block;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--date)}
-.hero h1{font-family:var(--hed);font-weight:700;font-size:clamp(30px,6vw,50px);line-height:1;letter-spacing:-.8px;color:var(--ink);margin-bottom:12px}
-.hero p{font-size:17.5px;max-width:42em;color:#4A4A4A}
-h2.sect{font-family:var(--hed);font-weight:700;font-size:22px;color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:40px 0 8px}
-.sect-note{font-size:15px;color:#6A6A6A;margin-bottom:20px}
-.tag{display:inline-block;font-family:var(--hed);font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:3px 8px;margin-right:8px;vertical-align:2px;border-radius:2px}
-.tag.syndicated{background:#4A5568;color:#fff}
-.tag.sponsored{background:var(--date);color:#fff}
-.empty{border-top:2px solid var(--rule);padding:28px 0;color:#6A6A6A;font-size:16px;max-width:42em}
-.note{background:#F7F5F2;border-left:4px solid var(--date);padding:16px 18px;margin:24px 0;font-size:15.5px;max-width:42em}
-.note b{font-family:var(--hed);display:block;margin-bottom:4px;color:var(--ink)}
-footer{border-top:3px solid var(--ink);margin-top:52px;padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
+.nav a:hover,.nav a.current{color:var(--signal)}
+.takeover-banner{background:var(--signal);color:#fff;text-align:center;padding:9px 18px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.takeover-banner a{color:#fff;border-bottom:1px solid rgba(255,255,255,.6)}
+.carpet{background:var(--ink);border-top:3px solid var(--date);border-bottom:3px solid var(--date);overflow:hidden;padding:10px 0}
+.carpet-track{display:flex;white-space:nowrap;font-family:var(--hed);font-weight:700;font-size:12.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--date)}
+.carpet-track span{padding:0 26px;flex:none}
+.carpet-track span:not(:last-child)::after{content:'\2726';margin-left:26px;color:var(--signal)}
+.lede{position:relative;min-height:60vh;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden;border-bottom:3px solid var(--ink)}
+.lede>.wrap{width:100%}
+.lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.lede-fill{position:absolute;inset:0}
+.lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
+.lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
+.lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
+.lede h1 a:hover{color:var(--flag)}
+.lede p{font-size:19px;color:#E4E4E4;line-height:1.45;max-width:34em}
+.lede .credit{font-family:var(--hed);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#B0B0B0;margin-top:16px}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{font-family:var(--hed);font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;background:var(--signal);color:#fff}
+.tag.flag{background:var(--flag);color:#111}
+.tag.ours{background:var(--date);color:#111}
+h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);color:var(--ink);border-bottom:3px solid var(--ink);padding-bottom:8px;margin:48px 0 6px}
+.sect-note{font-size:15.5px;color:#6A6A6A;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{display:flex;flex-direction:column;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
+.card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .shot .well{position:absolute;inset:0}
+.card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
+.card:hover h3{color:var(--signal)}
+.card p{font-size:14.5px;line-height:1.48;color:#5A5A5A}
+.card .credit{font-family:var(--hed);font-size:11.5px;letter-spacing:.04em;color:#8A8A8A;margin-top:10px}
+.card .credit b{color:var(--ink);font-weight:600}
+.empty{border-top:2px solid var(--rule);padding:26px 0;margin-top:26px;color:#6A6A6A;font-size:16px;max-width:44em}
+.band{background:var(--ink);color:#fff;padding:36px 0;margin-top:56px}
+.band h2{font-family:var(--hed);font-weight:700;font-size:clamp(22px,4.5vw,32px);margin-bottom:9px}
+.band p{color:#B4B4B4;max-width:48em}
+.band a{color:var(--date);border-bottom:1px solid var(--date)}
+footer{border-top:3px solid var(--ink);padding:26px 0 46px;font-family:var(--hed);font-size:13px;color:#6A6A6A}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transform:uppercase;font-size:12.5px}
+footer nav a:hover{color:var(--signal)}
+.machine{font-size:12.5px;color:#8A8A8A;margin-top:10px;font-family:var(--hed)}
 </style>
 </head>
 <body>
-
 <header class="masthead"><div class="wrap">
 <a class="brand" href="index.html">Newswire <em>Hollywood</em></a>
 <div class="standfirst">The business behind the business</div>
 <div class="dateline">Los Angeles, California &middot; Friday, September 18, 2026</div>
 </div></header>
-
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="film.html">Film</a></li>
@@ -61,47 +91,43 @@ footer nav a{color:var(--ink);font-weight:600;letter-spacing:.05em;text-transfor
 <li><a href="fashion.html">Fashion</a></li>
 <li><a href="deals.html">Deals</a></li>
 <li><a href="ai-tech.html">AI &amp; Big Tech</a></li>
+<li><a href="international.html">International</a></li>
 <li><a href="calendar.html">The Calendar</a></li>
-<!-- TAKEOVER:emmys-2026 --><li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li><!-- /TAKEOVER:emmys-2026 -->
-<li><a href="wire.html" class="current">The Wire</a></li>
+<li><a href="emmys-2026.html" style="color:var(--signal)">Emmys 2026</a></li>
+<li><a href="wire.html">The Wire</a></li>
 <li><a href="pressroom.html">Press Room</a></li>
 </ul></nav>
-
+<div class="takeover-banner"><a href="emmys-2026.html">Emmys 2026: full winners list and red carpet recap, updating now &rarr;</a></div>
+<div class="wrap"><div class="hero">
+<span class="kicker">The Wire</span>
+<h1>The Wire</h1>
+<p>Local Los Angeles, and everything that reaches this site by a path other than our own newsroom. Three kinds of item run here, each labeled so you can tell them apart at a glance.</p>
+</div></div>
 <main><div class="wrap">
-
-<div class="hero">
-  <span class="kicker">The Wire</span>
-  <h1>The Wire</h1>
-  <p>Content that reaches this site by a different path than our own reporting: coverage written elsewhere and carried with attribution, and paid releases formatted and distributed on behalf of a client. Both run here, clearly labeled, and neither is edited or selected by the Newsroom.</p>
+<p class="sect-note"><span class="lbl community">COMMUNITY</span> Local Los Angeles. Ours, or submitted by the organization named. <span class="lbl syndicated">SYNDICATED</span> Written elsewhere, carried here with attribution and a link out. <span class="lbl sponsored">SPONSORED</span> Paid placement. Labeled, and never selected or edited by the Newsroom.</p>
+<article class="wireitem"><span class="lbl community">COMMUNITY</span><h3>Academy Museum sets sixth annual gala for October 17, honoring Theron, Domingo and Carpenter</h3><div class="whenwhere">Saturday, October 17, 2026 &middot; Academy Museum of Motion Pictures, 6067 Wilshire Blvd, Los Angeles, CA 90036</div><p class="dek">The Academy Museum of Motion Pictures returns to Wilshire Boulevard for its benefit gala, with Steven Spielberg, Kate Capshaw and Robert Rodriguez co-chairing.</p><p class="para">The Academy Museum of Motion Pictures holds its sixth annual gala on Saturday, October 17 at the museum, 6067 Wilshire Blvd. Charlize Theron, Colman Domingo and John Carpenter are this year's honorees. Steven Spielberg, Kate Capshaw and Robert Rodriguez are co-chairing, and Rolex presents.</p><p class="para">The gala is the museum's principal annual fundraiser, supporting exhibitions, its film program and education work. Attendance is by invitation and sponsorship; there is no public ticket sale.</p><p class="para">Press accreditation runs through the Academy Museum press office. Newswire Hollywood's calendar desk has the museum's press line at (310) 247-3000 and registers through academymuseum.org/press. A credentialing deadline had not been published when this listing was filed.</p><div class="wiremeta">Source: <b>Newswire Hollywood events desk</b> &middot; Contact: Academy Museum press office &middot; (310) 247-3000 &middot; academymuseum.org/press &middot; Filed 2026-09-18</div></article><article class="wireitem"><span class="lbl community">COMMUNITY</span><h3>Governors Awards return to Ovation Hollywood November 15 for Close, Norman and Scott</h3><div class="whenwhere">Sunday, November 15, 2026 &middot; Ray Dolby Ballroom at Ovation Hollywood, 6801 Hollywood Blvd, Los Angeles, CA 90028</div><p class="dek">The Academy's 17th Governors Awards hands Honorary Oscars to Glenn Close, Floyd Norman and Ridley Scott, with the Thalberg going to producers Christine Vachon and Pamela Koffler.</p><p class="para">The Academy of Motion Picture Arts and Sciences holds the 17th Governors Awards on Sunday, November 15 in the Ray Dolby Ballroom at Ovation Hollywood, 6801 Hollywood Blvd.</p><p class="para">Glenn Close, animator Floyd Norman and Ridley Scott receive Honorary Awards. Christine Vachon and Pamela Koffler, the producing partnership behind Killer Films, receive the Irving G. Thalberg Memorial Award. Jennifer Todd produces the evening, which the Academy presents with Rolex.</p><p class="para">The ceremony is by invitation and is not ticketed to the public. Credentials route through the Academy press office at Credentials@oscars.org, the Academy's published credentials address, with registration at press.oscars.org. The credentialing deadline for this cycle had not been published when this listing was filed.</p><div class="wiremeta">Source: <b>Newswire Hollywood events desk</b> &middot; Contact: Academy press office &middot; Credentials@oscars.org &middot; press.oscars.org &middot; Filed 2026-09-18</div></article>
+<div class="submit">
+<h3>Submit to The Wire</h3>
+<p>Local organizations, venues and publicists: send releases, event listings and community notices to <a href="mailto:info@newswirehollywood.com"><b>info@newswirehollywood.com</b></a>.</p>
+<p>Include a date, a location and a named contact we can reach. We run local items free. Paid distribution is a separate service and anything paid for is labeled as such on this page.</p>
 </div>
-
-<div class="note">
-  <b>Why this page exists separately</b>
-  Newswire Hollywood moves content three ways: Originated (our own reporting), Syndicated In (written elsewhere, run here tagged and attributed), and Paid Out (a client pays, we format and distribute it, labeled as sponsored). The Wire is where the second and third live. Nothing on this page was assigned, reported, or edited by the Newsroom, and nothing on the Newsroom's own pages is paid placement. That separation is the whole point &mdash; see our <a href="pressroom.html#standards" style="color:var(--signal);border-bottom:1px solid var(--signal)">editorial standards</a>.
-</div>
-
-<h2 class="sect">Syndicated</h2>
-<p class="sect-note">Written elsewhere, run here with full attribution to the outlet that reported it first.</p>
-<div class="empty">Nothing has run through the Syndicated intake path yet. When it does, it appears here tagged <span class="tag syndicated">Syndicated</span> with the original outlet credited in the byline.</div>
-
-<h2 class="sect">Sponsored</h2>
-<p class="sect-note">Paid distribution, formatted to house template, always labeled.</p>
-<div class="empty">Nothing has run through the Paid intake path yet. Rate card and submission details are on the <a href="pressroom.html" style="color:var(--signal);border-bottom:1px solid var(--signal)">Press Room</a> page. When a release runs, it appears here tagged <span class="tag sponsored">Sponsored</span>.</div>
-
 </div></main>
-
 <footer><div class="wrap">
 <nav>
 <a href="index.html">Home</a>
 <a href="calendar.html">The Calendar</a>
+<a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
+<a href="pressroom.html#advertise">Advertise</a>
+<a href="pressroom.html#standards">Standards &amp; Corrections</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
+<div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
+from their own public feed with their own photo and a link to the original. Our reporting carries a
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-19 06:34 UTC from 9 of 9 feeds.</div>
 </div></footer>
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"The Wire","description":"Syndicated and sponsored content, clearly labeled and separate from Newswire Hollywood's own editorial reporting.","url":"https://newswirehollywood.com/wire.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"The Wire","description":"Local Los Angeles items, syndicated coverage carried with attribution, and clearly labeled sponsored releases.","url":"https://newswirehollywood.com/wire.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
 </script>
-
 </body>
 </html>
