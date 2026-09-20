@@ -1786,3 +1786,19 @@ Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as ol
 | Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
 | TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
 | The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-20 21:14 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 7 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
