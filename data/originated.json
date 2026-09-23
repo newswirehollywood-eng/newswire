@@ -2,6 +2,24 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover",
+      "dek": "The deal survives a lawsuit that could have killed it &mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.",
+      "url": "paramount-warner-settlement-foreign-ownership.html",
+      "section": "deals",
+      "tag": "Pending a judge",
+      "byline": "By the Deals Desk, Newswire Hollywood",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million",
+      "dek": "The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.",
+      "url": "resident-evil-franchise-record-world-war-z.html",
+      "section": "film",
+      "tag": "Box office",
+      "byline": "By the Film Desk, Newswire Hollywood",
+      "date": "2026-09-22"
+    },
+    {
       "title": "Emmys 2026: the winners",
       "dek": "The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. \"Hacks\" took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.",
       "url": "emmys-2026.html",
