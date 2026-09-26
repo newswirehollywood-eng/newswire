@@ -55,3 +55,33 @@ This session can search the web but cannot browse a live page directly — a dir
 > — Newswire Hollywood Music Desk
 
 Once either reply comes back with a real "yes, here's the image and here's how to credit it," send it my way and I'll add it to the live page with the license recorded, per Rule 22 — that's a same-day turnaround on my end.
+
+---
+
+## LICENSE RECORD — Freda Payne, added 2026-09-26
+
+Four photographs of Freda Payne were supplied directly by Terry Bryant for use
+on the artist's landing page (docs/freda.html), in the course of Newswire
+Hollywood / PR STARPOWER's publicity work for her Catalina Jazz Club
+engagement.
+
+| File | Source | Permission |
+| --- | --- | --- |
+| docs/img/freda-hero.jpg | Supplied by Terry Bryant, 2026-09-26 | Artist-supplied publicity photo, provided for this use |
+| docs/img/freda-yellow.jpg | Supplied by Terry Bryant, 2026-09-26 | Same |
+| docs/img/freda-white.jpg | Supplied by Terry Bryant, 2026-09-26 | Same |
+| docs/img/freda-portrait.jpg | Supplied by Terry Bryant, 2026-09-26 | Same |
+
+Credited on the page as "Photographs courtesy of the artist."
+
+Open item for Terry: no individual photographer credit was supplied with these
+files. If any of them carry a photographer's byline, send it and the credit
+line gets updated - a working photographer's name belongs on their picture.
+These are the artist's own publicity images, not wire or stock, so nothing here
+touches the no-unlicensed-sourcing rule.
+
+Also noted 2026-09-26: Freda Payne is no longer with Yorkshire Publishing. The
+signed-copies link to that publisher has been removed from the landing page.
+The Amazon listing remains, since it is where the book is actually purchasable
+and the ISBN records the edition as published. If she has a new publisher or a
+direct sales channel, that becomes the primary book link.
