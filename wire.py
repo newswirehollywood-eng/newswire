@@ -842,10 +842,11 @@ def sync_takeover_markers(active_ids, now_la, dry_run=False):
 
         def replace(m):
             tid, inner = m.group(1), m.group(2)
-            if tid in active_ids:
-                want = active_ids[tid]
-            else:
-                want = ""
+            # A marker used to only fill for its own id, which meant every new
+            # takeover needed fresh markers hand-placed into every hand-written
+            # page before its nav item could appear. Any marker now carries
+            # whichever takeover is live, so a new event works on day one.
+            want = active_ids.get(tid) or (next(iter(active_ids.values())) if active_ids else "")
             return "<!-- TAKEOVER:%s -->%s<!-- /TAKEOVER:%s -->" % (tid, want, tid)
 
         updated = pattern.sub(replace, original)
