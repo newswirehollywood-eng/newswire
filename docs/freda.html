@@ -8,7 +8,7 @@
 <meta property="og:title" content="Freda Payne — Band of Gold: A Memoir">
 <meta property="og:description" content="Two-time Grammy nominee. The memoir, the music, and where to find her.">
 <meta property="og:type" content="profile">
-<meta property="og:image" content="https://newswirehollywood.com/img/freda-hero.jpg">
+<meta property="og:image" content="https://newswirehollywood.com/img/freda-cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://newswirehollywood.com/freda.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,13 +37,17 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:3px}
 .by b{color:var(--signal);font-weight:700}
 
 /* ── hero ────────────────────────────────────────── */
-.hero{position:relative;background:var(--ink)}
-.hero img{width:100%;object-fit:cover;object-position:center 18%;aspect-ratio:3/4}
-.hero::after{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(to bottom,rgba(11,11,11,.12) 0%,rgba(11,11,11,0) 32%,rgba(11,11,11,.58) 72%,rgba(11,11,11,.92) 100%);
+.hero{background:var(--ink);padding:28px 20px 30px;text-align:center}
+.hero .cover{
+  max-width:360px;margin:0 auto;display:block;width:100%;
+  box-shadow:0 18px 48px rgba(0,0,0,.55),0 2px 0 rgba(255,255,255,.07);
 }
-.hero .plate{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:0 22px 26px;text-align:center}
+.hero .cap{
+  font-family:var(--hed);font-weight:600;font-size:10.5px;letter-spacing:.17em;
+  text-transform:uppercase;color:#9C958A;margin-top:16px;line-height:1.5;
+}
+.hero .cap b{color:#E8DFCF;font-weight:700}
+.hero .plate{padding:26px 2px 0;text-align:center}
 .kicker{
   display:inline-block;font-family:var(--hed);font-weight:700;font-size:10px;
   letter-spacing:.24em;text-transform:uppercase;color:#F0D890;
@@ -52,7 +56,7 @@ a:focus-visible{outline:2px solid var(--signal);outline-offset:3px}
 .hero h1{
   font-family:var(--hed);font-weight:700;color:#fff;
   font-size:clamp(46px,14vw,74px);line-height:.88;letter-spacing:-1.5px;text-transform:uppercase;
-  text-shadow:0 2px 24px rgba(0,0,0,.45);
+  
 }
 .hero .sub{
   font-family:var(--hed);font-weight:500;font-size:12px;letter-spacing:.2em;
@@ -77,7 +81,7 @@ a.btn .note{font-size:14px;opacity:.72;margin-top:3px;display:block;line-height:
 a.btn .arw{flex:0 0 auto;font-family:var(--hed);font-weight:700;font-size:19px;opacity:.5}
 
 /* ── gallery ─────────────────────────────────────── */
-.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:30px}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:30px}
 .gal img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 20%;background:var(--warm)}
 
 /* ── bio ─────────────────────────────────────────── */
@@ -106,7 +110,9 @@ footer .row{margin-bottom:9px}
 <div class="wrap"><div class="by">Presented by <b>Newswire Hollywood</b></div></div>
 
 <header class="hero">
-  <img src="img/freda-hero.jpg" alt="Freda Payne" fetchpriority="high">
+  <img class="cover" src="img/freda-cover.jpg"
+       alt="Freda Payne on the March cover of Decree Entertainment Magazine" fetchpriority="high">
+  <div class="cap">On the cover &mdash; <b>Decree Entertainment Magazine</b></div>
   <div class="plate">
     <span class="kicker">Two-time Grammy nominee</span>
     <h1>Freda<br>Payne</h1>
@@ -155,6 +161,7 @@ footer .row{margin-bottom:9px}
   </nav>
 
   <div class="gal">
+    <img src="img/freda-piano.jpg" alt="Freda Payne" loading="lazy">
     <img src="img/freda-yellow.jpg" alt="Freda Payne" loading="lazy">
     <img src="img/freda-white.jpg" alt="Freda Payne" loading="lazy">
     <img src="img/freda-portrait.jpg" alt="Freda Payne" loading="lazy">
@@ -177,7 +184,7 @@ footer .row{margin-bottom:9px}
       &nbsp;&middot;&nbsp;
       <a href="https://newswirehollywood.com/">Newswire Hollywood</a>
     </div>
-    <div>Photographs courtesy of the artist</div>
+    <div>Cover courtesy of Decree Entertainment Magazine<br>Photographs courtesy of the artist</div>
   </footer>
 
 </div>

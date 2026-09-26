@@ -85,3 +85,24 @@ signed-copies link to that publisher has been removed from the landing page.
 The Amazon listing remains, since it is where the book is actually purchasable
 and the ISBN records the edition as published. If she has a new publisher or a
 direct sales channel, that becomes the primary book link.
+
+### Added 2026-09-26 — Decree Entertainment Magazine cover
+
+| File | Source | Permission |
+| --- | --- | --- |
+| docs/img/freda-cover.jpg | Freda Payne press kit, supplied by Terry Bryant via PR STARPOWER, 2026-09-26 | Artist press-kit asset, provided for this use |
+
+Now the lead image on docs/freda.html. Shown whole - masthead, cover lines and
+barcode intact - rather than cropped down to the photograph, because the point
+of the image is that she is a cover star. Credited on the page as "Cover
+courtesy of Decree Entertainment Magazine."
+
+Note for the record: a magazine cover carries two layers of rights - the
+photographer's, and the publication's masthead and design. This one arrives via
+her own press kit, which is what press kits are for, and the publication is
+named and credited prominently. If Decree ever asks for different treatment,
+the credit line and the image are a two-minute change.
+
+Still open: no photographer credit was supplied for the cover or the four
+portraits. Worth asking her team once - a working photographer's name belongs
+on their picture.
