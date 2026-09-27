@@ -468,6 +468,7 @@ def head_html(title, description, canonical):
 <meta property="og:description" content="%s">
 <meta property="og:type" content="website">
 <link rel="canonical" href="%s">
+<link rel="alternate" type="application/rss+xml" title="Newswire Hollywood" href="https://newswirehollywood.com/feed.xml">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 %s
 <style>
