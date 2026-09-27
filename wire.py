@@ -892,7 +892,15 @@ def commons_photo(subject):
             return None
         src = pages[0]["original"]["source"]
 
-        filename = "File:" + urllib.parse.unquote(src.rsplit("/", 1)[-1])
+        bare = src.split("?", 1)[0].split("#", 1)[0]
+        filename = "File:" + urllib.parse.unquote(bare.rsplit("/", 1)[-1])
+
+        # Story art means a photograph. A logo or a video still is not one, and
+        # an SVG wordmark on a news card looks like a placeholder.
+        if not re.search(r"\.(jpe?g|png)$", bare, re.I):
+            print("commons: %r lead image is %s, not a photograph - skipped"
+                  % (subject, bare.rsplit(".", 1)[-1].lower()))
+            return None
         info = _api_get({
             "action": "query", "format": "json", "formatversion": "2",
             "titles": filename, "prop": "imageinfo",
@@ -924,7 +932,7 @@ def commons_photo(subject):
             return None
 
         return {
-            "url": src,
+            "url": bare,
             "author": author,
             "licence": licence,
             "page": _strip_html(ex.get("DescriptionUrl", {}).get("value", ""))
