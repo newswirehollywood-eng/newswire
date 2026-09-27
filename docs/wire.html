@@ -59,6 +59,11 @@ h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);co
 .card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
 .card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .card .shot .well{position:absolute;inset:0}
+.card .shot .well.plate{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px}
+.card .shot .well.plate::after{content:none}
+.plate-desk{font-family:var(--hed);font-weight:700;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:#fff;line-height:1.25}
+.plate-rule{display:block;width:34px;height:2px;background:var(--date);margin:9px 0}
+.plate-mark{font-family:var(--hed);font-weight:600;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.62)}
 .card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
 .card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
 .card:hover h3{color:var(--signal)}
@@ -124,7 +129,7 @@ footer nav a:hover{color:var(--signal)}
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
 <div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
 from their own public feed with their own photo and a link to the original. Our reporting carries a
-Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-27 11:14 UTC from 9 of 9 feeds.</div>
+Newswire Hollywood desk byline. Page rebuilt automatically 2026-09-27 12:04 UTC from 9 of 9 feeds.</div>
 </div></footer>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"CollectionPage","name":"The Wire","description":"Local Los Angeles items, syndicated coverage carried with attribution, and clearly labeled sponsored releases.","url":"https://newswirehollywood.com/wire.html","publisher":{"@type":"NewsMediaOrganization","name":"Newswire Hollywood"}}
