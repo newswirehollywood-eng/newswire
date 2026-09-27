@@ -3,3 +3,5 @@ Allow: /
 
 Sitemap: https://newswirehollywood.com/sitemap.xml
 Sitemap: https://newswirehollywood.com/news-sitemap.xml
+
+Sitemap: https://newswirehollywood.com/feed.xml

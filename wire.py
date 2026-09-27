@@ -996,6 +996,134 @@ def attach_photos(originated, dry_run=False):
 
 
 # --------------------------------------------------------------------------
+# Our own RSS feed
+# --------------------------------------------------------------------------
+# We pull nine feeds and published none of our own, which meant every
+# aggregator that moves stories around the internet - Google News, Apple News,
+# Flipboard, SmartNews, MSN, Feedly, and every newsroom that watches rivals the
+# way we watch ours - had no way to see us. A wire service that cannot be
+# subscribed to is not on the wire.
+
+def rfc822(datestr):
+    """RSS wants RFC-822 dates. Our stories carry YYYY-MM-DD."""
+    try:
+        d = datetime.strptime(datestr, "%Y-%m-%d").replace(tzinfo=LA)
+    except (ValueError, TypeError):
+        d = datetime.now(LA)
+    return d.strftime("%a, %d %b %Y %H:%M:%S %z")
+
+
+def build_rss(ours, now_la):
+    site = "https://newswirehollywood.com"
+    items = []
+    for a in ours[:40]:
+        link = "%s/%s" % (site, a.get("link", "").lstrip("/"))
+        enclosure = ""
+        img = a.get("image", "")
+        if img:
+            if not img.startswith("http"):
+                img = "%s/%s" % (site, img.lstrip("/"))
+            # media:content is what aggregators read for the card image.
+            enclosure = ('<media:content url="%s" medium="image"/>'
+                         '<media:thumbnail url="%s"/>' % (esc(img), esc(img)))
+        items.append(
+            "<item>"
+            "<title>%s</title>"
+            "<link>%s</link>"
+            "<guid isPermaLink=\"true\">%s</guid>"
+            "<pubDate>%s</pubDate>"
+            "<dc:creator>%s</dc:creator>"
+            "<description>%s</description>"
+            "%s"
+            "</item>"
+            % (esc(a.get("title", "")), esc(link), esc(link),
+               rfc822(a.get("date", "")),
+               esc(a.get("byline", "Newswire Hollywood")),
+               esc(a.get("dek", "")), enclosure))
+
+    return ("""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Newswire Hollywood</title>
+<link>%s</link>
+<atom:link href="%s/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Breaking entertainment industry news from Los Angeles - film, television, music, deals and the business behind the business.</description>
+<language>en-us</language>
+<copyright>Copyright %d Newswire Hollywood</copyright>
+<lastBuildDate>%s</lastBuildDate>
+<ttl>15</ttl>
+<image><url>%s/img/freda-cover.jpg</url><title>Newswire Hollywood</title><link>%s</link></image>
+%s
+</channel>
+</rss>
+""" % (site, site, now_la.year,
+       now_la.strftime("%a, %d %b %Y %H:%M:%S %z"), site, site,
+       "\n".join(items)))
+
+
+def sync_social_tags(originated, now_la, dry_run=False):
+    """Give every article page a complete share card.
+
+    Pages carried og:title and og:type and nothing else, so a link shared
+    anywhere rendered as plain text. This fills in description, url, image,
+    site_name and the Twitter card from the same manifest that drives the
+    index pages, so the card can never drift from the story."""
+    by_file = {}
+    for a in originated:
+        by_file[a.get("url", "")] = a
+
+    touched = []
+    for name in sorted(os.listdir(DOCS)):
+        if not name.endswith(".html") or name.startswith("_"):
+            continue
+        meta = by_file.get(name)
+        if not meta:
+            continue
+        path = os.path.join(DOCS, name)
+        with open(path, encoding="utf-8") as f:
+            original = f.read()
+
+        url = "https://newswirehollywood.com/" + name
+        img = meta.get("image", "")
+        if img and not img.startswith("http"):
+            img = "https://newswirehollywood.com/" + img.lstrip("/")
+        if not img:
+            img = "https://newswirehollywood.com/img/freda-cover.jpg"
+
+        tags = [
+            ('og:description', meta.get("dek", "")),
+            ('og:url', url),
+            ('og:image', img),
+            ('og:site_name', "Newswire Hollywood"),
+            ('article:published_time', meta.get("date", "")),
+        ]
+        block = "".join(
+            '<meta property="%s" content="%s">\n' % (k, esc(v)) for k, v in tags if v)
+        block += ('<meta name="twitter:card" content="summary_large_image">\n'
+                  '<meta name="twitter:title" content="%s">\n'
+                  '<meta name="twitter:description" content="%s">\n'
+                  '<meta name="twitter:image" content="%s">\n'
+                  % (esc(meta.get("title", "")), esc(meta.get("dek", "")), esc(img)))
+
+        # Replace any previous block so repeated runs do not stack duplicates.
+        updated = re.sub(r"<!-- SOCIAL -->.*?<!-- /SOCIAL -->", "", original, flags=re.S)
+        marked = "<!-- SOCIAL -->\n" + block + "<!-- /SOCIAL -->"
+        if "</head>" not in updated:
+            continue
+        updated = updated.replace("</head>", marked + "\n</head>", 1)
+
+        if updated != original:
+            touched.append(name)
+            if not dry_run:
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(updated)
+    return touched
+
+
+# --------------------------------------------------------------------------
 # takeover sync on the hand-written pages
 # --------------------------------------------------------------------------
 
@@ -1143,6 +1271,7 @@ def main():
         pages[slug + ".html"] = build_section(slug, ours_by_section[slug], by_section[slug],
                                               live, now_la, now_utc, feed_ok, len(status))
     pages["wire.html"] = build_wire(wire_data, live, now_la, now_utc, feed_ok, len(status))
+    pages["feed.xml"] = build_rss(ours_all, now_la)
 
     written = []
     for name, content in pages.items():
@@ -1163,6 +1292,9 @@ def main():
         active_ids[live["id"]] = ('<li><a href="%s" style="color:var(--signal)">%s</a></li>'
                                   % (live["link"], live["nav_label"]))
     touched = sync_takeover_markers(active_ids, now_la, dry_run)
+    social = sync_social_tags(originated, now_la, dry_run)
+    if social:
+        print("share cards refreshed on: %s" % ", ".join(social))
 
     if not dry_run:
         write_status_log(status, now_utc, len(fresh), dropped_old)
