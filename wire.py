@@ -895,24 +895,33 @@ def commons_photo(subject):
         info = _api_get({
             "action": "query", "format": "json", "formatversion": "2",
             "titles": filename, "prop": "imageinfo",
-            "iiprop": "extmetadata|url", "iiextmetadatafilter":
-            "Artist|LicenseShortName|License|Credit|DescriptionUrl",
+            "iiprop": "extmetadata|url",
         })
         ipages = info.get("query", {}).get("pages", [])
         ex = {}
         if ipages and ipages[0].get("imageinfo"):
             ex = ipages[0]["imageinfo"][0].get("extmetadata", {}) or {}
 
-        licence = _strip_html(ex.get("LicenseShortName", {}).get("value", ""))
+        licence = (_strip_html(ex.get("LicenseShortName", {}).get("value", ""))
+                   or _strip_html(ex.get("License", {}).get("value", "")))
         # Anything not clearly free is not ours to run.
         if licence and re.search(r"fair use|non-?free|copyright", licence, re.I):
             return None
 
+        author = (_strip_html(ex.get("Artist", {}).get("value", ""))
+                  or _strip_html(ex.get("Credit", {}).get("value", "")))
+        if not author or not licence:
+            # No identifiable photographer or no stated licence means we cannot
+            # credit it properly, so we do not run it.
+            print("commons: %r has no usable attribution - skipped" % subject)
+            return None
+
         return {
             "url": src,
-            "author": _strip_html(ex.get("Artist", {}).get("value", "")) or "Wikimedia Commons",
-            "licence": licence or "See Wikimedia Commons",
-            "page": _strip_html(ex.get("DescriptionUrl", {}).get("value", "")),
+            "author": author,
+            "licence": licence,
+            "page": _strip_html(ex.get("DescriptionUrl", {}).get("value", ""))
+                    or "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(filename),
         }
     except Exception as exc:
         # Raised, not answered. The caller must retry next run rather than
