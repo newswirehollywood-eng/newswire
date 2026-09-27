@@ -902,6 +902,12 @@ def commons_photo(subject):
         ex = {}
         if ipages and ipages[0].get("imageinfo"):
             ex = ipages[0]["imageinfo"][0].get("extmetadata", {}) or {}
+        else:
+            # Diagnostic: cannot reach this API from the build sandbox, so CI
+            # has to report what it actually received.
+            p0 = ipages[0] if ipages else {}
+            print("  commons-debug %s -> missing=%s keys=%s"
+                  % (filename, p0.get("missing"), sorted(p0.keys())[:6]))
 
         licence = (_strip_html(ex.get("LicenseShortName", {}).get("value", ""))
                    or _strip_html(ex.get("License", {}).get("value", "")))
