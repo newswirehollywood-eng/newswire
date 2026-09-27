@@ -8,7 +8,8 @@
       "section": "music",
       "tag": "Sunday night",
       "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-26"
+      "date": "2026-09-26",
+      "photo_subject": "Madonna"
     },
     {
       "title": "Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles",
@@ -17,7 +18,8 @@
       "section": "music",
       "tag": "Tonight",
       "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-26"
+      "date": "2026-09-26",
+      "photo_subject": "Usher (musician)"
     },
     {
       "title": "Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover",
@@ -26,7 +28,8 @@
       "section": "deals",
       "tag": "Pending a judge",
       "byline": "By the Deals Desk, Newswire Hollywood",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "photo_subject": "Warner Bros. Discovery"
     },
     {
       "title": "Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million",
@@ -35,7 +38,8 @@
       "section": "film",
       "tag": "Box office",
       "byline": "By the Film Desk, Newswire Hollywood",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "photo_subject": "Brad Pitt"
     },
     {
       "title": "Emmys 2026: the winners",
@@ -44,7 +48,8 @@
       "section": "television",
       "tag": "Live / Updating",
       "byline": "By the Awards Desk, Newswire Hollywood",
-      "date": "2026-09-16"
+      "date": "2026-09-16",
+      "photo_subject": "Jean Smart"
     },
     {
       "title": "Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'",
@@ -53,7 +58,8 @@
       "section": "film",
       "tag": "Toronto 2026",
       "byline": "By the Film Desk, Newswire Hollywood",
-      "date": "2026-09-11"
+      "date": "2026-09-11",
+      "photo_subject": "Judy Heumann"
     },
     {
       "title": "'The Odyssey' breaks IMAX's all-time box office record",
@@ -62,7 +68,8 @@
       "section": "deals",
       "tag": "Box office",
       "byline": "By the Deals Desk, Newswire Hollywood",
-      "date": "2026-09-11"
+      "date": "2026-09-11",
+      "photo_subject": "IMAX"
     },
     {
       "title": "Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data",
@@ -71,7 +78,8 @@
       "section": "ai-tech",
       "tag": "Filed, not resolved",
       "byline": "By the AI & Technology Desk, Newswire Hollywood",
-      "date": "2026-09-11"
+      "date": "2026-09-11",
+      "photo_subject": "Sony Music Publishing"
     },
     {
       "title": "Freda Payne returns to Catalina with a tribute to the women who built the songbook",

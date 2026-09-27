@@ -56,6 +56,8 @@ there is always a record of which feeds answered and which were dropped.
 
 import html
 import json
+import urllib.parse
+import urllib.request
 import os
 import re
 import sys
@@ -559,7 +561,13 @@ def card_html(item, index, is_ours=False):
     if is_ours:
         tags = '<span class="tag ours">%s</span>' % esc(item.get("tag", "Ours"))
         head = '<h3><a href="%s">%s</a></h3>' % (esc(item["link"]), esc(item["title"]))
-        credit = '<div class="credit">%s</div>' % esc(item.get("byline", ""))
+        photo_line = ""
+        if item.get("image") and item.get("photo_author"):
+            photo_line = (" &middot; Photo: %s (%s)"
+                          % (esc(item["photo_author"][:42]),
+                             esc(item.get("photo_licence", "") or "free licence")))
+        credit = ('<div class="credit">%s%s</div>'
+                  % (esc(item.get("byline", "")), photo_line))
         body = esc(item.get("dek", ""))
     else:
         f = flags_for(item)
@@ -826,6 +834,144 @@ def build_wire(wire_data, takeover, now_la, now_utc, feed_ok, feed_total):
 
 
 # --------------------------------------------------------------------------
+# Wikimedia Commons photographs for our own reporting
+# --------------------------------------------------------------------------
+# Our stories had no pictures because we hold no wire subscription, and the
+# standing rule forbids lifting images off the open web. Wikimedia Commons is
+# the legitimate middle: real photographs of real people, freely licensed,
+# with the author and licence published alongside each file.
+#
+# The bargain is attribution. Every photo sourced here renders its
+# photographer and licence on the card - that is not decoration, it is the
+# licence term, and dropping it would make the use infringing.
+#
+# What this will NOT do: generate an image of a real person. A synthetic
+# photograph of Madonna on a news page is a fabricated document, and one of
+# those ends a newsroom. Stories with no licensed photo keep the typographic
+# plate instead.
+
+class CommonsUnavailable(Exception):
+    """Could not reach Wikimedia. Distinct from 'asked, nothing free existed' -
+    one is a temporary fault to retry, the other is a permanent answer to cache."""
+
+
+COMMONS_API = "https://en.wikipedia.org/w/api.php"
+PHOTO_CACHE = os.path.join(DATA, "photo-cache.json")
+
+
+def _api_get(params):
+    url = COMMONS_API + "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={
+        # Wikimedia requires a descriptive agent with contact. An anonymous
+        # scraper gets blocked, and rightly.
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+        return json.loads(r.read().decode("utf-8", "replace"))
+
+
+def _strip_html(s):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s or "")).strip()
+
+
+def commons_photo(subject):
+    """Lead photograph for a subject, with the attribution its licence requires.
+
+    Returns {url, author, licence, page} or None. Never raises - a photo is a
+    nice-to-have and must never take the site build down."""
+    try:
+        meta = _api_get({
+            "action": "query", "format": "json", "formatversion": "2",
+            "titles": subject, "prop": "pageimages",
+            "piprop": "original", "pilicense": "free", "redirects": "1",
+        })
+        pages = meta.get("query", {}).get("pages", [])
+        if not pages or "original" not in pages[0]:
+            return None
+        src = pages[0]["original"]["source"]
+
+        filename = "File:" + urllib.parse.unquote(src.rsplit("/", 1)[-1])
+        info = _api_get({
+            "action": "query", "format": "json", "formatversion": "2",
+            "titles": filename, "prop": "imageinfo",
+            "iiprop": "extmetadata|url", "iiextmetadatafilter":
+            "Artist|LicenseShortName|License|Credit|DescriptionUrl",
+        })
+        ipages = info.get("query", {}).get("pages", [])
+        ex = {}
+        if ipages and ipages[0].get("imageinfo"):
+            ex = ipages[0]["imageinfo"][0].get("extmetadata", {}) or {}
+
+        licence = _strip_html(ex.get("LicenseShortName", {}).get("value", ""))
+        # Anything not clearly free is not ours to run.
+        if licence and re.search(r"fair use|non-?free|copyright", licence, re.I):
+            return None
+
+        return {
+            "url": src,
+            "author": _strip_html(ex.get("Artist", {}).get("value", "")) or "Wikimedia Commons",
+            "licence": licence or "See Wikimedia Commons",
+            "page": _strip_html(ex.get("DescriptionUrl", {}).get("value", "")),
+        }
+    except Exception as exc:
+        # Raised, not answered. The caller must retry next run rather than
+        # record this as a verdict.
+        print("commons lookup failed for %r: %s" % (subject, exc))
+        raise CommonsUnavailable(str(exc))
+
+
+def load_photo_cache():
+    try:
+        with open(PHOTO_CACHE, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def save_photo_cache(cache):
+    try:
+        with open(PHOTO_CACHE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, indent=2, ensure_ascii=False, sort_keys=True)
+    except OSError as exc:
+        print("could not write photo cache: %s" % exc)
+
+
+def attach_photos(originated, dry_run=False):
+    """Fill in a photo for any of our stories that names a photo_subject and
+    does not already carry an image. Cached, so we ask Wikimedia once per
+    subject rather than on every hourly run."""
+    cache = load_photo_cache()
+    changed = False
+    for a in originated:
+        if a.get("image"):
+            continue
+        subject = a.get("photo_subject")
+        if not subject:
+            continue
+        if subject not in cache:
+            if dry_run:
+                continue
+            try:
+                found = commons_photo(subject)
+            except CommonsUnavailable:
+                # Leave it uncached so the next run tries again.
+                print("commons: %-28s unreachable, will retry" % subject)
+                continue
+            cache[subject] = found or {}
+            changed = True
+            print("commons: %-28s %s" % (subject, "found" if found else "nothing free"))
+        hit = cache.get(subject) or {}
+        if hit.get("url"):
+            a["image"] = hit["url"]
+            a["photo_author"] = hit.get("author", "")
+            a["photo_licence"] = hit.get("licence", "")
+    if changed and not dry_run:
+        save_photo_cache(cache)
+    return originated
+
+
+# --------------------------------------------------------------------------
 # takeover sync on the hand-written pages
 # --------------------------------------------------------------------------
 
@@ -940,11 +1086,20 @@ def main():
             "summary": a.get("dek", ""), "byline": a.get("byline", ""),
             "tag": a.get("tag", "Newswire Hollywood"), "source": "Newswire Hollywood",
             "image": a.get("image", ""), "date": a.get("date", ""),
+            "photo_subject": a.get("photo_subject", ""),
+            "photo_author": a.get("photo_author", ""),
+            "photo_licence": a.get("photo_licence", ""),
         }
         ours_all.append(entry)
         if a.get("section") in ours_by_section:
             ours_by_section[a["section"]].append(entry)
     ours_all.sort(key=lambda a: a.get("date", ""), reverse=True)
+
+    # Give our own reporting a photograph where a free, properly licensed one
+    # exists. Cached, so this costs one Wikimedia call per new subject.
+    attach_photos(ours_all, dry_run)
+    for slug in ours_by_section:
+        attach_photos(ours_by_section[slug], dry_run)
 
     wire_data = {}
     wire_items_path = os.path.join(DATA, "wire-items.json")
