@@ -410,6 +410,11 @@ h2.sect{font-family:var(--hed);font-weight:700;font-size:clamp(21px,4vw,30px);co
 .card .shot{position:relative;width:100%;padding-top:62%;margin-bottom:12px;overflow:hidden;background:var(--ink)}
 .card .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .card .shot .well{position:absolute;inset:0}
+.card .shot .well.plate{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px}
+.card .shot .well.plate::after{content:none}
+.plate-desk{font-family:var(--hed);font-weight:700;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:#fff;line-height:1.25}
+.plate-rule{display:block;width:34px;height:2px;background:var(--date);margin:9px 0}
+.plate-mark{font-family:var(--hed);font-weight:600;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.62)}
 .card .shot .well::after{content:attr(data-outlet);position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.62)}
 .card h3{font-family:var(--hed);font-weight:600;font-size:19px;line-height:1.16;color:var(--ink);margin:9px 0 7px}
 .card:hover h3{color:var(--signal)}
@@ -536,11 +541,21 @@ def lede_html(item, is_ours):
 def card_html(item, index, is_ours=False):
     if item.get("image"):
         shot = '<div class="shot"><img src="%s" alt="" loading="lazy"></div>' % esc(item["image"])
+    elif is_ours:
+        # Our own reporting with no licensed photograph. A bare gradient reads
+        # as a hole where a picture should be; a typographic plate reads as a
+        # newspaper running a story without art, which is what this is.
+        well = GRADIENTS[index % len(GRADIENTS)]
+        shot = ('<div class="shot"><div class="well plate" style="background:%s">'
+                '<span class="plate-desk">%s</span>'
+                '<span class="plate-rule"></span>'
+                '<span class="plate-mark">Newswire Hollywood</span>'
+                '</div></div>'
+                % (well, esc(item.get("tag", "Reporting"))))
     else:
         well = GRADIENTS[index % len(GRADIENTS)]
-        label = esc(item["source"]) if not is_ours else "Newswire Hollywood"
         shot = ('<div class="shot"><div class="well" style="background:%s" data-outlet="%s"></div></div>'
-                % (well, label))
+                % (well, esc(item["source"])))
     if is_ours:
         tags = '<span class="tag ours">%s</span>' % esc(item.get("tag", "Ours"))
         head = '<h3><a href="%s">%s</a></h3>' % (esc(item["link"]), esc(item["title"]))
