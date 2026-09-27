@@ -20,7 +20,7 @@ Hacks Emmy Soirée (Paul W. Downs, Lucia Aniello & Jen Statsky, with UTA), Spago
 
 Netflix / HBO Max / Disney / Apple TV+ official Emmy afterparties, all Sept 14 2026 (Chateau Marmont, San Vicente Bungalows, Vibiana, NYA Studios West) — contacts: Michelle Slavich (Netflix, inferred), Diego Aldana / Mandy Ellis (HBO Max/WBD, inferred), Chrissy Woo / Madison Bell (Disney, inferred, low confidence), media.help@apple.com (Apple TV+, role inbox) — closes: the event itself, three days out — these are closed, invite-only lists; nothing to credential into this cycle. Miss the outreach now and we start the 79th-cycle relationship from zero again.
 
-78th Primetime Emmy Awards ceremony and Governors Gala, Peacock Theater / LA Convention Center, Sept 14 2026 — contact: Stephanie Goodell, Breakwhitelight (agency of record for TV Academy Emmy press), stephanie@breakwhitelight.com, (818) 462-1150 (inferred) — closes: credentialing already closed (network/streamer allotments assigned early August); nothing recoverable this cycle — miss establishing contact now and we are cold again at the start of the 79th Emmys cycle.
+78th Primetime Emmy Awards ceremony and Governors Gala, Peacock Theater / LA Convention Center, Sept 14 2026 — contact: Stephanie Goodell, Breakwhitelight (agency of record for TV Academy Emmy press), [held privately - see runbook/rolodex.md], [held privately - see runbook/rolodex.md] (inferred) — closes: credentialing already closed (network/streamer allotments assigned early August); nothing recoverable this cycle — miss establishing contact now and we are cold again at the start of the 79th Emmys cycle.
 
 ## TIER 3 — NEXT 90 DAYS
 
