@@ -855,12 +855,13 @@ class CommonsUnavailable(Exception):
     one is a temporary fault to retry, the other is a permanent answer to cache."""
 
 
-COMMONS_API = "https://en.wikipedia.org/w/api.php"
+WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 PHOTO_CACHE = os.path.join(DATA, "photo-cache.json")
 
 
-def _api_get(params):
-    url = COMMONS_API + "?" + urllib.parse.urlencode(params)
+def _api_get(params, endpoint=None):
+    url = (endpoint or WIKIPEDIA_API) + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={
         # Wikimedia requires a descriptive agent with contact. An anonymous
         # scraper gets blocked, and rightly.
@@ -885,7 +886,7 @@ def commons_photo(subject):
             "action": "query", "format": "json", "formatversion": "2",
             "titles": subject, "prop": "pageimages",
             "piprop": "original", "pilicense": "free", "redirects": "1",
-        })
+        }, WIKIPEDIA_API)
         pages = meta.get("query", {}).get("pages", [])
         if not pages or "original" not in pages[0]:
             return None
@@ -896,7 +897,7 @@ def commons_photo(subject):
             "action": "query", "format": "json", "formatversion": "2",
             "titles": filename, "prop": "imageinfo",
             "iiprop": "extmetadata|url",
-        })
+        }, COMMONS_API)
         ipages = info.get("query", {}).get("pages", [])
         ex = {}
         if ipages and ipages[0].get("imageinfo"):
