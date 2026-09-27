@@ -1110,7 +1110,11 @@ def sync_social_tags(originated, now_la, dry_run=False):
                   % (esc(meta.get("title", "")), esc(meta.get("dek", "")), esc(img)))
 
         # Replace any previous block so repeated runs do not stack duplicates.
-        updated = re.sub(r"<!-- SOCIAL -->.*?<!-- /SOCIAL -->", "", original, flags=re.S)
+        # Consume the surrounding newlines too. Stripping only the markers left
+        # a blank line behind on every run, so the file grew a little whitespace
+        # every hour forever.
+        updated = re.sub(r"\n*<!-- SOCIAL -->.*?<!-- /SOCIAL -->\n*", "\n",
+                         original, flags=re.S)
         marked = "<!-- SOCIAL -->\n" + block + "<!-- /SOCIAL -->"
         if "</head>" not in updated:
             continue
