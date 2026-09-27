@@ -12,15 +12,27 @@ name: Regenerate news sitemap
 # runner, not a call to any AI model - it runs on GitHub's free Actions
 # minutes (unlimited on this public repo) with no other cost attached.
 #
-# Trigger: daily on schedule, or manually from the Actions tab's
-# "Run workflow" button, or by telling Claude Code "run the news sitemap
-# workflow" (which would use the same script logic locally, or trigger this
-# workflow via the GitHub API/UI).
+# Trigger: on every push that touches an article page, hourly on the schedule,
+# or the Actions tab's "Run workflow" button.
+#
+# WHY ON PUSH: this used to run once a day. A story filed at 11am therefore sat
+# outside the news sitemap until the next morning - up to 22 hours during which
+# Google News had no idea it existed. For a wire service that is the whole game,
+# so it now regenerates the moment a story lands, and hourly as a safety net in
+# case a push slips through.
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/*.html"
   schedule:
-    - cron: "17 9 * * *"
+    - cron: "23 * * * *"
   workflow_dispatch: {}
+
+concurrency:
+  group: news-sitemap
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -121,3 +133,51 @@ jobs:
             git commit -m "Auto: regenerate news-sitemap.xml (48-hour window)"
             git push
           fi
+
+      - name: Tell IndexNow the moment a story lands
+        # IndexNow notifies Bing, Yandex, Naver and Seznam instantly - no account,
+        # no cost, no quota. Google retired its own sitemap ping endpoint in 2023,
+        # so Google indexing runs through Search Console and the news sitemap
+        # instead; there is no ping to add for it, and pretending otherwise would
+        # just be a request into a void.
+        #
+        # The key file at docs/0eb84b5499184e73bd98330eb3641bd3.txt proves we own the domain.
+        # It must stay put - deleting it silently breaks submission.
+        run: |
+          python3 <<'PYEOF'
+          import json, re, urllib.request
+
+          KEY = "0eb84b5499184e73bd98330eb3641bd3"
+          HOST = "newswirehollywood.com"
+
+          try:
+              xml = open("docs/news-sitemap.xml", encoding="utf-8").read()
+          except OSError:
+              raise SystemExit("no news sitemap to submit")
+
+          urls = re.findall(r"<loc>(.*?)</loc>", xml)
+          if not urls:
+              print("nothing published in the window - nothing to submit")
+              raise SystemExit(0)
+
+          payload = json.dumps({
+              "host": HOST,
+              "key": KEY,
+              "keyLocation": "https://%s/%s.txt" % (HOST, KEY),
+              "urlList": urls,
+          }).encode()
+
+          req = urllib.request.Request(
+              "https://api.indexnow.org/IndexNow",
+              data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  print("IndexNow accepted %d URLs - HTTP %d" % (len(urls), r.status))
+          except Exception as exc:
+              # Never fail the build over this. The sitemap is the source of
+              # truth; IndexNow is an accelerator on top of it.
+              print("IndexNow submission failed, sitemap still published: %s" % exc)
+          PYEOF
