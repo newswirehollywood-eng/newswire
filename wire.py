@@ -1132,6 +1132,86 @@ def sync_social_tags(originated, now_la, dry_run=False):
 # takeover sync on the hand-written pages
 # --------------------------------------------------------------------------
 
+def sync_galleries(dry_run=False):
+    """Fill red-carpet galleries on article pages from Wikimedia Commons.
+
+    A page asks for one by carrying a marker naming the people it wants:
+
+        <!-- GALLERY: Madonna | Snoop Dogg | Taylor Swift -->
+        <!-- /GALLERY -->
+
+    Everything between the markers is replaced with a credited figure per
+    subject. We cannot license tonight's wire photographs, so the gallery
+    runs freely licensed portraits and says so plainly. A subject Commons
+    has nothing free for is dropped rather than faked, and a name that
+    cannot be reached is left for the next run instead of being cached as
+    a miss.
+    """
+    cache = load_photo_cache()
+    changed = False
+    touched = []
+
+    for name in sorted(os.listdir(DOCS)):
+        if not name.endswith(".html") or name.startswith("_"):
+            continue
+        path = os.path.join(DOCS, name)
+        with open(path, encoding="utf-8") as f:
+            original = f.read()
+
+        m = re.search(r"<!-- GALLERY:(.*?)-->(.*?)<!-- /GALLERY -->",
+                      original, re.S)
+        if not m:
+            continue
+
+        subjects = [s.strip() for s in m.group(1).split("|") if s.strip()]
+        figures = []
+        for subject in subjects:
+            if subject not in cache:
+                if dry_run:
+                    continue
+                try:
+                    found = commons_photo(subject)
+                except CommonsUnavailable:
+                    print("gallery: %-24s unreachable, will retry" % subject)
+                    continue
+                cache[subject] = found or {}
+                changed = True
+                print("gallery: %-24s %s"
+                      % (subject, "found" if found else "nothing free"))
+            hit = cache.get(subject) or {}
+            if not hit.get("url"):
+                continue
+            credit = hit.get("author", "")
+            licence = hit.get("licence", "")
+            figures.append(
+                '  <figure class="shot">\n'
+                '    <img src="%s" alt="%s" loading="lazy">\n'
+                '    <figcaption><b>%s</b>'
+                '<span>%s &middot; Wikimedia Commons &middot; %s</span>'
+                '</figcaption>\n'
+                '  </figure>'
+                % (esc(hit["url"]), esc(subject), esc(subject),
+                   esc(credit), esc(licence))
+            )
+
+        if not figures:
+            continue
+
+        block = ('<!-- GALLERY:%s-->\n<div class="shots">\n%s\n</div>\n'
+                 '<!-- /GALLERY -->'
+                 % (m.group(1), "\n".join(figures)))
+        updated = original[:m.start()] + block + original[m.end():]
+
+        if updated != original and not dry_run:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(updated)
+            touched.append(name)
+
+    if changed and not dry_run:
+        save_photo_cache(cache)
+    return touched
+
+
 def sync_takeover_markers(active_ids, now_la, dry_run=False):
     """The article pages, calendar, press room and wire page are hand-written and
     wire.py does not regenerate them. Their nav still has to gain and lose the
@@ -1298,6 +1378,7 @@ def main():
                                   % (live["link"], live["nav_label"]))
     touched = sync_takeover_markers(active_ids, now_la, dry_run)
     social = sync_social_tags(originated, now_la, dry_run)
+    shots = sync_galleries(dry_run)
     if social:
         print("share cards refreshed on: %s" % ", ".join(social))
 
