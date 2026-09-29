@@ -4714,3 +4714,691 @@ Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as ol
 | Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
 | TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
 | The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 02:07 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 10 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 02:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 10 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 03:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 10 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 04:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 05:16 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 7 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 06:23 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 6 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 07:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 5 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 08:19 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 09:19 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 10:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 11:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 12:21 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 13:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 3 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 3 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 14:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 3 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 15:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 4 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 16:19 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 4 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 7 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 17:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 18:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 19:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 20:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 21:16 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 22:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 6 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-28 23:14 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 7 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 00:22 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 01:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 02:14 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 03:16 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 04:16 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 05:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 06:20 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 07:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 6 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 08:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 5 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 09:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 5 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 10:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 11:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 4 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 12:21 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 5 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 13:19 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 3 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 7 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 14:17 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 3 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 15:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 3 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 10 | - |
+
+## Run 2026-09-29 16:18 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 2 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 9 | - |
+
+## Run 2026-09-29 17:15 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 12 | - |
+| The Wrap | ok | 10 | 0 | carries content:encoded but no usable photo URL |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 8 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 9 | - |
+
+## Run 2026-09-29 18:19 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 10 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 9 | - |
+
+## Run 2026-09-29 19:16 UTC
+
+Feeds answered: 9 of 9. Items kept inside the 7-day window: 102 (0 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| Variety | ok | 10 | 9 | - |
+| Deadline | ok | 12 | 11 | - |
+| The Wrap | ok | 10 | 1 | - |
+| The Hollywood Reporter | ok | 10 | 0 | feed publishes no image fields at all |
+| Billboard | ok | 10 | 9 | - |
+| Rolling Stone | ok | 10 | 0 | feed publishes no image fields at all |
+| Music Business Worldwide | ok | 10 | 0 | feed publishes no image fields at all |
+| TechCrunch AI | ok | 20 | 0 | feed publishes no image fields at all |
+| The Verge | ok | 10 | 9 | - |
