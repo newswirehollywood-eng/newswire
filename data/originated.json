@@ -2,6 +2,30 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "Freda Payne stopped time at Catalina: a sold-out night with the legendary ladies of song",
+      "dek": "Nine women, one voice, and a room that would not let her go. Freda Payne's tribute to the ladies of jazz played to a full house on Sunset on VMAs weekend — and she knew half of the women she was singing about.",
+      "url": "freda-payne-catalina-legendary-ladies-review.html",
+      "section": "music",
+      "tag": "Review",
+      "byline": "By the Music Desk, Newswire Hollywood",
+      "date": "2026-09-29",
+      "image": "img/freda-catalina-poster.jpg",
+      "photo_author": "Don B. Welch Productions",
+      "photo_licence": "Supplied for editorial use with credit"
+    },
+    {
+      "title": "PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club",
+      "dek": "Don B. Welch presents the legendary Freda Payne in a sold-out tribute to nine women who built American jazz and pop, staged on Sunset Boulevard on VMAs weekend.",
+      "url": "pr-freda-payne-catalina-sold-out.html",
+      "section": "music",
+      "tag": "Press release",
+      "byline": "Supplied by the production",
+      "date": "2026-09-29",
+      "image": "img/freda-catalina-poster.jpg",
+      "photo_author": "Don B. Welch Productions",
+      "photo_licence": "Supplied for editorial use with credit"
+    },
+    {
       "title": "Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year",
       "dek": "Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.",
       "url": "vmas-2026-winners-red-carpet.html",
