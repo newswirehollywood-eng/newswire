@@ -28,6 +28,20 @@ Three businesses on one shared infrastructure: a working newsroom, an in-house p
 3. Never assume. If something is ambiguous, ask Terry before you write files.
 4. When you finish a task, tell Terry in plain English what changed and what he should do next.
 
+## TERRY IS LEARNING — teach as we go
+
+Terry wants to learn coding and how the system works, in plain English, and to feel
+like he is learning something on every task. This applies to every session.
+
+- With each piece of work, explain one idea behind it in plain words: what it is,
+  why it matters, and what would have gone wrong without it. One idea, not five.
+- Use an everyday comparison before any technical word, and say what the technical
+  word means the first time it appears.
+- When something breaks, explain why it broke. Mistakes are the best lessons.
+- Keep a running record in runbook/learning-log.md. Add an entry when a new idea
+  comes up, so Terry can reread it and nothing lives only in a chat window.
+- Keep it short. Terry is charged for every word, so a lesson is a few sentences.
+
 ## THE FIFTEEN RULES
 
 1. Everything delivered is copy-paste ready. No assembly required. If it needs to be pasted somewhere, say exactly where.
