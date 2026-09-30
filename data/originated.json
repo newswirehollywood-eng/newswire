@@ -2,16 +2,16 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
-      "title": "Freda Payne stopped time at Catalina: a sold-out night with the legendary ladies of song",
-      "dek": "Nine women, one voice, and a room that would not let her go. Freda Payne's tribute to the ladies of jazz played to a full house on Sunset on VMAs weekend — and she knew half of the women she was singing about.",
+      "title": "Freda Payne set Sunset Boulevard on fire: the sold-out night she sang her heroes back into the room",
+      "dek": "Nine legends, one voice, a gold lamé flare and a “Fever” that stopped the clock. On VMAs weekend, with the whole industry looking downtown, the hottest ticket in Los Angeles was a jazz room on Sunset.",
       "url": "freda-payne-catalina-legendary-ladies-review.html",
       "section": "music",
       "tag": "Review",
       "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-29",
-      "image": "img/freda-catalina-poster.jpg",
-      "photo_author": "Don B. Welch Productions",
-      "photo_licence": "Supplied for editorial use with credit"
+      "date": "2026-09-30",
+      "image": "img/freda-catalina-stage-02.jpg",
+      "photo_author": "Terry Bryant / Newswire Hollywood",
+      "photo_licence": "Newswire Hollywood original photography"
     },
     {
       "title": "PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club",
