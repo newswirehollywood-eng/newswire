@@ -238,6 +238,18 @@ jobs:
               raise SystemExit("no news sitemap to submit")
 
           urls = re.findall(r"<loc>(.*?)</loc>", xml)
+
+          # Press releases are not news-sitemap material - that file is reserved
+          # for our own reporting - but they should still be found quickly. Ping
+          # them on a push only, so the hourly run does not resubmit unchanged
+          # pages, which IndexNow asks publishers not to do.
+          import glob, os
+          if os.environ.get("GITHUB_EVENT_NAME") == "push":
+              for path in sorted(glob.glob("docs/pr-*.html")):
+                  u = "https://%s/%s" % (HOST, os.path.basename(path))
+                  if u not in urls:
+                      urls.append(u)
+
           if not urls:
               print("nothing published in the window - nothing to submit")
               raise SystemExit(0)
