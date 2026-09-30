@@ -393,6 +393,7 @@ img{display:block;max-width:100%}
 .lede>.wrap{width:100%}
 .lede-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
 .lede-fill{position:absolute;inset:0}
+@media(max-width:700px){.lede--face{display:block;min-height:0}.lede--face .lede-img{position:relative;inset:auto;display:block;height:auto;aspect-ratio:16/9;opacity:1}.lede--face .lede-shade{display:none}.lede--face .lede-copy{padding:22px 0 30px}}
 .lede-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%)}
 .lede-copy{position:relative;padding:60px 0 38px;color:#fff;max-width:26em}
 .lede h1{font-family:var(--hed);font-weight:700;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-1.5px;color:#fff;margin:12px 0 14px}
@@ -501,11 +502,24 @@ def carpet_html(takeover):
             % "".join("<span>%s</span>" % w for w in words))
 
 
+_FOCUS_RE = re.compile(r"^(\d{1,3}%|left|center|right) (\d{1,3}%|top|center|bottom)$")
+
+
+def focus_attr(item):
+    """A story can name where its photo should stay anchored when the page
+    crops it, e.g. "50% 20%" to keep a face near the top. Anything that does
+    not match the strict pattern is ignored, so a manifest can never inject
+    markup through it."""
+    f = (item.get("image_focus") or "").strip()
+    return ' style="object-position:%s"' % f if _FOCUS_RE.match(f) else ""
+
+
+
 def lede_html(item, is_ours):
     """Full-bleed hero. Real feed photo when the item has one, house gradient
     well when it does not - never a stock photo standing in for either."""
     if item.get("image"):
-        backdrop = '<img class="lede-img" src="%s" alt="" loading="eager">' % esc(item["image"])
+        backdrop = '<img class="lede-img" src="%s"%s alt="" loading="eager">' % (esc(item["image"]), focus_attr(item))
         credit = "Photo: %s" % esc(item["source"]) if not is_ours else ""
     else:
         backdrop = '<div class="lede-fill" style="background:%s"></div>' % GRADIENTS[0]
@@ -528,7 +542,7 @@ def lede_html(item, is_ours):
         if credit:
             bits.append(credit)
         credit_line = " &middot; ".join(bits)
-    return """<section class="lede">
+    return """<section class="lede%s">
 %s
 <div class="lede-shade"></div>
 <div class="wrap"><div class="lede-copy">
@@ -537,13 +551,13 @@ def lede_html(item, is_ours):
 <p>%s</p>
 <div class="credit">%s</div>
 </div></div>
-</section>""" % (backdrop, tags, link_open, esc(item["title"]), link_close,
+</section>""" % (" lede--face" if focus_attr(item) else "", backdrop, tags, link_open, esc(item["title"]), link_close,
                  esc(item.get("dek") or item.get("summary", "")), credit_line)
 
 
 def card_html(item, index, is_ours=False):
     if item.get("image"):
-        shot = '<div class="shot"><img src="%s" alt="" loading="lazy"></div>' % esc(item["image"])
+        shot = '<div class="shot"><img src="%s"%s alt="" loading="lazy"></div>' % (esc(item["image"]), focus_attr(item))
     elif is_ours:
         # Our own reporting with no licensed photograph. A bare gradient reads
         # as a hole where a picture should be; a typographic plate reads as a
@@ -1322,7 +1336,7 @@ def main():
             "title": a["title"], "link": a["url"], "dek": a.get("dek", ""),
             "summary": a.get("dek", ""), "byline": a.get("byline", ""),
             "tag": a.get("tag", "Newswire Hollywood"), "source": "Newswire Hollywood",
-            "image": a.get("image", ""), "date": a.get("date", ""),
+            "image": a.get("image", ""), "image_focus": a.get("image_focus", ""), "date": a.get("date", ""),
             "photo_subject": a.get("photo_subject", ""),
             "photo_author": a.get("photo_author", ""),
             "photo_licence": a.get("photo_licence", ""),
