@@ -1,0 +1,29 @@
+PR STARPOWER: SEO fields for the press-room editor
+(If the newsroom has boxes for these, paste them in. If it has a head/HTML box, use the snippet file instead.)
+
+SEO TITLE (58 characters, keep under 60):
+Freda Payne Rave Reviews: Sold-Out Catalina Jazz Club Show
+
+META DESCRIPTION (158 characters, keep under 160):
+Freda Payne, 84, drew rave reviews for a sold-out Catalina Jazz Club show honoring nine jazz legends, hosted by Gregory Abbott Jr. Photos and video available.
+
+PAGE HEADLINE (H1):
+Freda Payne Sets Hollywood on Fire: Sold-Out Catalina Triumph Earns Rave Reviews
+
+URL SLUG:
+freda-payne-sold-out-catalina-jazz-club-rave-reviews
+
+PHOTO FILE NAME:
+pr-starpower-freda-payne-photo.jpg
+
+PHOTO ALT TEXT:
+Freda Payne in a black lace gown, microphone in hand, smiling out at the room at Catalina Jazz Club in Los Angeles
+
+PHOTO CAPTION:
+Freda Payne at Catalina Jazz Club, Los Angeles, September 26, 2026. Photo by Terry Bryant. Available for editorial use with credit.
+
+WHAT TO DO AFTER IT IS LIVE (this is what actually moves Google):
+1. Open the live page in a browser and make sure the text is real text, not an image or a PDF.
+2. In Google Search Console, add the newsroom's address as a property and verify it.
+3. Paste the release's full URL into the URL Inspection bar and click "Request indexing".
+4. Send me the URL. I will link to it from the Newswire Hollywood and Gospel News Access releases, which gives it links in from two sites that Google already knows.
