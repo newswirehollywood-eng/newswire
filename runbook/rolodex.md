@@ -154,3 +154,16 @@ One decision from him: **Drive, or a private repo.**
 Then: create it, migrate the redacted contacts out of git into it, seed it from
 the events calendar and the studio applications, and set a standing rule that
 every new contact goes there and never into the public repo.
+
+
+## UPDATE 2026-10-05: THE ROLODEX NOW LIVES IN GOOGLE DRIVE
+
+Terry chose Google Drive. The private Rolodex is a Google Sheet called
+"ROLODEX - Terry Bryant (PRIVATE)" in the folder "Global Spotlight HQ (Private)"
+in Terry's own Drive (matariterry account). It was seeded with 94 entries: the 15
+named contacts redacted from this repo, plus press and accreditation offices for
+every event on the Global Spotlight calendar, the gift-suite producers, sponsors
+and the tech press offices.
+
+Rule from here on: new named contacts go into the Drive sheet only, never into
+this public repo. For the monthly PDF: open the sheet, then File, Download, PDF.

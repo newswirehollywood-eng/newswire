@@ -72,3 +72,16 @@ the code that hunts for missing photos, I tested it against a pretend internet t
 I controlled, with a good page, a bare page and a YouTube link. It passed every case
 before it ever touched a real website. That is called a *test with a stand-in*, or
 a *mock*.
+
+## 7. Two kinds of robots read your website
+
+**The comparison:** a librarian versus a ghostwriter. The librarian reads your book so
+she can send readers to it. The ghostwriter reads it to learn your style and write
+his own.
+
+**What it means here:** AI companies send two kinds of crawlers (robots that read
+websites). A *search crawler*, like ChatGPT's OAI-SearchBot, reads our stories so it
+can quote them and link back to us; that brings readers. A *training crawler* reads
+them to teach an AI model; that brings nothing unless we're paid. A small file on
+each site called robots.txt tells each robot "come in" or "stay out." We let the
+librarians in and keep the ghostwriters out until someone pays for our archive.
