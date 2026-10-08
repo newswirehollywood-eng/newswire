@@ -1,0 +1,11 @@
+# Newswire Hollywood
+
+> Entertainment news and a wire service: breaking industry news, deals, film, television, music, fashion, AI and big tech, and international coverage. Original reporting carries a named desk byline and date; wire cards link to the original publisher.
+
+- [Front page](https://newswirehollywood.com/): latest stories and wire
+- [Film](https://newswirehollywood.com/film.html) · [Television](https://newswirehollywood.com/television.html) · [Music](https://newswirehollywood.com/music.html) · [Fashion](https://newswirehollywood.com/fashion.html)
+- [Deals](https://newswirehollywood.com/deals.html): mergers, lawsuits and business of entertainment
+- [AI & Big Tech](https://newswirehollywood.com/ai-tech.html)
+- [International](https://newswirehollywood.com/international.html)
+- [The Calendar](https://newswirehollywood.com/calendar.html): Hollywood events calendar
+- [Press Room](https://newswirehollywood.com/pressroom.html): press releases

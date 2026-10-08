@@ -85,3 +85,6 @@ can quote them and link back to us; that brings readers. A *training crawler* re
 them to teach an AI model; that brings nothing unless we're paid. A small file on
 each site called robots.txt tells each robot "come in" or "stay out." We let the
 librarians in and keep the ghostwriters out until someone pays for our archive.
+
+## The doorman (robots.txt)
+Every site has a small file called robots.txt. Think of it as the doorman's list: it tells search engines and AI robots which doors are open. We wrote ChatGPT's, Perplexity's and Claude's search robots onto the list by name, so when someone asks an AI a question, our stories can be read, quoted and linked. Without the list, some robots stay polite and walk away.
