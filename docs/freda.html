@@ -309,6 +309,5 @@ document.getElementById('sharebtn').addEventListener('click',function(){
 document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){var v=b.getAttribute('data-copy');if(!v)return;try{navigator.clipboard.writeText(v).then(function(){b.textContent='Copied';});}catch(e){}});});
 </script>
 
-</body></html>
 </body>
 </html>
