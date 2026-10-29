@@ -2,6 +2,17 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "Peter Rice takes charge of Netflix's content this week. Here is what he inherits",
+      "dek": "The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.",
+      "url": "netflix-peter-rice-first-week-chief-content-officer.html",
+      "section": "deals",
+      "tag": "New this week",
+      "byline": "By the Deals Desk, Newswire Hollywood",
+      "date": "2026-10-29",
+      "photo_subject": "Netflix",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
+    },
+    {
       "title": "Freda Payne Set Hollywood on Fire",
       "dek": "On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset — and an 84-year-old legend in gold lamé who sang her heroes back into the room.",
       "url": "freda-payne-catalina-legendary-ladies-review.html",
