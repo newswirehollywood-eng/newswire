@@ -81,6 +81,22 @@ a.btn .lbl{font-family:var(--hed);font-weight:700;font-size:18px;letter-spacing:
 a.btn .note{font-size:14px;opacity:.72;margin-top:3px;display:block;line-height:1.35}
 a.btn .arw{flex:0 0 auto;font-family:var(--hed);font-weight:700;font-size:19px;opacity:.5}
 
+
+/* ── team freda + cash app (featured, top of links) ── */
+.atsea{margin:22px 0 0;text-align:center;font-family:var(--hed);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);border:2px solid var(--gold);padding:11px 12px;background:#FBF4E2}
+.atsea span{display:block;font-weight:600;font-size:11px;letter-spacing:.14em;color:#7A6A45;margin-top:3px}
+.feat{border:3px solid var(--gold);background:#FBF4E2;padding:18px 18px 16px}
+.feat h2{font-family:var(--hed);font-weight:700;font-size:21px;letter-spacing:.02em;text-transform:uppercase;line-height:1.1;color:var(--ink)}
+.feat .k{font-family:var(--hed);font-weight:700;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#7A6A45;display:block;margin-bottom:5px}
+.feat p{font-size:15px;line-height:1.45;margin:7px 0 12px;color:#2A2A2A}
+.feat .acts{display:grid;gap:9px}
+.feat .act{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--ink);color:#fff;padding:14px 16px;font-family:var(--hed);font-weight:700;font-size:17px;letter-spacing:.02em;transition:background .13s ease}
+.feat .act small{font-weight:600;font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.7;display:block}
+.feat .act:hover,.feat .act:focus-visible{background:var(--signal)}
+.feat .act b{word-break:break-all}
+.feat.cash .act{background:#00A84F}
+.feat.cash .act:hover,.feat.cash .act:focus-visible{background:#008C41}
+
 /* ── gallery ─────────────────────────────────────── */
 .gal{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:30px}
 .gal img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 20%;background:var(--warm)}
@@ -99,11 +115,11 @@ a.btn .arw{flex:0 0 auto;font-family:var(--hed);font-weight:700;font-size:19px;o
 }
 
 footer{
-  font-family:var(--hed);font-size:11px;letter-spacing:.07em;color:#9A9A9A;
+  font-family:var(--hed);font-size:12px;letter-spacing:.07em;color:#9A9A9A;
   text-align:center;border-top:2px solid var(--rule);margin-top:34px;padding:20px 0 46px;
 }
-footer a{color:#6A6A6A;border-bottom:1px solid var(--rule)}
-footer .row{margin-bottom:9px}
+footer a{color:#2A2A2A;border-bottom:1px solid var(--rule)}
+footer .row{margin-bottom:14px;font-size:17px;font-weight:600;letter-spacing:.03em;line-height:1.8}
 </style>
 </head>
 <body>
@@ -123,7 +139,11 @@ footer .row{margin-bottom:9px}
 
 <div class="wrap">
 
+  <div class="atsea">On tour at sea<span>Ship dates: Oct 27 &ndash; Nov 7, 2026</span></div>
+
   <nav class="links">
+
+
     <a class="btn primary" href="https://www.amazon.com/Band-Gold-Mark-Bego/dp/1954095821" target="_blank" rel="noopener">
       <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h11a2 2 0 0 1 2 2v17.2a.8.8 0 0 1-1.2.7L12 18.6l-5.8 3.3A.8.8 0 0 1 5 21.2V3a1 1 0 0 1 1-1Z"/></svg></span>
       <span class="txt">
@@ -132,6 +152,25 @@ footer .row{margin-bottom:9px}
       </span>
       <span class="arw">&rarr;</span>
     </a>
+
+    <section class="feat" aria-labelledby="tf">
+      <span class="k">Direct contact</span>
+      <h2 id="tf">Team Freda</h2>
+      <p>For bookings, media and more, reach Freda&rsquo;s team directly.</p>
+      <div class="acts">
+        <a class="act" href="tel:+14242399033"><span><small>Call</small><b>424.239.9033</b></span><span aria-hidden="true">&rarr;</span></a>
+        <a class="act" href="mailto:gjoelabbott@gmail.com?subject=Freda%20Payne"><span><small>Email</small><b>gjoelabbott@gmail.com</b></span><span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </section>
+
+    <section class="feat cash" aria-labelledby="ca">
+      <span class="k">Support Freda</span>
+      <h2 id="ca">Freda&rsquo;s Cash App</h2>
+      <p>For all who want to support, contribute, donate, purchase or bless Ms. Freda Payne.</p>
+      <div class="acts">
+        <a class="act" href="https://cash.app/$charceliapayne" target="_blank" rel="noopener"><span><small>Cash App</small><b>$charceliapayne</b></span><span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </section>
 
     <a class="btn" href="https://www.fredapayne.net/" target="_blank" rel="noopener">
       <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 9h-3a15.3 15.3 0 0 0-1.4-5.7A8 8 0 0 1 18.9 11ZM12 4.2c.8 1.1 1.7 3.3 1.9 6.8h-3.8c.2-3.5 1.1-5.7 1.9-6.8ZM5.1 11a8 8 0 0 1 4.4-5.7A15.3 15.3 0 0 0 8.1 11Zm0 2h3a15.3 15.3 0 0 0 1.4 5.7A8 8 0 0 1 5.1 13Zm6.9 6.8c-.8-1.1-1.7-3.3-1.9-6.8h3.8c-.2 3.5-1.1 5.7-1.9 6.8Zm2.5-1.1a15.3 15.3 0 0 0 1.4-5.7h3a8 8 0 0 1-4.4 5.7Z"/></svg></span>
