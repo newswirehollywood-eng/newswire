@@ -11,7 +11,7 @@ NOT connected yet, and this is why Terry is not seeing results. These need Terry
 | Step | Where | Time | Status |
 |---|---|---|---|
 | Google Search Console: add each site, submit sitemap | search.google.com/search-console | 10 min per site | DONE Nov 4: Newswire, HNA, Gospel, HTA (http). PR STARPOWER sitemap to confirm |
-| Bing Webmaster Tools: import from Search Console | bing.com/webmasters | 2 min | Not done |
+| Bing Webmaster Tools: import from Search Console | bing.com/webmasters | 2 min | DONE Nov 4: all 5 sites imported (add Gospel sitemap by hand) |
 | Google News Publisher Center | publishercenter.google.com | 10 min | Not done |
 | Apple News | icloud.com/newspublisher | 15 min | Not done |
 
