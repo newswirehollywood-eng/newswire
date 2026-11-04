@@ -2,6 +2,17 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "Blue Wave Hits America: Democracy Stood, and Democrats Swept",
+      "dek": "Democrats took the House and the Senate, flipped governor's mansions from Texas to Georgia, and gave California its first Latino governor. For the business of entertainment, the Washington that regulates it just changed hands.",
+      "url": "blue-wave-hits-america-democrats-sweep-midterms-2026.html",
+      "section": "deals",
+      "tag": "Election 2026",
+      "byline": "By the Washington Desk, Newswire Hollywood",
+      "date": "2026-11-04",
+      "photo_subject": "Election 2026",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
+    },
+    {
       "title": "Peter Rice takes charge of Netflix's content this week. Here is what he inherits",
       "dek": "The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.",
       "url": "netflix-peter-rice-first-week-chief-content-officer.html",
