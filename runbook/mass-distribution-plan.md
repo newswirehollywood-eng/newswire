@@ -10,12 +10,14 @@ NOT connected yet, and this is why Terry is not seeing results. These need Terry
 
 | Step | Where | Time | Status |
 |---|---|---|---|
-| Google Search Console: add each site, submit sitemap | search.google.com/search-console | 10 min per site | Not done |
+| Google Search Console: add each site, submit sitemap | search.google.com/search-console | 10 min per site | DONE Nov 4: Newswire, HNA, Gospel, HTA (http). PR STARPOWER sitemap to confirm |
 | Bing Webmaster Tools: import from Search Console | bing.com/webmasters | 2 min | Not done |
 | Google News Publisher Center | publishercenter.google.com | 10 min | Not done |
 | Apple News | icloud.com/newspublisher | 15 min | Not done |
 
-Sites: newswirehollywood.com, hollywoodnewsaccess.com, gospelnewsaccess.com, prstarpower.com.
+Sites: newswirehollywood.com, hollywoodnewsaccess.com, gospelnewsaccess.com, prstarpower.com, plus htaassociates.com (added as http until its HTTPS certificate is fixed in GitHub Pages settings).
+
+Note: an empty news sitemap shows "error" or "couldn't fetch". That is normal: it only lists stories from the last 48 hours.
 
 Honest expectation: new sites take weeks to months to rank. Search Console is what tells Google we exist and shows us what is working.
 

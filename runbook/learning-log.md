@@ -88,3 +88,7 @@ librarians in and keep the ghostwriters out until someone pays for our archive.
 
 ## The doorman (robots.txt)
 Every site has a small file called robots.txt. Think of it as the doorman's list: it tells search engines and AI robots which doors are open. We wrote ChatGPT's, Perplexity's and Claude's search robots onto the list by name, so when someone asks an AI a question, our stories can be read, quoted and linked. Without the list, some robots stay polite and walk away.
+
+## Nov 4, 2026 — Search Console is the front door to Google
+
+The websites were built for Google but never formally introduced. Search Console is the introduction: you prove you own the site (a small file Google gives you, placed on the site), then hand Google the sitemap, which is the table of contents. After that Google reads every new story on its own, and Search Console shows what people searched to find us. One file can verify several sites when the same Google account owns them, which is why HNA and HTA verified in a minute.
