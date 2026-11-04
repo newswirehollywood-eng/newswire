@@ -2,6 +2,7 @@
 <rss version="2.0"
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Newswire Hollywood</title>
@@ -10,21 +11,744 @@
 <description>Breaking entertainment industry news from Los Angeles - film, television, music, deals and the business behind the business.</description>
 <language>en-us</language>
 <copyright>Copyright 2026 Newswire Hollywood</copyright>
-<lastBuildDate>Wed, 04 Nov 2026 15:31:46 -0700</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 16:53:21 -0700</lastBuildDate>
 <ttl>15</ttl>
 <image><url>https://newswirehollywood.com/img/freda-cover.jpg</url><title>Newswire Hollywood</title><link>https://newswirehollywood.com</link></image>
-<item><title>Peter Rice takes charge of Netflix's content this week. Here is what he inherits</title><link>https://newswirehollywood.com/netflix-peter-rice-first-week-chief-content-officer.html</link><guid isPermaLink="true">https://newswirehollywood.com/netflix-peter-rice-first-week-chief-content-officer.html</guid><pubDate>Thu, 29 Oct 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.</description></item>
-<item><title>Freda Payne Set Hollywood on Fire</title><link>https://newswirehollywood.com/freda-payne-catalina-legendary-ladies-review.html</link><guid isPermaLink="true">https://newswirehollywood.com/freda-payne-catalina-legendary-ladies-review.html</guid><pubDate>Wed, 30 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset — and an 84-year-old legend in gold lamé who sang her heroes back into the room.</description><media:content url="https://newswirehollywood.com/img/freda-catalina-hero-wide.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-catalina-hero-wide.jpg"/></item>
-<item><title>PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club</title><link>https://newswirehollywood.com/pr-freda-payne-catalina-sold-out.html</link><guid isPermaLink="true">https://newswirehollywood.com/pr-freda-payne-catalina-sold-out.html</guid><pubDate>Tue, 29 Sep 2026 00:00:00 -0700</pubDate><dc:creator>Supplied by the production</dc:creator><description>Don B. Welch presents the legendary Freda Payne in a sold-out tribute to nine women who built American jazz and pop, staged on Sunset Boulevard on VMAs weekend.</description><media:content url="https://newswirehollywood.com/img/freda-catalina-poster.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-catalina-poster.jpg"/></item>
-<item><title>Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year</title><link>https://newswirehollywood.com/vmas-2026-winners-red-carpet.html</link><guid isPermaLink="true">https://newswirehollywood.com/vmas-2026-winners-red-carpet.html</guid><pubDate>Mon, 28 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png"/></item>
-<item><title>VMAs return to Los Angeles Sunday: Madonna opens after 23 years, Snoop Dogg hosts, Nirvana takes the Vanguard</title><link>https://newswirehollywood.com/vmas-2026-madonna-snoop-nirvana.html</link><guid isPermaLink="true">https://newswirehollywood.com/vmas-2026-madonna-snoop-nirvana.html</guid><pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The 2026 MTV Video Music Awards air live from Los Angeles on Sunday. Madonna leads all nominees with thirteen and opens the show. Taylor Swift receives a newly created honor, and premieres a video during the broadcast.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg"/></item>
-<item><title>Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles</title><link>https://newswirehollywood.com/usher-chris-brown-rb-tour-sofi.html</link><guid isPermaLink="true">https://newswirehollywood.com/usher-chris-brown-rb-tour-sofi.html</guid><pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The co-headlining R&amp;amp;B Tour runs 33 stadium dates across North America. Los Angeles gets three of them &amp;mdash; last night, tonight, and a return in November.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg"/></item>
-<item><title>Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover</title><link>https://newswirehollywood.com/paramount-warner-settlement-foreign-ownership.html</link><guid isPermaLink="true">https://newswirehollywood.com/paramount-warner-settlement-foreign-ownership.html</guid><pubDate>Tue, 22 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>The deal survives a lawsuit that could have killed it &amp;mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.</description></item>
-<item><title>Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million</title><link>https://newswirehollywood.com/resident-evil-franchise-record-world-war-z.html</link><guid isPermaLink="true">https://newswirehollywood.com/resident-evil-franchise-record-world-war-z.html</guid><pubDate>Tue, 22 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Film Desk, Newswire Hollywood</dc:creator><description>The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg"/></item>
-<item><title>Emmys 2026: the winners</title><link>https://newswirehollywood.com/emmys-2026.html</link><guid isPermaLink="true">https://newswirehollywood.com/emmys-2026.html</guid><pubDate>Wed, 16 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Awards Desk, Newswire Hollywood</dc:creator><description>The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. &quot;Hacks&quot; took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/f/f1/Jean_Smart_by_Gage_Skidmore.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/f/f1/Jean_Smart_by_Gage_Skidmore.jpg"/></item>
-<item><title>Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</title><link>https://newswirehollywood.com/tiff-2026-being-heumann.html</link><guid isPermaLink="true">https://newswirehollywood.com/tiff-2026-being-heumann.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Film Desk, Newswire Hollywood</dc:creator><description>The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</description><media:content url="https://upload.wikimedia.org/wikipedia/commons/4/41/Judith_Heumann%2C_2014_%28cropped%29.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/4/41/Judith_Heumann%2C_2014_%28cropped%29.jpg"/></item>
-<item><title>'The Odyssey' breaks IMAX's all-time box office record</title><link>https://newswirehollywood.com/the-odyssey-imax-record.html</link><guid isPermaLink="true">https://newswirehollywood.com/the-odyssey-imax-record.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.</description></item>
-<item><title>Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</title><link>https://newswirehollywood.com/sony-warner-anthropic-lawsuit.html</link><guid isPermaLink="true">https://newswirehollywood.com/sony-warner-anthropic-lawsuit.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the AI &amp; Technology Desk, Newswire Hollywood</dc:creator><description>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking statutory damages of up to $150,000 per work. Filed, not resolved.</description></item>
-<item><title>Freda Payne returns to Catalina with a tribute to the women who built the songbook</title><link>https://newswirehollywood.com/freda-payne-catalina.html</link><guid isPermaLink="true">https://newswirehollywood.com/freda-payne-catalina.html</guid><pubDate>Mon, 07 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.</description><media:content url="https://newswirehollywood.com/img/freda-yellow.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-yellow.jpg"/></item>
+<item><title>Peter Rice takes charge of Netflix's content this week. Here is what he inherits</title><link>https://newswirehollywood.com/netflix-peter-rice-first-week-chief-content-officer.html</link><guid isPermaLink="true">https://newswirehollywood.com/netflix-peter-rice-first-week-chief-content-officer.html</guid><pubDate>Thu, 29 Oct 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">New this week</span><span class="kicker">Deals Desk</span>
+  <h1>Peter Rice takes charge of Netflix's content this week. Here is what he inherits</h1>
+  <p class="dek">The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.</p>
+  <div class="byline"><b>By the Deals Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Oct 29, 2026 &nbsp;|&nbsp; Los Angeles</div>
+</div>
+
+<p>Peter Rice started this week as the most powerful programming executive in streaming. Netflix named him chief content officer on October 15, effective Monday, October 26. He replaces Bela Bajaria, who had held the top creative job since January 2023 and had been with the company since 2016.</p>
+<p>The job is the whole slate. Rice oversees Netflix's global content organization: scripted and unscripted series, film, and live events, according to <a href="https://www.cnbc.com/2026/10/15/netflix-bela-bajaria-peter-rice.html" target="_blank" rel="noopener">CNBC</a>. TheWrap puts the budget that comes with it at roughly $20 billion a year.</p>
+<h2>Who he is</h2>
+<p>Rice is a studio and network operator by trade. He ran Fox Searchlight and later held senior roles at 21st Century Fox. After Disney bought the Fox entertainment assets, he ran Disney's general entertainment content, overseeing its cable channels, news programming and live sports coverage, until Disney fired him in June 2022, as <a href="https://deadline.com/2026/10/netflix-peter-rice-chief-content-officer-1237158809/" target="_blank" rel="noopener">Deadline</a> recalled in its report on the appointment. Before Netflix, he was head of ceremonies and content for the LA28 Olympics.</p>
+<p>Co-CEO Ted Sarandos called him one of the most effective at-scale operators in the industry.</p>
+<h2>Why now</h2>
+<p>The change arrived with a cut. Bajaria's exit came as Netflix eliminated about 1,000 jobs, roughly 6% of its workforce, <a href="https://www.hollywoodreporter.com/news/general-news/bela-bajaria-out-netflix-1236733291/" target="_blank" rel="noopener">The Hollywood Reporter</a> reported. Analysts quoted by <a href="https://www.thewrap.com/creative-content/movies/netflix-peter-rice-bela-bajaria-shakeup-explained/" target="_blank" rel="noopener">TheWrap</a> read the move as a back-to-basics turn toward film and television, after slowing engagement and new pressure from a Skydance-controlled Paramount-Warner Bros.</p>
+<p>For the town, the practical question is simple. Every agent, showrunner and producer with a project in Netflix's pipeline now has a new top decision-maker, and a new boss's first months are when slates get reviewed. Newswire Hollywood will report the first greenlights and the first cancellations made on Rice's watch.</p>
+<div class="card">
+  <div class="card-head">At a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>New chief content officer</dt><dd>Peter Rice, former chairman of general entertainment content at Disney</dd><dt>Replaces</dt><dd>Bela Bajaria, chief content officer since January 2023</dd><dt>Announced</dt><dd>October 15, 2026</dd><dt>Effective</dt><dd>October 26, 2026</dd><dt>Oversees</dt><dd>Series, film and live events worldwide; content budget of roughly $20 billion</dd><dt>Same month</dt><dd>About 1,000 Netflix jobs cut, roughly 6% of staff</dd>
+    </dl>
+  </div>
+</div>
+<p style="font-size:15px;color:#6A6A6A">Sources: CNBC, Deadline, The Hollywood Reporter and TheWrap, linked above.</p>]]></content:encoded></item>
+<item><title>Freda Payne Set Hollywood on Fire</title><link>https://newswirehollywood.com/freda-payne-catalina-legendary-ladies-review.html</link><guid isPermaLink="true">https://newswirehollywood.com/freda-payne-catalina-legendary-ladies-review.html</guid><pubDate>Wed, 30 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset — and an 84-year-old legend in gold lamé who sang her heroes back into the room.</description><content:encoded><![CDATA[<div class="top">
+  <span class="sold">Sold out</span><span class="kicker">Review &middot; Music Desk</span>
+  <h1>Freda Payne Set Hollywood on Fire</h1>
+  <p class="dek">On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset &mdash; and an 84-year-old legend in gold lam&eacute; who sang her heroes back into the room.</p>
+  <div class="byline"><b>By the Music Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Photographs by Terry Bryant &nbsp;|&nbsp; Sept 30, 2026 &nbsp;|&nbsp; Catalina Jazz Club, Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Show</dt><dd>Freda Payne Portrays and Honors Legendary Ladies of Song</dd></div><div><dt>Date</dt><dd>Saturday, Sept. 26, 2026</dd></div><div><dt>Venue</dt><dd>Catalina Jazz Club, 6725 Sunset Blvd., Los Angeles</dd></div><div><dt>Written and directed by</dt><dd>Donald B. Welch</dd></div><div><dt>Status</dt><dd>Sold out</dd></div></dl></section>
+</div>
+
+<figure class="hero-shot">
+  <img src="https://newswirehollywood.com/img/freda-catalina-hero.jpg" alt="Freda Payne in a black lace gown with a sheer neckline, microphone in hand, smiling out at the room at Catalina Jazz Club under red stage light">
+  <div class="credit">Freda Payne at Catalina Jazz Club, September 26, 2026. Photo by Terry Bryant / Newswire Hollywood</div>
+</figure>
+
+<p>Black lace, cut to the floor. A red curtain behind her, a bass player in gold at her shoulder, and a microphone held the way only somebody who has done this for sixty years holds one.</p>
+
+<p>Freda Payne is eighty-four years old. She walked out on Sunset Boulevard on Saturday night and took the room.</p>
+
+<p>That is the photograph. That is also the review, and everything after this is elaboration.</p>
+
+<p>Hollywood has not stopped talking about it since.</p>
+
+<p class="pull">This was not a tribute show. This was testimony.</p>
+
+<p>The distinction is the whole evening. A tribute show is a singer doing impressions of the dead. <i>Freda Payne Portrays and Honors Legendary Ladies of Song</i>, which sold out Catalina Jazz Club on Saturday night, was a woman singing about people she had stood next to &mdash; who had frightened her, taught her, been kind to her when she was young and nobody yet.</p>
+
+<p>Ella Fitzgerald. Sarah Vaughan. Dinah Washington. Lena Horne. Nancy Wilson. Peggy Lee. Gloria Lynne. Dakota Staton. Eartha Kitt.</p>
+
+<p>Nine women. She knew a good many of them. You could hear it in every bar.</p>
+
+<h2>Donald B. Welch built the room she needed</h2>
+
+<p>Credit where the evening starts. <b>Donald B. Welch</b> &mdash; playwright, director, producer &mdash; wrote and directed this, presented it under the Don B. Welch banner, and had the idea in the first place. He and Payne have been friends for years. It was Welch who pushed.</p>
+
+<div class="q">&ldquo;He said, Freda, I want you to do this show honouring several ladies &mdash; Ella Fitzgerald, who was one of my favorite, favorite ladies of jazz. Gloria Lynne. Dakota Staton and Sarah Vaughan, Lena Horne, Nancy Wilson. All these ladies were some of my favorite singers back when I started wanting to be a professional singer. Peggy Lee. Dinah Washington.&rdquo;<cite>Freda Payne to Newswire Hollywood</cite></div>
+
+<p>Here is what Welch understood, and what most producers of this kind of show never work out: the star's memory <i>is</i> the material. He did not build a revue and hire Freda Payne to front it. He built a frame around what she already carried, then got out of the way.</p>
+
+<p>And he staged it properly. Costume changes. Scene work. Actors. A table, two martinis and a candle for the Eartha Kitt sequence. Dancers for &ldquo;Fever.&rdquo; This is a produced piece of theatre with a band in it, not a cabaret set with patter between numbers, and the difference is money and craft on the stage where an audience can see it.</p>
+
+<div class="figpair">
+  <figure>
+    <img src="https://newswirehollywood.com/img/freda-catalina-stage-02.jpg" alt="Freda Payne in a gold lame halter and flares under red stage light at Catalina Jazz Club">
+    <figcaption>The gold. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+  </figure>
+  <figure>
+    <img src="https://newswirehollywood.com/img/freda-catalina-black-gown.jpg" alt="Freda Payne in a black lace gown with a thigh-high slit, upright bass behind her">
+    <figcaption>And the change. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+  </figure>
+</div>
+
+<h2>The Fever</h2>
+
+<p>Peggy Lee's song, in gold lam&eacute;, on Payne's own birthday weekend, with two dancers brought up onto the stage. Red light coming down like heat.</p>
+
+<figure class="wide">
+  <img src="https://newswirehollywood.com/img/freda-catalina-fever.jpg" alt="Freda Payne in gold sings Fever at Catalina Jazz Club, flanked by two dancers under red light">
+  <figcaption><b>&ldquo;Fever.&rdquo;</b> Peggy Lee's song, worked between two dancers on Payne's birthday weekend. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+</figure>
+
+<p>She does not hurry it. That is the thing to understand about the number and about the woman. There is no scramble in it, no proving. She lets the bass walk, lets the room lean in, and plays the whole thing at exactly the tempo she wants.</p>
+
+<p class="pull">That is not an artist paying respects to a legend. That is an artist reminding a room that she is one.</p>
+
+<p>The house came apart. Not polite-jazz-club applause &mdash; the other kind, the kind that arrives before the last note has cleared and does not stop when it should.</p>
+
+<h2>The songs, and where they came from</h2>
+
+<p>She opened with <b>&ldquo;How High the Moon&rdquo;</b> &mdash; Ella's, by way of <i>Ella in Berlin</i> &mdash; and Payne is scrupulous about the credit: the song is a standard, but Ella's reading is the one carved in stone.</p>
+
+<ul class="setlist">
+  <li><b>&ldquo;How High the Moon&rdquo;</b><span>Ella Fitzgerald</span></li>
+  <li><b>&ldquo;I Wish You Love&rdquo;</b><span>Gloria Lynne</span></li>
+  <li><b>&ldquo;The Late Late Show&rdquo;</b><span>Dakota Staton</span></li>
+  <li><b>&ldquo;Body and Soul&rdquo;</b><span>Sarah Vaughan</span></li>
+  <li><b>&ldquo;Guess Who I Saw Today&rdquo;</b><span>Nancy Wilson</span></li>
+  <li><b>&ldquo;Fever&rdquo;</b><span>Peggy Lee</span></li>
+</ul>
+
+<p>The Dakota Staton number is where the evening cracked open. &ldquo;The Late Late Show&rdquo; sent Payne back sixty-odd years in four bars, and afterwards she could still walk you there:</p>
+
+<div class="q">&ldquo;I can picture myself now, on vacation up in a summer resort back in Michigan, because I was still living in Detroit, and I was like sixteen years old. It was a Black summer resort at the time in Michigan. It was called Idlewild. We had a cottage up there. My sister and I were allowed to go to matinees because we couldn't go to the nightclubs at night. We were still in our teens. And I remember her song, &lsquo;The Late Late Show.&rsquo;&rdquo;<cite>Freda Payne to Newswire Hollywood</cite></div>
+
+<p>You cannot rehearse that. A sixteen-year-old at Idlewild, allowed into the matinee and not the midnight show, hearing Dakota Staton and deciding something permanent about her own life. That girl was on the Catalina stage on Saturday, inside a woman in gold lam&eacute;.</p>
+
+<h2>The ones she knew</h2>
+
+<p>Sarah Vaughan she met, and came to know. She describes the voice the way a musician would, not a fan:</p>
+
+<div class="q">&ldquo;Her voice was like listening to a violin or a viola. Very soothing. She was a great jazz singer.&rdquo;<cite>Freda Payne on Sarah Vaughan</cite></div>
+
+<p>She sang &ldquo;Body and Soul&rdquo; for Sarah, with the caveat that Sarah did everything.</p>
+
+<p>Lena Horne got the sharpest read of the night. Known for her beauty, Payne said, her class, her style &mdash; and then, without a breath: &ldquo;She wasn't a pussycat kind of a woman. She was like, don't mess with me, buddy.&rdquo; Tough. And of all of them, the most beautiful.</p>
+
+<p>Nancy Wilson got &ldquo;Guess Who I Saw Today,&rdquo; the only possible choice, and Payne knows exactly why: &ldquo;The moment you hear her voice, you know it's Nancy Wilson.&rdquo;</p>
+
+<p>Then Dinah Washington, who Payne met young and was frightened of.</p>
+
+<div class="q">&ldquo;Dinah Washington was a sister. She didn't take no mess from nobody. She would get in your face. She would fight men. When I first met her, I was scared, because I didn't think she liked me &mdash; I was young and cute back then. But for some reason, she liked me. I think it's because I kind of stood up to her. She could tell I was no pushover.&rdquo;<cite>Freda Payne on Dinah Washington</cite></div>
+
+<p>Washington died at thirty-nine. Payne says it flatly and moves on, which lands harder than dwelling on it ever could.</p>
+
+<h2>Thomasina Gross does not do an impression of Eartha Kitt</h2>
+
+<figure class="wide">
+  <img src="https://newswirehollywood.com/img/freda-catalina-eartha-sings.jpg" alt="Thomasina Gross performing as Eartha Kitt in a leopard-print gown and black opera gloves">
+  <figcaption><b>Thomasina Gross as Eartha Kitt.</b> Photo by Terry Bryant / Newswire Hollywood</figcaption>
+</figure>
+
+<p><b>Thomasina Gross</b> opened the show and walked off with a considerable piece of it. Payne's own description is the one to use, because watching it, it is simply accurate:</p>
+
+<div class="q">&ldquo;When you see her perform &mdash; first of all, just to see her physically, she looks like Eartha Kitt. Her body is like Eartha Kitt. And she does this portrayal like spot on.&rdquo;<cite>Freda Payne on Thomasina Gross</cite></div>
+
+<p>Spot on is right, and it is the hardest note in the show to hit. Eartha Kitt is the most imitated woman in American entertainment and almost every imitation is a cartoon &mdash; the purr, the rolled vowels, the punchline. Gross plays the <i>spine</i>: the poise, the cool, the danger sitting underneath the flirtation. Leopard print, black opera gloves, and not one wink at the audience.</p>
+
+<figure class="wide">
+  <img src="https://newswirehollywood.com/img/freda-catalina-eartha-table.jpg" alt="Thomasina Gross as Eartha Kitt in a staged scene at a candlelit table with two martinis and a man in a suit">
+  <figcaption>The table scene. Two martinis, a candle, and a woman who knows exactly what she is doing. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+</figure>
+
+<p>The table scene is the proof. Anybody can put on the wig. Playing Eartha Kitt seated, still, doing almost nothing, and holding a room that size &mdash; that is acting, and Gross can do it. She does not send Eartha Kitt up. She stands her back up.</p>
+
+<h2>Gregory Abbott Jr. hosted, and knew exactly what the night was</h2>
+
+<div class="figpair">
+  <figure>
+    <img src="https://newswirehollywood.com/img/freda-catalina-gregory-portrait.jpg" alt="Gregory Abbott Jr. in a blue satin shirt at Catalina Jazz Club, the running sheet on the table in front of him">
+    <figcaption><b>Gregory Abbott Jr.</b>, the running sheet still in front of him. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+  </figure>
+  <figure>
+    <img src="https://newswirehollywood.com/img/freda-catalina-gregory.jpg" alt="Freda Payne in a rose satin robe with feather cuffs alongside her son Gregory Abbott Jr. at the Catalina Jazz Club step and repeat">
+    <figcaption><b>Payne with her son</b> after the show. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+  </figure>
+</div>
+
+<p><b>Gregory Abbott Jr.</b> hosted and announced. He introduced Thomasina Gross, he introduced his mother, and he carried the room between numbers with the ease of a man who has been standing in the wings of rooms like this his entire life.</p>
+
+<p>Payne made a point of it twice in conversation afterwards, unprompted &mdash; the second time cutting herself off mid-sentence to make sure he got his due. Anyone who has watched a parent watch their child work will know exactly what that sounded like.</p>
+
+<h2>The band was not decoration</h2>
+
+<figure class="wide">
+  <img src="https://newswirehollywood.com/img/freda-catalina-stage-01.jpg" alt="Freda Payne at the microphone with her band behind her in gold jackets, the Catalina Jazz Club bass drum head visible">
+  <figcaption>The band came out in gold too. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+</figure>
+
+<p><b>Josh Nelson</b> was musical director from the piano, and Payne's verdict is unqualified &mdash; there are a lot of good pianists, and he is one of the best. It shows in arrangements that never once let the evening slide into lounge. <b>Chris Colangelo</b> on bass, holding the low end like a man with nothing to prove. <b>Ricky Woodard</b> on saxophone &mdash; <i>the</i> Ricky Woodard, as Payne put it, and anybody who has spent a night in a Los Angeles jazz room knows the definite article is doing real work there. <b>Marcello Carelli</b> on drums, playing the room rather than the kit.</p>
+
+<p>Actors <b>Terryl DaLuz</b> and <b>Kyrel Jaundoo</b> filled out the staging, with <b>Chuka Aruh</b> and <b>Mi-cha-El Wat</b> as escorts.</p>
+
+<h2>The room, and the weekend</h2>
+
+<figure class="wide">
+  <img src="https://newswirehollywood.com/img/freda-catalina-powers.jpg" alt="Thomasina Gross, Stefanie Powers and Freda Payne together at the Catalina Jazz Club step and repeat">
+  <figcaption><b>Thomasina Gross, Stefanie Powers and Freda Payne</b> at Catalina. Photo by Terry Bryant / Newswire Hollywood</figcaption>
+</figure>
+
+<p><b>Stefanie Powers</b> came out. So did <b>Loretta Devine</b>. And they were nowhere near the only ones.</p>
+
+<p>Look down any row at Catalina on Saturday and you were looking at a face you knew &mdash; screen actors, recording artists, directors, industry people who do not go out on a Saturday unless the night is worth it. Nobody worked the room, because everybody in the room was somebody. They had come to watch, not to be watched, which in this town is the highest compliment an audience can pay a performer.</p>
+
+<p>Now consider the timing, because it is the whole story. This was VMAs weekend. Every camera in Los Angeles was pointed downtown at the Peacock Theater. Every publicist in the city was working a carpet. Madonna was opening a show for the first time in twenty-three years across town.</p>
+
+<p>And the hottest ticket in town &mdash; the one that sold out, the one that filled with famous people who could have been anywhere &mdash; was a jazz room on Sunset Boulevard, where a woman in gold held a sold-out room's undivided attention with a standard written in 1940.</p>
+
+<p class="pull">That is not nostalgia. That is the market telling you something.</p>
+
+<h2>What a birthday looks like</h2>
+
+<p>Payne turned a year older on September 19, one week before the show. From the stage she said she was blessed to see another year and still be working, thanked God for it, and turned to the women being honoured that night.</p>
+
+<p>Dinah Washington, one of the women honoured that night, was thirty-nine when she died. That is the whole sentence.</p>
+
+<p>Freda Payne opened her new birthday year with a sold-out house on Sunset Boulevard, in gold, singing her heroes back into the room, with her son calling her name.</p>
+
+<p class="pull">She set the town on fire. There is no other way to file it.</p>
+
+<h2>Next</h2>
+
+<p>Payne sails at the end of October aboard <b>Holland America</b>, performing on a cruise out of Fort Lauderdale to Puerto Rico and back, on a bill that also carries <b>Darlene Love</b> and <b>Wayne Newton</b>.</p>
+
+<p>And <i>Legendary Ladies of Song</i> should not stop here. On Saturday's evidence this is a touring production &mdash; a real one, with a book, a company and a star who can carry a far bigger house than this one. Somebody with a theatre and a chequebook was almost certainly sitting in that room. They should move.</p>
+
+<p>If it comes back around, do not wait for the review. It sold out this time, and it will sell out faster next time.</p>
+
+<!-- VIDEO -->
+<section class="vids">
+<h2>Watch: from the stage at Catalina</h2>
+
+<figure style="margin:0">
+  <div class="frame wide-frame">
+    <iframe src="https://www.youtube.com/embed/MsRGnm458fo"
+            title="Freda Payne at Catalina Jazz Club"
+            loading="lazy" allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="vcap"><b>Freda Payne Portrays and Honors Legendary Ladies of Song</b> &mdash; Catalina Jazz Club, Los Angeles, September 26, 2026. <a href="https://youtu.be/MsRGnm458fo" rel="noopener" style="color:var(--signal)">Watch on YouTube</a></figcaption>
+</figure>
+
+<div class="shorts">
+  <figure style="margin:0">
+    <div class="frame">
+      <iframe src="https://www.youtube.com/embed/Iu58ZFcRw6Q"
+              title="Freda Payne at Catalina Jazz Club - performance clip"
+              loading="lazy" allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <figcaption class="vcap">From the performance. <a href="https://youtu.be/Iu58ZFcRw6Q" rel="noopener" style="color:var(--signal)">Watch on YouTube</a></figcaption>
+  </figure>
+  <figure style="margin:0">
+    <div class="frame">
+      <iframe src="https://www.youtube.com/embed/mISIKPyYvig"
+              title="Freda Payne at Catalina Jazz Club - performance clip"
+              loading="lazy" allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <figcaption class="vcap">From the performance. <a href="https://youtu.be/mISIKPyYvig" rel="noopener" style="color:var(--signal)">Watch on YouTube</a></figcaption>
+  </figure>
+</div>
+</section>
+<!-- /VIDEO -->
+
+<div class="card">
+  <div class="card-head">The show</div>
+  <div class="card-body">
+    <dl>
+      <dt>Production</dt><dd><i>Freda Payne Portrays and Honors Legendary Ladies of Song</i></dd>
+      <dt>Presented by</dt><dd>Don B. Welch</dd>
+      <dt>Written &amp; directed by</dt><dd>Donald B. Welch</dd>
+      <dt>Starring</dt><dd>Freda Payne</dd>
+      <dt>Special guest</dt><dd>Thomasina Gross as Eartha Kitt</dd>
+      <dt>Host &amp; announcer</dt><dd>Gregory Abbott Jr.</dd>
+      <dt>Actors</dt><dd>Terryl DaLuz &middot; Kyrel Jaundoo</dd>
+      <dt>Escorts</dt><dd>Chuka Aruh &middot; Mi-cha-El Wat</dd>
+      <dt>Musical director &amp; piano</dt><dd>Josh Nelson</dd>
+      <dt>Bass</dt><dd>Chris Colangelo</dd>
+      <dt>Saxophone</dt><dd>Ricky Woodard</dd>
+      <dt>Drums</dt><dd>Marcello Carelli</dd>
+      <dt>Honouring</dt><dd>Ella Fitzgerald &middot; Sarah Vaughan &middot; Peggy Lee &middot; Gloria Lynne &middot; Dakota Staton &middot; Lena Horne &middot; Nancy Wilson &middot; Dinah Washington &middot; Eartha Kitt</dd>
+      <dt>Venue</dt><dd>Catalina Jazz Club, 6725 Sunset Blvd, Los Angeles, CA 90028</dd>
+      <dt>Date</dt><dd>Saturday, September 26, 2026 &middot; 8:30 p.m. &middot; Sold out</dd>
+      <dt>Photographs</dt><dd>Terry Bryant, Newswire Hollywood</dd>
+    </dl>
+  </div>
+</div>
+
+<p style="font-family:var(--hed);font-size:13px;color:#7A7A7A;border-top:1px solid var(--rule);padding-top:16px">Quotations are from an interview with Freda Payne conducted by Newswire Hollywood following the performance. All photographs by Terry Bryant, Newswire Hollywood staff. &copy; Newswire Hollywood &mdash; reproduction by permission only.</p>
+
+<p><a href="https://newswirehollywood.com/freda.html" style="color:var(--signal);font-weight:600">More on Freda Payne &rsaquo;</a> &nbsp;&middot;&nbsp; <a href="https://newswirehollywood.com/freda-presskit.html" style="color:var(--signal);font-weight:600">Press kit &rsaquo;</a></p>]]></content:encoded><media:content url="https://newswirehollywood.com/img/freda-catalina-hero-wide.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-catalina-hero-wide.jpg"/></item>
+<item><title>PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club</title><link>https://newswirehollywood.com/pr-freda-payne-catalina-sold-out.html</link><guid isPermaLink="true">https://newswirehollywood.com/pr-freda-payne-catalina-sold-out.html</guid><pubDate>Tue, 29 Sep 2026 00:00:00 -0700</pubDate><dc:creator>Supplied by the production</dc:creator><description>Don B. Welch presents the legendary Freda Payne in a sold-out tribute to nine women who built American jazz and pop, staged on Sunset Boulevard on VMAs weekend.</description><content:encoded><![CDATA[<span class="prlabel">Press release &middot; Newswire Hollywood</span>
+<div class="prmeta">FOR IMMEDIATE RELEASE &nbsp;&middot;&nbsp; Los Angeles, California &nbsp;&middot;&nbsp; September 30, 2026</div>
+
+<h1 style="margin-top:0">Freda Payne Sets Hollywood on Fire With a Sold-Out Catalina Jazz Club Triumph</h1>
+
+<p class="dek">At 84, the legend is still standing and still stopping shows. Newswire Hollywood calls the night one of the finest in Los Angeles this season.</p>
+
+<figure class="pr-img">
+  <img src="https://newswirehollywood.com/img/freda-catalina-hero.jpg" alt="Freda Payne in a black lace gown with a sheer neckline, microphone in hand, smiling out at the room at Catalina Jazz Club">
+  <figcaption>Freda Payne at Catalina Jazz Club, September 26, 2026. Photo by Terry Bryant / Newswire Hollywood. Available for editorial use with credit.</figcaption>
+</figure>
+
+<p><b>LOS ANGELES &mdash;</b> Freda Payne is eighty-four years old, and on Saturday night she was still standing, still singing and still stopping the show.</p>
+
+<p><i>Freda Payne Portrays and Honors Legendary Ladies of Song</i> played to a sold-out Catalina Jazz Club, 6725 Sunset Boulevard, on September 26, 2026, one week after her birthday and on the weekend of the MTV Video Music Awards. Newswire Hollywood&rsquo;s Music Desk has published its review, <b>&ldquo;Freda Payne Set Hollywood on Fire,&rdquo;</b> along with a full photographic report of the evening.</p>
+
+<p>The production was written and directed by <b>Donald B. Welch</b> and presented by <b>Don B. Welch</b>. Payne honored nine women who shaped American song: <b>Ella Fitzgerald, Sarah Vaughan, Peggy Lee, Gloria Lynne, Dakota Staton, Lena Horne, Nancy Wilson, Dinah Washington</b> and <b>Eartha Kitt</b>.</p>
+
+<h2>A night Hollywood is still talking about</h2>
+
+<p>Payne&rsquo;s program included &ldquo;How High the Moon,&rdquo; &ldquo;I Wish You Love,&rdquo; &ldquo;The Late Late Show,&rdquo; &ldquo;Body and Soul,&rdquo; &ldquo;Guess Who I Saw Today&rdquo; and &ldquo;Fever,&rdquo; the last of which she sang in gold lam&eacute; with two men brought up onto the stage.</p>
+
+<p>&ldquo;The idea of doing a show honoring the legendary ladies of song and jazz was brought to me by my dear friend Donald B. Welch,&rdquo; said Payne. &ldquo;All these ladies were some of my favorite singers back when I started wanting to be a professional singer.&rdquo;</p>
+
+<p>A note from Payne printed on the evening&rsquo;s running sheet reads: &ldquo;I am so blessed to see another year and still be working. I thank God for that.&rdquo;</p>
+
+<h2>Cast and company</h2>
+
+<p>Special guest <b>Thomasina Gross</b> opened the show as <b>Eartha Kitt</b>, a portrayal Payne called &ldquo;spot on.&rdquo; The evening was hosted and announced by Payne&rsquo;s son, <b>Gregory Abbott Jr.</b> Actors <b>Terryl DaLuz</b> and <b>Kyrel Jaundoo</b> appeared, with <b>Chuka Aruh</b> and <b>Mi-cha-El Wat</b> as escorts.</p>
+
+<p>The band was led by musical director and pianist <b>Josh Nelson</b>, whom Payne called &ldquo;one of the best,&rdquo; with <b>Chris Colangelo</b> on bass, <b>Ricky Woodard</b> on saxophone and <b>Marcello Carelli</b> on drums.</p>
+
+<h2>In the house</h2>
+
+<p><b>Stefanie Powers</b> and <b>Loretta Devine</b> were among the guests in a room that also held many other familiar faces from the industry.</p>
+
+<h2>Photographs and video</h2>
+
+<p>Photographs by Terry Bryant, Newswire Hollywood, are available for editorial use with credit. Performance video: <a href="https://youtu.be/MsRGnm458fo" style="color:var(--signal)">youtu.be/MsRGnm458fo</a> &middot; <a href="https://youtu.be/Iu58ZFcRw6Q" style="color:var(--signal)">youtu.be/Iu58ZFcRw6Q</a> &middot; <a href="https://youtu.be/mISIKPyYvig" style="color:var(--signal)">youtu.be/mISIKPyYvig</a>.</p>
+
+<h2>Upcoming</h2>
+
+<p>Payne performs aboard <b>Holland America</b> at the end of October 2026, sailing from Fort Lauderdale, Florida to Puerto Rico and back, on a bill that also includes <b>Darlene Love</b> and <b>Wayne Newton</b>.</p>
+
+<h2>About Freda Payne</h2>
+
+<p>Freda Payne is a singer and actress whose career spans six decades, best known internationally for &ldquo;Band of Gold.&rdquo; Her memoir, <i>Band of Gold: A Memoir</i>, is available now. More on Freda Payne, her memoir and her appearances at her official website, <a href="https://www.fredapayne.net/" style="color:var(--signal)">fredapayne.net</a>.</p>
+
+<h2>About Newswire Hollywood</h2>
+
+<p>Newswire Hollywood is an entertainment news organization in Los Angeles covering film, television, music, fashion, deals and the business of the industry.</p>
+
+<div class="ends">&mdash; ENDS &mdash;</div>
+
+<div class="contact">
+  <p style="margin-bottom:10px"><b>MEDIA CONTACT</b></p>
+  <p style="margin-bottom:4px">Terry Bryant &middot; Senior Editor, Newswire Hollywood</p>
+  <p style="margin-bottom:4px"><a href="mailto:info@newswirehollywood.com" style="color:var(--signal)">info@newswirehollywood.com</a> &middot; 646-315-2942</p>
+  <p style="margin-bottom:0"><a href="https://newswirehollywood.com" style="color:var(--signal)">newswirehollywood.com</a></p>
+</div>
+
+<p style="font-family:var(--hed);font-size:13px;color:#7A7A7A;border-top:1px solid var(--rule);padding-top:16px">This release is issued by Newswire Hollywood. Its independent review of the performance is published separately.</p>
+
+<p><a href="https://newswirehollywood.com/freda-payne-catalina-legendary-ladies-review.html" style="color:var(--signal);font-weight:600">Read the review &rsaquo;</a> &nbsp;&middot;&nbsp; <a href="https://newswirehollywood.com/freda-presskit.html" style="color:var(--signal);font-weight:600">Press kit &rsaquo;</a> &nbsp;&middot;&nbsp; <a href="https://newswirehollywood.com/pressroom.html" style="color:var(--signal);font-weight:600">Press Room &rsaquo;</a></p>]]></content:encoded><media:content url="https://newswirehollywood.com/img/freda-catalina-poster.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-catalina-poster.jpg"/></item>
+<item><title>Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year</title><link>https://newswirehollywood.com/vmas-2026-winners-red-carpet.html</link><guid isPermaLink="true">https://newswirehollywood.com/vmas-2026-winners-red-carpet.html</guid><pubDate>Mon, 28 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Full winners</span><span class="kicker">Music Desk</span>
+  <h1>Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year</h1>
+  <p class="dek">Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.</p>
+  <div class="byline"><b>By the Music Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 28, 2026 &nbsp;|&nbsp; Updated Sept 29 &nbsp;|&nbsp; Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Event</dt><dd>2026 MTV Video Music Awards</dd></div><div><dt>Date</dt><dd>Sunday, Sept. 27, 2026</dd></div><div><dt>Venue</dt><dd>Peacock Theater, Los Angeles</dd></div><div><dt>Host</dt><dd>Snoop Dogg</dd></div><div><dt>Video of the Year</dt><dd>Taylor Swift, “The Fate of Ophelia”</dd></div><div><dt>Biggest winner</dt><dd>Madonna, 7 awards</dd></div></dl></section>
+</div>
+
+<p>Madonna opened the 2026 MTV Video Music Awards at the Peacock Theater in downtown Los Angeles on Sunday night &mdash; her first performance at the ceremony in twenty-three years &mdash; and left it the evening's biggest winner, with seven trophies including Artist of the Year for <b>Confessions II</b>.</p>
+
+<p>The night's single largest prize went elsewhere. <b>Taylor Swift took Video of the Year for &ldquo;The Fate of Ophelia,&rdquo;</b> extending a record that is already hers alone. It is her sixth in the category, after &ldquo;Bad Blood&rdquo; in 2015, &ldquo;You Need to Calm Down&rdquo; in 2019, &ldquo;All Too Well: The Short Film&rdquo; in 2022, &ldquo;Anti-Hero&rdquo; in 2023 and &ldquo;Fortnight&rdquo; in 2024. She thanked Dolly Parton from the stage.</p>
+
+<p>Madonna had arrived as the most-nominated artist of the evening with thirteen, a career high, across Video of the Year, Artist of the Year and Song of the Year. Snoop Dogg hosted.</p>
+
+<p>Snoop Dogg hosted.</p>
+
+<h2>The carpet</h2>
+
+<p>Arrivals ran long and ran loud. Taylor Swift, Charli XCX, Tyla, Adam Lambert and Troye Sivan worked the line. Chuck D and Flavor Flav came through together. Lisa Rinna arrived in an ivory gown with a sculpted bust, a thigh-high slit and fabric draped off one shoulder, the train doing most of the talking.</p>
+
+<!-- GALLERY: Madonna | Taylor Swift | Snoop Dogg | Charli XCX | Tyla | Adam Lambert | Troye Sivan | Flavor Flav -->
+<div class="shots">
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg" alt="Madonna" loading="lazy">
+    <figcaption><b>Madonna</b><span>Raph_PH &middot; Wikimedia Commons &middot; CC BY 2.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png" alt="Taylor Swift" loading="lazy">
+    <figcaption><b>Taylor Swift</b><span>iHeartRadioCA &middot; Wikimedia Commons &middot; CC BY 3.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Snoop_Dogg%2C_WrestleMania_XL_%28cropped%29_%28cropped%29.jpg" alt="Snoop Dogg" loading="lazy">
+    <figcaption><b>Snoop Dogg</b><span>Diego Serrano &middot; Wikimedia Commons &middot; CC BY 2.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Charli_xcx_at_Berlinale_2026-1.jpg" alt="Charli XCX" loading="lazy">
+    <figcaption><b>Charli XCX</b><span>Elena Ternovaja &middot; Wikimedia Commons &middot; CC BY-SA 3.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Tyla_at_2026_Montreux_Jazz_Festival_2_%28cropped%29.jpg" alt="Tyla" loading="lazy">
+    <figcaption><b>Tyla</b><span>Janeirohy &middot; Wikimedia Commons &middot; CC BY-SA 4.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/AdamLambert-byPhilipRomano.jpg" alt="Adam Lambert" loading="lazy">
+    <figcaption><b>Adam Lambert</b><span>PhilipRomanoPhoto &middot; Wikimedia Commons &middot; CC BY-SA 4.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Troye_Sivan_-_1999_-_Primavera_Sound_Barcelona_-_2024.jpg" alt="Troye Sivan" loading="lazy">
+    <figcaption><b>Troye Sivan</b><span>PURE HONEY &middot; Wikimedia Commons &middot; CC BY 3.0</span></figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flavor_Flav_of_Public_Enemy.jpg" alt="Flavor Flav" loading="lazy">
+    <figcaption><b>Flavor Flav</b><span>kowarski &middot; Wikimedia Commons &middot; CC BY 2.0</span></figcaption>
+  </figure>
+</div>
+<!-- /GALLERY -->
+
+<p class="note">Newswire Hollywood does not hold a wire licence for last night's red carpet photography, and we do not publish images we have not licensed. The portraits above are freely licensed images of the artists who walked the carpet, each credited to its photographer and licence. Carpet photography will run here when it is licensed, not before.</p>
+
+<h2>The winners</h2>
+
+<p><b>Video of the Year</b> &mdash; Taylor Swift, &ldquo;The Fate of Ophelia.&rdquo; Her sixth, and a record only she holds.</p>
+
+<p><b>Artist of the Year</b> &mdash; Madonna, for <i>Confessions II</i>, the sequel to her 2005 album. Seven awards in all, more than anyone else on the night.</p>
+
+<p><b>Best Director</b> &mdash; Taylor Swift, &ldquo;Opalite.&rdquo;</p>
+
+<p><b>Best Pop</b> &mdash; LISA, &ldquo;Dream,&rdquo; featuring Kentaro Sakaguchi.</p>
+
+<p><b>Best Hip-Hop</b> &mdash; Cardi B featuring Kehlani, &ldquo;Safe.&rdquo;</p>
+
+<p><b>Artist Director Honors</b> &mdash; Taylor Swift, the inaugural recipient of a category created this year, which MTV describes as recognising work that builds interconnected narratives, cinematic worlds and recurring details across a body of work. Swift premiered the video for &ldquo;Patient Zero&rdquo; during the broadcast. She came in with eleven nominations.</p>
+
+<p><b>Michael Jackson Video Vanguard Award</b> &mdash; Nirvana.</p>
+
+<h2>What the night was actually about</h2>
+
+<p>The VMAs have spent a decade being written about as a show looking for a reason to exist. The answer this year was not a format change. It was Madonna on the stage that built her, twenty-three years on, walking off with seven &mdash; not a tribute, a sweep.</p>
+
+<p>But the record that moved belongs to Taylor Swift, who now has six Video of the Year wins and no one else within reach. Two eras of the same show, holding the two biggest prizes on the same night.</p>
+
+<p>Set that beside a posthumous Vanguard for Nirvana, a Dolly Parton tribute from Kacey Musgraves, and a George Michael tribute from Raye, sombr and Teddy Swims, and it was a night that spent much of its running time looking backward. Whether that reads as reverence or as hedging is the thing worth arguing about this morning.</p>
+
+<div class="card">
+  <div class="card-head">The 2026 VMAs at a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>Where</dt><dd>Peacock Theater, downtown Los Angeles</dd>
+      <dt>When</dt><dd>Sunday, September 27, 2026</dd>
+      <dt>Host</dt><dd>Snoop Dogg</dd>
+      <dt>Opened the show</dt><dd>Madonna &mdash; first VMAs performance in 23 years</dd>
+      <dt>Video of the Year</dt><dd>Taylor Swift &mdash; &ldquo;The Fate of Ophelia&rdquo; &middot; her sixth, a record</dd>
+      <dt>Artist of the Year</dt><dd>Madonna &mdash; <i>Confessions II</i></dd>
+      <dt>Biggest winner</dt><dd>Madonna, 7 awards</dd>
+      <dt>Best Director</dt><dd>Taylor Swift &mdash; &ldquo;Opalite&rdquo;</dd>
+      <dt>Best Pop</dt><dd>LISA &mdash; &ldquo;Dream&rdquo; ft. Kentaro Sakaguchi</dd>
+      <dt>Best Hip-Hop</dt><dd>Cardi B ft. Kehlani &mdash; &ldquo;Safe&rdquo;</dd>
+      <dt>Artist Director Honors</dt><dd>Taylor Swift &mdash; inaugural recipient</dd>
+      <dt>Video Vanguard Award</dt><dd>Nirvana</dd>
+      <dt>Most nominated</dt><dd>Madonna, 13 &mdash; a career high</dd>
+      <dt>Also performed</dt><dd>Raye &middot; Sienna Spiro &middot; Lisa &middot; Gunna &middot; Shaboozey &middot; GENER8ION &middot; Kacey Musgraves</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head">Correction</div>
+  <div class="card-body">
+    <p style="margin:14px 0 4px;font-size:16.5px">An earlier version of this story, published while categories were still being called, reported that Madonna won Video of the Year for &ldquo;Confessions II &mdash; The Film.&rdquo; That was wrong. Video of the Year went to Taylor Swift for &ldquo;The Fate of Ophelia.&rdquo; Madonna won Artist of the Year, and seven awards in all. Corrected September 29, 2026.</p>
+  </div>
+</div>
+
+<p><a href="https://newswirehollywood.com/vmas-2026-madonna-snoop-nirvana.html" style="color:var(--signal);font-weight:600">Read our preview of the ceremony &rsaquo;</a></p>]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png"/></item>
+<item><title>VMAs return to Los Angeles Sunday: Madonna opens after 23 years, Snoop Dogg hosts, Nirvana takes the Vanguard</title><link>https://newswirehollywood.com/vmas-2026-madonna-snoop-nirvana.html</link><guid isPermaLink="true">https://newswirehollywood.com/vmas-2026-madonna-snoop-nirvana.html</guid><pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The 2026 MTV Video Music Awards air live from Los Angeles on Sunday. Madonna leads all nominees with thirteen and opens the show. Taylor Swift receives a newly created honor, and premieres a video during the broadcast.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Airs Sunday</span><span class="kicker">Music Desk</span>
+  <h1>VMAs return to Los Angeles Sunday: Madonna opens after 23 years, Snoop Dogg hosts, Nirvana takes the Vanguard</h1>
+  <p class="dek">The 2026 MTV Video Music Awards air live from Los Angeles on Sunday. Madonna leads all nominees with thirteen and opens the show. Taylor Swift receives a newly created honor, and premieres a video during the broadcast.</p>
+  <div class="byline"><b>By the Music Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 26, 2026 &nbsp;|&nbsp; Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Event</dt><dd>2026 MTV Video Music Awards</dd></div><div><dt>When</dt><dd>Sun., Sept. 27, 2026, 7:30–9:30 p.m. ET</dd></div><div><dt>Where</dt><dd>Los Angeles</dd></div><div><dt>Watch</dt><dd>CBS, MTV, Paramount+</dd></div><div><dt>Host</dt><dd>Snoop Dogg</dd></div><div><dt>Most nominated</dt><dd>Madonna, 13</dd></div></dl></section>
+</div>
+
+<p>The 2026 MTV Video Music Awards air live from Los Angeles on Sunday, September 27, from 7:30 to 9:30 p.m. Eastern &mdash; 4:30 to 6:30 Pacific &mdash; on CBS, simulcast on MTV and streaming on Paramount+.</p>
+<p>Snoop Dogg hosts. Madonna opens the show, her first VMAs performance in twenty-three years, and arrives as the night's most-nominated artist with thirteen.</p>
+<p>Those two facts sit oddly well together. The VMAs spent the last decade being written about as a show in search of a reason to exist, and the fix, this year, is not a new format. It is the two performers most associated with the ceremony's own mythology, back on the stage that made them.</p>
+<p>Nirvana receives the Michael Jackson Video Vanguard Award. Taylor Swift takes the inaugural MTV VMA Artist Director Honors, a category created this year, and the video for her single &ldquo;Patient Zero&rdquo; premieres during the broadcast.</p>
+<p>The performance roster runs to Raye, Sienna Spiro, Lisa of Blackpink, Gunna, Shaboozey and GENER8ION. Kacey Musgraves performs a tribute to Dolly Parton. Raye, sombr and Teddy Swims honour George Michael.</p>
+<p>Two tributes and a posthumous Vanguard is a lot of looking backward for a show built on what is next. Whether that reads as reverence or as hedging is the question Sunday actually answers.</p>
+<p>Newswire Hollywood covers the ceremony and the carpet.</p>
+
+<!-- Optional fact card - delete this whole block if the story doesn't need one -->
+<div class="card">
+  <div class="card-head">At a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>When</dt><dd>Sunday, September 27, 2026 &mdash; 7:30&ndash;9:30 p.m. ET / 4:30&ndash;6:30 p.m. PT</dd><dt>Where to watch</dt><dd>CBS, simulcast on MTV, streaming on Paramount+</dd><dt>Host</dt><dd>Snoop Dogg</dd><dt>Opening performance</dt><dd>Madonna &mdash; first VMAs performance in 23 years</dd><dt>Most nominated</dt><dd>Madonna, 13 nominations</dd><dt>Video Vanguard Award</dt><dd>Nirvana</dd><dt>Artist Director Honors</dt><dd>Taylor Swift &mdash; inaugural recipient</dd><dt>Also performing</dt><dd>Raye &middot; Sienna Spiro &middot; Lisa &middot; Gunna &middot; Shaboozey &middot; GENER8ION</dd>
+    </dl>
+  </div>
+</div>]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg"/></item>
+<item><title>Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles</title><link>https://newswirehollywood.com/usher-chris-brown-rb-tour-sofi.html</link><guid isPermaLink="true">https://newswirehollywood.com/usher-chris-brown-rb-tour-sofi.html</guid><pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The co-headlining R&amp;amp;B Tour runs 33 stadium dates across North America. Los Angeles gets three of them &amp;mdash; last night, tonight, and a return in November.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Tonight in LA</span><span class="kicker">Music Desk</span>
+  <h1>Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles</h1>
+  <p class="dek">The co-headlining R&amp;B Tour runs 33 stadium dates across North America. Los Angeles gets three of them &mdash; last night, tonight, and a return in November.</p>
+  <div class="byline"><b>By the Music Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 26, 2026 &nbsp;|&nbsp; Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Tour</dt><dd>The R&amp;B Tour: Usher and Chris Brown</dd></div><div><dt>Run</dt><dd>June 26 – Dec. 11, 2026</dd></div><div><dt>Shows</dt><dd>33 stadium dates</dd></div><div><dt>Los Angeles</dt><dd>SoFi Stadium: Sept. 25, Sept. 26, Nov. 15</dd></div><div><dt>Opens / closes</dt><dd>Denver / Tampa</dd></div></dl></section>
+</div>
+
+<p>Usher and Chris Brown play SoFi Stadium tonight, the second of three Los Angeles dates on their co-headlining R&amp;B Tour.</p>
+<p>The run is thirty-three stadium shows across North America. It opened June 26 at Empower Field at Mile High in Denver and closes December 11 at Raymond James Stadium in Tampa, with stops in Detroit, Chicago, Toronto, Las Vegas, Houston and Miami in between. Las Vegas took two nights at Allegiant Stadium earlier this month.</p>
+<p>Los Angeles gets three: Friday, last night, tonight, and a return to SoFi on November 15.</p>
+<p>Three stadium nights in one market is the part worth noting. Stadium R&amp;B was, for most of the last twenty years, treated as a contradiction &mdash; the genre filled arenas and the stadium was reserved for rock, country and pop. Two artists splitting a bill to fill SoFi three times says that assumption has quietly expired.</p>
+<p>The tour donates one dollar from every ticket sold to the FIFA Global Citizen Education Fund, in a partnership with Global Citizen supporting access to education for children worldwide.</p>
+<p>It makes for a crowded Los Angeles weekend: SoFi tonight, and the VMAs across town on Sunday.</p>
+
+<!-- Optional fact card - delete this whole block if the story doesn't need one -->
+<div class="card">
+  <div class="card-head">At a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>Tonight</dt><dd>Saturday, September 26, 2026 &mdash; SoFi Stadium, Inglewood</dd><dt>Los Angeles dates</dt><dd>September 25, September 26, and November 15</dd><dt>Tour</dt><dd>The R&amp;B Tour &mdash; co-headlining, 33 stadium dates</dd><dt>Opened</dt><dd>June 26 &mdash; Empower Field at Mile High, Denver</dd><dt>Closes</dt><dd>December 11 &mdash; Raymond James Stadium, Tampa</dd><dt>Cause partner</dt><dd>$1 per ticket to the FIFA Global Citizen Education Fund</dd>
+    </dl>
+  </div>
+</div>]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg"/></item>
+<item><title>Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover</title><link>https://newswirehollywood.com/paramount-warner-settlement-foreign-ownership.html</link><guid isPermaLink="true">https://newswirehollywood.com/paramount-warner-settlement-foreign-ownership.html</guid><pubDate>Tue, 22 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>The deal survives a lawsuit that could have killed it &amp;mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Settled, pending judicial approval</span><span class="kicker">Deals Desk</span>
+  <h1>Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover</h1>
+  <p class="dek">The deal survives a lawsuit that could have killed it &mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.</p>
+  <div class="byline"><b>By the Deals Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 22, 2026 &nbsp;|&nbsp; Los Angeles</div>
+</div>
+
+<p>Paramount's owners have made a series of concessions to a coalition of 12 Democratic state attorneys general, resolving a lawsuit that had put the company's $111 billion takeover of Warner Bros. Discovery in real jeopardy.</p>
+<p>The settlement still has to be approved by a judge. If it is, Paramount will be bound to operate Warner Bros. Studios and Paramount Pictures as separate businesses &mdash; for now &mdash; and to a hard floor on how much it makes. Together the two studios must release at least 30 films a year for the next two years, rising to 32 a year for the three years after that, or face a financial penalty.</p>
+<p>That output floor is the part of this worth watching. The standard fear when two major studios combine is not that prices go up; it is that the slate goes down, and the number of films that get made and the number of people employed making them quietly contracts. The attorneys general appear to have negotiated directly against that outcome rather than against the merger itself.</p>
+<p>California Attorney General Rob Bonta was explicit that settling is not the same as blessing the deal. The agreement, he said, was not a vote of support for the merger but "a strong solution that protects competition and consumers."</p>
+<p>The settlement lands days after a separate and arguably larger decision. On September 18 the Federal Communications Commission approved an enormous infusion of foreign capital to finance the transaction. The merged company would be 49.5% owned by foreign interests, among them the sovereign wealth funds of Saudi Arabia, Qatar and Abu Dhabi.</p>
+<p>The FCC went further than the deal as structured requires, ruling that foreign ownership of the company could run as high as 100%. Paramount has said those stakes will be silent, non-voting shares.</p>
+<p>"Silent and non-voting" is a meaningful legal distinction and a thinner practical one. A shareholder with half the capital and no vote still has the standing that comes with being the reason the lights are on. Whether that shapes what a combined Paramount-Warner greenlights, and what it declines to greenlight, is not a question a merger condition can answer in advance.</p>
+<p>Newswire Hollywood is following the judicial approval and will report the ruling when it lands.</p>
+
+<!-- Optional fact card - delete this whole block if the story doesn't need one -->
+<div class="card">
+  <div class="card-head">At a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>Deal value</dt><dd>$111 billion</dd><dt>Plaintiffs</dt><dd>Coalition of 12 Democratic state attorneys general</dd><dt>Film output floor</dt><dd>30 films/year for two years, then 32/year for three</dd><dt>Studio structure</dt><dd>Warner Bros. Studios and Paramount Pictures operated separately</dd><dt>FCC ruling</dt><dd>September 18, 2026 &mdash; foreign ownership cleared to 49.5%, permitted up to 100%</dd><dt>Status</dt><dd>Settlement requires approval by a judge</dd>
+    </dl>
+  </div>
+</div>]]></content:encoded></item>
+<item><title>Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million</title><link>https://newswirehollywood.com/resident-evil-franchise-record-world-war-z.html</link><guid isPermaLink="true">https://newswirehollywood.com/resident-evil-franchise-record-world-war-z.html</guid><pubDate>Tue, 22 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Film Desk, Newswire Hollywood</dc:creator><description>The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Opening weekend</span><span class="kicker">Film Desk</span>
+  <h1>Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million</h1>
+  <p class="dek">The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.</p>
+  <div class="byline"><b>By the Film Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 22, 2026 &nbsp;|&nbsp; Los Angeles</div>
+</div>
+
+<p>Zach Cregger's <em>Resident Evil</em> opened to $108 million on September 22, the largest opening in the franchise's history.</p>
+<p>The number matters beyond the one title. Video-game adaptations spent two decades as the genre Hollywood could not crack, and the correction has been so complete that a franchise-best opening for a series this old now reads as ordinary rather than as a surprise. Cregger arrives from original horror rather than from studio franchise work, which is increasingly the profile studios are hiring against for this kind of material.</p>
+<p>A day earlier, on September 21, a sequel to <em>World War Z</em> was confirmed to be alive again after years in development limbo. Brad Pitt returns, and Edward Berger is set to direct.</p>
+<p>Berger is a pointed choice. His recent work sits at the prestige end of the business rather than the large-scale-action end, and hiring him for a zombie tentpole suggests the sequel is being positioned as something other than a straight retread of the 2013 original.</p>
+<p>Both stories run against the same backdrop as this week's other headline: a $111 billion consolidation working its way through the courts, with a negotiated floor on how many films get made. A franchise-best opening is a good week. A settlement that has to specify a minimum slate is a comment on the decade.</p>
+
+<!-- Optional fact card - delete this whole block if the story doesn't need one -->
+<div class="card">
+  <div class="card-head">At a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>Film</dt><dd>Resident Evil, directed by Zach Cregger</dd><dt>Opening</dt><dd>$108 million &mdash; franchise best</dd><dt>Opening date</dt><dd>September 22, 2026</dd><dt>Also announced</dt><dd>September 21 &mdash; World War Z sequel revived</dd><dt>Returning</dt><dd>Brad Pitt, with Edward Berger directing</dd>
+    </dl>
+  </div>
+</div>]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg"/></item>
+<item><title>Emmys 2026: the winners</title><link>https://newswirehollywood.com/emmys-2026.html</link><guid isPermaLink="true">https://newswirehollywood.com/emmys-2026.html</guid><pubDate>Wed, 16 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Awards Desk, Newswire Hollywood</dc:creator><description>The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. &quot;Hacks&quot; took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.</description><content:encoded><![CDATA[]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/f/f1/Jean_Smart_by_Gage_Skidmore.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/f/f1/Jean_Smart_by_Gage_Skidmore.jpg"/></item>
+<item><title>Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</title><link>https://newswirehollywood.com/tiff-2026-being-heumann.html</link><guid isPermaLink="true">https://newswirehollywood.com/tiff-2026-being-heumann.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Film Desk, Newswire Hollywood</dc:creator><description>The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Film Desk</span><span class="kicker" style="display:inline;margin-bottom:0">Toronto 2026</span>
+  <h1>Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'</h1>
+  <p class="dek">The 51st Toronto International Film Festival began September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.</p>
+  <div class="byline"><b>By the Film Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 11, 2026 &nbsp;|&nbsp; Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Event</dt><dd>51st Toronto International Film Festival</dd></div><div><dt>Dates</dt><dd>Sept. 10–20, 2026</dd></div><div><dt>Opening film</dt><dd>Being Heumann</dd></div><div><dt>Director</dt><dd>Sian Heder</dd></div><div><dt>Venue</dt><dd>Roy Thomson Hall, Toronto</dd></div></dl></section>
+</div>
+
+<p>The Toronto International Film Festival opened its 51st edition on September 10 with <em>Being Heumann</em>, a biopic of disability rights activist Judy Heumann directed by Sian Heder. The world premiere played at Roy Thomson Hall, the festival's traditional opening-night venue, kicking off a ten-day run through September 20.</p>
+
+<p>It's a notable follow-up: Heder's previous film, <em>CODA</em>, won the Academy Award for Best Picture in 2022 — one of the rare festival breakouts to carry a fest premiere all the way to the top Oscar. That track record is a large part of why <em>Being Heumann</em> was chosen to open a festival that has become one of the industry's key markets for acquisitions and awards-season positioning.</p>
+
+<h2>Who Judy Heumann was</h2>
+
+<p>Heumann was one of the central organizers of the disability rights movement in the United States, a role that included leading the 1977 sit-in at a San Francisco federal building that helped force regulations implementing Section 504 of the Rehabilitation Act — a foundational moment for disability civil rights that predates the Americans with Disabilities Act by more than a decade. The film stars Ruth Madeley in the title role.</p>
+
+<h2>Why it matters for the festival</h2>
+
+<p>Toronto's opening-night slot is a closely watched signal for the fall festival circuit — it's often the first real marker of which films are being positioned for awards attention heading into January through March. A director coming off a Best Picture win opening the festival puts real weight behind that positioning, and buyers and press at Roy Thomson Hall on opening night are effectively getting the first public read on how the film plays with an audience.</p>
+
+<div class="card">
+  <div class="card-head">If you're tracking it</div>
+  <div class="card-body">
+    <dl>
+      <dt>Festival</dt>
+      <dd>51st Toronto International Film Festival, Sept 10&ndash;20, 2026</dd>
+      <dt>Opening film</dt>
+      <dd>Being Heumann</dd>
+      <dt>Director</dt>
+      <dd>Sian Heder (CODA, Best Picture 2022)</dd>
+      <dt>Lead</dt>
+      <dd>Ruth Madeley as Judy Heumann</dd>
+      <dt>Venue</dt>
+      <dd>Roy Thomson Hall, Toronto</dd>
+    </dl>
+  </div>
+</div>
+
+<p>Newswire Hollywood's calendar desk is tracking the rest of the festival's premiere slate through the 20th — <a href="https://newswirehollywood.com/calendar.html">see what else is on the calendar</a>.</p>]]></content:encoded><media:content url="https://upload.wikimedia.org/wikipedia/commons/4/41/Judith_Heumann%2C_2014_%28cropped%29.jpg" medium="image"/><media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/4/41/Judith_Heumann%2C_2014_%28cropped%29.jpg"/></item>
+<item><title>'The Odyssey' breaks IMAX's all-time box office record</title><link>https://newswirehollywood.com/the-odyssey-imax-record.html</link><guid isPermaLink="true">https://newswirehollywood.com/the-odyssey-imax-record.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Deals Desk, Newswire Hollywood</dc:creator><description>$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Box office</span><span class="kicker">Deals &amp; Numbers</span>
+  <h1>'The Odyssey' breaks IMAX's all-time box office record</h1>
+  <p class="dek">Christopher Nolan's epic has grossed $289 million in IMAX alone, passing Avatar's $270 million record, on its way to $1.627 billion worldwide — the highest-grossing R-rated film in history.</p>
+  <div class="byline"><b>By the Deals Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 11, 2026 &nbsp;|&nbsp; Los Angeles</div>
+</div>
+
+<p>"The Odyssey," released in July 2026, has become the highest-grossing IMAX release of all time, taking in $289 million through the format worldwide and surpassing "Avatar's" longstanding $270 million record. The film also posted the highest second-weekend IMAX gross ever recorded, at $48 million — an unusual hold that points to strong word-of-mouth rather than a front-loaded opening.</p>
+
+<p>Globally, the film has grossed $1.627 billion, making it the highest-grossing R-rated film in box office history — a category previously dominated by franchise action and horror titles, not adaptations of a 3,000-year-old epic poem.</p>
+
+<h2>Why the number matters beyond the headline</h2>
+
+<p>IMAX's business model depends on a small number of tentpole releases converting premium-format tickets into outsized revenue relative to a film's total footprint in theaters. A record this size, on an R-rated title with adult-skewing marketing rather than a four-quadrant franchise release, is a data point studios and exhibitors will study closely heading into next year's slate decisions — R-rated event filmmaking has been a harder sell to greenlight than franchise IP for most of the last decade.</p>
+
+<div class="card">
+  <div class="card-head">The numbers</div>
+  <div class="card-body">
+    <dl>
+      <dt>IMAX gross</dt>
+      <dd>$289 million, an all-time record (previous record: Avatar, $270 million)</dd>
+      <dt>Second-weekend IMAX gross</dt>
+      <dd>$48 million, also a record</dd>
+      <dt>Worldwide gross</dt>
+      <dd>$1.627 billion</dd>
+      <dt>Notable distinction</dt>
+      <dd>Highest-grossing R-rated film in box office history</dd>
+      <dt>Release</dt>
+      <dd>July 2026</dd>
+    </dl>
+  </div>
+</div>
+
+<p>Newswire Hollywood's Deals Desk will keep tracking how this record shapes studio greenlighting decisions through the rest of awards season.</p>]]></content:encoded></item>
+<item><title>Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</title><link>https://newswirehollywood.com/sony-warner-anthropic-lawsuit.html</link><guid isPermaLink="true">https://newswirehollywood.com/sony-warner-anthropic-lawsuit.html</guid><pubDate>Fri, 11 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the AI &amp; Technology Desk, Newswire Hollywood</dc:creator><description>35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking statutory damages of up to $150,000 per work. Filed, not resolved.</description><content:encoded><![CDATA[<div class="top">
+  <span class="badge">Filed, not resolved</span><span class="kicker">AI &amp; Big Tech</span>
+  <h1>Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data</h1>
+  <p class="dek">Thirty-five music publishers allege Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking statutory damages of up to $150,000 per work.</p>
+  <div class="byline"><b>By the AI &amp; Technology Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 11, 2026 &nbsp;|&nbsp; Los Angeles</div>
+</div>
+
+<p>Thirty-five music publishing companies, including Sony Music Publishing and Warner Chappell Music, filed a copyright complaint against Anthropic in the U.S. District Court for the Northern District of California on August 28, 2026. The suit alleges large-scale scraping, torrenting, and downloading of copyrighted musical compositions to train Anthropic's Claude AI models, without permission from the rightsholders.</p>
+
+<p>The complaint names specific songs the publishers say were used without authorization, including "Eye of the Tiger," "September," "Uptown Funk," "Hallelujah," Taylor Swift's "Paper Rings," and Mariah Carey's "All I Want for Christmas Is You." The publishers allege Claude reproduces copyrighted lyrics in its outputs — the core claim underlying the suit.</p>
+
+<h2>What's being sought</h2>
+
+<p>The publishers are seeking statutory damages of up to $150,000 for each work found to have been willfully infringed, plus up to $25,000 for each instance of alleged removal or alteration of copyright management information. With tens of thousands of works reportedly at issue, industry coverage has characterized the potential exposure as running into the billions.</p>
+
+<h2>The context that matters</h2>
+
+<p>This isn't Anthropic's first copyright fight over AI training data. The company agreed to a $1.5 billion settlement with a group of authors and publishers earlier over allegations involving pirated books used in training — one of the largest payouts of its kind to date. This new suit brings the same basic legal theory into the music publishing world, where the stakes for entertainment industry dealmaking are direct: song rights are core assets for every major label and publisher this outlet covers.</p>
+
+<div class="card">
+  <div class="card-head">The filing, at a glance</div>
+  <div class="card-body">
+    <dl>
+      <dt>Filed</dt>
+      <dd>August 28, 2026, U.S. District Court, Northern District of California</dd>
+      <dt>Plaintiffs</dt>
+      <dd>35 music publishers, including Sony Music Publishing and Warner Chappell Music</dd>
+      <dt>Defendant</dt>
+      <dd>Anthropic</dd>
+      <dt>Core allegation</dt>
+      <dd>Claude trained on copyrighted lyrics obtained via scraping and torrenting; reproduces lyrics in outputs</dd>
+      <dt>Damages sought</dt>
+      <dd>Up to $150,000 per willfully infringed work, plus up to $25,000 per copyright-management violation</dd>
+      <dt>Status</dt>
+      <dd>Filed, pending — not adjudicated, not settled</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="note">
+  <b>Where this stands</b>
+  This is a filed complaint, not a ruling or a settlement. Anthropic's prior book-publishing settlement is context for how these AI training-data disputes have resolved before, not a prediction of this case's outcome. We'll update as the case moves.
+</div>
+
+<p>Sources: <a href="https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/" style="color:var(--signal);border-bottom:1px solid var(--signal)">TechCrunch</a>, <a href="https://www.musicbusinessworldwide.com/now-sony-music-publishing-and-warner-chappell-sue-anthropic-in-multi-billion-dollar-lawsuit-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/" style="color:var(--signal);border-bottom:1px solid var(--signal)">Music Business Worldwide</a>.</p>]]></content:encoded></item>
+<item><title>Freda Payne returns to Catalina with a tribute to the women who built the songbook</title><link>https://newswirehollywood.com/freda-payne-catalina.html</link><guid isPermaLink="true">https://newswirehollywood.com/freda-payne-catalina.html</guid><pubDate>Mon, 07 Sep 2026 00:00:00 -0700</pubDate><dc:creator>By the Music Desk, Newswire Hollywood</dc:creator><description>The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.</description><content:encoded><![CDATA[<div class="top">
+  <span class="kicker">Music</span>
+  <h1>Freda Payne returns to Catalina with a tribute to the women who built the songbook</h1>
+  <p class="dek">The two-time Grammy nominee brings <em>Legendary Ladies of Jazz</em> to Hollywood on September 26 &mdash; eight singers, one night, a career that has quietly touched nearly all of them, and her son hosting.</p>
+  <div class="byline"><b>By the Music Desk, Newswire Hollywood</b> &nbsp;|&nbsp; Sept 7, 2026 &nbsp;|&nbsp; Los Angeles</div>
+  <style>.glance{margin:26px 0 34px;border:1px solid var(--rule,#d9d9d9);padding:18px 20px}.glance h2{margin:0 0 12px;font-family:var(--hed,inherit);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}.glance dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 22px;margin:0}.glance dt{font-family:var(--hed,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A8A8A;margin-bottom:4px}.glance dd{margin:0;font-family:var(--hed,inherit);font-weight:600;font-size:16px;line-height:1.25;color:var(--ink,#111)}</style><section class="glance" aria-label="At a glance"><h2>At a glance</h2><dl><div><dt>Show</dt><dd>Legendary Ladies of Jazz</dd></div><div><dt>Date</dt><dd>Saturday, Sept. 26, 2026</dd></div><div><dt>Venue</dt><dd>Catalina Jazz Club, Sunset Blvd., Los Angeles</dd></div><div><dt>Presented by</dt><dd>Don B. Welch Productions</dd></div><div><dt>Honoring</dt><dd>Eight legends of jazz song</dd></div></dl></section>
+</div>
+
+<p>There is a particular kind of Los Angeles evening that only happens in a room small enough to hear the band breathe. Catalina Jazz Club on Sunset has been staging them for decades. On Saturday, September 26, it hosts one of the few artists in American music who can credibly claim to have shared stages, studios and mentors with the very women she is about to honor.</p>
+
+<p>Freda Payne returns to Catalina with an all-new show, <em>Legendary Ladies of Jazz</em>, presented by Don B. Welch Productions. The premise is simple and the execution is not: one evening spent inside the catalogs of Sarah Vaughan, Nancy Wilson, Dinah Washington, Peggy Lee, Dakota Staton, Gloria Lynne, Lena Horne and Ella Fitzgerald.</p>
+
+<div class="roster">
+  <h3>The eight</h3>
+  <p>Sarah Vaughan &middot; Nancy Wilson &middot; Dinah Washington &middot; Peggy Lee &middot; Dakota Staton &middot; Gloria Lynne &middot; Lena Horne &middot; Ella Fitzgerald</p>
+</div>
+
+<h2>Why she is the right person to do this</h2>
+
+<p>Most tribute shows are acts of admiration from a distance. This one is closer to memoir.</p>
+
+<p>Payne was identified as a talent at thirteen by Berry Gordy, years before Motown became shorthand for an era. Quincy Jones produced her first jazz album in 1963, <em>After the Lights Go Down Low and Much More</em>, when she was barely out of her teens. She spent formative years on the road with Duke Ellington, Pearl Bailey and Lionel Hampton &mdash; an apprenticeship that no conservatory has ever managed to replicate.</p>
+
+<p>The wider public knows her, inevitably, for <em>Band of Gold</em>, the 1970 record that became one of the defining vocal performances of its decade and earned her a Grammy nomination. What the hit tends to obscure is that the jazz career came first and never stopped. Her Broadway credits include <em>Jelly's Last Jam</em>, <em>Sophisticated Ladies</em> and <em>Blues in the Night</em>. She has continued to work steadily, recently appearing as a featured guest on Jeff Goldblum's jazz release and turning up on late-night television.</p>
+
+<blockquote>She is not interpreting a tradition she studied. She is singing songs she learned in the rooms where they were made.</blockquote>
+
+<h2>The room and the company</h2>
+
+<p>Catalina has long functioned as an insider venue in a city that does not lack for stages. Payne's nights there have historically drawn a particular crowd &mdash; Berry Gordy, Smokey Robinson, Thelma Houston and the late Quincy Jones have all turned up over the years, which tells you something about how she is regarded by people who have no obligation to be impressed.</p>
+
+<p>For this show, Payne's son, Gregory Abbott Jr., hosts &mdash; born on his mother's birthday in 1977, during her marriage to singer Gregory Abbott, and a rare public appearance alongside her. Thomasina Gross appears as special guest with a segment devoted to Eartha Kitt. Musical direction comes from Josh Nelson, leading a five-piece band.</p>
+
+<p>The venue is billing it as more theatrical event than concert, and the structure supports that reading: eight distinct vocal personalities, staged across an evening, held together by a performer who can move between them without impersonating any of them.</p>
+
+<h2>Practical notes</h2>
+
+<p>Doors open at 7pm with dinner service, and the show begins at 8:30. The evening is all ages. Tickets run from roughly $62 to $72, available through the venue and through TicketWeb. Payne has historically stayed after her Catalina performances for signings and photographs, and books and recordings are typically available at the show.</p>
+
+<div class="card">
+  <div class="card-head">If you go</div>
+  <div class="card-body">
+    <dl>
+      <dt>Show</dt>
+      <dd>Freda Payne: Legendary Ladies of Jazz</dd>
+      <dt>Date</dt>
+      <dd>Saturday, September 26, 2026</dd>
+      <dt>Times</dt>
+      <dd>Doors and dinner 7:00pm &nbsp;|&nbsp; Show 8:30pm</dd>
+      <dt>Venue</dt>
+      <dd>Catalina Jazz Club, 6725 W. Sunset Blvd, Hollywood, CA 90028</dd>
+      <dt>Tickets</dt>
+      <dd>$62.15 &ndash; $72.45, all ages. <a href="https://catalinajazzclub.com/">catalinajazzclub.com</a> or TicketWeb</dd>
+      <dt>Presented by</dt>
+      <dd>Don B. Welch Productions</dd>
+      <dt>Host</dt>
+      <dd>Gregory Abbott Jr. (Freda Payne's son)</dd>
+      <dt>Special guest</dt>
+      <dd>Thomasina Gross sings Eartha</dd>
+      <dt>Musical director</dt>
+      <dd>Josh Nelson, leading a five-piece band</dd>
+      <dt>Venue phone</dt>
+      <dd>323-466-2210</dd>
+    </dl>
+  </div>
+</div>
+
+<p>A single night, eight catalogs, and a singer who was in the room for a great deal of it. Hollywood does not offer many evenings like this anymore. It is worth showing up for.</p>]]></content:encoded><media:content url="https://newswirehollywood.com/img/freda-yellow.jpg" medium="image"/><media:thumbnail url="https://newswirehollywood.com/img/freda-yellow.jpg"/></item>
 </channel>
 </rss>
