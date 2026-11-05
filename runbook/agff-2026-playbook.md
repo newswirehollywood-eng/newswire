@@ -1,8 +1,8 @@
 # AGFF 2026 — THE PLAYBOOK
 PR STARPOWER · Newswire Hollywood (Official Media Partner) · Hollywood News Access · Gospel News Access
 Global Film Awards Gala: THURSDAY, NOV 5, 2026 · Writers Guild Theater, 135 S. Doheny Dr., Beverly Hills
-Carpet 5–7 PM · Awards 7 PM · Panel 8 PM · After-party at N10 Restaurant, 9 PM
-SOURCE OF TRUTH: this schedule came from the founder via Terry (Nov 5) and overrides every flyer, website and earlier document.
+Screenings 10 AM · 11:30 AM · 1:30 PM · 4:30 PM · Red carpet 5–7 PM · Panel 6 PM · Awards 7–9 PM · Event close + after-party 10 PM
+SOURCE OF TRUTH: the festival's OFFICIAL RUN OF SHOW (Authentic TV Global Media, received Nov 5). It overrides every flyer, website and earlier document, including the earlier founder schedule (panel 8 PM, after-party 9 PM at N10).
 
 Press room: https://newswirehollywood.com/agff-2026.html
 Press release: https://newswirehollywood.com/pr-agff-2026-global-film-awards-tonight.html
@@ -88,15 +88,15 @@ Total: 2 + 4 + 8 + 3 + 6 + 4 + 3 = **30**
 | 4:30 PM | Press line positions locked | Media Runner |
 | 5:00 PM | **Carpet opens.** Arrivals in groups from holding | Carpet Captain |
 | 5:15–6:30 | **Top names walk.** Target order: Richard T. Jones → DeVon Franklin → Nick Vallelonga → Demetria McKinney → Theron Feemster → others | Wranglers |
-| 6:30 PM | **Photo moment 1:** host with the founder at the step-and-repeat | Lead Photographer |
-| 6:45 PM | **Photo moment 2:** filmmakers from many nations, group photo | Second Photographer |
+| 5:45 PM | Panelists pulled from the carpet to the panel (Carpet Captain hands off to Talent Escorts) | Escorts |
+| 6:00 PM | **Panel discussion** (carpet continues for remaining arrivals) | Video Two |
+| 6:45 PM | **Photo moment:** host with the founder at the step-and-repeat | Lead Photographer |
 | 7:00 PM | Carpet closes; **awards begin** | All |
-| 7:00–8:00 | Stage photos of every winner; winners texted to the Social Lead as announced | Stage Photo, Winners Tracker |
-| 8:00 PM | Panel | Video Two |
-| 9:00 PM | After-party at N10; social only, no press line | Social team |
-| 10:00 PM | **Winners list on the press room page and emailed to the press list** | Terry approves |
+| 7:00–9:00 | Stage photos of every winner; winners texted to the Social Lead as announced | Stage Photo, Winners Tracker |
+| 9:30 PM | **Winners list on the press room page and emailed to the press list** | Terry approves |
+| 10:00 PM | Event close; after-party, social only, no press line | Social team |
 
-Interview windows: carpet only, 5:15–6:30. Request a sit-down with the host or DeVon Franklin through the Press Desk Lead before 4 PM.
+Interview windows: carpet only, 5:15–5:45 for panelists, 5:15–6:45 for everyone else. Request a sit-down with the host or DeVon Franklin through the Press Desk Lead before 4 PM.
 
 ---
 
