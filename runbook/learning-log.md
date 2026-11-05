@@ -111,3 +111,6 @@ In a gold rush the people who sold shovels got rich more reliably than the miner
 
 ## Nov 5, 2026 — The distribution receipt
 Paid wires (PR Newswire, Business Wire) hand you a receipt after every release: where it went, when, and who picked it up. We now make our own for free. It lists what we published, every segment we emailed, the message ID Gmail gave each send (proof it left), what still needs a web form or a phone call, and a blank pickup log to fill in as stories run. Full receipt with addresses lives in Drive (private); the public repo only notes that it exists.
+
+## Nov 5, 2026 — Why "from PR STARPOWER" needs a seal (SPF, DKIM, DMARC)
+info@prstarpower.com only forwards; it has no mailbox, so it cannot officially send. Email that claims to be from a domain without proof gets spammed. The proof is three settings on the domain, like a notarized letterhead: SPF (who may send for us), DKIM (a tamper-proof signature on each email), DMARC (what inboxes do with fakes). Until prstarpower.com has a real mailbox (Zoho free, or Google Workspace ~$7/user/month) and those three records, we send from Gmail with the display name "Terry Bryant | PR STARPOWER" and Reply-To info@prstarpower.com. Google vouches for the sending; replies still reach PR STARPOWER.
