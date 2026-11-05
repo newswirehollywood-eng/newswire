@@ -179,7 +179,9 @@ def main():
     state = state or {"_note": "Receipt log of every story the social poster has handled.", "posted": {}}
 
     for brand in BRANDS:
-        page = next((p for p in pages if brand["page_match"] in (p.get("name") or "").lower()), None)
+        # Spaces are ignored, so "PRstarpower" still matches "pr starpower".
+        key = brand["page_match"].replace(" ", "")
+        page = next((p for p in pages if key in (p.get("name") or "").lower().replace(" ", "")), None)
         try:
             items = read_feed(brand["feed"])
         except Exception as e:
