@@ -1,0 +1,62 @@
+name: Social auto-poster
+
+# What this does, plain English: every 30 minutes it checks the news feeds of
+# Newswire Hollywood, Hollywood News Access and Gospel News Access. Any new
+# story of ours is posted to that brand's Facebook Page and Instagram.
+#
+# Needs: the META_TOKEN secret (Terry's Meta key for the "Newswire Auto Poster"
+# app). Without it, the job says "not configured" and does nothing.
+#
+# The first run records existing stories and posts nothing. To push the
+# newest story on each site right away, use "Run workflow" and tick
+# "post latest".
+#
+# Cost: zero. Standard-library Python, free Actions minutes on a public repo.
+# To pause it: delete the META_TOKEN secret, or disable this workflow.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      post_latest:
+        description: "Post the newest story on each site now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Post new stories
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: |
+          if [ "${{ inputs.post_latest }}" = "true" ]; then
+            python3 scripts/social_post.py --post-latest
+          else
+            python3 scripts/social_post.py
+          fi
+      - name: Save the receipt log
+        run: |
+          git config user.name  "Newswire Social Desk"
+          git config user.email "wire-bot@users.noreply.github.com"
+          git add data/social-posted.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Social: posting receipts"
+          for i in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || true
+            sleep $((i * 5))
+          done
+          exit 1

@@ -92,3 +92,7 @@ Every site has a small file called robots.txt. Think of it as the doorman's list
 ## Nov 4, 2026 — Search Console is the front door to Google
 
 The websites were built for Google but never formally introduced. Search Console is the introduction: you prove you own the site (a small file Google gives you, placed on the site), then hand Google the sitemap, which is the table of contents. After that Google reads every new story on its own, and Search Console shows what people searched to find us. One file can verify several sites when the same Google account owns them, which is why HNA and HTA verified in a minute.
+
+## Nov 5, 2026 — The key and the lock
+
+The social auto-poster works like a valet: Meta gave our app a key (the access token) that can only do the jobs Terry approved, which are posting to his Pages and Instagram. The key lives in GitHub Secrets, a locked box the robot can open but nobody can read, not even in the code. Never paste a key into chat or a screenshot: anyone holding it can post as the brand until it is replaced.
