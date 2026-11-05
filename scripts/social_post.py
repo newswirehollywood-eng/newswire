@@ -145,12 +145,17 @@ def post_instagram(page, item, brand):
 def main():
     post_latest = "--post-latest" in sys.argv
     # A key copied from a wrapped screen can pick up line breaks; remove them.
-    raw = re.sub(r"[^A-Za-z0-9]", "", os.environ.get("META_TOKEN", ""))
+    # Copying from Meta's debugger can pick up line breaks and the "Debug"
+    # button label; keep only the key's letters and digits.
+    lines = [l.strip() for l in os.environ.get("META_TOKEN", "").splitlines()]
+    lines = [l for l in lines if l and l.lower() != "debug"]
+    raw = re.sub(r"[^A-Za-z0-9]", "", "".join(lines))
+    if raw.endswith("Debug"):
+        raw = raw[:-5]
     m = re.search(r"EAA[A-Za-z0-9]{40,}", raw)  # Meta keys always start with EAA
     token = m.group(0) if m else raw
     # Safe diagnostics only: length and shape, never the key itself.
-    print("Key check: %d characters, starts with EAA: %s, ends with Debug: %s"
-          % (len(token), token.startswith("EAA"), raw.endswith("Debug")))
+    print("Key check: %d characters, starts with EAA: %s" % (len(token), token.startswith("EAA")))
     if not token:
         print("Social poster not configured: the META_TOKEN secret is missing. Nothing posted.")
         return 0
