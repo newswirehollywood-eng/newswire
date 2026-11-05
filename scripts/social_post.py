@@ -68,7 +68,8 @@ def http(method, url, params=None, timeout=30):
         # Meta's error body explains the problem; it never contains the token.
         try:
             err = json.loads(e.read().decode()).get("error", {})
-            raise RuntimeError("%s (code %s)" % (err.get("message", e.reason), err.get("code")))
+            msg = (err.get("message") or str(e.reason)).split(" ")[:6]
+            raise RuntimeError("%s (code %s)" % (" ".join(msg), err.get("code")))
         except ValueError:
             raise RuntimeError("HTTP %s" % e.code)
 
@@ -142,7 +143,8 @@ def post_instagram(page, item, brand):
 
 def main():
     post_latest = "--post-latest" in sys.argv
-    token = os.environ.get("META_TOKEN", "").strip()
+    # A key copied from a wrapped screen can pick up line breaks; remove them.
+    token = "".join(os.environ.get("META_TOKEN", "").split())
     if not token:
         print("Social poster not configured: the META_TOKEN secret is missing. Nothing posted.")
         return 0
