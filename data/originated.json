@@ -2,8 +2,8 @@
  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
  "articles": [
   {
-   "title": "Authentic Global Film Festival & Awards 2026: The Official Press Room",
-   "dek": "Opening night is tonight: red carpet 5-7 PM with Theron \"Neff-U\" Feemster, celebrity panels, and Laugh & Laugh with Michael Passion at 8 PM. Oscar winner Nick Vallelonga, DeVon Franklin and Richard T. Jones lead the Nov. 7 awards. Schedule, media alert and credentials.",
+   "title": "Global Film Awards Tonight: Richard T. Jones Hosts, DeVon Franklin Leads the Carpet in Beverly Hills",
+   "dek": "Gala night is tonight: Richard T. Jones hosts the Global Film Awards at the Writers Guild Theater in Beverly Hills, with DeVon Franklin, Oscar winner Nick Vallelonga and Demetria McKinney on the carpet. Red carpet 5-7 PM, awards 7 PM, after-party at N10. Media alert, credentials and share kit.",
    "url": "agff-2026.html",
    "section": "film",
    "tag": "Official Media Partner",
@@ -14,6 +14,19 @@
    "photo_licence": "Newswire Hollywood original graphic",
    "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)",
    "image_focus": "75% 40%"
+  },
+  {
+   "title": "PRESS RELEASE: Richard T. Jones Hosts the 2026 Global Film Awards Tonight in Beverly Hills as DeVon Franklin and Oscar Winner Nick Vallelonga Lead a Red Carpet Spanning 30 Nations",
+   "dek": "The Authentic Global Film Festival brings purpose-driven cinema from roughly 30 countries to the Writers Guild Theater, with a red carpet at 5 PM, the awards at 7 PM and an official after-party at N10 Restaurant.",
+   "url": "pr-agff-2026-global-film-awards-tonight.html",
+   "section": "film",
+   "tag": "Press release",
+   "byline": "Issued by PR STARPOWER",
+   "date": "2026-11-05",
+   "image": "img/agff-2026-card.jpg",
+   "photo_author": "Newswire Hollywood",
+   "photo_licence": "Newswire Hollywood original graphic",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)"
   },
   {
    "title": "Blue Wave Hits America: Democracy Stood, and Democrats Swept",
