@@ -117,3 +117,6 @@ info@prstarpower.com only forwards; it has no mailbox, so it cannot officially s
 
 ## Nov 5, 2026 — Which source wins when the client contradicts itself
 A small festival sends different facts from different people. The pro rule: rank the sources and write the ranking down. For AGFF: (1) the founder's official run of show today, (2) Carole's one-sheet from yesterday, (3) older flyers and websites. A newer, higher source overrides an older one. Anything unconfirmed (Mayor Karen Bass) stays off the public page until confirmed, because one wrong VIP name costs more credibility than ten right ones earn.
+
+## Nov 5, 2026 — Computers match names letter for letter
+The auto-poster finds each brand's Facebook Page by name. We told it to look for "pr starpower", but the Page is named "PRstarpower", with no space. To a person those are the same; to a computer they are different, so it found no Page. The fix: the poster now ignores spaces when it compares names. Lesson: when a system matches by name, small spelling differences silently break the link, so check the exact name the other system uses.
