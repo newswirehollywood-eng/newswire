@@ -87,6 +87,12 @@
       "https://hollywoodnewsaccess.com/freda-payne-catalina-hollywood-raves.html": {
         "title": "Freda Payne Stole VMAs Weekend",
         "status": "existing before poster started"
+      },
+      "https://hollywoodnewsaccess.com/agff-2026-global-film-awards-red-carpet-tonight.html": {
+        "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
+        "at": "2026-11-05 23:58 UTC",
+        "facebook": "103046575359785_1428991839441226",
+        "instagram_error": "Media ID is not available (code 9007)"
       }
     },
     "Gospel News Access": {
@@ -123,6 +129,12 @@
       "https://gospelnewsaccess.com/story/yom-kippur-2026-day-of-atonement.html": {
         "title": "Yom Kippur 2026 ended Monday night, closing the Ten Days of Repentance",
         "status": "existing before poster started"
+      },
+      "https://gospelnewsaccess.com/story/agff-2026-devon-franklin-stories-of-hope-global-film-awards.html": {
+        "title": "DeVon Franklin Leads a Night of Hope at the Global Film Awards in Beverly Hills",
+        "at": "2026-11-05 23:58 UTC",
+        "facebook": "225290564204002_1464936802496235",
+        "instagram": "18143712820720099"
       }
     },
     "PR STARPOWER": {
@@ -137,7 +149,39 @@
       "https://prstarpower.com/news-un-week-hollywood-split.html": {
         "title": "The week Hollywood and the UN share a calendar",
         "status": "existing before poster started"
+      },
+      "https://prstarpower.com/news-agff-2026-global-film-awards-tonight.html": {
+        "title": "Tonight in Beverly Hills: Richard T. Jones hosts the 2026 Global Film Awards",
+        "at": "2026-11-05 23:58 UTC",
+        "facebook": "1345437525329241_122105450685531256",
+        "instagram": "18097150208447605"
       }
+    }
+  },
+  "queue": {
+    "agff26-nwh-1": {
+      "brand": "Newswire Hollywood",
+      "at": "2026-11-05 23:58 UTC",
+      "facebook": "1482063578315642_122103723465533251",
+      "instagram": "18642552016054376"
+    },
+    "agff26-prs-1": {
+      "brand": "PR STARPOWER",
+      "at": "2026-11-05 23:59 UTC",
+      "facebook": "1345437525329241_122105451189531256",
+      "instagram": "18105543878619951"
+    },
+    "agff26-hna-1": {
+      "brand": "Hollywood News Access",
+      "at": "2026-11-05 23:59 UTC",
+      "facebook": "103046575359785_1428992589441151",
+      "instagram": "18171717574466145"
+    },
+    "agff26-gna-1": {
+      "brand": "Gospel News Access",
+      "at": "2026-11-05 23:59 UTC",
+      "facebook": "225290564204002_1464937559162826",
+      "instagram": "18092572973227501"
     }
   }
 }
