@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Branded story card. Used when a story has no licensed photo.
+     Usage: card.html?brand=newswire|hna|gospel&kicker=BREAKING&title=...  -->
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Anton&family=Newsreader:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;overflow:hidden}
+.c{width:1080px;height:1080px;padding:84px 80px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.c::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 1px,transparent 1px 90px)}
+.k{display:inline-block;font:700 34px/1 'Archivo Narrow',sans-serif;letter-spacing:.2em;text-transform:uppercase;padding:14px 22px;position:relative;align-self:flex-start}
+.t{font-family:'Archivo Narrow',sans-serif;font-weight:700;text-transform:uppercase;line-height:.98;letter-spacing:-.01em;color:#fff;position:relative}
+.b{position:relative;display:flex;align-items:center;justify-content:space-between;border-top:4px solid;padding-top:28px}
+.bn{color:#fff;font:700 46px/1 'Archivo Narrow',sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.bs{font:italic 500 28px 'Newsreader',serif;color:#E8DFCF}
+/* brands */
+.newswire{background:radial-gradient(ellipse at 50% 120%,#2a0008 0%,#000 60%)} .newswire .k{background:#D1002E;color:#fff} .newswire .b{border-color:#B8860B} .newswire .bn span{color:#D1002E}
+.hna{background:radial-gradient(ellipse at 20% 0%,#3a1060 0%,#0C0811 55%)} .hna .k{background:#FF2E88;color:#fff} .hna .b{border-color:#FFC233} .hna .t{font-family:'Anton',sans-serif;font-weight:400} .hna .bn span{color:#FFC233}
+.gospel{background:radial-gradient(ellipse at 50% -10%,#3b2a05 0%,#0a0a0c 60%)} .gospel .k{background:#f0b429;color:#0a0a0c} .gospel .b{border-color:#f0b429} .gospel .bn span{color:#f0b429}
+</style></head><body>
+<div class="c" id="c"><div class="k" id="k"></div><div class="t" id="t"></div>
+<div class="b"><div class="bn" id="bn"></div><div class="bs" id="bs"></div></div></div>
+<script>
+const p=new URLSearchParams(location.search),brand=p.get('brand')||'newswire';
+const names={newswire:['Newswire <span>Hollywood</span>','newswirehollywood.com'],hna:['Hollywood <span>News Access</span>','hollywoodnewsaccess.com'],gospel:['Gospel <span>News Access</span>','gospelnewsaccess.com']};
+document.getElementById('c').className='c '+brand;
+document.getElementById('k').textContent=p.get('kicker')||'Breaking';
+const t=p.get('title')||'';document.getElementById('t').textContent=t;
+document.getElementById('t').style.fontSize=(t.length>90?70:t.length>60?84:t.length>35?100:120)+'px';
+document.getElementById('bn').innerHTML=names[brand][0];document.getElementById('bs').textContent=names[brand][1];
+</script></body></html>
