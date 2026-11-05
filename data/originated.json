@@ -1,152 +1,165 @@
 {
-  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
-  "articles": [
-    {
-      "title": "Blue Wave Hits America: Democracy Stood, and Democrats Swept",
-      "dek": "Democrats took the House and the Senate, flipped governor's mansions from Texas to Georgia, and gave California its first Latino governor. For the business of entertainment, the Washington that regulates it just changed hands.",
-      "url": "blue-wave-hits-america-democrats-sweep-midterms-2026.html",
-      "section": "deals",
-      "tag": "Election 2026",
-      "byline": "By the Washington Desk, Newswire Hollywood",
-      "date": "2026-11-04",
-      "photo_subject": "Election 2026",
-      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
-    },
-    {
-      "title": "Peter Rice takes charge of Netflix's content this week. Here is what he inherits",
-      "dek": "The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.",
-      "url": "netflix-peter-rice-first-week-chief-content-officer.html",
-      "section": "deals",
-      "tag": "New this week",
-      "byline": "By the Deals Desk, Newswire Hollywood",
-      "date": "2026-10-29",
-      "photo_subject": "Netflix",
-      "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
-    },
-    {
-      "title": "Freda Payne Set Hollywood on Fire",
-      "dek": "On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset — and an 84-year-old legend in gold lamé who sang her heroes back into the room.",
-      "url": "freda-payne-catalina-legendary-ladies-review.html",
-      "section": "music",
-      "tag": "Review",
-      "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-30",
-      "image": "img/freda-catalina-hero-wide.jpg",
-      "photo_author": "Terry Bryant / Newswire Hollywood",
-      "photo_licence": "Newswire Hollywood original photography",
-      "image_focus": "50% 20%"
-    },
-    {
-      "title": "PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club",
-      "dek": "Don B. Welch presents the legendary Freda Payne in a sold-out tribute to nine women who built American jazz and pop, staged on Sunset Boulevard on VMAs weekend.",
-      "url": "pr-freda-payne-catalina-sold-out.html",
-      "section": "music",
-      "tag": "Press release",
-      "byline": "Supplied by the production",
-      "date": "2026-09-29",
-      "image": "img/freda-catalina-poster.jpg",
-      "photo_author": "Don B. Welch Productions",
-      "photo_licence": "Supplied for editorial use with credit"
-    },
-    {
-      "title": "Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year",
-      "dek": "Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.",
-      "url": "vmas-2026-winners-red-carpet.html",
-      "section": "music",
-      "tag": "Full winners",
-      "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-28",
-      "photo_subject": "Taylor Swift"
-    },
-    {
-      "title": "VMAs return to Los Angeles Sunday: Madonna opens after 23 years, Snoop Dogg hosts, Nirvana takes the Vanguard",
-      "dek": "The 2026 MTV Video Music Awards air live from Los Angeles on Sunday. Madonna leads all nominees with thirteen and opens the show. Taylor Swift receives a newly created honor, and premieres a video during the broadcast.",
-      "url": "vmas-2026-madonna-snoop-nirvana.html",
-      "section": "music",
-      "tag": "Sunday night",
-      "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-26",
-      "photo_subject": "Madonna"
-    },
-    {
-      "title": "Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles",
-      "dek": "The co-headlining R&amp;B Tour runs 33 stadium dates across North America. Los Angeles gets three of them &mdash; last night, tonight, and a return in November.",
-      "url": "usher-chris-brown-rb-tour-sofi.html",
-      "section": "music",
-      "tag": "Tonight",
-      "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-26",
-      "photo_subject": "Usher (musician)"
-    },
-    {
-      "title": "Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover",
-      "dek": "The deal survives a lawsuit that could have killed it &mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.",
-      "url": "paramount-warner-settlement-foreign-ownership.html",
-      "section": "deals",
-      "tag": "Pending a judge",
-      "byline": "By the Deals Desk, Newswire Hollywood",
-      "date": "2026-09-22",
-      "photo_subject": "Warner Bros. Discovery"
-    },
-    {
-      "title": "Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million",
-      "dek": "The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.",
-      "url": "resident-evil-franchise-record-world-war-z.html",
-      "section": "film",
-      "tag": "Box office",
-      "byline": "By the Film Desk, Newswire Hollywood",
-      "date": "2026-09-22",
-      "photo_subject": "Brad Pitt"
-    },
-    {
-      "title": "Emmys 2026: the winners",
-      "dek": "The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. \"Hacks\" took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.",
-      "url": "emmys-2026.html",
-      "section": "television",
-      "tag": "Live / Updating",
-      "byline": "By the Awards Desk, Newswire Hollywood",
-      "date": "2026-09-16",
-      "photo_subject": "Jean Smart"
-    },
-    {
-      "title": "Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'",
-      "dek": "The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.",
-      "url": "tiff-2026-being-heumann.html",
-      "section": "film",
-      "tag": "Toronto 2026",
-      "byline": "By the Film Desk, Newswire Hollywood",
-      "date": "2026-09-11",
-      "photo_subject": "Judy Heumann"
-    },
-    {
-      "title": "'The Odyssey' breaks IMAX's all-time box office record",
-      "dek": "$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.",
-      "url": "the-odyssey-imax-record.html",
-      "section": "deals",
-      "tag": "Box office",
-      "byline": "By the Deals Desk, Newswire Hollywood",
-      "date": "2026-09-11",
-      "photo_subject": "IMAX"
-    },
-    {
-      "title": "Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data",
-      "dek": "35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking statutory damages of up to $150,000 per work. Filed, not resolved.",
-      "url": "sony-warner-anthropic-lawsuit.html",
-      "section": "ai-tech",
-      "tag": "Filed, not resolved",
-      "byline": "By the AI & Technology Desk, Newswire Hollywood",
-      "date": "2026-09-11",
-      "photo_subject": "Sony Music Publishing"
-    },
-    {
-      "title": "Freda Payne returns to Catalina with a tribute to the women who built the songbook",
-      "dek": "The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.",
-      "url": "freda-payne-catalina.html",
-      "section": "music",
-      "tag": "Music",
-      "byline": "By the Music Desk, Newswire Hollywood",
-      "date": "2026-09-07",
-      "image": "img/freda-yellow.jpg"
-    }
-  ]
+ "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
+ "articles": [
+  {
+   "title": "Authentic Global Film Festival & Awards 2026: The Official Press Room",
+   "dek": "Oscar winner Nick Vallelonga, DeVon Franklin and Richard T. Jones lead a three-day festival of purpose-driven cinema from 30 countries at the Writers Guild Theater in Beverly Hills, Nov. 5-7. Schedule, media alert, credentials and the nominee toolkit.",
+   "url": "agff-2026.html",
+   "section": "film",
+   "tag": "Official Media Partner",
+   "byline": "By the Awards Desk, Newswire Hollywood",
+   "date": "2026-11-05",
+   "image": "img/agff-2026-card.jpg",
+   "photo_author": "Newswire Hollywood",
+   "photo_licence": "Newswire Hollywood original graphic",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)"
+  },
+  {
+   "title": "Blue Wave Hits America: Democracy Stood, and Democrats Swept",
+   "dek": "Democrats took the House and the Senate, flipped governor's mansions from Texas to Georgia, and gave California its first Latino governor. For the business of entertainment, the Washington that regulates it just changed hands.",
+   "url": "blue-wave-hits-america-democrats-sweep-midterms-2026.html",
+   "section": "deals",
+   "tag": "Election 2026",
+   "byline": "By the Washington Desk, Newswire Hollywood",
+   "date": "2026-11-04",
+   "photo_subject": "Election 2026",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
+  },
+  {
+   "title": "Peter Rice takes charge of Netflix's content this week. Here is what he inherits",
+   "dek": "The former Disney television chief became Netflix's chief content officer on October 26, replacing Bela Bajaria and taking charge of a programming budget of roughly $20 billion, in the same month the company cut about 1,000 jobs.",
+   "url": "netflix-peter-rice-first-week-chief-content-officer.html",
+   "section": "deals",
+   "tag": "New this week",
+   "byline": "By the Deals Desk, Newswire Hollywood",
+   "date": "2026-10-29",
+   "photo_subject": "Netflix",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
+  },
+  {
+   "title": "Freda Payne Set Hollywood on Fire",
+   "dek": "On VMAs weekend, with every camera in Los Angeles pointed at the Peacock Theater, the hottest ticket in the city was a sold-out jazz room on Sunset — and an 84-year-old legend in gold lamé who sang her heroes back into the room.",
+   "url": "freda-payne-catalina-legendary-ladies-review.html",
+   "section": "music",
+   "tag": "Review",
+   "byline": "By the Music Desk, Newswire Hollywood",
+   "date": "2026-09-30",
+   "image": "img/freda-catalina-hero-wide.jpg",
+   "photo_author": "Terry Bryant / Newswire Hollywood",
+   "photo_licence": "Newswire Hollywood original photography",
+   "image_focus": "50% 20%"
+  },
+  {
+   "title": "PRESS RELEASE: Freda Payne's “Legendary Ladies of Song” plays to a sold-out Catalina Jazz Club",
+   "dek": "Don B. Welch presents the legendary Freda Payne in a sold-out tribute to nine women who built American jazz and pop, staged on Sunset Boulevard on VMAs weekend.",
+   "url": "pr-freda-payne-catalina-sold-out.html",
+   "section": "music",
+   "tag": "Press release",
+   "byline": "Supplied by the production",
+   "date": "2026-09-29",
+   "image": "img/freda-catalina-poster.jpg",
+   "photo_author": "Don B. Welch Productions",
+   "photo_licence": "Supplied for editorial use with credit"
+  },
+  {
+   "title": "Taylor Swift extends her Video of the Year record, Madonna wins seven and takes Artist of the Year",
+   "dek": "Taylor Swift won Video of the Year for a sixth time, a record nobody else is near. Madonna returned to the stage after twenty-three years and walked off with seven. Snoop Dogg hosted from the Peacock Theater.",
+   "url": "vmas-2026-winners-red-carpet.html",
+   "section": "music",
+   "tag": "Full winners",
+   "byline": "By the Music Desk, Newswire Hollywood",
+   "date": "2026-09-28",
+   "photo_subject": "Taylor Swift"
+  },
+  {
+   "title": "VMAs return to Los Angeles Sunday: Madonna opens after 23 years, Snoop Dogg hosts, Nirvana takes the Vanguard",
+   "dek": "The 2026 MTV Video Music Awards air live from Los Angeles on Sunday. Madonna leads all nominees with thirteen and opens the show. Taylor Swift receives a newly created honor, and premieres a video during the broadcast.",
+   "url": "vmas-2026-madonna-snoop-nirvana.html",
+   "section": "music",
+   "tag": "Sunday night",
+   "byline": "By the Music Desk, Newswire Hollywood",
+   "date": "2026-09-26",
+   "photo_subject": "Madonna"
+  },
+  {
+   "title": "Usher and Chris Brown take SoFi Stadium tonight, night two of three in Los Angeles",
+   "dek": "The co-headlining R&amp;B Tour runs 33 stadium dates across North America. Los Angeles gets three of them &mdash; last night, tonight, and a return in November.",
+   "url": "usher-chris-brown-rb-tour-sofi.html",
+   "section": "music",
+   "tag": "Tonight",
+   "byline": "By the Music Desk, Newswire Hollywood",
+   "date": "2026-09-26",
+   "photo_subject": "Usher (musician)"
+  },
+  {
+   "title": "Paramount settles with 12 state attorneys general to save its $111 billion Warner Bros. Discovery takeover",
+   "dek": "The deal survives a lawsuit that could have killed it &mdash; at the cost of a film-output floor, a promise to run the two studios separately, and an FCC ruling that clears the merged company to be 49.5% foreign-owned.",
+   "url": "paramount-warner-settlement-foreign-ownership.html",
+   "section": "deals",
+   "tag": "Pending a judge",
+   "byline": "By the Deals Desk, Newswire Hollywood",
+   "date": "2026-09-22",
+   "photo_subject": "Warner Bros. Discovery"
+  },
+  {
+   "title": "Zach Cregger's 'Resident Evil' opens to a franchise-best $108 million",
+   "dek": "The video-game adaptation posts the biggest opening the series has ever had, and a long-dead 'World War Z' sequel comes back to life with Brad Pitt returning and Edward Berger directing.",
+   "url": "resident-evil-franchise-record-world-war-z.html",
+   "section": "film",
+   "tag": "Box office",
+   "byline": "By the Film Desk, Newswire Hollywood",
+   "date": "2026-09-22",
+   "photo_subject": "Brad Pitt"
+  },
+  {
+   "title": "Emmys 2026: the winners",
+   "dek": "The 78th Primetime Emmy Awards aired Monday from the Peacock Theater, hosted by Mariska Hargitay. \"Hacks\" took Outstanding Comedy Series in its final season, Jean Smart and Matthew Rhys won lead acting categories, and the red carpet delivered on the archival-over-custom forecast.",
+   "url": "emmys-2026.html",
+   "section": "television",
+   "tag": "Live / Updating",
+   "byline": "By the Awards Desk, Newswire Hollywood",
+   "date": "2026-09-16",
+   "photo_subject": "Jean Smart"
+  },
+  {
+   "title": "Toronto opens with 'Being Heumann,' Sian Heder's follow-up to 'CODA'",
+   "dek": "The 51st Toronto International Film Festival opened September 10 with the world premiere of a biopic on disability rights activist Judy Heumann, from the director whose last film won Best Picture.",
+   "url": "tiff-2026-being-heumann.html",
+   "section": "film",
+   "tag": "Toronto 2026",
+   "byline": "By the Film Desk, Newswire Hollywood",
+   "date": "2026-09-11",
+   "photo_subject": "Judy Heumann"
+  },
+  {
+   "title": "'The Odyssey' breaks IMAX's all-time box office record",
+   "dek": "$289 million in IMAX alone, passing Avatar's $270 million record, on the way to $1.627 billion worldwide - the highest-grossing R-rated film in history.",
+   "url": "the-odyssey-imax-record.html",
+   "section": "deals",
+   "tag": "Box office",
+   "byline": "By the Deals Desk, Newswire Hollywood",
+   "date": "2026-09-11",
+   "photo_subject": "IMAX"
+  },
+  {
+   "title": "Sony Music Publishing, Warner Chappell sue Anthropic over song lyrics in AI training data",
+   "dek": "35 music publishers filed suit August 28, alleging Claude was trained on copyrighted lyrics obtained by scraping and torrenting, seeking statutory damages of up to $150,000 per work. Filed, not resolved.",
+   "url": "sony-warner-anthropic-lawsuit.html",
+   "section": "ai-tech",
+   "tag": "Filed, not resolved",
+   "byline": "By the AI & Technology Desk, Newswire Hollywood",
+   "date": "2026-09-11",
+   "photo_subject": "Sony Music Publishing"
+  },
+  {
+   "title": "Freda Payne returns to Catalina with a tribute to the women who built the songbook",
+   "dek": "The two-time Grammy nominee brings Legendary Ladies of Jazz to Hollywood on September 26, with her son Gregory Abbott Jr. hosting and Thomasina Gross channeling Eartha Kitt.",
+   "url": "freda-payne-catalina.html",
+   "section": "music",
+   "tag": "Music",
+   "byline": "By the Music Desk, Newswire Hollywood",
+   "date": "2026-09-07",
+   "image": "img/freda-yellow.jpg"
+  }
+ ]
 }
