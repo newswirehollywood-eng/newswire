@@ -148,6 +148,9 @@ def main():
     raw = re.sub(r"[^A-Za-z0-9]", "", os.environ.get("META_TOKEN", ""))
     m = re.search(r"EAA[A-Za-z0-9]{40,}", raw)  # Meta keys always start with EAA
     token = m.group(0) if m else raw
+    # Safe diagnostics only: length and shape, never the key itself.
+    print("Key check: %d characters, starts with EAA: %s, ends with Debug: %s"
+          % (len(token), token.startswith("EAA"), raw.endswith("Debug")))
     if not token:
         print("Social poster not configured: the META_TOKEN secret is missing. Nothing posted.")
         return 0
