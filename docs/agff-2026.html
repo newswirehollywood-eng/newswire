@@ -137,6 +137,17 @@ p{margin-bottom:14px}
 .qrs figcaption{font-family:var(--hed);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep);margin-top:6px}
 .sharebtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .sharebtns a,.sharebtns button{font-family:var(--hed);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:11px 16px;background:var(--ink);color:var(--gold-hi);border:0;cursor:pointer}
+.vip{display:flex;align-items:center;gap:16px;background:var(--ink);color:#E6DCC4;border-left:4px solid var(--gold);padding:16px 20px;margin:0 0 22px}
+.vip b{font-family:var(--lux);font-weight:600;font-size:28px;color:#FBF6E8}
+.vip span{font-family:var(--hed);font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.plist{display:grid;grid-template-columns:1fr;gap:10px 28px;margin:6px 0 4px}
+@media(min-width:700px){.plist{grid-template-columns:1fr 1fr}}
+.orgs{display:flex;flex-wrap:wrap;gap:8px 10px;justify-content:center;margin:10px auto 0;max-width:860px}
+.orgs span{font-family:var(--hed);font-weight:600;font-size:14px;letter-spacing:.04em;border:1px solid var(--rule);background:#fff;padding:7px 13px;color:var(--ink)}
+.press-credit{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:22px}
+.press-credit a{background:var(--ink);color:#F1EADA;padding:12px 18px;font-family:var(--lux);font-size:19px}
+.press-credit small{display:block;font-family:var(--hed);font-weight:700;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.team{font-size:14.5px;color:#5E584C;margin-top:14px}
 .disclose{border-top:1px solid var(--rule);margin-top:44px;padding-top:18px;font-size:14px;color:#6E685C}
 footer{background:var(--night);color:#8A8478;margin-top:54px;padding:30px 0 46px;font-family:var(--hed);font-size:13px}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:12px}
@@ -237,21 +248,30 @@ footer nav a:hover{color:var(--gold-hi)}
 
 <section id="talent">
   <span class="label">On the carpet</span>
-  <h2>Scheduled to appear</h2>
+  <h2>Confirmed guests</h2>
   <div class="rule"></div>
+  <div class="vip"><div><span>Special guest</span><br><b>Mayor Karen Bass</b><br>Mayor of the City of Los Angeles</div></div>
   <div class="stars">
     <div class="star-card"><div class="ph" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Richard_T_Jones_(1).jpg?width=700');background-position:50% 25%" role="img" aria-label="Richard T. Jones"></div><div class="tx"><span class="role">Host &amp; judge</span><b>Richard T. Jones</b><p>Star of ABC&rsquo;s <i>The Rookie</i>, hosting the Global Film Awards.</p><a class="site" href="https://abc.com/shows/the-rookie/cast/richard-t-jones">Official page &rarr;</a><div class="cr">Photo: watchwithkristin, <a href="https://commons.wikimedia.org/wiki/File:Richard_T_Jones_(1).jpg">CC BY-SA 2.0</a></div></div></div>
     <div class="star-card"><div class="ph mono"><span>DF</span></div><div class="tx"><span class="role">Panelist</span><b>DeVon Franklin</b><p>Producer, bestselling author and President and CEO of Franklin Entertainment, Hollywood&rsquo;s leading voice for faith-driven film.</p><a class="site" href="https://devonfranklin.com">devonfranklin.com &rarr;</a></div></div>
     <div class="star-card"><div class="ph" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Demetria_McKinney_2015.jpg?width=700');background-position:50% 20%" role="img" aria-label="Demetria McKinney"></div><div class="tx"><span class="role">On the carpet</span><b>Demetria McKinney</b><p>Actress and singer, <i>House of Payne</i> and <i>The Real Housewives of Atlanta</i>.</p><div class="cr">Photo: <a href="https://commons.wikimedia.org/wiki/File:Demetria_McKinney_2015.jpg">Wikimedia Commons</a> (author and licence on file page)</div></div></div>
   </div>
-  <div class="talent">
-    <div class="person"><b>Nick Vallelonga</b><span>Two-time Academy Award winner, <i>Green Book</i> &middot; Panelist</span></div>
-        <div class="person"><b>Theron &ldquo;Neff-U&rdquo; Feemster</b><span>Grammy-nominated producer and songwriter &middot; Opening-night red carpet and panelist</span></div>
-    <div class="person"><b>Amanda &ldquo;Kazzy&rdquo; Cryer</b><span>Director, <i>Living UN DONE</i> &middot; Panelist and red-carpet host</span></div>
-      </div>
-  <h3>Also expected</h3>
-  <div class="chips"><span>Ricco Ross</span><span>Richard Lawson</span><span>Zarine Murray</span><span>Ephriam Mutalangue</span></div>
-  <p class="fine">Talent appearances are confirmed by the festival and subject to change.</p>
+  <div class="talent plist">
+    <div class="person"><b>Nick Vallelonga</b><span>Two-time Academy Award winner, <i>Green Book</i></span></div>
+    <div class="person"><b>Theron &ldquo;Neff-U&rdquo; Feemster</b><span>Grammy-nominated producer, songwriter and composer</span></div>
+    <div class="person"><b>Ricco Ross</b><span>Actor, <i>Beauty in Black</i>, <i>Aliens</i></span></div>
+    <div class="person"><b>Richard Lawson</b><span>Actor and acting coach, <i>Poltergeist</i>, <i>Beauty in Black</i></span></div>
+    <div class="person"><b>Zarine Murray</b><span>Director, producer; founder, Creative Film Awards</span></div>
+    <div class="person"><b>Ephriam Mutalangue</b><span>Zambian gospel singer and songwriter</span></div>
+    <div class="person"><b>Joey Zhou</b><span>Chairman and founder, Los Angeles Beverly Arts; TV and film producer</span></div>
+    <div class="person"><b>Maksym &ldquo;Max&rdquo; Bilonogov</b><span>Chief Visionary Officer, WePlay Studios</span></div>
+    <div class="person"><b>Simon Bogdaniwicz</b><span>Founder, Catalyst Globe</span></div>
+  </div>
+  <h3>The panel &middot; 6 PM</h3>
+  <p style="margin-bottom:6px">Hosted by <b>Anabelle D. Munro</b>, with <b>Nick Vallelonga</b>, <b>DeVon Franklin</b>, <b>Theron Feemster</b>, <b>Amanda &ldquo;Kazzy&rdquo; Cryer</b> (<i>Living UNDONE</i>) and <b>Joey Zhou</b>. Special message from <b>Dr. Melody Garcia</b>, founder and CEO of Soul Script Global.</p>
+  <h3>Special guests</h3>
+  <p class="fine" style="font-size:15px;color:#5E584C">Natasha Grazia &middot; Paulette Gibson &middot; Bradley-Arthur Hirou &middot; Jeff Astgen &middot; JK Shea &middot; Ricky Haust &middot; Jim Ruth &middot; Donna Carrol &middot; Madeline Carroll &middot; Heidi Fuller &middot; Richard Randolph III &middot; Darris Love</p>
+  <p class="fine">Guests confirmed by the festival and subject to change.</p>
 </section>
 
 <section id="media-alert">
@@ -271,7 +291,7 @@ footer nav a:hover{color:var(--gold-hi)}
       <dt>Where</dt>
       <dd>Writers Guild Theater, 135 S. Doheny Drive, Beverly Hills, CA 90211</dd>
       <dt>Who</dt>
-      <dd>Host Richard T. Jones (<i>The Rookie</i>); producer DeVon Franklin; two-time Oscar winner Nick Vallelonga (<i>Green Book</i>); actress and singer Demetria McKinney; Grammy-nominated producer Theron &ldquo;Neff-U&rdquo; Feemster; comedian Michael Passion; director Amanda &ldquo;Kazzy&rdquo; Cryer; Ricco Ross, Richard Lawson, Demetria McKinney and more. Founder and Executive Director Dr. Gershom Sikaala.</dd>
+      <dd>Special guest <b>Mayor Karen Bass</b>; Richard T. Jones (<i>The Rookie</i>); producer DeVon Franklin; two-time Oscar winner Nick Vallelonga (<i>Green Book</i>); actress and singer Demetria McKinney; Grammy-nominated producer Theron &ldquo;Neff-U&rdquo; Feemster; Ricco Ross; Richard Lawson; gospel artist Ephriam Mutalangue; Max Bilonogov of WePlay Studios; Joey Zhou; and more. Panel hosted by Anabelle D. Munro. Founder Dr. Gershom Sikaala.</dd>
       <dt>Visuals</dt>
       <dd><ul>
         <li>Red-carpet arrivals of Oscar- and Grammy-recognized talent at a 20-foot step-and-repeat</li>
@@ -369,9 +389,13 @@ Join me at the Writers Guild Theater, Nov. 5–7. Gala and awards night is Thurs
 </section>
 
 <section id="sponsors" style="text-align:center">
-  <span class="label">With gratitude to our festival sponsors</span>
-  <div class="sponsors"><span>Ferrari of Beverly Hills</span></div>
-  <p class="fine" style="margin-top:12px">Additional sponsors to be announced.</p>
+  <span class="label">Partners &amp; organizations</span>
+  <div class="orgs"><span>Authentic TV</span><span>Ferrari</span><span>Coldwell Banker</span><span>New Century Builders</span><span>From the Heart Productions</span><span>Soul Script Global</span><span>Global Charity Initiative</span><span>7 Genesis</span><span>Nancy Yuu</span><span>Reveal Live! Entertainment</span></div>
+  <div class="press-credit">
+    <a href="https://prstarpower.com"><small>Public relations &middot; press contact</small>PR STARPOWER</a>
+    <a href="index.html"><small>Official media partner</small>Newswire Hollywood</a>
+  </div>
+  <p class="team"><b>Festival team:</b> Dr. Gershom Sikaala, Founder &middot; Carole Dorothy Joyce, Festival Director &middot; Kara Williamson, Event Producer, Reveal Live! Entertainment &middot; Dr. Melody Garcia, Director</p>
 </section>
 
 <section id="coverage">
