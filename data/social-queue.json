@@ -1,0 +1,61 @@
+{
+ "_note": "Social announcements that are not articles. The auto-poster (scripts/social_post.py) posts one per brand per run (every 30 min), photo + caption to Facebook and Instagram, then logs it in social-posted.json under 'queue'. Optional: not_before (UTC, YYYY-MM-DDTHH:MM), facebook/instagram false to skip one. Photos must be public JPGs; Instagram needs 4:5 to 1.91:1.",
+ "posts": [
+  {
+   "id": "agff26-nwh-1",
+   "brand": "Newswire Hollywood",
+   "image": "https://newswirehollywood.com/img/agff-2026-share-feed.jpg",
+   "caption": "TONIGHT in Beverly Hills: the 2026 Global Film Awards 🎬\n\nRichard T. Jones of ABC's The Rookie hosts. DeVon Franklin and two-time Oscar winner Nick Vallelonga lead a red carpet of filmmakers from 30 nations at the Writers Guild Theater.\n\nRed carpet 5 PM · Panel 6 PM · Awards 7 PM\n\nNewswire Hollywood is the festival's official media partner. Full press room: newswirehollywood.com/agff-2026.html\n\n#AGFF2026 #GlobalFilmAwards #NewswireHollywood #Hollywood",
+   "link": "https://newswirehollywood.com/agff-2026.html"
+  },
+  {
+   "id": "agff26-nwh-2",
+   "brand": "Newswire Hollywood",
+   "image": "https://newswirehollywood.com/img/agff-2026-run-of-show-ig.jpg",
+   "caption": "Tonight's run of show 🎟️\n\nScreenings all day, red carpet 5 to 7 PM, panel at 6, the Global Film Awards from 7 to 9, and the after-party at N10 at 10 PM.\n\nWe're on the carpet all night. Follow along for arrivals and every winner as it's announced.\n\n#AGFF2026 #GlobalFilmAwards #NewswireHollywood",
+   "link": "https://newswirehollywood.com/agff-2026.html"
+  },
+  {
+   "id": "agff26-nwh-3",
+   "brand": "Newswire Hollywood",
+   "image": "https://newswirehollywood.com/img/agff-2026-card.jpg",
+   "caption": "950+ films. 30 countries. One red carpet. 🌍\n\nThe Authentic Global Film Festival gives filmmakers who have never seen their work on a big screen a night in Beverly Hills. Winners announced tonight from 7 PM.\n\nWhich country's film are you rooting for?\n\n#AGFF2026 #GlobalFilmAwards #NewswireHollywood #IndieFilm",
+   "link": "https://newswirehollywood.com/agff-2026.html"
+  },
+  {
+   "id": "agff26-prs-1",
+   "brand": "PR STARPOWER",
+   "image": "https://newswirehollywood.com/img/agff-2026-run-of-show-ig.jpg",
+   "caption": "Showtime. ✦ Tonight's run of show for the 2026 Global Film Awards at the Writers Guild Theater, Beverly Hills.\n\nRed carpet 5 PM · Panel 6 PM · Awards 7 PM · After-party 10 PM at N10\n\nPR STARPOWER leads publicity for the Authentic Global Film Festival. Media credentials: info@prstarpower.com\n\n#AGFF2026 #GlobalFilmAwards #PRSTARPOWER #HollywoodPR",
+   "link": "https://prstarpower.com/news-agff-2026-global-film-awards-tonight.html"
+  },
+  {
+   "id": "agff26-prs-2",
+   "brand": "PR STARPOWER",
+   "image": "https://newswirehollywood.com/img/agff-2026-feemster-flyer.jpg",
+   "caption": "On the carpet tonight: Grammy-nominated producer Theron \"Neff-U\" Feemster ✦\n\nHe joins DeVon Franklin and Oscar winner Nick Vallelonga on the 6 PM panel at the 2026 Global Film Awards, hosted by Richard T. Jones.\n\nInterviews on the carpet 5 to 7 PM. Press: info@prstarpower.com\n\n#AGFF2026 #GlobalFilmAwards #PRSTARPOWER #RedCarpet",
+   "link": "https://prstarpower.com/news-agff-2026-global-film-awards-tonight.html"
+  },
+  {
+   "id": "agff26-hna-1",
+   "brand": "Hollywood News Access",
+   "image": "https://newswirehollywood.com/img/agff-2026-share-feed.jpg",
+   "caption": "Beverly Hills is going global TONIGHT ✨\n\nRichard T. Jones hosts the 2026 Global Film Awards, with DeVon Franklin, Oscar winner Nick Vallelonga, Demetria McKinney and filmmakers from 30 nations on the carpet at 5 PM.\n\nWho do you want to see walk? 👀\n\n#AGFF2026 #GlobalFilmAwards #HollywoodNewsAccess #RedCarpet",
+   "link": "https://hollywoodnewsaccess.com/agff-2026-global-film-awards-red-carpet-tonight.html"
+  },
+  {
+   "id": "agff26-hna-2",
+   "brand": "Hollywood News Access",
+   "image": "https://newswirehollywood.com/img/agff-2026-card.jpg",
+   "caption": "The carpet is set at the Writers Guild Theater 🎬\n\n950+ films from 30 countries, one awards night. We're bringing you the arrivals, the looks and the winners as they happen.\n\nFull story on hollywoodnewsaccess.com\n\n#AGFF2026 #GlobalFilmAwards #HollywoodNewsAccess",
+   "link": "https://hollywoodnewsaccess.com/agff-2026-global-film-awards-red-carpet-tonight.html"
+  },
+  {
+   "id": "agff26-gna-1",
+   "brand": "Gospel News Access",
+   "image": "https://newswirehollywood.com/img/agff-2026-card.jpg",
+   "caption": "Stories of hope belong in Hollywood 🙏\n\nTonight DeVon Franklin and Zambian gospel artist Ephriam Mutalangue join filmmakers from 30 nations at the 2026 Global Film Awards in Beverly Hills, a festival built on peace, family and faith.\n\nWhich film of hope moved you most this year?\n\n#AGFF2026 #GlobalFilmAwards #GospelNewsAccess #FaithAndFilm",
+   "link": "https://gospelnewsaccess.com/story/agff-2026-devon-franklin-stories-of-hope-global-film-awards.html"
+  }
+ ]
+}

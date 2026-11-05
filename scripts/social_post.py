@@ -35,6 +35,7 @@ from datetime import datetime, timezone
 GRAPH = "https://graph.facebook.com/v27.0"
 STATE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                      "data", "social-posted.json")
+QUEUE = os.path.join(os.path.dirname(STATE), "social-queue.json")
 MAX_PER_RUN = 2
 
 # page_match is matched against the Facebook Page name, case-insensitive.
@@ -129,6 +130,79 @@ def post_facebook(page, item, brand):
     return r.get("id", "")
 
 
+def post_facebook_photo(page, image, message):
+    r = http("POST", "%s/%s/photos" % (GRAPH, page["id"]),
+             {"url": image, "message": message, "access_token": page["access_token"]})
+    return r.get("post_id") or r.get("id", "")
+
+
+def publish_instagram(page, image, text):
+    ig = (page.get("instagram_business_account") or {}).get("id")
+    if not ig or not image:
+        return ""
+    tok = page["access_token"]
+    c = http("POST", "%s/%s/media" % (GRAPH, ig),
+             {"image_url": image, "caption": text, "access_token": tok})
+    cid = c.get("id")
+    for _ in range(10):
+        st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") == "ERROR":
+            raise RuntimeError("Instagram could not process the photo")
+        time.sleep(3)
+    r = http("POST", "%s/%s/media_publish" % (GRAPH, ig), {"creation_id": cid, "access_token": tok})
+    return r.get("id", "")
+
+
+def run_queue(pages, state):
+    """Announcements that are not articles: data/social-queue.json.
+
+    Each post has an id, a brand, a photo URL and a caption, and optionally
+    a link and a not_before time (UTC). One post per brand per run, so a
+    brand's announcements go out 30 minutes apart instead of all at once.
+    """
+    try:
+        with open(QUEUE, encoding="utf-8") as f:
+            posts = json.load(f).get("posts", [])
+    except (OSError, ValueError):
+        return
+    done = state.setdefault("queue", {})
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    used = set()
+    for q in posts:
+        if q["id"] in done or q["brand"] in used:
+            continue
+        if q.get("not_before", "") > now:
+            continue
+        brand = next((b for b in BRANDS if b["name"] == q["brand"]), None)
+        key = brand["page_match"].replace(" ", "") if brand else ""
+        page = next((p for p in pages if key and key in (p.get("name") or "").lower().replace(" ", "")), None)
+        if not page:
+            print("Queue %s: no Page for %s. Skipped." % (q["id"], q["brand"]))
+            continue
+        used.add(q["brand"])
+        text = q["caption"]
+        rec = {"brand": q["brand"], "at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
+        fb_text = text + ("\n\n" + q["link"] if q.get("link") else "")
+        if q.get("facebook", True):
+            try:
+                rec["facebook"] = post_facebook_photo(page, q["image"], fb_text)
+            except Exception as e:
+                rec["facebook_error"] = str(e)
+        if q.get("instagram", True):
+            try:
+                rec["instagram"] = publish_instagram(page, q["image"], text) or "skipped (no linked account)"
+            except Exception as e:
+                rec["instagram_error"] = str(e)
+        if not (rec.get("facebook") or str(rec.get("instagram", "")).isdigit()):
+            # Nothing went out (for example the photo was not live yet). Try again next run.
+            print("Queue %s: nothing posted, will retry. %s" % (q["id"], rec))
+            continue
+        done[q["id"]] = rec
+        print("Queue %s -> %s" % (q["id"], rec))
+
+
 def post_instagram(page, item, brand):
     ig = (page.get("instagram_business_account") or {}).get("id")
     if not ig or not item["image"]:
@@ -216,6 +290,9 @@ def main():
                 rec["instagram_error"] = str(e)
             done[item["link"]] = rec
             print("%s: %s -> %s" % (brand["name"], item["title"], {k: v for k, v in rec.items() if k != "title"}))
+
+    if not first_run:
+        run_queue(pages, state)
 
     save_state(state)
     return 0
