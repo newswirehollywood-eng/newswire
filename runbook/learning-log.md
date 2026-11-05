@@ -102,3 +102,6 @@ A media alert is an invitation for reporters: who, what, when, where, photo mome
 ## Nov 5, 2026 — A web page can't keep a sign-up sheet by itself
 
 Our sites are like printed posters: anyone can read them, but nobody can write on them. So a registration form needs a mail carrier, a small free service (FormSubmit) that takes what someone typed and emails it to the inbox. The first time it's used, it emails a one-time "Activate" button to the inbox owner. Until that's clicked, registrations go nowhere.
+
+## Nov 5, 2026 — A homepage that cleans itself
+Terry's rule: old stories don't sit on the front page. wire.py now has one number, HOME_OURS_DAYS = 5. Our stories ride the homepage for five days after their date, then step off on their own and live on their section page, same link. Like a shop window that changes itself every few days, while the stockroom keeps everything. Without it, a September story (Freda Payne) was still in the window in November.

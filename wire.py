@@ -78,6 +78,10 @@ WIRE_WINDOW_DAYS = 7          # house rule: wire items older than this drop off
 FETCH_TIMEOUT = 20            # seconds per feed
 MAX_PER_SECTION = 12
 HOME_WIRE_COUNT = 12
+# Terry's rule: the homepage is always fresh. Our own stories ride the homepage
+# for this many days after their date, then leave it on their own (they stay on
+# their section page and keep their URL). The lede and a live takeover are exempt.
+HOME_OURS_DAYS = 5
 
 USER_AGENT = (
     "NewswireHollywoodBot/1.0 (+https://newswirehollywood.com; "
@@ -635,7 +639,9 @@ def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total
                 lede_item = dict(o)
                 break
     if lede_item is None and ours:
-        lede_item = dict(ours[0])
+        fresh = (now_la.date() - timedelta(days=HOME_OURS_DAYS)).isoformat()
+        if ours[0].get("date", "") >= fresh:
+            lede_item = dict(ours[0])
     lede_is_ours = lede_item is not None
     if lede_item is None and rest:
         lede_item, rest = rest[0], rest[1:]
@@ -655,6 +661,8 @@ def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total
     parts.append('<main><div class="wrap">')
 
     others = [o for o in ours if not (lede_is_ours and o["link"] == lede_item["link"])]
+    cutoff = (now_la.date() - timedelta(days=HOME_OURS_DAYS)).isoformat()
+    others = [o for o in others if o.get("date", "") >= cutoff]
     if others:
         parts.append('<h2 class="sect">Our reporting</h2>')
         parts.append('<p class="sect-note">Originated by Newswire Hollywood desks. '
