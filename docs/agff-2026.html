@@ -111,6 +111,12 @@ p{margin-bottom:14px}
 .tags{font-family:var(--hed);font-weight:600;font-size:15px;color:var(--ink);letter-spacing:.03em}
 .sponsors{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:12px}
 .sponsors span{font-family:var(--lux);font-weight:600;font-size:24px;color:var(--ink);border:1px solid var(--rule);background:#fff;padding:14px 26px}
+.flyers{display:grid;grid-template-columns:1fr;gap:18px;margin-top:8px}
+@media(min-width:760px){.flyers{grid-template-columns:1fr 1fr}}
+.flyers figure{background:#fff;border:1px solid var(--rule);padding:10px}
+.flyers img{display:block;width:100%;height:auto}
+.flyers figcaption{font-size:13.5px;color:#6E685C;padding:10px 4px 2px}
+.flyers figcaption b{font-family:var(--hed);letter-spacing:.06em;color:var(--ink)}
 .disclose{border-top:1px solid var(--rule);margin-top:44px;padding-top:18px;font-size:14px;color:#6E685C}
 footer{background:var(--night);color:#8A8478;margin-top:54px;padding:30px 0 46px;font-family:var(--hed);font-size:13px}
 footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:12px}
@@ -172,9 +178,24 @@ footer nav a:hover{color:var(--gold-hi)}
   <p>&ldquo;More than 950 filmmakers from around the world trusted us with their stories this year. Many of them have never seen their work on a big screen,&rdquo; said Dr. Gershom Sikaala, Founder and Executive Director. &ldquo;Talent doesn&rsquo;t depend on where you were born or how old you are, but opportunity too often does. I founded this festival to close that gap, and to prove that stories of hope belong in Hollywood.&rdquo;</p>
 
   <div class="days">
-    <div class="day"><div class="d">Thursday &middot; Nov 5</div><div class="t">Cinema &amp; Arrivals</div><p>Opening day. Screenings, first arrivals and red-carpet moments.</p></div>
+    <div class="day"><div class="d">Thursday &middot; Nov 5</div><div class="t">Cinema &amp; Arrivals</div><p>Opening night. Red carpet 5&ndash;7 PM, celebrity panels to follow, and <i>Laugh &amp; Laugh</i> with comedian Michael Passion at 8 PM.</p></div>
     <div class="day"><div class="d">Friday &middot; Nov 6</div><div class="t">Creators &amp; Industry</div><p>Showcases, panels, conversations and industry networking.</p></div>
     <div class="day star"><div class="d" style="color:var(--gold)">Saturday &middot; Nov 7</div><div class="t">The Global Film Awards &amp; Gala</div><p>Red carpet, panel, awards ceremony and gala dinner.</p></div>
+  </div>
+</section>
+
+<section id="opening-night">
+  <span class="label">Opening night &middot; Thursday, November 5</span>
+  <h2>Tonight in Beverly Hills</h2>
+  <div class="rule"></div>
+  <table class="sched">
+    <tr><td>5 PM – 7 PM</td><td><b>Red carpet arrivals</b> &middot; featuring Grammy-recognized producer Theron &ldquo;Neff-U&rdquo; Feemster</td></tr>
+    <tr><td>Following</td><td>Celebrity panels</td></tr>
+    <tr><td>8 PM</td><td><b><i>Laugh &amp; Laugh</i> with Michael Passion</b></td></tr>
+  </table>
+  <div class="flyers">
+    <figure><img src="img/agff-2026-feemster-flyer.jpg" alt="Theron Neff-U Feemster, November 5 red carpet 5 to 7 PM, Writers Guild Theater, Beverly Hills" loading="lazy" width="1122" height="1402"><figcaption><b>Theron &ldquo;Neff-U&rdquo; Feemster</b> &middot; Opening-night red carpet. Courtesy Authentic Global Film Festival.</figcaption></figure>
+    <figure><img src="img/agff-2026-opening-night-flyer.jpg" alt="Laugh and Laugh with Michael Passion, 8 PM, November 5, Writers Guild Theater" loading="lazy" width="1200" height="1500"><figcaption><b><i>Laugh &amp; Laugh</i> with Michael Passion</b> &middot; 8 PM. Courtesy Authentic Global Film Festival.</figcaption></figure>
   </div>
 </section>
 
@@ -199,12 +220,12 @@ footer nav a:hover{color:var(--gold-hi)}
   <div class="talent">
     <div class="person"><b>Nick Vallelonga</b><span>Two-time Academy Award winner, <i>Green Book</i> &middot; Panelist</span></div>
     <div class="person"><b>DeVon Franklin</b><span>Producer; President and CEO, Franklin Entertainment &middot; Panelist</span></div>
-    <div class="person"><b>Theron Feemster</b><span>Grammy-nominated producer and songwriter &middot; Panelist</span></div>
+    <div class="person"><b>Theron &ldquo;Neff-U&rdquo; Feemster</b><span>Grammy-nominated producer and songwriter &middot; Opening-night red carpet and panelist</span></div>
     <div class="person"><b>Amanda &ldquo;Kazzy&rdquo; Cryer</b><span>Director, <i>Living UN DONE</i> &middot; Panelist and red-carpet host</span></div>
     <div class="person"><b>Richard T. Jones</b><span><i>The Rookie</i> &middot; Festival host and judge</span></div>
   </div>
   <h3>Also expected</h3>
-  <div class="chips"><span>Ricco Ross</span><span>Richard Lawson</span><span>Demetria McKinney</span><span>Zarine Murray</span><span>Ephriam Mutalangue</span></div>
+  <div class="chips"><span>Ricco Ross</span><span>Richard Lawson</span><span>Demetria McKinney</span><span>Zarine Murray</span><span>Ephriam Mutalangue</span><span>Michael Passion</span></div>
   <p class="fine">Talent appearances are confirmed by the festival and subject to change.</p>
 </section>
 
@@ -221,11 +242,11 @@ footer nav a:hover{color:var(--gold-hi)}
       <dt>What</dt>
       <dd>The Authentic Global Film Festival &amp; Global Film Awards 2026: three days of screenings, panels and a red-carpet awards gala honoring purpose-driven, faith-and-family and international cinema. More than 950 films from roughly 30 countries were submitted.</dd>
       <dt>When</dt>
-      <dd><b>Thursday, Nov. 5</b> &ndash; Opening day: screenings and arrivals<br><b>Friday, Nov. 6</b> &ndash; Creators &amp; Industry day<br><b>Saturday, Nov. 7</b> &ndash; Red carpet 5&ndash;7 PM &middot; Awards ceremony 7&ndash;9 PM &middot; Gala dinner to follow</dd>
+      <dd><b>Thursday, Nov. 5</b> &ndash; Opening night: red carpet 5&ndash;7 PM &middot; celebrity panels to follow &middot; <i>Laugh &amp; Laugh</i> with Michael Passion, 8 PM<br><b>Friday, Nov. 6</b> &ndash; Creators &amp; Industry day<br><b>Saturday, Nov. 7</b> &ndash; Red carpet 5&ndash;7 PM &middot; Awards ceremony 7&ndash;9 PM &middot; Gala dinner to follow</dd>
       <dt>Where</dt>
       <dd>Writers Guild Theater, 135 S. Doheny Drive, Beverly Hills, CA 90211</dd>
       <dt>Who</dt>
-      <dd>Two-time Oscar winner Nick Vallelonga (<i>Green Book</i>); producer DeVon Franklin; Richard T. Jones (<i>The Rookie</i>), festival host and judge; Grammy-nominated producer Theron Feemster; director Amanda &ldquo;Kazzy&rdquo; Cryer; Ricco Ross, Richard Lawson, Demetria McKinney and more. Founder and Executive Director Dr. Gershom Sikaala.</dd>
+      <dd>Two-time Oscar winner Nick Vallelonga (<i>Green Book</i>); producer DeVon Franklin; Richard T. Jones (<i>The Rookie</i>), festival host and judge; Grammy-nominated producer Theron &ldquo;Neff-U&rdquo; Feemster; comedian Michael Passion; director Amanda &ldquo;Kazzy&rdquo; Cryer; Ricco Ross, Richard Lawson, Demetria McKinney and more. Founder and Executive Director Dr. Gershom Sikaala.</dd>
       <dt>Visuals</dt>
       <dd><ul>
         <li>Red-carpet arrivals of Oscar- and Grammy-recognized talent at a 20-foot step-and-repeat</li>
@@ -234,7 +255,7 @@ footer nav a:hover{color:var(--gold-hi)}
         <li>Awards presentations and winner reactions on stage</li>
       </ul></dd>
       <dt>Interviews</dt>
-      <dd>Red-carpet interviews with talent, honorees and the festival founder are available on Saturday, 5&ndash;7 PM. One-on-one requests may be arranged in advance through PR STARPOWER.</dd>
+      <dd>Red-carpet interviews with talent, honorees and the festival founder are available on Thursday and Saturday, 5&ndash;7 PM. One-on-one requests may be arranged in advance through PR STARPOWER.</dd>
       <dt>Why it matters</dt>
       <dd>In a year when Hollywood is debating who gets a seat at the table, AGFF puts filmmakers from underrepresented communities, including people of color, women, and the neurodiverse and disability communities, in the same room as Oscar winners.</dd>
       <dt>Credentials</dt>
@@ -273,7 +294,7 @@ footer nav a:hover{color:var(--gold-hi)}
   <div class="post"><div class="who">Nominees &amp; selected filmmakers<button class="copybtn" type="button">Copy</button></div>
   <p class="copy">Honored to share that my film [FILM TITLE] is part of the Authentic Global Film Festival &amp; Awards 2026 in Beverly Hills. ✨ More than 950 films from 30 countries were submitted, and ours made it to the big screen.
 
-Join me at the Writers Guild Theater, Nov. 5–7. Awards night is Saturday, Nov. 7. Tickets at the link in my bio.
+Join me at the Writers Guild Theater, Nov. 5–7. Awards night is Saturday, Nov. 7. Tickets: gaff.net/tickets
 
 #AGFF2026 #GlobalFilmAwards #AuthenticGlobalFilmFestival @newswirehollywoodnetwork</p></div>
 
@@ -297,7 +318,7 @@ Join me at the Writers Guild Theater, Nov. 5–7. Awards night is Saturday, Nov.
   <span class="label">Attend</span>
   <h2>Tickets</h2>
   <p>Day passes and VIP access for opening day and the Saturday awards gala are available through the festival.</p>
-  <div class="ctas"><a class="btn solid" href="https://authentic-global-film-festival.impactful-change.com/en/tickets.html">Get tickets</a></div>
+  <div class="ctas"><a class="btn solid" href="https://gaff.net/tickets">Get tickets &middot; gaff.net/tickets</a><a class="btn" style="color:var(--gold-deep)" href="https://www.eventbrite.com/e/authentic-global-film-festival-tickets-2004149825077">Tickets on Eventbrite</a></div>
 </section>
 
 <section id="sponsors" style="text-align:center">
@@ -343,7 +364,7 @@ document.querySelectorAll('.copybtn').forEach(function(b){
 });
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Festival","name":"Authentic Global Film Festival & Global Film Awards 2026","startDate":"2026-11-05","endDate":"2026-11-07","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Writers Guild Theater","address":{"@type":"PostalAddress","streetAddress":"135 S. Doheny Drive","addressLocality":"Beverly Hills","addressRegion":"CA","postalCode":"90211","addressCountry":"US"}},"organizer":{"@type":"Organization","name":"Authentic Global Film Festival","url":"https://authentic-global-film-festival.impactful-change.com"},"offers":{"@type":"Offer","url":"https://authentic-global-film-festival.impactful-change.com/en/tickets.html","availability":"https://schema.org/InStock"},"description":"Three days of purpose-driven cinema in Beverly Hills: 950+ films from roughly 30 countries, screenings, panels and a red-carpet awards gala."}
+{"@context":"https://schema.org","@type":"Festival","name":"Authentic Global Film Festival & Global Film Awards 2026","startDate":"2026-11-05","endDate":"2026-11-07","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Writers Guild Theater","address":{"@type":"PostalAddress","streetAddress":"135 S. Doheny Drive","addressLocality":"Beverly Hills","addressRegion":"CA","postalCode":"90211","addressCountry":"US"}},"organizer":{"@type":"Organization","name":"Authentic Global Film Festival","url":"https://authentic-global-film-festival.impactful-change.com"},"offers":{"@type":"Offer","url":"https://gaff.net/tickets","availability":"https://schema.org/InStock"},"description":"Three days of purpose-driven cinema in Beverly Hills: 950+ films from roughly 30 countries, screenings, panels and a red-carpet awards gala."}
 </script>
 </body>
 </html>
