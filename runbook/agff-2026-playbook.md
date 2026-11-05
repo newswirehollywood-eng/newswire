@@ -2,6 +2,7 @@
 PR STARPOWER · Newswire Hollywood (Official Media Partner) · Hollywood News Access · Gospel News Access
 Global Film Awards Gala: THURSDAY, NOV 5, 2026 · Writers Guild Theater, 135 S. Doheny Dr., Beverly Hills
 Carpet 5–7 PM · Awards 7 PM · Panel 8 PM · After-party at N10 Restaurant, 9 PM
+SOURCE OF TRUTH: this schedule came from the founder via Terry (Nov 5) and overrides every flyer, website and earlier document.
 
 Press room: https://newswirehollywood.com/agff-2026.html
 Press release: https://newswirehollywood.com/pr-agff-2026-global-film-awards-tonight.html
@@ -91,7 +92,7 @@ Total: 2 + 4 + 8 + 3 + 6 + 4 + 3 = **30**
 | 6:45 PM | **Photo moment 2:** filmmakers from many nations, group photo | Second Photographer |
 | 7:00 PM | Carpet closes; **awards begin** | All |
 | 7:00–8:00 | Stage photos of every winner; winners texted to the Social Lead as announced | Stage Photo, Winners Tracker |
-| 8:00 PM | Panel; *Laugh & Laugh* | Video Two |
+| 8:00 PM | Panel | Video Two |
 | 9:00 PM | After-party at N10; social only, no press line | Social team |
 | 10:00 PM | **Winners list on the press room page and emailed to the press list** | Terry approves |
 
