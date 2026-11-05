@@ -105,3 +105,6 @@ Our sites are like printed posters: anyone can read them, but nobody can write o
 
 ## Nov 5, 2026 — A homepage that cleans itself
 Terry's rule: old stories don't sit on the front page. wire.py now has one number, HOME_OURS_DAYS = 5. Our stories ride the homepage for five days after their date, then step off on their own and live on their section page, same link. Like a shop window that changes itself every few days, while the stockroom keeps everything. Without it, a September story (Freda Payne) was still in the window in November.
+
+## Nov 5, 2026 — The supplier wins, not the gold miner
+In a gold rush the people who sold shovels got rich more reliably than the miners. Goldman Sachs says only about 4% of creators earn over $100K a year, but the agencies around them (Whalar, about $110M revenue) keep a slice of every deal. That slice is called margin: the gap between what the brand pays and what the creator gets. PR STARPOWER's play is to be the shovel seller: access, deals and paperwork, with a written term sheet every time we give something away.
