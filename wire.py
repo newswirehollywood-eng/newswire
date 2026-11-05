@@ -613,6 +613,7 @@ def footer_html(now_utc, feed_ok, feed_total):
 <a href="pressroom.html">Press Room</a>
 <a href="pressroom.html#advertise">Advertise</a>
 <a href="pressroom.html#standards">Standards &amp; Corrections</a>
+<a href="https://www.instagram.com/newswirehollywoodnetwork/" target="_blank" rel="noopener me">Instagram</a>
 </nav>
 <div>&copy; 2026 Newswire Hollywood. All rights reserved. Los Angeles, California.</div>
 <div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
@@ -683,7 +684,7 @@ that did the reporting; we do not republish their article text. Spotted an error
 </div></section>""")
     parts.append(footer_html(now_utc, feed_ok, feed_total))
     parts.append("""<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Newswire Hollywood","url":"https://newswirehollywood.com/","description":"Breaking entertainment news, the Hollywood events calendar, and industry intelligence from Los Angeles.","email":"news@newswirehollywood.com","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://newswirehollywood.com/pressroom.html#standards","correctionsPolicy":"https://newswirehollywood.com/pressroom.html#standards"}
+{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Newswire Hollywood","url":"https://newswirehollywood.com/","description":"Breaking entertainment news, the Hollywood events calendar, and industry intelligence from Los Angeles.","email":"news@newswirehollywood.com","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://newswirehollywood.com/pressroom.html#standards","correctionsPolicy":"https://newswirehollywood.com/pressroom.html#standards","sameAs":["https://www.instagram.com/newswirehollywoodnetwork/"]}
 </script>""")
     parts.append("</body>\n</html>")
     return "\n".join(p for p in parts if p) + "\n"
