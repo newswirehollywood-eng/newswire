@@ -108,3 +108,6 @@ Terry's rule: old stories don't sit on the front page. wire.py now has one numbe
 
 ## Nov 5, 2026 — The supplier wins, not the gold miner
 In a gold rush the people who sold shovels got rich more reliably than the miners. Goldman Sachs says only about 4% of creators earn over $100K a year, but the agencies around them (Whalar, about $110M revenue) keep a slice of every deal. That slice is called margin: the gap between what the brand pays and what the creator gets. PR STARPOWER's play is to be the shovel seller: access, deals and paperwork, with a written term sheet every time we give something away.
+
+## Nov 5, 2026 — The distribution receipt
+Paid wires (PR Newswire, Business Wire) hand you a receipt after every release: where it went, when, and who picked it up. We now make our own for free. It lists what we published, every segment we emailed, the message ID Gmail gave each send (proof it left), what still needs a web form or a phone call, and a blank pickup log to fill in as stories run. Full receipt with addresses lives in Drive (private); the public repo only notes that it exists.
