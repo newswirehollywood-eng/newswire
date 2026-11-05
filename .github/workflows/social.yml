@@ -1,7 +1,7 @@
 name: Social auto-poster
 
 # What this does, plain English: every 30 minutes it checks the news feeds of
-# Newswire Hollywood, Hollywood News Access and Gospel News Access. Any new
+# Newswire Hollywood, Hollywood News Access, Gospel News Access and PR STARPOWER. Any new
 # story of ours is posted to that brand's Facebook Page and Instagram.
 #
 # Needs: the META_TOKEN secret (Terry's Meta key for the "Newswire Auto Poster"

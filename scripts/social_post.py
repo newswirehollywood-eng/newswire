@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-SOCIAL AUTO-POSTER: Newswire Hollywood, Hollywood News Access, Gospel News Access.
+SOCIAL AUTO-POSTER: Newswire Hollywood, Hollywood News Access, Gospel News Access,
+PR STARPOWER.
 
 Plain English: reads each site's own news feed (our reporting only, never the
 wire cards), finds stories that have not been posted yet, and posts each one to
@@ -47,6 +48,9 @@ BRANDS = [
     {"name": "Gospel News Access", "feed": "https://gospelnewsaccess.com/feed.xml",
      "page_match": "gospel news access", "site": "gospelnewsaccess.com",
      "tags": "#Gospel #GospelMusic #GospelNewsAccess"},
+    {"name": "PR STARPOWER", "feed": "https://prstarpower.com/feed.xml",
+     "page_match": "pr starpower", "site": "prstarpower.com",
+     "tags": "#PRSTARPOWER #HollywoodPR #Publicity"},
 ]
 
 NS = {"media": "http://search.yahoo.com/mrss/"}
@@ -82,6 +86,8 @@ def read_feed(url):
     items = []
     for it in root.iter("item"):
         img = it.find("media:content", NS)
+        if img is None:
+            img = it.find("enclosure")  # PR STARPOWER's feed carries its photo here
         items.append({
             "title": (it.findtext("title") or "").strip(),
             "link": (it.findtext("link") or "").strip(),
@@ -109,7 +115,7 @@ def caption(item, brand, for_instagram):
     dek = item["dek"]
     if len(dek) > 400:
         dek = dek[:397].rsplit(" ", 1)[0] + "..."
-    lines = [item["title"], "", dek, ""]
+    lines = [item["title"], ""] + ([dek, ""] if dek and dek != item["title"] else [])
     if for_instagram:
         lines.append("Full story at %s (link in bio)" % brand["site"])
     lines.append(brand["tags"])
@@ -179,9 +185,11 @@ def main():
         except Exception as e:
             print("%s: could not read feed (%s). Skipped." % (brand["name"], e))
             continue
+        # A brand added later gets its own first run: old stories are recorded, not posted.
+        brand_first = first_run or brand["name"] not in state["posted"]
         done = state["posted"].setdefault(brand["name"], {})
         new = [i for i in items if i["link"] not in done]
-        if first_run or post_latest:
+        if brand_first or post_latest:
             # Record the back catalogue so it is never posted later by surprise.
             keep = items[:1] if post_latest else []
             for i in items:
