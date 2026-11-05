@@ -1094,7 +1094,7 @@ def build_rss(ours, now_la):
 <copyright>Copyright %d Newswire Hollywood</copyright>
 <lastBuildDate>%s</lastBuildDate>
 <ttl>15</ttl>
-<image><url>%s/img/freda-cover.jpg</url><title>Newswire Hollywood</title><link>%s</link></image>
+<image><url>%s/img/newswire-logo-square.png</url><title>Newswire Hollywood</title><link>%s</link></image>
 %s
 </channel>
 </rss>
@@ -1130,7 +1130,7 @@ def sync_social_tags(originated, now_la, dry_run=False):
         if img and not img.startswith("http"):
             img = "https://newswirehollywood.com/" + img.lstrip("/")
         if not img:
-            img = "https://newswirehollywood.com/img/freda-cover.jpg"
+            img = "https://newswirehollywood.com/img/newswire-share.png"
 
         tags = [
             ('og:description', meta.get("dek", "")),
