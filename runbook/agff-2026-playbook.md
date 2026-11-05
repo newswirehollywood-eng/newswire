@@ -1,7 +1,7 @@
 # AGFF 2026 — THE PLAYBOOK
 PR STARPOWER · Newswire Hollywood (Official Media Partner) · Hollywood News Access · Gospel News Access
 Global Film Awards Gala: THURSDAY, NOV 5, 2026 · Writers Guild Theater, 135 S. Doheny Dr., Beverly Hills
-Screenings 10 AM · 11:30 AM · 1:30 PM · 4:30 PM · Red carpet 5–7 PM · Panel 6 PM · Awards 7–9 PM · Event close + after-party 10 PM
+Screenings 10 AM · 11:30 AM · 1:30 PM · 4:30 PM · Red carpet 5–7 PM · Panel 6 PM · Awards 7–9 PM · Event close + after-party 10 PM at N10, 8436 West 3rd Street, Los Angeles, CA 90048
 SOURCE OF TRUTH: the festival's OFFICIAL RUN OF SHOW (Authentic TV Global Media, received Nov 5). It overrides every flyer, website and earlier document, including the earlier founder schedule (panel 8 PM, after-party 9 PM at N10).
 
 Press room: https://newswirehollywood.com/agff-2026.html
@@ -94,7 +94,7 @@ Total: 2 + 4 + 8 + 3 + 6 + 4 + 3 = **30**
 | 7:00 PM | Carpet closes; **awards begin** | All |
 | 7:00–9:00 | Stage photos of every winner; winners texted to the Social Lead as announced | Stage Photo, Winners Tracker |
 | 9:30 PM | **Winners list on the press room page and emailed to the press list** | Terry approves |
-| 10:00 PM | Event close; after-party, social only, no press line | Social team |
+| 10:00 PM | Event close; after-party at N10, 8436 W. 3rd St., LA 90048. Social only, no press line | Social team |
 
 Interview windows: carpet only, 5:15–5:45 for panelists, 5:15–6:45 for everyone else. Request a sit-down with the host or DeVon Franklin through the Press Desk Lead before 4 PM.
 
