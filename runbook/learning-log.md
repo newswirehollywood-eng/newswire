@@ -99,3 +99,6 @@ The social auto-poster works like a valet: Meta gave our app a key (the access t
 
 ## Media alert vs. press release (Nov 5, 2026 — AGFF 2026)
 A media alert is an invitation for reporters: who, what, when, where, photo moments, how to get credentials. It goes out the day before or the morning of an event, because assignment desks plan their crews then. A press release is a finished story, and its best moment is after the event (the winners release). Sending a long release the night before gets skimmed and skipped; the alert gets a camera crew sent.
+## Nov 5, 2026 — A web page can't keep a sign-up sheet by itself
+
+Our sites are like printed posters: anyone can read them, but nobody can write on them. So a registration form needs a mail carrier, a small free service (FormSubmit) that takes what someone typed and emails it to the inbox. The first time it's used, it emails a one-time "Activate" button to the inbox owner. Until that's clicked, registrations go nowhere.
