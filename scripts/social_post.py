@@ -22,6 +22,7 @@ Run by hand to post the newest story on each site right away:
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -144,7 +145,9 @@ def post_instagram(page, item, brand):
 def main():
     post_latest = "--post-latest" in sys.argv
     # A key copied from a wrapped screen can pick up line breaks; remove them.
-    token = "".join(os.environ.get("META_TOKEN", "").split())
+    raw = re.sub(r"[^A-Za-z0-9]", "", os.environ.get("META_TOKEN", ""))
+    m = re.search(r"EAA[A-Za-z0-9]{40,}", raw)  # Meta keys always start with EAA
+    token = m.group(0) if m else raw
     if not token:
         print("Social poster not configured: the META_TOKEN secret is missing. Nothing posted.")
         return 0
