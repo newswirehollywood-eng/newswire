@@ -96,3 +96,6 @@ The websites were built for Google but never formally introduced. Search Console
 ## Nov 5, 2026 — The key and the lock
 
 The social auto-poster works like a valet: Meta gave our app a key (the access token) that can only do the jobs Terry approved, which are posting to his Pages and Instagram. The key lives in GitHub Secrets, a locked box the robot can open but nobody can read, not even in the code. Never paste a key into chat or a screenshot: anyone holding it can post as the brand until it is replaced.
+
+## Media alert vs. press release (Nov 5, 2026 — AGFF 2026)
+A media alert is an invitation for reporters: who, what, when, where, photo moments, how to get credentials. It goes out the day before or the morning of an event, because assignment desks plan their crews then. A press release is a finished story, and its best moment is after the event (the winners release). Sending a long release the night before gets skimmed and skipped; the alert gets a camera crew sent.
