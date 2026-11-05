@@ -114,3 +114,6 @@ Paid wires (PR Newswire, Business Wire) hand you a receipt after every release: 
 
 ## Nov 5, 2026 — Why "from PR STARPOWER" needs a seal (SPF, DKIM, DMARC)
 info@prstarpower.com only forwards; it has no mailbox, so it cannot officially send. Email that claims to be from a domain without proof gets spammed. The proof is three settings on the domain, like a notarized letterhead: SPF (who may send for us), DKIM (a tamper-proof signature on each email), DMARC (what inboxes do with fakes). Until prstarpower.com has a real mailbox (Zoho free, or Google Workspace ~$7/user/month) and those three records, we send from Gmail with the display name "Terry Bryant | PR STARPOWER" and Reply-To info@prstarpower.com. Google vouches for the sending; replies still reach PR STARPOWER.
+
+## Nov 5, 2026 — Which source wins when the client contradicts itself
+A small festival sends different facts from different people. The pro rule: rank the sources and write the ranking down. For AGFF: (1) the founder's official run of show today, (2) Carole's one-sheet from yesterday, (3) older flyers and websites. A newer, higher source overrides an older one. Anything unconfirmed (Mayor Karen Bass) stays off the public page until confirmed, because one wrong VIP name costs more credibility than ten right ones earn.
