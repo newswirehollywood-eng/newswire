@@ -1,0 +1,6 @@
+# Extra pages for the receipts camera (label then URL, one per line).
+PRSTARPOWER-SKVLK-Fest-2026 https://prstarpower.com/skvlk-fest.html
+Newswire-Press-Room https://newswirehollywood.com/pressroom.html
+Newswire-RSS-feed https://newswirehollywood.com/feed.xml
+Newswire-news-sitemap https://newswirehollywood.com/news-sitemap.xml
+Newswire-homepage https://newswirehollywood.com/

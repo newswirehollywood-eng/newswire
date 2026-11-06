@@ -1,0 +1,55 @@
+name: Receipts camera
+
+# What this does, plain English: takes screenshots of every page and social
+# post our desks published since a date, checks each Facebook/Instagram post
+# with Meta's Graph API, and commits the proof to runbook/receipts/<slug>/.
+# Trigger: Actions tab -> Receipts camera -> Run workflow. Cost: zero.
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Include items on or after this UTC date (YYYY-MM-DD)"
+        default: "2026-11-06"
+      slug:
+        description: "Folder name under runbook/receipts/"
+        default: "skull-fest-blast"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: receipts
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the browser
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+      - name: Take the receipts
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: python3 scripts/receipts_capture.py --since "${{ inputs.since }}" --slug "${{ inputs.slug }}"
+      - name: Check outlets' public contact pages
+        continue-on-error: true
+        run: python3 scripts/verify_contacts.py runbook/press-releases/skull-fest/news-desks.csv
+      - name: Save the receipts
+        run: |
+          git config user.name  "Newswire Receipts Desk"
+          git config user.email "wire-bot@users.noreply.github.com"
+          git add runbook/receipts runbook/press-releases
+          git diff --staged --quiet || git commit -m "Receipts: ${{ inputs.slug }} screenshots and Graph API checks"
+          for i in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || true
+            sleep $((i * 5))
+          done
+          exit 1
