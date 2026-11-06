@@ -16,3 +16,8 @@ Format: date, what broke, why, what fixed it.
 
 ## Nov 5, 2026 — Could not attach the PR STARPOWER site repo
 What broke: adding matariterry-art/prstarpower-site to the session was blocked by the permission check. Why: the session has no approval to reach that repo. Fix for now: Terry uploads page files by hand (GitHub > Add file > Upload files). Lasting fix: approve the repo when Claude asks, or accept the newswirehollywood-eng collaborator invite.
+
+## Nov 6, 2026 — Receipts camera stopped on its first run
+What broke: the Receipts camera's Meta check got "HTTP 400 Bad Request" and the whole job stopped, so no screenshots were saved.
+Why: it cleaned the META_TOKEN key differently from the working social poster, and one failed call ended the run.
+Fix: it now uses the poster's exact key clean-up, a failed Meta call is recorded instead of fatal, and every later step runs anyway.

@@ -72,9 +72,14 @@ def feed_items():
     return out
 
 def token():
-    raw = re.sub(r"[^A-Za-z0-9]", "", os.environ.get("META_TOKEN", ""))
+    # Same key clean-up as scripts/social_post.py (the poster that works).
+    lines = [l.strip() for l in os.environ.get("META_TOKEN", "").splitlines()]
+    lines = [l for l in lines if l and l.lower() != "debug"]
+    raw = re.sub(r"[^A-Za-z0-9]", "", "".join(lines))
+    if raw.endswith("Debug"):
+        raw = raw[:-5]
     m = re.search(r"EAA[A-Za-z0-9]{40,}", raw)
-    return m.group(0) if m else ""
+    return m.group(0) if m else raw
 
 def social_posts():
     st = json.load(open(os.path.join(ROOT, "data", "social-posted.json"), encoding="utf-8"))
@@ -94,8 +99,12 @@ def graph_check(rows):
         for r in rows:
             r["graph"] = "skipped: META_TOKEN not available"
         return
-    pages = json.loads(get("%s/me/accounts?%s" % (GRAPH, urllib.parse.urlencode(
-        {"fields": "id,access_token", "limit": "100", "access_token": tok}))))["data"]
+    try:
+        pages = json.loads(get("%s/me/accounts?%s" % (GRAPH, urllib.parse.urlencode(
+            {"fields": "id,access_token", "limit": "100", "access_token": tok}))))["data"]
+    except Exception as e:
+        print("Graph page list failed: %s" % e)
+        pages = []
     ptok = {p["id"]: p["access_token"] for p in pages}
     for r in rows:
         fb = r.get("facebook")

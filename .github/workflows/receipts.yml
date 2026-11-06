@@ -35,13 +35,16 @@ jobs:
           pip install playwright==1.48.0
           python -m playwright install --with-deps chromium
       - name: Take the receipts
+        continue-on-error: true
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
         run: python3 scripts/receipts_capture.py --since "${{ inputs.since }}" --slug "${{ inputs.slug }}"
       - name: Check outlets' public contact pages
+        if: always()
         continue-on-error: true
         run: python3 scripts/verify_contacts.py runbook/press-releases/skull-fest/news-desks.csv
       - name: Save the receipts
+        if: always()
         run: |
           git config user.name  "Newswire Receipts Desk"
           git config user.email "wire-bot@users.noreply.github.com"
