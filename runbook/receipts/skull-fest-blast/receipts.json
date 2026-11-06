@@ -1,7 +1,7 @@
 {
  "since": "2026-11-06",
- "generated": "2026-11-06 01:15:21 UTC",
- "actions_run": "https://github.com/newswirehollywood-eng/newswire/actions/runs/42142388126",
+ "generated": "2026-11-06 01:19:57 UTC",
+ "actions_run": "https://github.com/newswirehollywood-eng/newswire/actions/runs/42142865022",
  "pages": [
   {
    "brand": "Newswire Hollywood",
@@ -10,7 +10,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pr-skvlk-fest-2026-coverage-html.png",
-   "checked_at": "2026-11-06 01:14:25 UTC"
+   "checked_at": "2026-11-06 01:18:18 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -19,7 +19,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pr-skvlk-fest-2026-media-advisory-html.png",
-   "checked_at": "2026-11-06 01:14:27 UTC"
+   "checked_at": "2026-11-06 01:18:21 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -28,7 +28,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-russell-brand-guilty-rape-sexual-assault-verdict-html.png",
-   "checked_at": "2026-11-06 01:14:30 UTC"
+   "checked_at": "2026-11-06 01:18:24 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -37,7 +37,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-godzilla-minus-zero-opening-weekend-box-office-html.png",
-   "checked_at": "2026-11-06 01:14:32 UTC"
+   "checked_at": "2026-11-06 01:18:26 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -46,7 +46,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-ramayana-part-1-record-bollywood-previews-north-america-html.png",
-   "checked_at": "2026-11-06 01:14:34 UTC"
+   "checked_at": "2026-11-06 01:18:30 UTC"
   },
   {
    "brand": "extra",
@@ -54,7 +54,7 @@
    "url": "https://prstarpower.com/skvlk-fest.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/prstarpower-com-skvlk-fest-html.png",
-   "checked_at": "2026-11-06 01:14:36 UTC"
+   "checked_at": "2026-11-06 01:18:33 UTC"
   },
   {
    "brand": "extra",
@@ -62,7 +62,7 @@
    "url": "https://newswirehollywood.com/pressroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pressroom-html.png",
-   "checked_at": "2026-11-06 01:14:39 UTC"
+   "checked_at": "2026-11-06 01:18:35 UTC"
   },
   {
    "brand": "extra",
@@ -70,7 +70,7 @@
    "url": "https://newswirehollywood.com/feed.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-feed-xml.png",
-   "checked_at": "2026-11-06 01:14:41 UTC"
+   "checked_at": "2026-11-06 01:18:38 UTC"
   },
   {
    "brand": "extra",
@@ -78,7 +78,7 @@
    "url": "https://newswirehollywood.com/news-sitemap.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-news-sitemap-xml.png",
-   "checked_at": "2026-11-06 01:14:43 UTC"
+   "checked_at": "2026-11-06 01:18:41 UTC"
   },
   {
    "brand": "extra",
@@ -86,7 +86,7 @@
    "url": "https://newswirehollywood.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com.png",
-   "checked_at": "2026-11-06 01:14:45 UTC"
+   "checked_at": "2026-11-06 01:18:44 UTC"
   }
  ],
  "social_posts": [
@@ -244,7 +244,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pr-skvlk-fest-2026-coverage-html.png",
-   "checked_at": "2026-11-06 01:14:25 UTC"
+   "checked_at": "2026-11-06 01:18:18 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -253,7 +253,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pr-skvlk-fest-2026-media-advisory-html.png",
-   "checked_at": "2026-11-06 01:14:27 UTC"
+   "checked_at": "2026-11-06 01:18:21 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -262,7 +262,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-russell-brand-guilty-rape-sexual-assault-verdict-html.png",
-   "checked_at": "2026-11-06 01:14:30 UTC"
+   "checked_at": "2026-11-06 01:18:24 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -271,7 +271,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-godzilla-minus-zero-opening-weekend-box-office-html.png",
-   "checked_at": "2026-11-06 01:14:32 UTC"
+   "checked_at": "2026-11-06 01:18:26 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -280,7 +280,7 @@
    "published": "Fri, 06 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-ramayana-part-1-record-bollywood-previews-north-america-html.png",
-   "checked_at": "2026-11-06 01:14:34 UTC"
+   "checked_at": "2026-11-06 01:18:30 UTC"
   },
   {
    "brand": "extra",
@@ -288,7 +288,7 @@
    "url": "https://prstarpower.com/skvlk-fest.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/prstarpower-com-skvlk-fest-html.png",
-   "checked_at": "2026-11-06 01:14:36 UTC"
+   "checked_at": "2026-11-06 01:18:33 UTC"
   },
   {
    "brand": "extra",
@@ -296,7 +296,7 @@
    "url": "https://newswirehollywood.com/pressroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-pressroom-html.png",
-   "checked_at": "2026-11-06 01:14:39 UTC"
+   "checked_at": "2026-11-06 01:18:35 UTC"
   },
   {
    "brand": "extra",
@@ -304,7 +304,7 @@
    "url": "https://newswirehollywood.com/feed.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-feed-xml.png",
-   "checked_at": "2026-11-06 01:14:41 UTC"
+   "checked_at": "2026-11-06 01:18:38 UTC"
   },
   {
    "brand": "extra",
@@ -312,7 +312,7 @@
    "url": "https://newswirehollywood.com/news-sitemap.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com-news-sitemap-xml.png",
-   "checked_at": "2026-11-06 01:14:43 UTC"
+   "checked_at": "2026-11-06 01:18:41 UTC"
   },
   {
    "brand": "extra",
@@ -320,103 +320,183 @@
    "url": "https://newswirehollywood.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/newswirehollywood-com.png",
-   "checked_at": "2026-11-06 01:14:45 UTC"
+   "checked_at": "2026-11-06 01:18:44 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103756003533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103756003533251.png",
-   "checked_at": "2026-11-06 01:14:48 UTC"
+   "checked_at": "2026-11-06 01:18:47 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYGD9mpcb/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyygd9mpcb.png",
+   "checked_at": "2026-11-06 01:18:51 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103756177533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103756177533251.png",
-   "checked_at": "2026-11-06 01:14:51 UTC"
+   "checked_at": "2026-11-06 01:18:54 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYHX3jUZS/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyyhx3juzs.png",
+   "checked_at": "2026-11-06 01:18:57 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103758229533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103758229533251.png",
-   "checked_at": "2026-11-06 01:14:54 UTC"
+   "checked_at": "2026-11-06 01:19:00 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYZrhDBpZ/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyyzrhdbpz.png",
+   "checked_at": "2026-11-06 01:19:04 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103758415533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103758415533251.png",
-   "checked_at": "2026-11-06 01:14:57 UTC"
+   "checked_at": "2026-11-06 01:19:07 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYbrBDFaE/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyybrbdfae.png",
+   "checked_at": "2026-11-06 01:19:10 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103729075533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103729075533251.png",
-   "checked_at": "2026-11-06 01:15:00 UTC"
+   "checked_at": "2026-11-06 01:19:13 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYRlMUE9XO/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyrlmue9xo.png",
+   "checked_at": "2026-11-06 01:19:17 UTC"
   },
   {
    "url": "https://www.facebook.com/122105480991531256/posts/122105453685531256",
-   "title": "PR STARPOWER facebook_permalink",
+   "title": "PR STARPOWER facebook",
    "brand": "PR STARPOWER",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122105480991531256-posts-122105453685531256.png",
-   "checked_at": "2026-11-06 01:15:03 UTC"
+   "checked_at": "2026-11-06 01:19:20 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYRnKSE65Z/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyrnkse65z.png",
+   "checked_at": "2026-11-06 01:19:23 UTC"
   },
   {
    "url": "https://www.facebook.com/1429038352769908/posts/1428995286107548",
-   "title": "Hollywood News Access facebook_permalink",
+   "title": "Hollywood News Access facebook",
    "brand": "Hollywood News Access",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-1429038352769908-posts-1428995286107548.png",
-   "checked_at": "2026-11-06 01:15:06 UTC"
+   "checked_at": "2026-11-06 01:19:26 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYRpH7E4h0/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyrph7e4h0.png",
+   "checked_at": "2026-11-06 01:19:31 UTC"
   },
   {
    "url": "https://www.facebook.com/122103764127533251/posts/122103742491533251",
-   "title": "Newswire Hollywood facebook_permalink",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122103764127533251-posts-122103742491533251.png",
-   "checked_at": "2026-11-06 01:15:08 UTC"
+   "checked_at": "2026-11-06 01:19:34 UTC"
   },
   {
-   "url": "https://www.instagram.com/reel/DfYYLS4jKIA/",
-   "title": "Newswire Hollywood instagram_permalink",
+   "url": "https://www.instagram.com/p/DfYVLyUDUqG/",
+   "title": "Newswire Hollywood instagram",
    "brand": "Newswire Hollywood",
    "http_status": 200,
-   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-reel-dfyyls4jkia.png",
-   "checked_at": "2026-11-06 01:15:12 UTC"
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyvlyuduqg.png",
+   "checked_at": "2026-11-06 01:19:37 UTC"
   },
   {
    "url": "https://www.facebook.com/watch/?v=1147693297809980",
-   "title": "Newswire Hollywood facebook_url",
+   "title": "Newswire Hollywood facebook",
    "brand": "Newswire Hollywood",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-watch-v-1147693297809980.png",
-   "checked_at": "2026-11-06 01:15:15 UTC"
+   "checked_at": "2026-11-06 01:19:40 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DfYYLS4jKIA/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-reel-dfyyls4jkia.png",
+   "checked_at": "2026-11-06 01:19:44 UTC"
   },
   {
    "url": "https://www.facebook.com/1429038352769908/posts/1429031582770585",
-   "title": "Hollywood News Access facebook_permalink",
+   "title": "Hollywood News Access facebook",
    "brand": "Hollywood News Access",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-1429038352769908-posts-1429031582770585.png",
-   "checked_at": "2026-11-06 01:15:18 UTC"
+   "checked_at": "2026-11-06 01:19:47 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYdRzjLFD/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyydrzjlfd.png",
+   "checked_at": "2026-11-06 01:19:51 UTC"
   },
   {
    "url": "https://www.facebook.com/122105480991531256/posts/122105475483531256",
-   "title": "PR STARPOWER facebook_permalink",
+   "title": "PR STARPOWER facebook",
    "brand": "PR STARPOWER",
    "http_status": 200,
    "screenshot": "runbook/receipts/skull-fest-blast/www-facebook-com-122105480991531256-posts-122105475483531256.png",
-   "checked_at": "2026-11-06 01:15:21 UTC"
+   "checked_at": "2026-11-06 01:19:54 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfYYe5UjOe4/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/skull-fest-blast/www-instagram-com-p-dfyye5ujoe4.png",
+   "checked_at": "2026-11-06 01:19:57 UTC"
   }
  ]
 }
