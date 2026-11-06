@@ -120,3 +120,6 @@ A small festival sends different facts from different people. The pro rule: rank
 
 ## Nov 5, 2026 — Computers match names letter for letter
 The auto-poster finds each brand's Facebook Page by name. We told it to look for "pr starpower", but the Page is named "PRstarpower", with no space. To a person those are the same; to a computer they are different, so it found no Page. The fix: the poster now ignores spaces when it compares names. Lesson: when a system matches by name, small spelling differences silently break the link, so check the exact name the other system uses.
+
+## Nov 5, 2026 — An alarm clock that sometimes doesn't ring
+Our auto-poster runs on GitHub's free timer ("cron"), set for every 30 minutes. Today GitHub skipped most of those runs: free timers set for :00 and :30 wait behind everyone else's, and GitHub drops them when it is busy. That is why nothing went out last night or this morning. Fix: the timer now fires at :07 and :37, quieter minutes. For a big night we also press the button by hand. Lesson: a free schedule is best-effort, so anything time-critical gets a manual push and a receipt that proves it happened.
