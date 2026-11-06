@@ -258,6 +258,8 @@ def add_links(pages, state):
         if fb and "_" in fb and not r.get("facebook_url"):
             page_id, post_id = fb.split("_", 1)
             r["facebook_url"] = "https://www.facebook.com/%s/posts/%s" % (page_id, post_id)
+        elif fb and fb.isdigit() and not r.get("facebook_url"):
+            r["facebook_url"] = "https://www.facebook.com/watch/?v=%s" % fb  # Page video
         ig = str(r.get("instagram", ""))
         if ig.isdigit() and not r.get("instagram_url"):
             for key, tok in tokens.items():
