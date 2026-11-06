@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://newswirehollywood.com/godzilla-minus-zero-opening-weekend-box-office.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Newswire Hollywood</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Godzilla Minus Zero Stomps Into 3,254 Theaters, Tracking Nearly Triple the Last Monster's Opening</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newswirehollywood.com/ramayana-part-1-record-bollywood-previews-north-america.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Newswire Hollywood</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Ramayana Makes History: Ranbir Kapoor and Yash Epic Posts the Biggest Bollywood Previews Ever in North America</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newswirehollywood.com/russell-brand-guilty-rape-sexual-assault-verdict.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Newswire Hollywood</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Russell Brand Found Guilty of Rape, Taken Into Custody as Judge Warns of 'Significant' Prison Term</news:title>
+    </news:news>
+  </url>
 </urlset>
