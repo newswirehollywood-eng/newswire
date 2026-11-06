@@ -1,0 +1,27 @@
+{
+ "brand": "newswire",
+ "card": "docs/img/russell-brand-guilty-rape-sexual-assault-verdict-card.jpg",
+ "beats": [
+  {
+   "big": "",
+   "cap": "A London jury has reached its verdict."
+  },
+  {
+   "big": "GUILTY:\n1 COUNT OF RAPE\n3 COUNTS OF\nSEXUAL ASSAULT",
+   "cap": "Southwark Crown Court, Thursday, Nov 5"
+  },
+  {
+   "big": "CLEARED OF\n3 OTHER\nCHARGES",
+   "cap": "Brand denied every allegation"
+  },
+  {
+   "big": "BAIL REVOKED.\nTAKEN INTO\nCUSTODY.",
+   "cap": "Judge: \"inevitably a significant\ncustodial sentence\""
+  },
+  {
+   "big": "SENTENCING:\nMONDAY",
+   "cap": "Full story: newswirehollywood.com"
+  }
+ ],
+ "end": "newswirehollywood.com"
+}

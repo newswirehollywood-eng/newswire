@@ -1,5 +1,5 @@
 {
- "_note": "Social announcements that are not articles. The auto-poster (scripts/social_post.py) posts one per brand per run (every 30 min), photo + caption to Facebook and Instagram, then logs it in social-posted.json under 'queue'. Optional: not_before (UTC, YYYY-MM-DDTHH:MM), facebook/instagram false to skip one. Photos must be public JPGs; Instagram needs 4:5 to 1.91:1.",
+ "_note": "Social announcements that are not articles. The auto-poster (scripts/social_post.py) posts one per brand per run (every 30 min), photo + caption to Facebook and Instagram, then logs it in social-posted.json under 'queue'. Optional: not_before (UTC, YYYY-MM-DDTHH:MM), facebook/instagram false to skip one. Photos must be public JPGs; Instagram needs 4:5 to 1.91:1. Optional: video (public 1080x1920 MP4 URL) posts a Reel to Instagram and a video to Facebook; image is then used as the Reel cover.",
  "posts": [
   {
    "id": "agff26-nwh-1",
@@ -56,6 +56,14 @@
    "image": "https://newswirehollywood.com/img/agff-2026-card.jpg",
    "caption": "Stories of hope belong in Hollywood 🙏\n\nTonight DeVon Franklin and Zambian gospel artist Ephriam Mutalangue join filmmakers from 30 nations at the 2026 Global Film Awards in Beverly Hills, a festival built on peace, family and faith.\n\nWhich film of hope moved you most this year?\n\n#AGFF2026 #GlobalFilmAwards #GospelNewsAccess #FaithAndFilm",
    "link": "https://gospelnewsaccess.com/story/agff-2026-devon-franklin-stories-of-hope-global-film-awards.html"
+  },
+  {
+   "id": "brand-verdict-reel-nwh",
+   "brand": "Newswire Hollywood",
+   "video": "https://newswirehollywood.com/video/russell-brand-guilty-reel.mp4",
+   "image": "https://newswirehollywood.com/img/russell-brand-guilty-rape-sexual-assault-verdict-card.jpg",
+   "caption": "GUILTY. Russell Brand was taken into custody after a London jury convicted him of rape and sexual assault. 🚨\n\nThe judge warned of \"inevitably a significant custodial sentence.\" Sentencing is Monday.\n\nFull story: newswirehollywood.com (link in bio)\n\n#BreakingNews #RussellBrand #Hollywood #EntertainmentNews #NewswireHollywood",
+   "link": "https://newswirehollywood.com/russell-brand-guilty-rape-sexual-assault-verdict.html"
   }
  ]
 }

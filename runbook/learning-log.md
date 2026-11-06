@@ -123,3 +123,6 @@ The auto-poster finds each brand's Facebook Page by name. We told it to look for
 
 ## Nov 5, 2026 — An alarm clock that sometimes doesn't ring
 Our auto-poster runs on GitHub's free timer ("cron"), set for every 30 minutes. Today GitHub skipped most of those runs: free timers set for :00 and :30 wait behind everyone else's, and GitHub drops them when it is busy. That is why nothing went out last night or this morning. Fix: the timer now fires at :07 and :37, quieter minutes. For a big night we also press the button by hand. Lesson: a free schedule is best-effort, so anything time-critical gets a manual push and a receipt that proves it happened.
+
+## Nov 6, 2026 — A video is a recipe, not a camera
+Our Reels are not filmed; they are cooked. A small tool (tools/reels/make_reel.py) takes a recipe: the story card plus four or five "beats" (one screen of big text and a caption each). ffmpeg, a free video tool, turns each beat into a five-second shot, slides the text in, and stitches the shots together. Because it's a recipe, any desk can make a Reel in a minute with no camera and no license risk. Today's first try broke on one missing pair of quote marks in the instructions to ffmpeg: computers read a comma as "next instruction" unless it's wrapped in quotes.

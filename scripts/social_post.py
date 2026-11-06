@@ -17,6 +17,8 @@ Safety rules:
   - At most 2 new stories per brand per run.
   - Instagram needs a photo; a story without one goes to Facebook only.
   - Every post is logged in data/social-posted.json as the receipt.
+  - Video: a queue post with a "video" field (public 1080x1920 MP4 URL) goes
+    out as an Instagram Reel and a Facebook Page video instead of a photo.
 
 Run by hand to post the newest story on each site right away:
     python3 scripts/social_post.py --post-latest
@@ -42,7 +44,7 @@ MAX_PER_RUN = 2
 BRANDS = [
     {"name": "Newswire Hollywood", "feed": "https://newswirehollywood.com/feed.xml",
      "page_match": "newswire hollywood", "site": "newswirehollywood.com",
-     "tags": "#Hollywood #EntertainmentNews #NewswireHollywood"},
+     "tags": "#BreakingNews #Hollywood #EntertainmentNews #NewswireHollywood"},
     {"name": "Hollywood News Access", "feed": "https://hollywoodnewsaccess.com/feed.xml",
      "page_match": "hollywood news access", "site": "hollywoodnewsaccess.com",
      "tags": "#Hollywood #CelebrityNews #HollywoodNewsAccess"},
@@ -155,6 +157,35 @@ def publish_instagram(page, image, text):
     return r.get("id", "")
 
 
+def post_facebook_video(page, video, message):
+    """Facebook Page video (shows as a Reel-style video on mobile). Meta pulls the MP4 from our site."""
+    r = http("POST", "%s/%s/videos" % (GRAPH, page["id"]),
+             {"file_url": video, "description": message, "access_token": page["access_token"]}, timeout=180)
+    return r.get("id", "")
+
+
+def publish_instagram_reel(page, video, text, cover=""):
+    """Instagram Reel: upload by URL, wait while Instagram processes the video, then publish."""
+    ig = (page.get("instagram_business_account") or {}).get("id")
+    if not ig or not video:
+        return ""
+    tok = page["access_token"]
+    params = {"media_type": "REELS", "video_url": video, "caption": text,
+              "share_to_feed": "true", "access_token": tok}
+    if cover:
+        params["cover_url"] = cover
+    cid = http("POST", "%s/%s/media" % (GRAPH, ig), params, timeout=120).get("id")
+    for _ in range(60):  # video takes longer than a photo: up to ~5 minutes
+        st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") == "ERROR":
+            raise RuntimeError("Instagram could not process the video")
+        time.sleep(5)
+    r = http("POST", "%s/%s/media_publish" % (GRAPH, ig), {"creation_id": cid, "access_token": tok})
+    return r.get("id", "")
+
+
 def run_queue(pages, state):
     """Announcements that are not articles: data/social-queue.json.
 
@@ -185,14 +216,21 @@ def run_queue(pages, state):
         text = q["caption"]
         rec = {"brand": q["brand"], "at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
         fb_text = text + ("\n\n" + q["link"] if q.get("link") else "")
+        video = q.get("video")  # a public MP4 URL makes this a Reel / Facebook video
         if q.get("facebook", True):
             try:
-                rec["facebook"] = post_facebook_photo(page, q["image"], fb_text)
+                if video:
+                    rec["facebook"] = post_facebook_video(page, video, fb_text)
+                else:
+                    rec["facebook"] = post_facebook_photo(page, q["image"], fb_text)
             except Exception as e:
                 rec["facebook_error"] = str(e)
         if q.get("instagram", True):
             try:
-                rec["instagram"] = publish_instagram(page, q["image"], text) or "skipped (no linked account)"
+                if video:
+                    rec["instagram"] = publish_instagram_reel(page, video, text, q.get("image", "")) or "skipped (no linked account)"
+                else:
+                    rec["instagram"] = publish_instagram(page, q["image"], text) or "skipped (no linked account)"
             except Exception as e:
                 rec["instagram_error"] = str(e)
         if not (rec.get("facebook") or str(rec.get("instagram", "")).isdigit()):

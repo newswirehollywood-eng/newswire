@@ -28,6 +28,31 @@ His directive: be bold, tenacious and aggressive. Dominate the news cycles, stay
 6. **Push to main** on each site and trigger its `wire.yml`. The social auto-poster (newswire `social.yml`) posts to Facebook and Instagram within 30 minutes.
 7. **Receipt.** Add one line per story, with the live link, to Terry's Google Doc "3 — RECORD & RECEIPTS" (Drive folder "📘 TERRY'S PLAYBOOKS").
 
+## House style: TMZ-fast, never boring (Terry, Nov 6 2026)
+
+Every story this desk writes follows this, on every scheduled run:
+- **Headline:** punchy, active, the biggest fact first, names and numbers ("Godzilla Minus Zero Stomps Into 3,254 Theaters..."). Built for search too.
+- **First line is a hook:** one short sentence that makes you read the second ("Russell Brand came to court on bail on Thursday. He left in custody.").
+- **Short paragraphs:** 1 to 3 sentences. Subheads every 2 to 3 paragraphs ("It isn't over", "Why it matters").
+- **Quotes attributed** to the person and the outlet that reported them, linked. Our own words only: never copy another outlet's sentences or photos.
+- **Fact box** ("At a glance") and a final line with what's next plus a question for comments.
+- **Three stories per site per run** when the news supports it, each a different angle. Never pad: if nothing big broke, publish less.
+- Serious stories (crime, death, abuse) keep the speed but lose the jokes, and carry help-line numbers where relevant.
+
+## Reel for the top story (every run)
+
+1. Write a recipe (see `tools/reels/examples-russell-brand.json`): the story card plus 4 or 5 beats, each one screen of big text plus a caption line. Keep captions under about 34 characters per line; use a line break for longer ones.
+2. Build it: `python3 tools/reels/make_reel.py recipe.json docs/video/<slug>-reel.mp4` (1080x1920 MP4, about 20 seconds, animated text, silent audio track). Look at a frame before publishing.
+3. Add a `data/social-queue.json` post with `"video"` (the live MP4 URL) and `"image"` (the card, used as the cover). The auto-poster sends it as an Instagram Reel and a Facebook video.
+4. Images in reels follow the same license rules: our cards, licensed or free-licensed with credit.
+
+## Captions and money
+
+- Social caption: hook line, 3 to 8 hashtags (#BreakingNews #Hollywood plus story tags), @mention only verified accounts of the people in the story (never in crime stories about the accused).
+- Add an Amazon link where it fits naturally (the film, album or book in the story), with `rel="sponsored"` and the commission note. Never on crime, death or abuse stories.
+- Record a one-line `revenue_angle` in each originated.json entry.
+- **Do not use "post latest"** when publishing more than one story: it marks every other new story as already posted. Run the poster normally; it sends up to 2 per brand per run.
+
 ## Hard lines (these protect the brands)
 
 - Facts only from credible reporting, attributed. Rumors are labeled as reports ("according to TMZ") or skipped.
