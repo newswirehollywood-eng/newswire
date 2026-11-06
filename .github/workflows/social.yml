@@ -16,7 +16,8 @@ name: Social auto-poster
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Off-peak minutes: GitHub delays or skips jobs set for :00 and :30.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       post_latest:

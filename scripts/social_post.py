@@ -144,7 +144,7 @@ def publish_instagram(page, image, text):
     c = http("POST", "%s/%s/media" % (GRAPH, ig),
              {"image_url": image, "caption": text, "access_token": tok})
     cid = c.get("id")
-    for _ in range(10):
+    for _ in range(20):
         st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
         if st.get("status_code") == "FINISHED":
             break
@@ -203,6 +203,36 @@ def run_queue(pages, state):
         print("Queue %s -> %s" % (q["id"], rec))
 
 
+def add_links(pages, state):
+    """Receipt links: a clickable address for every post that went out."""
+    tokens = {}
+    for p in pages:
+        ig = (p.get("instagram_business_account") or {}).get("id")
+        tokens[p["id"]] = p["access_token"]
+        if ig:
+            tokens["ig:" + ig] = p["access_token"]
+    recs = [r for b in state.get("posted", {}).values() for r in b.values()]
+    recs += list(state.get("queue", {}).values())
+    for r in recs:
+        if not isinstance(r, dict):
+            continue
+        fb = r.get("facebook")
+        if fb and "_" in fb and not r.get("facebook_url"):
+            page_id, post_id = fb.split("_", 1)
+            r["facebook_url"] = "https://www.facebook.com/%s/posts/%s" % (page_id, post_id)
+        ig = str(r.get("instagram", ""))
+        if ig.isdigit() and not r.get("instagram_url"):
+            for key, tok in tokens.items():
+                if not key.startswith("ig:"):
+                    continue
+                try:
+                    r["instagram_url"] = http("GET", "%s/%s" % (GRAPH, ig),
+                                              {"fields": "permalink", "access_token": tok}).get("permalink", "")
+                    break
+                except Exception:
+                    continue
+
+
 def post_instagram(page, item, brand):
     ig = (page.get("instagram_business_account") or {}).get("id")
     if not ig or not item["image"]:
@@ -211,7 +241,7 @@ def post_instagram(page, item, brand):
     c = http("POST", "%s/%s/media" % (GRAPH, ig),
              {"image_url": item["image"], "caption": caption(item, brand, True), "access_token": tok})
     cid = c.get("id")
-    for _ in range(10):  # Instagram processes the photo before it can publish
+    for _ in range(20):  # Instagram processes the photo before it can publish
         st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
         if st.get("status_code") == "FINISHED":
             break
@@ -293,6 +323,7 @@ def main():
 
     if not first_run:
         run_queue(pages, state)
+        add_links(pages, state)
 
     save_state(state)
     return 0
