@@ -136,6 +136,8 @@ def shoot(targets):
             try:
                 resp = pg.goto(t["url"], wait_until="networkidle", timeout=45000)
                 pg.wait_for_timeout(1500)
+                pg.keyboard.press("Escape")  # closes Instagram's sign-up pop-up
+                pg.wait_for_timeout(500)
                 pg.screenshot(path=os.path.join(OUT, name), full_page=False)
                 t["http_status"] = resp.status if resp else None
                 t["screenshot"] = "runbook/receipts/%s/%s" % (SLUG, name)
@@ -151,12 +153,11 @@ def main():
     graph_check(posts)
     targets = [p for p in pages if "url" in p and not p.get("error")]
     for r in posts:
-        for k in ("facebook_permalink", "instagram_permalink", "facebook_url", "instagram_url"):
-            if r.get(k):
-                targets.append({"url": r[k], "title": "%s %s" % (r.get("brand"), k), "brand": r.get("brand")})
-                if k.startswith("facebook"):
-                    break
-    # instagram: one per post
+        # One Facebook shot and one Instagram shot per post (Graph permalink first).
+        for pair in (("facebook_permalink", "facebook_url"), ("instagram_permalink", "instagram_url")):
+            u = r.get(pair[0]) or r.get(pair[1])
+            if u:
+                targets.append({"url": u, "title": "%s %s" % (r.get("brand"), pair[0].split("_")[0]), "brand": r.get("brand")})
     shoot(targets)
     run = os.environ.get("GITHUB_SERVER_URL", "") + "/" + os.environ.get("GITHUB_REPOSITORY", "") + "/actions/runs/" + os.environ.get("GITHUB_RUN_ID", "")
     out = {"since": SINCE, "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
