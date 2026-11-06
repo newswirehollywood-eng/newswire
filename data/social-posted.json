@@ -6,7 +6,8 @@
         "title": "Blue Wave Hits America: Democracy Stood, and Democrats Swept",
         "at": "2026-11-05 06:42 UTC",
         "facebook": "1482063578315642_122102990313533251",
-        "instagram": "skipped (no photo or no linked account)"
+        "instagram": "skipped (no photo or no linked account)",
+        "facebook_url": "https://www.facebook.com/1482063578315642/posts/122102990313533251"
       },
       "https://newswirehollywood.com/netflix-peter-rice-first-week-chief-content-officer.html": {
         "title": "Peter Rice takes charge of Netflix's content this week. Here is what he inherits",
@@ -64,13 +65,15 @@
         "title": "Global Film Awards Tonight: Richard T. Jones Hosts, DeVon Franklin Leads the Carpet in Beverly Hills",
         "at": "2026-11-05 12:37 UTC",
         "facebook": "1482063578315642_122103257643533251",
-        "instagram": "skipped (no photo or no linked account)"
+        "instagram": "skipped (no photo or no linked account)",
+        "facebook_url": "https://www.facebook.com/1482063578315642/posts/122103257643533251"
       },
       "https://newswirehollywood.com/pr-agff-2026-global-film-awards-tonight.html": {
         "title": "PRESS RELEASE: Richard T. Jones Hosts the 2026 Global Film Awards Tonight in Beverly Hills as DeVon Franklin and Oscar Winner Nick Vallelonga Lead a Red Carpet Spanning 30 Nations",
         "at": "2026-11-05 12:37 UTC",
         "facebook": "1482063578315642_122103257673533251",
-        "instagram": "skipped (no photo or no linked account)"
+        "instagram": "skipped (no photo or no linked account)",
+        "facebook_url": "https://www.facebook.com/1482063578315642/posts/122103257673533251"
       }
     },
     "Hollywood News Access": {
@@ -78,7 +81,8 @@
         "title": "Hollywood Celebrates the Blue Wave",
         "at": "2026-11-05 06:42 UTC",
         "facebook": "103046575359785_1428224546184622",
-        "instagram": "skipped (no photo or no linked account)"
+        "instagram": "skipped (no photo or no linked account)",
+        "facebook_url": "https://www.facebook.com/103046575359785/posts/1428224546184622"
       },
       "https://hollywoodnewsaccess.com/ramayana-los-angeles-premiere-academy-museum.html": {
         "title": "Ramayana Takes Over the Academy Museum",
@@ -92,7 +96,8 @@
         "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
         "at": "2026-11-05 23:58 UTC",
         "facebook": "103046575359785_1428991839441226",
-        "instagram_error": "Media ID is not available (code 9007)"
+        "instagram_error": "Media ID is not available (code 9007)",
+        "facebook_url": "https://www.facebook.com/103046575359785/posts/1428991839441226"
       }
     },
     "Gospel News Access": {
@@ -100,7 +105,8 @@
         "title": "Commentary: A Pastor Won Kansas, and Real Christians Chose to Be the Light",
         "at": "2026-11-05 06:42 UTC",
         "facebook": "225290564204002_1464118609244721",
-        "instagram": "skipped (no photo or no linked account)"
+        "instagram": "skipped (no photo or no linked account)",
+        "facebook_url": "https://www.facebook.com/225290564204002/posts/1464118609244721"
       },
       "https://gospelnewsaccess.com/story/gospel-week-october-29-2026.html": {
         "title": "The gospel world this week: Forrest Frank dates The Jesus Generation, Donnie McClurkin says goodbye, Charity Gayle goes to Christmas",
@@ -134,7 +140,9 @@
         "title": "DeVon Franklin Leads a Night of Hope at the Global Film Awards in Beverly Hills",
         "at": "2026-11-05 23:58 UTC",
         "facebook": "225290564204002_1464936802496235",
-        "instagram": "18143712820720099"
+        "instagram": "18143712820720099",
+        "facebook_url": "https://www.facebook.com/225290564204002/posts/1464936802496235",
+        "instagram_url": "https://www.instagram.com/p/DfYRBTPmIS-/"
       }
     },
     "PR STARPOWER": {
@@ -154,7 +162,9 @@
         "title": "Tonight in Beverly Hills: Richard T. Jones hosts the 2026 Global Film Awards",
         "at": "2026-11-05 23:58 UTC",
         "facebook": "1345437525329241_122105450685531256",
-        "instagram": "18097150208447605"
+        "instagram": "18097150208447605",
+        "facebook_url": "https://www.facebook.com/1345437525329241/posts/122105450685531256",
+        "instagram_url": "https://www.instagram.com/p/DfYRDgzmBY9/"
       }
     }
   },
@@ -163,25 +173,57 @@
       "brand": "Newswire Hollywood",
       "at": "2026-11-05 23:58 UTC",
       "facebook": "1482063578315642_122103723465533251",
-      "instagram": "18642552016054376"
+      "instagram": "18642552016054376",
+      "facebook_url": "https://www.facebook.com/1482063578315642/posts/122103723465533251",
+      "instagram_url": "https://www.instagram.com/p/DfYRFaPGO0p/"
     },
     "agff26-prs-1": {
       "brand": "PR STARPOWER",
       "at": "2026-11-05 23:59 UTC",
       "facebook": "1345437525329241_122105451189531256",
-      "instagram": "18105543878619951"
+      "instagram": "18105543878619951",
+      "facebook_url": "https://www.facebook.com/1345437525329241/posts/122105451189531256",
+      "instagram_url": "https://www.instagram.com/p/DfYRHLpmNXU/"
     },
     "agff26-hna-1": {
       "brand": "Hollywood News Access",
       "at": "2026-11-05 23:59 UTC",
       "facebook": "103046575359785_1428992589441151",
-      "instagram": "18171717574466145"
+      "instagram": "18171717574466145",
+      "facebook_url": "https://www.facebook.com/103046575359785/posts/1428992589441151",
+      "instagram_url": "https://www.instagram.com/p/DfYRIy7GGUL/"
     },
     "agff26-gna-1": {
       "brand": "Gospel News Access",
       "at": "2026-11-05 23:59 UTC",
       "facebook": "225290564204002_1464937559162826",
-      "instagram": "18092572973227501"
+      "instagram": "18092572973227501",
+      "facebook_url": "https://www.facebook.com/225290564204002/posts/1464937559162826",
+      "instagram_url": "https://www.instagram.com/p/DfYRKYUGAbj/"
+    },
+    "agff26-nwh-2": {
+      "brand": "Newswire Hollywood",
+      "at": "2026-11-06 00:03 UTC",
+      "facebook": "1482063578315642_122103729075533251",
+      "instagram": "18121487731958255",
+      "facebook_url": "https://www.facebook.com/1482063578315642/posts/122103729075533251",
+      "instagram_url": "https://www.instagram.com/p/DfYRlMUE9XO/"
+    },
+    "agff26-prs-2": {
+      "brand": "PR STARPOWER",
+      "at": "2026-11-06 00:03 UTC",
+      "facebook": "1345437525329241_122105453685531256",
+      "instagram": "18037409462844974",
+      "facebook_url": "https://www.facebook.com/1345437525329241/posts/122105453685531256",
+      "instagram_url": "https://www.instagram.com/p/DfYRnKSE65Z/"
+    },
+    "agff26-hna-2": {
+      "brand": "Hollywood News Access",
+      "at": "2026-11-06 00:03 UTC",
+      "facebook": "103046575359785_1428995286107548",
+      "instagram": "18181203811438987",
+      "facebook_url": "https://www.facebook.com/103046575359785/posts/1428995286107548",
+      "instagram_url": "https://www.instagram.com/p/DfYRpH7E4h0/"
     }
   }
 }
