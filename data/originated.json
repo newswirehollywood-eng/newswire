@@ -2,6 +2,32 @@
  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
  "articles": [
   {
+   "title": "PRESS RELEASE: Newswire Hollywood and Hollywood News Access to Cover SKVLK Fest 2026 in Los Angeles",
+   "dek": "The outlets report live Saturday, Nov. 7, alongside Billboard and other major media, including the Dolls Kill-styled VIP Creator Lounge. The festival drew 25,000 guests in 2025.",
+   "url": "pr-skvlk-fest-2026-coverage.html",
+   "section": "music",
+   "tag": "Press release",
+   "byline": "Issued by PR STARPOWER",
+   "date": "2026-11-06",
+   "image": "img/skvlk-fest-2026-wide.jpg",
+   "photo_author": "Newswire Hollywood",
+   "photo_licence": "Newswire Hollywood original graphic",
+   "signed_off_by": "Terry Bryant, Senior Editor (event-desk sign-off waived by Terry, Nov 6, 2026)"
+  },
+  {
+   "title": "MEDIA ADVISORY: Interviews With SKVLK Fest 2026 Creators, Producers and Partners Available Through PR STARPOWER",
+   "dek": "Reporters and bookers seeking interviews or answers about Saturday's SKVLK Fest in Los Angeles can contact PR STARPOWER at info@prstarpower.com.",
+   "url": "pr-skvlk-fest-2026-media-advisory.html",
+   "section": "music",
+   "tag": "Press release",
+   "byline": "Issued by PR STARPOWER",
+   "date": "2026-11-06",
+   "image": "img/skvlk-fest-2026-wide.jpg",
+   "photo_author": "Newswire Hollywood",
+   "photo_licence": "Newswire Hollywood original graphic",
+   "signed_off_by": "Terry Bryant, Senior Editor (event-desk sign-off waived by Terry, Nov 6, 2026)"
+  },
+  {
    "title": "Russell Brand Found Guilty of Rape, Taken Into Custody as Judge Warns of 'Significant' Prison Term",
    "dek": "A London jury convicted the comedian on four of seven counts after eight and a half hours. His bail is gone, and sentencing is Monday. How did it come to this?",
    "url": "russell-brand-guilty-rape-sexual-assault-verdict.html",
