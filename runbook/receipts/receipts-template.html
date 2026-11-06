@@ -1,0 +1,92 @@
+<title>Skull Fest Blast Receipts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+/* Layout: a newsroom proof ledger. Summary strip, then one table per proof type, failures last in red. */
+:root{
+  --paper:#FBFAF8; --ink:#16130F; --muted:#6B645C; --rule:#E2DED8; --panel:#F3F0EB;
+  --signal:#C4002B; --ok:#1E7A46; --okbg:#E3F2E8; --warn:#8A5A00; --warnbg:#FBEFD6; --bad:#B3001F; --badbg:#FBE3E6;
+  --hed:'Archivo Narrow','Arial Narrow',Arial,sans-serif; --txt:'Source Serif 4',Georgia,serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14120F; --ink:#F2EEE8; --muted:#A39B91; --rule:#2E2A25; --panel:#1C1915;
+  --signal:#FF4D6A; --ok:#5FD18F; --okbg:#173323; --warn:#F2B84B; --warnbg:#3A2C0F; --bad:#FF6B7F; --badbg:#3D1219; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#14120F; --ink:#F2EEE8; --muted:#A39B91; --rule:#2E2A25; --panel:#1C1915;
+  --signal:#FF4D6A; --ok:#5FD18F; --okbg:#173323; --warn:#F2B84B; --warnbg:#3A2C0F; --bad:#FF6B7F; --badbg:#3D1219; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--txt);font-size:16px;line-height:1.5;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+a{color:var(--signal)}
+a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font-family:var(--hed);font-weight:700;font-size:clamp(34px,7vw,60px);line-height:1;margin:8px 0 10px;text-transform:uppercase;letter-spacing:-.5px;text-wrap:balance}
+h1 span{color:var(--signal)}
+.lede{max-width:64ch;margin:0 0 6px;color:var(--ink)}
+.meta{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:24px 0 8px}
+.strip div{background:var(--paper);padding:14px 16px}
+.strip b{display:block;font-family:var(--hed);font-size:36px;line-height:1;font-variant-numeric:tabular-nums}
+.strip span{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.strip .g b{color:var(--ok)} .strip .r b{color:var(--bad)}
+h2{font-family:var(--hed);font-weight:700;font-size:24px;text-transform:uppercase;letter-spacing:.02em;border-bottom:3px solid var(--ink);padding-bottom:6px;margin:40px 0 14px}
+.scroll{overflow-x:auto;border:1px solid var(--rule)}
+table{border-collapse:collapse;width:100%;min-width:760px}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;background:var(--panel);padding:10px 12px;border-bottom:1px solid var(--rule)}
+td{padding:12px;border-bottom:1px solid var(--rule);vertical-align:top;font-size:14.5px}
+td img{width:150px;max-width:100%;border:1px solid var(--rule);display:block;margin-top:8px}
+.what{font-weight:600;min-width:220px}
+.sub{font-family:var(--mono);font-size:11.5px;color:var(--muted);font-weight:400;margin-top:4px}
+.u{font-family:var(--mono);font-size:12px;word-break:break-all}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12px}
+.log code{font-family:var(--mono);font-size:11px;color:var(--muted);display:block;margin-top:6px;word-break:break-word;max-width:320px}
+.pill{display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:2px;white-space:nowrap}
+.pill.ok{background:var(--okbg);color:var(--ok)} .pill.warn{background:var(--warnbg);color:var(--warn)} .pill.bad{background:var(--badbg);color:var(--bad)}
+ul.mail{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+ul.mail li{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.note{background:var(--panel);border-left:4px solid var(--warn);padding:12px 16px;margin:0 0 16px;max-width:80ch}
+ul.fails{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+ul.fails li{display:grid;grid-template-columns:minmax(0,190px) minmax(0,1fr);gap:12px;border:1px solid var(--rule);border-left:4px solid var(--bad);padding:12px 14px;background:var(--paper)}
+ul.fails p{margin:4px 0 0;font-size:14.5px;color:var(--ink)}
+ul.fails .pill{white-space:normal;align-self:start}
+@media (max-width:560px){ul.fails li{grid-template-columns:1fr}}
+footer{margin-top:40px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<p class="eyebrow">Newswire Hollywood &middot; PR STARPOWER &middot; Nov 6, 2026</p>
+<h1>Skull Fest <span>Blast</span> Receipts</h1>
+<p class="lede">Proof of every page and post our desks put out for SKVLK Fest 2026, plus the Hot Now Desk's stories from the same window. Each item has its live link, the time it was checked, a screenshot, and for social posts the Meta post ID and the GitHub log line that sent it.</p>
+<p class="meta">Last checked @@GEN@@ &middot; @@RUN@@</p>
+
+<div class="strip">
+  <div class="g"><b>@@NPAGES@@</b><span>Live pages, HTTP 200</span></div>
+  <div class="g"><b>@@NPOSTS@@</b><span>Facebook + Instagram posts</span></div>
+  <div><b>8</b><span>Newsrooms in email draft</span></div>
+  <div class="r"><b>@@NFAIL@@</b><span>Not done or failed</span></div>
+</div>
+
+<h2>Live pages</h2>
+<div class="scroll"><table>
+<thead><tr><th>Status</th><th>Item</th><th>URL</th><th>Checked UTC</th><th>Screenshot</th></tr></thead>
+<tbody>@@PAGES@@</tbody>
+</table></div>
+
+<h2>Social posts</h2>
+<p class="note">Facebook: Meta's Graph API confirms each post exists and gives its time, but a logged-out visitor sees "This content isn't available right now". Instagram posts are public.</p>
+<div class="scroll"><table>
+<thead><tr><th>Item</th><th>Facebook</th><th>Instagram</th><th>GitHub Actions proof</th></tr></thead>
+<tbody>@@SOCIAL@@</tbody>
+</table></div>
+
+<h2>Email advisory</h2>
+<p class="note"><b>Draft, not sent.</b> It is in Terry's Gmail Drafts (matariterry@gmail.com), subject "MEDIA ADVISORY: SKVLK Fest 2026 Saturday in LA: interviews available", signed "Terry". Every address below is printed on the outlet's own page, checked by the Receipts camera.</p>
+<ul class="mail">@@EMAILS@@</ul>
+
+<h2>Not done or failed</h2>
+<ul class="fails">@@FAILS@@</ul>
+
+<footer>Repo copy: runbook/receipts/skull-fest-blast.md &middot; Screenshots: runbook/receipts/skull-fest-blast/ &middot; Rerun: Actions &rarr; Receipts camera</footer>
+</div>
