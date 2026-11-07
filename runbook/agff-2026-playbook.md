@@ -153,3 +153,11 @@ Images: our own photos only. Every photo is credited "Photo: Newswire Hollywood.
 8. The distribution receipt and pickup report: proof of value.
 9. Disclosure when we are both PR firm and media partner.
 10. Licensed images only.
+
+## UPDATE — SATURDAY, NOV 7: WINNERS' CELEBRATION (festival-supplied schedule)
+N10 Restaurant, 8436 W. 3rd Street, Los Angeles, CA 90048
+- 2:00 PM Arrival and setup (filmmakers, performers, special guests)
+- 3:00 PM Live performances begin (London; TJ from Canada)
+- Film screenings and celebration of the winning films
+- 4:00–6:30 PM Dinner and networking
+Guests buy their own meals and drinks (full menu available).
