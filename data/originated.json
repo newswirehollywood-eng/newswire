@@ -2,6 +2,20 @@
  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
  "articles": [
   {
+   "title": "REVIEW: SKVLK Fest 2026 Was a Triumph, and the Stabbing Story Was False",
+   "dek": "Anelise's 18th birthday festival at the family's Thousand Oaks home was a joyful night for the community, writes Terry Matari Bryant, who was there. The festival's team says reports of a stabbing are false.",
+   "url": "review-skvlk-fest-2026-triumph-stabbing-story-false.html",
+   "section": "music",
+   "tag": "Review",
+   "byline": "By Terry Matari Bryant",
+   "date": "2026-11-10",
+   "image": "img/skvlk-2026-stage.jpg",
+   "photo_author": "SKVLK Fest",
+   "photo_licence": "Festival-supplied photo, used on PR STARPOWER's festival page with the festival's permission (CONFIRM written permission)",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 10, 2026)",
+   "disclosure": "Author heads PR STARPOWER, the festival's publicist"
+  },
+  {
    "title": "PRESS RELEASE: Newswire Hollywood and Hollywood News Access to Cover SKVLK Fest 2026 in Los Angeles",
    "dek": "The outlets report live Saturday, Nov. 7, alongside Billboard and other major media, including the Dolls Kill-styled VIP Creator Lounge. The festival drew 25,000 guests in 2025.",
    "url": "pr-skvlk-fest-2026-coverage.html",
