@@ -1,0 +1,12 @@
+{
+ "brand": "gospel",
+ "card": "docs/img/kirk-franklin-ebony-power-100-reel-card.jpg",
+ "beats": [
+  {"big": "", "cap": "Gospel's king had a week."},
+  {"big": "OPENED THE\nEBONY\nPOWER 100", "cap": "Hollywood Palladium, Nov 9"},
+  {"big": "DANCED WITH\nDEBBIE ALLEN", "cap": "The clip everyone is replaying"},
+  {"big": "DOUBLE ALBUM:\nI AM WHAT\nI AM", "cap": "Jelly Roll, GloRilla, Davido"},
+  {"big": "MUSIC FOR\nNETFLIX'S\nGOSPEL OF\nCHRISTMAS", "cap": "Full story: gospelnewsaccess.com"}
+ ],
+ "end": "gospelnewsaccess.com"
+}
