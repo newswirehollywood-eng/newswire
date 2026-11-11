@@ -2,6 +2,20 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "PRESS RELEASE: SKVLK Fest Thanks Families and Community After Joyful 18th Birthday Celebration; Sheriff Confirms No Stabbing",
+      "dek": "More than 400 security professionals, shuttle buses for guests and thousands of young people celebrating: organizers thank the community that made Jamie Foxx’s daughter’s festival a night to remember.",
+      "url": "pr-skvlk-fest-2026-community-thanks.html",
+      "section": "music",
+      "tag": "Official press release",
+      "byline": "Issued by PR STARPOWER",
+      "date": "2026-11-11",
+      "image": "img/skvlk-2026-fun-montage.jpg",
+      "photo_author": "PR STARPOWER",
+      "photo_licence": "Original photography, PR STARPOWER",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 11, 2026)",
+      "disclosure": "Issued by PR STARPOWER on behalf of SKVLK Fest. PR STARPOWER and Newswire Hollywood are sister companies."
+    },
+    {
       "title": "PRESS RELEASE: Sheriff's Investigation Finds No Stabbing at Jamie Foxx's SKVLK Fest Halloween Party",
       "dek": "The Ventura County Sheriff's Office investigated and confirmed that no one was stabbed, contrary to widespread media reports. The official release, with photos and video.",
       "url": "pr-skvlk-fest-2026-sheriff-investigation-no-stabbing.html",
