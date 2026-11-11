@@ -129,3 +129,6 @@ Our Reels are not filmed; they are cooked. A small tool (tools/reels/make_reel.p
 
 ## Nov 6, 2026 — Taking the photo from somewhere else
 Our Claude workroom has a locked front door to the internet: it can reach GitHub but not Facebook, Variety or even our own live sites. Instead of stopping, we hand the camera to GitHub's own computers, which can reach everything. The new "Receipts camera" (Actions tab) opens each live page and post, takes a screenshot, asks Meta to confirm each post exists, and files the proof in runbook/receipts/. Lesson: when one door is locked, find the worker who already has a key, and make the proof automatic so nobody has to take it by hand.
+
+## Nov 10, 2026 — Check the picture before it goes out
+Our first SKVLK Fest stories used photos of the venue taken before guests arrived: empty sofas and lounge furniture. They were real and licensed, but they told the wrong story; a news photo has to show the event itself. Fix: every story and post now uses event-night photos (crowd, stage, performers), and the desks have a rule: before publishing, ask "does this picture show the moment the headline is about?" Empty rooms, setups and furniture never lead a story.
