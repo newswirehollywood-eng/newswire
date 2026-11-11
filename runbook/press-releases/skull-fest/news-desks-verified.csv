@@ -1,26 +1,26 @@
 outlet,market,desk,email,source_url,notes,checked_at,http_status,emails_on_page,listed_email_on_page
-FOX 11 Los Angeles (KTTV),LA TV,News tips,fox11news@fox.com,https://www.foxla.com/contact,"Page asks for subject line ""News Tip""",2026-11-06 01:19 UTC,200,fox11news@fox.com FOX11programming1@fox.com KTTVdigital@fox.com seng.phan@fox.com u002F@fox.la u003Efox11news@fox.com u003EFOX11programming1@fox.com u003EKTTVdigital@fox.com u003Eseng.phan@fox.com,yes
-Deadline,National trade,Editors / tips,editors@deadline.com,https://deadline.com/got-a-tip/,,2026-11-06 01:20 UTC,200,editors@deadline.com,yes
-The Hollywood Reporter,National trade,Newsroom,THRnews@thr.com,https://www.hollywoodreporter.com/masthead/,Masthead editorial address,2026-11-06 01:20 UTC,200,advertise@thr.com THR@theygsgroup.com THRnews@thr.com,yes
-The Hollywood Reporter,National trade,Tip line,tips@thr.com,https://www.hollywoodreporter.com/tip-line/,Older tip-line address; masthead address preferred,2026-11-06 01:20 UTC,200,tips@thr.com,yes
-Billboard,National trade,News tips,news_tips@billboard.com,https://www.billboard.com/tip-us/,,2026-11-06 01:20 UTC,200,news_tips@billboard.com,yes
-Black Enterprise,National Black press,Editorial,beeditors@blackenterprise.com,https://www.blackenterprise.com/contact/,,2026-11-06 01:20 UTC,200,allmank@blackenterprise.com bartonj@blackenterprise.com beads@blackenterprise.com beeditors@blackenterprise.com beevents@blackenterprise.com careers@blackenterprise.com support@blackenterprise.com,yes
-Variety,National trade,Tips (NO press releases),tips@variety.com,https://variety.com/tips/,Variety says press releases sent here are deleted. Do not blast; pitch a reporter instead,2026-11-06 01:20 UTC,200,obits@variety.com tips@variety.com,yes
-KTLA 5,LA TV,Newsroom,,https://ktla.com/contact-us/,Verify on page,2026-11-06 01:20 UTC,200,license@nexstar.tv solutions@nexstar.tv,
-ABC7 Los Angeles (KABC),LA TV,Press releases,,https://abc7.com/news/submit-press-releases/50414/,Page lists fax 818-863-7080 for releases; tips line 877-777-6397,2026-11-06 01:20 UTC,200,pr@abc7.com webops@myabc7.com,
-NBC4 Los Angeles (KNBC),LA TV,Newsroom,,https://www.nbclosangeles.com/contact-us/,Breaking news line 818-684-4321,2026-11-06 01:20 UTC,403,,
-KCAL News / CBS LA,LA TV,Newsroom,,https://www.cbsnews.com/losangeles/contact-us/,Verify on page,2026-11-06 01:20 UTC,404,,
-KJLH 102.3,LA radio,Station,,https://www.kjlhradio.com/contact,Verify on page,2026-11-06 01:20 UTC,200,publicaffairs@Kjlhradio.com,
-Power 106 (KPWR),LA radio,Station,,https://www.power106.com/contact/,Main line (818) 953-4200 per directories,2026-11-06 01:20 UTC,200,FLujan@power106.com mariano.amador@meruelomedia.com power106info@power106.com,
-TMZ,National,Tips,,https://www.tmz.com/pages/contact-us/,Tip form,2026-11-06 01:20 UTC,200,,
-E! News,National TV,Tips,,https://www.eonline.com/news/tips,Verify on page,2026-11-06 01:20 UTC,404,appsupport@eentertainment.com ken.brocx@nbcuni.com ruben.rajkowski@nbcuni.com,
-Entertainment Tonight,National TV,Newsroom,,https://www.etonline.com/contact-us,Verify on page,2026-11-06 01:20 UTC,404,,
-Access Hollywood,National TV,Newsroom,,https://www.accesshollywood.com/contact/,Show ended Sept 11 2026 per Wikipedia; low priority,2026-11-06 01:20 UTC,200,,
-EBONY,National Black press,Editorial,,https://www.ebony.com/contact-us/,Verify on page,2026-11-06 01:20 UTC,403,,
-Essence,National Black press,Editorial,,https://www.essence.com/contact-us/,Verify on page,2026-11-06 01:20 UTC,403,,
-The Root,National Black press,Tips,,https://www.theroot.com/contact,Verify on page,2026-11-06 01:21 UTC,404,advertising@theroot.com,
-BET,National Black press,Press,,https://www.bet.com/contact-us,Verify on page,2026-11-06 01:21 UTC,404,,
-Rolling Out,National Black press,Editorial,,https://rollingout.com/contact-us/,Verify on page,2026-11-06 01:21 UTC,403,,
-theGrio,National Black press,Editorial,,https://thegrio.com/contact-us/,Verify on page,2026-11-06 01:21 UTC,404,,
-VIBE,National music,Editorial,,https://www.vibe.com/contact-us/,Verify on page,2026-11-06 01:21 UTC,200,PMC@wrightsmedia.com,
-Los Angeles Times,LA print,Entertainment,,https://www.latimes.com/about/contact-us,Verify on page,2026-11-06 01:21 UTC,404,,
+FOX 11 Los Angeles (KTTV),LA TV,News tips,fox11news@fox.com,https://www.foxla.com/contact,"Page asks for subject line ""News Tip""",2026-11-11 04:58 UTC,200,fox11news@fox.com FOX11programming1@fox.com KTTVdigital@fox.com seng.phan@fox.com u002F@fox.la u003Efox11news@fox.com u003EFOX11programming1@fox.com u003EKTTVdigital@fox.com u003Eseng.phan@fox.com,yes
+Deadline,National trade,Editors / tips,editors@deadline.com,https://deadline.com/got-a-tip/,,2026-11-11 04:58 UTC,200,editors@deadline.com,yes
+The Hollywood Reporter,National trade,Newsroom,THRnews@thr.com,https://www.hollywoodreporter.com/masthead/,Masthead editorial address,2026-11-11 04:58 UTC,200,advertise@thr.com THR@theygsgroup.com THRnews@thr.com,yes
+The Hollywood Reporter,National trade,Tip line,tips@thr.com,https://www.hollywoodreporter.com/tip-line/,Older tip-line address; masthead address preferred,2026-11-11 04:58 UTC,200,tips@thr.com,yes
+Billboard,National trade,News tips,news_tips@billboard.com,https://www.billboard.com/tip-us/,,2026-11-11 04:59 UTC,200,news_tips@billboard.com,yes
+Black Enterprise,National Black press,Editorial,beeditors@blackenterprise.com,https://www.blackenterprise.com/contact/,,2026-11-11 04:59 UTC,200,allmank@blackenterprise.com bartonj@blackenterprise.com beads@blackenterprise.com beeditors@blackenterprise.com beevents@blackenterprise.com careers@blackenterprise.com support@blackenterprise.com,yes
+Variety,National trade,Tips (NO press releases),tips@variety.com,https://variety.com/tips/,Variety says press releases sent here are deleted. Do not blast; pitch a reporter instead,2026-11-11 04:59 UTC,200,obits@variety.com tips@variety.com,yes
+KTLA 5,LA TV,Newsroom,,https://ktla.com/contact-us/,Verify on page,2026-11-11 04:59 UTC,200,license@nexstar.tv solutions@nexstar.tv,
+ABC7 Los Angeles (KABC),LA TV,Press releases,,https://abc7.com/news/submit-press-releases/50414/,Page lists fax 818-863-7080 for releases; tips line 877-777-6397,2026-11-11 04:59 UTC,200,pr@abc7.com webops@myabc7.com,
+NBC4 Los Angeles (KNBC),LA TV,Newsroom,,https://www.nbclosangeles.com/contact-us/,Breaking news line 818-684-4321,2026-11-11 04:59 UTC,403,,
+KCAL News / CBS LA,LA TV,Newsroom,,https://www.cbsnews.com/losangeles/contact-us/,Verify on page,2026-11-11 04:59 UTC,404,,
+KJLH 102.3,LA radio,Station,,https://www.kjlhradio.com/contact,Verify on page,2026-11-11 04:59 UTC,200,publicaffairs@Kjlhradio.com,
+Power 106 (KPWR),LA radio,Station,,https://www.power106.com/contact/,Main line (818) 953-4200 per directories,2026-11-11 04:59 UTC,200,FLujan@power106.com mariano.amador@meruelomedia.com power106info@power106.com,
+TMZ,National,Tips,,https://www.tmz.com/pages/contact-us/,Tip form,2026-11-11 04:59 UTC,200,,
+E! News,National TV,Tips,,https://www.eonline.com/news/tips,Verify on page,2026-11-11 04:59 UTC,404,appsupport@eentertainment.com ken.brocx@nbcuni.com ruben.rajkowski@nbcuni.com,
+Entertainment Tonight,National TV,Newsroom,,https://www.etonline.com/contact-us,Verify on page,2026-11-11 04:59 UTC,404,,
+Access Hollywood,National TV,Newsroom,,https://www.accesshollywood.com/contact/,Show ended Sept 11 2026 per Wikipedia; low priority,2026-11-11 04:59 UTC,200,,
+EBONY,National Black press,Editorial,,https://www.ebony.com/contact-us/,Verify on page,2026-11-11 04:59 UTC,403,,
+Essence,National Black press,Editorial,,https://www.essence.com/contact-us/,Verify on page,2026-11-11 04:59 UTC,403,,
+The Root,National Black press,Tips,,https://www.theroot.com/contact,Verify on page,2026-11-11 04:59 UTC,404,advertising@theroot.com,
+BET,National Black press,Press,,https://www.bet.com/contact-us,Verify on page,2026-11-11 04:59 UTC,404,,
+Rolling Out,National Black press,Editorial,,https://rollingout.com/contact-us/,Verify on page,2026-11-11 05:00 UTC,403,,
+theGrio,National Black press,Editorial,,https://thegrio.com/contact-us/,Verify on page,2026-11-11 05:00 UTC,404,,
+VIBE,National music,Editorial,,https://www.vibe.com/contact-us/,Verify on page,2026-11-11 05:00 UTC,200,PMC@wrightsmedia.com,
+Los Angeles Times,LA print,Entertainment,,https://www.latimes.com/about/contact-us,Verify on page,2026-11-11 05:00 UTC,404,,
