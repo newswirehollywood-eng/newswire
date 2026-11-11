@@ -135,3 +135,6 @@ Our first SKVLK Fest stories used photos of the venue taken before guests arrive
 
 ## Nov 11, 2026 — Fix the mold, not the cookie
 Most of our pages are baked by a program (wire.py, render_site.py, build.py) from a template, the way cookies come from a mold. If you only decorate the cookies, the next batch comes out plain: the hourly rebuild would have erased the new social-icon band. So the band went into the mold (each site's footer template) and onto the hand-made pages once. Lesson: when a change must last on every page, put it where the pages are made, not on the pages.
+
+## Nov 11, 2026 — A real photo, the legal way, in the right shape
+Terry wanted real photographs instead of text cards. The free, legal source is Wikimedia Commons: photographers there let anyone reuse their pictures if we credit them and name the license (like CC BY, "credit the author"). Every story now names the photographer, the license and the Commons link. Two snags taught two lessons. First, Wikimedia slows down anyone who asks too fast, so we fetch its ready-made smaller copies (thumbnails) instead of giant originals. Second, Instagram only accepts photos between 4:5 (tall) and 1.91:1 (wide); a 2:3 portrait would be refused, so tall photos are trimmed to 4:5 before publishing.
