@@ -132,3 +132,6 @@ Our Claude workroom has a locked front door to the internet: it can reach GitHub
 
 ## Nov 10, 2026 — Check the picture before it goes out
 Our first SKVLK Fest stories used photos of the venue taken before guests arrived: empty sofas and lounge furniture. They were real and licensed, but they told the wrong story; a news photo has to show the event itself. Fix: every story and post now uses event-night photos (crowd, stage, performers), and the desks have a rule: before publishing, ask "does this picture show the moment the headline is about?" Empty rooms, setups and furniture never lead a story.
+
+## Nov 11, 2026 — Fix the mold, not the cookie
+Most of our pages are baked by a program (wire.py, render_site.py, build.py) from a template, the way cookies come from a mold. If you only decorate the cookies, the next batch comes out plain: the hourly rebuild would have erased the new social-icon band. So the band went into the mold (each site's footer template) and onto the hand-made pages once. Lesson: when a change must last on every page, put it where the pages are made, not on the pages.
