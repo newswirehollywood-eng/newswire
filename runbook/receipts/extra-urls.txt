@@ -4,12 +4,12 @@ Newswire-Press-Room https://newswirehollywood.com/pressroom.html
 Newswire-RSS-feed https://newswirehollywood.com/feed.xml
 Newswire-news-sitemap https://newswirehollywood.com/news-sitemap.xml
 Newswire-homepage https://newswirehollywood.com/
-https://hollywoodnewsaccess.com/
-https://newswirehollywood.com/
-https://newswirehollywood.com/pressroom.html
-https://gospelnewsaccess.com/
-https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html
-https://htaassociates.com/newsroom.html
-https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html
-https://prstarpower.com/
-https://prstarpower.com/newsroom.html
+HNA-homepage https://hollywoodnewsaccess.com/
+Newswire-homepage-Nov11 https://newswirehollywood.com/
+Newswire-Press-Room-Nov11 https://newswirehollywood.com/pressroom.html
+GNA-homepage https://gospelnewsaccess.com/
+GNA-press-release https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html
+HTA-newsroom https://htaassociates.com/newsroom.html
+HTA-editorial https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html
+PRSTARPOWER-homepage https://prstarpower.com/
+PRSTARPOWER-newsroom https://prstarpower.com/newsroom.html
