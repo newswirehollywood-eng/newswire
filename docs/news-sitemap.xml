@@ -1,48 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://newswirehollywood.com/brandy-monica-boy-is-mine-las-vegas-residency-resorts-world-2027.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Newswire Hollywood</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>Brandy and Monica Take 'The Boy Is Mine' to Las Vegas: 10 Shows at Resorts World Starting May 29, 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newswirehollywood.com/pr-skvlk-fest-2026-community-thanks.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Newswire Hollywood</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>SKVLK Fest Thanks Families and Community After Joyful 18th Birthday Celebration; Sheriff Confirms No Stabbing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newswirehollywood.com/ramayana-first-indian-film-number-one-uk-ireland-box-office.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Newswire Hollywood</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>Ramayana Makes UK History: First Indian Film Ever to Open No. 1 at the UK and Ireland Box Office</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newswirehollywood.com/visionquest-finale-wandavision-saga-ends-avengers-doomsday.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Newswire Hollywood</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>VisionQuest Finale Ends Marvel's WandaVision Saga With Two Post-Credits Scenes Aimed at Avengers: Doomsday</news:title>
-    </news:news>
-  </url>
 </urlset>
