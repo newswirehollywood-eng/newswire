@@ -162,6 +162,22 @@
         "instagram": "17900691786398999",
         "facebook_url": "https://www.facebook.com/1482063578315642/posts/122109544533533251",
         "instagram_url": "https://www.instagram.com/p/DfmXwHKjeak/"
+      },
+      "https://newswirehollywood.com/tevin-campbell-50th-birthday-party-los-angeles.html": {
+        "title": "Tevin Campbell Turns 50: The Quincy Jones Discovery Grabs the Mic at His Own Packed L.A. Party",
+        "at": "2026-11-19 01:27 UTC",
+        "facebook": "1482063578315642_122113525113533251",
+        "instagram": "18131540635844752",
+        "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113525113533251",
+        "instagram_url": "https://www.instagram.com/p/Df55hHJicO_/"
+      },
+      "https://newswirehollywood.com/pr-freda-payne-motown-for-veterans.html": {
+        "title": "PRESS RELEASE: Freda Payne to Perform at Motown for Veterans Benefit Concert Jan. 8 in Tempe, Ariz.",
+        "at": "2026-11-19 01:27 UTC",
+        "facebook": "1482063578315642_122113525203533251",
+        "instagram": "18028382001074504",
+        "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113525203533251",
+        "instagram_url": "https://www.instagram.com/p/Df55jRpCTEZ/"
       }
     },
     "Hollywood News Access": {
@@ -323,6 +339,14 @@
       "https://gospelnewsaccess.com/story/the-chosen-season-6-prime-video-faith-watchlist-promised-land.html": {
         "title": "(see queue)",
         "status": "scheduled via social-queue gna-20261111-chosen-s6-watchlist at 2026-11-11T23:30 UTC (staggered; Gospel Desk Nov 11)"
+      },
+      "https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html": {
+        "title": "\"I Thank God for That\": Freda Payne, 84, Will Sing for Veterans at Motown Benefit in Tempe",
+        "at": "2026-11-19 01:27 UTC",
+        "facebook": "225290564204002_1479057974417451",
+        "instagram": "18123627778964094",
+        "facebook_url": "https://www.facebook.com/225290564204002/posts/1479057974417451",
+        "instagram_url": "https://www.instagram.com/p/Df55lnEiUa5/"
       }
     },
     "PR STARPOWER": {
@@ -361,6 +385,14 @@
         "instagram": "18397040311162807",
         "facebook_url": "https://www.facebook.com/1345437525329241/posts/122108691579531256",
         "instagram_url": "https://www.instagram.com/p/DfidpzmmGU2/"
+      },
+      "https://prstarpower.com/news-tevin-campbell-50th-durability.html": {
+        "title": "Tevin Campbell at 50: A Full Room in Los Angeles Is a Market Signal",
+        "at": "2026-11-19 01:27 UTC",
+        "facebook": "1345437525329241_122112216789531256",
+        "instagram": "18131183851911822",
+        "facebook_url": "https://www.facebook.com/1345437525329241/posts/122112216789531256",
+        "instagram_url": "https://www.instagram.com/p/Df55nRVCcHt/"
       }
     }
   },
@@ -785,6 +817,38 @@
       "instagram": "18500790256107834",
       "facebook_url": "https://www.facebook.com/225290564204002/posts/1473689961620919",
       "instagram_url": "https://www.instagram.com/p/DfsRtrLmv2F/"
+    },
+    "freda-motown-nwh-reel": {
+      "brand": "Newswire Hollywood",
+      "at": "2026-11-19 01:28 UTC",
+      "facebook": "1136822419096446",
+      "instagram": "17891274261621190",
+      "facebook_url": "https://www.facebook.com/watch/?v=1136822419096446",
+      "instagram_url": "https://www.instagram.com/reel/Df55p2BCFgU/"
+    },
+    "freda-motown-hna-card": {
+      "brand": "Hollywood News Access",
+      "at": "2026-11-19 01:29 UTC",
+      "facebook": "103046575359785_1442903598050050",
+      "instagram": "18476848822138545",
+      "facebook_url": "https://www.facebook.com/103046575359785/posts/1442903598050050",
+      "instagram_url": "https://www.instagram.com/p/Df55vfxiZqp/"
+    },
+    "freda-motown-prs-card": {
+      "brand": "PR STARPOWER",
+      "at": "2026-11-19 01:29 UTC",
+      "facebook": "1345437525329241_122112217059531256",
+      "instagram": "18103400657363108",
+      "facebook_url": "https://www.facebook.com/1345437525329241/posts/122112217059531256",
+      "instagram_url": "https://www.instagram.com/p/Df55xm8CYh6/"
+    },
+    "gna-20261119-tevin50-reel": {
+      "brand": "Gospel News Access",
+      "at": "2026-11-19 01:29 UTC",
+      "facebook": "999218129306527",
+      "instagram": "17881210866632680",
+      "facebook_url": "https://www.facebook.com/watch/?v=999218129306527",
+      "instagram_url": "https://www.instagram.com/reel/Df556OLiQuv/"
     }
   }
 }
