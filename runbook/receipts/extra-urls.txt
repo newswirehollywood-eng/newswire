@@ -17,3 +17,7 @@ Freda-Motown-press-release https://newswirehollywood.com/pr-freda-payne-motown-f
 Freda-Motown-Newswire-story https://newswirehollywood.com/freda-payne-motown-for-veterans-tempe.html
 Freda-Motown-GNA-story https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html
 Freda-Motown-Press-Room https://newswirehollywood.com/pressroom.html
+Tevin50-Newswire-story https://newswirehollywood.com/tevin-campbell-50th-birthday-party-los-angeles.html
+Tevin50-PRS-story https://prstarpower.com/news-tevin-campbell-50th-durability.html
+Tevin50-PRS-newsroom https://prstarpower.com/newsroom.html
+Tevin50-Newswire-music https://newswirehollywood.com/music.html
