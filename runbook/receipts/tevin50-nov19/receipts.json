@@ -1,7 +1,7 @@
 {
  "since": "2026-11-19",
- "generated": "2026-11-19 00:24:25 UTC",
- "actions_run": "https://github.com/newswirehollywood-eng/newswire/actions/runs/44428544062",
+ "generated": "2026-11-19 05:33:13 UTC",
+ "actions_run": "https://github.com/newswirehollywood-eng/newswire/actions/runs/44465499446",
  "pages": [
   {
    "brand": "Newswire Hollywood",
@@ -10,7 +10,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-tevin-campbell-50th-birthday-party-los-angeles-html.png",
-   "checked_at": "2026-11-19 00:23:40 UTC"
+   "checked_at": "2026-11-19 05:29:57 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -19,7 +19,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-pr-freda-payne-motown-for-veterans-html.png",
-   "checked_at": "2026-11-19 00:23:43 UTC"
+   "checked_at": "2026-11-19 05:29:59 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -28,7 +28,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-freda-payne-motown-for-veterans-tempe-html.png",
-   "checked_at": "2026-11-19 00:23:46 UTC"
+   "checked_at": "2026-11-19 05:30:02 UTC"
   },
   {
    "brand": "Gospel News Access",
@@ -37,16 +37,16 @@
    "published": "Thu, 19 Nov 2026 00:15:00 +0000",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com-story-freda-payne-motown-for-veterans-tempe-thank-god-still-working-h.png",
-   "checked_at": "2026-11-19 00:23:49 UTC"
+   "checked_at": "2026-11-19 05:30:05 UTC"
   },
   {
    "brand": "PR STARPOWER",
    "title": "Tevin Campbell at 50: A Full Room in Los Angeles Is a Market Signal",
    "url": "https://prstarpower.com/news-tevin-campbell-50th-durability.html",
-   "published": "Thu, 19 Nov 2026 18:00:00 +0000",
+   "published": "Thu, 19 Nov 2026 00:15:00 +0000",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-news-tevin-campbell-50th-durability-html.png",
-   "checked_at": "2026-11-19 00:23:52 UTC"
+   "checked_at": "2026-11-19 05:30:08 UTC"
   },
   {
    "brand": "extra",
@@ -54,7 +54,7 @@
    "url": "https://prstarpower.com/skvlk-fest.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-skvlk-fest-html.png",
-   "checked_at": "2026-11-19 00:23:55 UTC"
+   "checked_at": "2026-11-19 05:30:11 UTC"
   },
   {
    "brand": "extra",
@@ -62,7 +62,7 @@
    "url": "https://newswirehollywood.com/pressroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-pressroom-html.png",
-   "checked_at": "2026-11-19 00:23:58 UTC"
+   "checked_at": "2026-11-19 05:30:13 UTC"
   },
   {
    "brand": "extra",
@@ -70,7 +70,7 @@
    "url": "https://newswirehollywood.com/feed.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-feed-xml.png",
-   "checked_at": "2026-11-19 00:24:01 UTC"
+   "checked_at": "2026-11-19 05:30:16 UTC"
   },
   {
    "brand": "extra",
@@ -78,7 +78,7 @@
    "url": "https://newswirehollywood.com/news-sitemap.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-news-sitemap-xml.png",
-   "checked_at": "2026-11-19 00:24:03 UTC"
+   "checked_at": "2026-11-19 05:30:19 UTC"
   },
   {
    "brand": "extra",
@@ -86,7 +86,7 @@
    "url": "https://newswirehollywood.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com.png",
-   "checked_at": "2026-11-19 00:24:06 UTC"
+   "checked_at": "2026-11-19 05:30:22 UTC"
   },
   {
    "brand": "extra",
@@ -94,7 +94,7 @@
    "url": "https://hollywoodnewsaccess.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/hollywoodnewsaccess-com.png",
-   "checked_at": "2026-11-19 00:24:10 UTC"
+   "checked_at": "2026-11-19 05:30:26 UTC"
   },
   {
    "brand": "extra",
@@ -102,7 +102,7 @@
    "url": "https://gospelnewsaccess.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com.png",
-   "checked_at": "2026-11-19 00:24:13 UTC"
+   "checked_at": "2026-11-19 05:30:28 UTC"
   },
   {
    "brand": "extra",
@@ -110,21 +110,21 @@
    "url": "https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com-press-skvlk-fest-2026-sheriff-investigation-no-stabbing-html.png",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
    "title": "HTA-newsroom",
    "url": "https://htaassociates.com/newsroom.html",
    "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/newsroom.html\nCall log:\nnavigating to \"https://htaassociates.com/newsroom.html\", waiti",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
    "title": "HTA-editorial",
    "url": "https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html",
    "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html\nCall log:\nnavigating to \"https://htaassociat",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
@@ -132,7 +132,7 @@
    "url": "https://prstarpower.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com.png",
-   "checked_at": "2026-11-19 00:24:19 UTC"
+   "checked_at": "2026-11-19 05:30:34 UTC"
   },
   {
    "brand": "extra",
@@ -140,7 +140,7 @@
    "url": "https://prstarpower.com/newsroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-newsroom-html.png",
-   "checked_at": "2026-11-19 00:24:22 UTC"
+   "checked_at": "2026-11-19 05:30:37 UTC"
   },
   {
    "brand": "extra",
@@ -148,10 +148,247 @@
    "url": "https://newswirehollywood.com/music.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-music-html.png",
-   "checked_at": "2026-11-19 00:24:25 UTC"
+   "checked_at": "2026-11-19 05:30:40 UTC"
   }
  ],
- "social_posts": [],
+ "social_posts": [
+  {
+   "title": "Tevin Campbell Turns 50: The Quincy Jones Discovery Grabs the Mic at His Own Packed L.A. Party",
+   "at": "2026-11-19 01:27 UTC",
+   "facebook": "1482063578315642_122113525113533251",
+   "instagram": "18131540635844752",
+   "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113525113533251",
+   "instagram_url": "https://www.instagram.com/p/Df55hHJicO_/",
+   "brand": "Newswire Hollywood",
+   "story": "https://newswirehollywood.com/tevin-campbell-50th-birthday-party-los-angeles.html",
+   "facebook_permalink": "https://www.facebook.com/122103764127533251/posts/122113525113533251",
+   "facebook_created": "2026-11-19T01:27:06+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55hHJicO_/",
+   "instagram_created": "2026-11-19T01:27:21+0000"
+  },
+  {
+   "title": "PRESS RELEASE: Freda Payne to Perform at Motown for Veterans Benefit Concert Jan. 8 in Tempe, Ariz.",
+   "at": "2026-11-19 01:27 UTC",
+   "facebook": "1482063578315642_122113525203533251",
+   "instagram": "18028382001074504",
+   "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113525203533251",
+   "instagram_url": "https://www.instagram.com/p/Df55jRpCTEZ/",
+   "brand": "Newswire Hollywood",
+   "story": "https://newswirehollywood.com/pr-freda-payne-motown-for-veterans.html",
+   "facebook_permalink": "https://www.facebook.com/122103764127533251/posts/122113525203533251",
+   "facebook_created": "2026-11-19T01:27:25+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55jRpCTEZ/",
+   "instagram_created": "2026-11-19T01:27:39+0000"
+  },
+  {
+   "title": "Freda Payne Sings for Veterans at Motown Benefit Concert in Tempe Jan. 8",
+   "at": "2026-11-19 05:21 UTC",
+   "facebook": "1482063578315642_122113576023533251",
+   "instagram": "18101306366647713",
+   "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113576023533251",
+   "instagram_url": "https://www.instagram.com/p/Df6UYRIE9yy/",
+   "brand": "Newswire Hollywood",
+   "story": "https://newswirehollywood.com/freda-payne-motown-for-veterans-tempe.html",
+   "facebook_permalink": "https://www.facebook.com/122103764127533251/posts/122113576023533251",
+   "facebook_created": "2026-11-19T05:21:51+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df6UYRIE9yy/",
+   "instagram_created": "2026-11-19T05:22:04+0000"
+  },
+  {
+   "title": "\"I Thank God for That\": Freda Payne, 84, Will Sing for Veterans at Motown Benefit in Tempe",
+   "at": "2026-11-19 01:27 UTC",
+   "facebook": "225290564204002_1479057974417451",
+   "instagram": "18123627778964094",
+   "facebook_url": "https://www.facebook.com/225290564204002/posts/1479057974417451",
+   "instagram_url": "https://www.instagram.com/p/Df55lnEiUa5/",
+   "brand": "Gospel News Access",
+   "story": "https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html",
+   "facebook_permalink": "https://www.facebook.com/1470716655251583/posts/1479057974417451",
+   "facebook_created": "2026-11-19T01:27:43+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55lnEiUa5/",
+   "instagram_created": "2026-11-19T01:27:55+0000"
+  },
+  {
+   "title": "Tevin Campbell at 50: A Full Room in Los Angeles Is a Market Signal",
+   "at": "2026-11-19 01:27 UTC",
+   "facebook": "1345437525329241_122112216789531256",
+   "instagram": "18131183851911822",
+   "facebook_url": "https://www.facebook.com/1345437525329241/posts/122112216789531256",
+   "instagram_url": "https://www.instagram.com/p/Df55nRVCcHt/",
+   "brand": "PR STARPOWER",
+   "story": "https://prstarpower.com/news-tevin-campbell-50th-durability.html",
+   "facebook_permalink": "https://www.facebook.com/122105480991531256/posts/122112216789531256",
+   "facebook_created": "2026-11-19T01:27:58+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55nRVCcHt/",
+   "instagram_created": "2026-11-19T01:28:11+0000"
+  },
+  {
+   "brand": "Newswire Hollywood",
+   "at": "2026-11-19 01:28 UTC",
+   "facebook": "1136822419096446",
+   "instagram": "17891274261621190",
+   "facebook_url": "https://www.facebook.com/watch/?v=1136822419096446",
+   "instagram_url": "https://www.instagram.com/reel/Df55p2BCFgU/",
+   "story": "queue:freda-motown-nwh-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df55p2BCFgU/",
+   "instagram_created": "2026-11-19T01:28:55+0000"
+  },
+  {
+   "brand": "Hollywood News Access",
+   "at": "2026-11-19 01:29 UTC",
+   "facebook": "103046575359785_1442903598050050",
+   "instagram": "18476848822138545",
+   "facebook_url": "https://www.facebook.com/103046575359785/posts/1442903598050050",
+   "instagram_url": "https://www.instagram.com/p/Df55vfxiZqp/",
+   "story": "queue:freda-motown-hna-card",
+   "facebook_permalink": "https://www.facebook.com/1429038352769908/posts/1442903598050050",
+   "facebook_created": "2026-11-19T01:29:05+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55vfxiZqp/",
+   "instagram_created": "2026-11-19T01:29:19+0000"
+  },
+  {
+   "brand": "PR STARPOWER",
+   "at": "2026-11-19 01:29 UTC",
+   "facebook": "1345437525329241_122112217059531256",
+   "instagram": "18103400657363108",
+   "facebook_url": "https://www.facebook.com/1345437525329241/posts/122112217059531256",
+   "instagram_url": "https://www.instagram.com/p/Df55xm8CYh6/",
+   "story": "queue:freda-motown-prs-card",
+   "facebook_permalink": "https://www.facebook.com/122105480991531256/posts/122112217059531256",
+   "facebook_created": "2026-11-19T01:29:23+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df55xm8CYh6/",
+   "instagram_created": "2026-11-19T01:29:39+0000"
+  },
+  {
+   "brand": "Gospel News Access",
+   "at": "2026-11-19 01:29 UTC",
+   "facebook": "999218129306527",
+   "instagram": "17881210866632680",
+   "facebook_url": "https://www.facebook.com/watch/?v=999218129306527",
+   "instagram_url": "https://www.instagram.com/reel/Df556OLiQuv/",
+   "story": "queue:gna-20261119-tevin50-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df556OLiQuv/",
+   "instagram_created": "2026-11-19T01:31:06+0000"
+  },
+  {
+   "brand": "Hollywood News Access",
+   "at": "2026-11-19 05:22 UTC",
+   "facebook": "1151860824280361",
+   "instagram": "18127856290912054",
+   "facebook_url": "https://www.facebook.com/watch/?v=1151860824280361",
+   "instagram_url": "https://www.instagram.com/reel/Df6Ua3uksqF/",
+   "story": "queue:freda-motown-hna-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6Ua3uksqF/",
+   "instagram_created": "2026-11-19T05:22:44+0000"
+  },
+  {
+   "brand": "Gospel News Access",
+   "at": "2026-11-19 05:22 UTC",
+   "facebook": "1154103363698051",
+   "instagram": "18023228114936762",
+   "facebook_url": "https://www.facebook.com/watch/?v=1154103363698051",
+   "instagram_url": "https://www.instagram.com/reel/Df6UgNamRB1/",
+   "story": "queue:freda-motown-gna-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6UgNamRB1/",
+   "instagram_created": "2026-11-19T05:23:29+0000"
+  },
+  {
+   "brand": "PR STARPOWER",
+   "at": "2026-11-19 05:23 UTC",
+   "facebook": "1108815618643742",
+   "instagram": "18177970972483008",
+   "facebook_url": "https://www.facebook.com/watch/?v=1108815618643742",
+   "instagram_url": "https://www.instagram.com/reel/Df6UlxlGevr/",
+   "story": "queue:freda-motown-prs-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6UlxlGevr/",
+   "instagram_created": "2026-11-19T05:24:13+0000"
+  },
+  {
+   "brand": "Newswire Hollywood",
+   "at": "2026-11-19 05:24 UTC",
+   "facebook": "2621599401636483",
+   "instagram": "17993243418119057",
+   "facebook_url": "https://www.facebook.com/watch/?v=2621599401636483",
+   "instagram_url": "https://www.instagram.com/reel/Df6UrJFjzg6/",
+   "story": "queue:nwh-20261119-tevin50-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6UrJFjzg6/",
+   "instagram_created": "2026-11-19T05:24:58+0000"
+  },
+  {
+   "brand": "Hollywood News Access",
+   "at": "2026-11-19 05:25 UTC",
+   "facebook": "1622808022949784",
+   "instagram": "18113871995464038",
+   "facebook_url": "https://www.facebook.com/watch/?v=1622808022949784",
+   "instagram_url": "https://www.instagram.com/reel/Df6U1HfDzFo/",
+   "story": "queue:hna-20261119-tevin50-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6U1HfDzFo/",
+   "instagram_created": "2026-11-19T05:26:20+0000"
+  },
+  {
+   "brand": "PR STARPOWER",
+   "at": "2026-11-19 05:26 UTC",
+   "facebook": "989290530441907",
+   "instagram": "17902396917612106",
+   "facebook_url": "https://www.facebook.com/watch/?v=989290530441907",
+   "instagram_url": "https://www.instagram.com/reel/Df6U6k4jj0R/",
+   "story": "queue:prs-20261119-tevin50-reel",
+   "instagram_permalink": "https://www.instagram.com/reel/Df6U6k4jj0R/",
+   "instagram_created": "2026-11-19T05:27:05+0000"
+  },
+  {
+   "brand": "Newswire Hollywood",
+   "at": "2026-11-19 05:27 UTC",
+   "facebook": "1482063578315642_122113577043533251",
+   "instagram": "18107025443631328",
+   "facebook_url": "https://www.facebook.com/1482063578315642/posts/122113577043533251",
+   "instagram_url": "https://www.instagram.com/p/Df6U_0ykllb/",
+   "story": "queue:nwh-20261119-tevin50-photo",
+   "facebook_permalink": "https://www.facebook.com/122103764127533251/posts/122113577043533251",
+   "facebook_created": "2026-11-19T05:27:13+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df6U_0ykllb/",
+   "instagram_created": "2026-11-19T05:27:25+0000"
+  },
+  {
+   "brand": "Gospel News Access",
+   "at": "2026-11-19 05:27 UTC",
+   "facebook": "225290564204002_1479217151068200",
+   "instagram": "17919309204539186",
+   "facebook_url": "https://www.facebook.com/225290564204002/posts/1479217151068200",
+   "instagram_url": "https://www.instagram.com/p/Df6VBl1EtgC/",
+   "story": "queue:gna-20261119-tevin50-photo",
+   "facebook_permalink": "https://www.facebook.com/1470716655251583/posts/1479217151068200",
+   "facebook_created": "2026-11-19T05:27:29+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df6VBl1EtgC/",
+   "instagram_created": "2026-11-19T05:27:44+0000"
+  },
+  {
+   "brand": "Hollywood News Access",
+   "at": "2026-11-19 05:28 UTC",
+   "facebook": "103046575359785_1443064668033943",
+   "instagram": "18461622481193207",
+   "facebook_url": "https://www.facebook.com/103046575359785/posts/1443064668033943",
+   "instagram_url": "https://www.instagram.com/p/Df6VIXRIHCf/",
+   "story": "queue:hna-20261119-tevin50-photo",
+   "facebook_permalink": "https://www.facebook.com/1429038352769908/posts/1443064668033943",
+   "facebook_created": "2026-11-19T05:28:22+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df6VIXRIHCf/",
+   "instagram_created": "2026-11-19T05:28:34+0000"
+  },
+  {
+   "brand": "PR STARPOWER",
+   "at": "2026-11-19 05:28 UTC",
+   "facebook": "1345437525329241_122112281163531256",
+   "instagram": "17968705328984260",
+   "facebook_url": "https://www.facebook.com/1345437525329241/posts/122112281163531256",
+   "instagram_url": "https://www.instagram.com/p/Df6VJ61oIlM/",
+   "story": "queue:prs-20261119-tevin50-photo",
+   "facebook_permalink": "https://www.facebook.com/122105480991531256/posts/122112281163531256",
+   "facebook_created": "2026-11-19T05:28:37+0000",
+   "instagram_permalink": "https://www.instagram.com/p/Df6VJ61oIlM/",
+   "instagram_created": "2026-11-19T05:28:51+0000"
+  }
+ ],
  "screenshots": [
   {
    "brand": "Newswire Hollywood",
@@ -160,7 +397,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-tevin-campbell-50th-birthday-party-los-angeles-html.png",
-   "checked_at": "2026-11-19 00:23:40 UTC"
+   "checked_at": "2026-11-19 05:29:57 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -169,7 +406,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-pr-freda-payne-motown-for-veterans-html.png",
-   "checked_at": "2026-11-19 00:23:43 UTC"
+   "checked_at": "2026-11-19 05:29:59 UTC"
   },
   {
    "brand": "Newswire Hollywood",
@@ -178,7 +415,7 @@
    "published": "Thu, 19 Nov 2026 00:00:00 -0700",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-freda-payne-motown-for-veterans-tempe-html.png",
-   "checked_at": "2026-11-19 00:23:46 UTC"
+   "checked_at": "2026-11-19 05:30:02 UTC"
   },
   {
    "brand": "Gospel News Access",
@@ -187,16 +424,16 @@
    "published": "Thu, 19 Nov 2026 00:15:00 +0000",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com-story-freda-payne-motown-for-veterans-tempe-thank-god-still-working-h.png",
-   "checked_at": "2026-11-19 00:23:49 UTC"
+   "checked_at": "2026-11-19 05:30:05 UTC"
   },
   {
    "brand": "PR STARPOWER",
    "title": "Tevin Campbell at 50: A Full Room in Los Angeles Is a Market Signal",
    "url": "https://prstarpower.com/news-tevin-campbell-50th-durability.html",
-   "published": "Thu, 19 Nov 2026 18:00:00 +0000",
+   "published": "Thu, 19 Nov 2026 00:15:00 +0000",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-news-tevin-campbell-50th-durability-html.png",
-   "checked_at": "2026-11-19 00:23:52 UTC"
+   "checked_at": "2026-11-19 05:30:08 UTC"
   },
   {
    "brand": "extra",
@@ -204,7 +441,7 @@
    "url": "https://prstarpower.com/skvlk-fest.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-skvlk-fest-html.png",
-   "checked_at": "2026-11-19 00:23:55 UTC"
+   "checked_at": "2026-11-19 05:30:11 UTC"
   },
   {
    "brand": "extra",
@@ -212,7 +449,7 @@
    "url": "https://newswirehollywood.com/pressroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-pressroom-html.png",
-   "checked_at": "2026-11-19 00:23:58 UTC"
+   "checked_at": "2026-11-19 05:30:13 UTC"
   },
   {
    "brand": "extra",
@@ -220,7 +457,7 @@
    "url": "https://newswirehollywood.com/feed.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-feed-xml.png",
-   "checked_at": "2026-11-19 00:24:01 UTC"
+   "checked_at": "2026-11-19 05:30:16 UTC"
   },
   {
    "brand": "extra",
@@ -228,7 +465,7 @@
    "url": "https://newswirehollywood.com/news-sitemap.xml",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-news-sitemap-xml.png",
-   "checked_at": "2026-11-19 00:24:03 UTC"
+   "checked_at": "2026-11-19 05:30:19 UTC"
   },
   {
    "brand": "extra",
@@ -236,7 +473,7 @@
    "url": "https://newswirehollywood.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com.png",
-   "checked_at": "2026-11-19 00:24:06 UTC"
+   "checked_at": "2026-11-19 05:30:22 UTC"
   },
   {
    "brand": "extra",
@@ -244,7 +481,7 @@
    "url": "https://hollywoodnewsaccess.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/hollywoodnewsaccess-com.png",
-   "checked_at": "2026-11-19 00:24:10 UTC"
+   "checked_at": "2026-11-19 05:30:26 UTC"
   },
   {
    "brand": "extra",
@@ -252,7 +489,7 @@
    "url": "https://gospelnewsaccess.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com.png",
-   "checked_at": "2026-11-19 00:24:13 UTC"
+   "checked_at": "2026-11-19 05:30:28 UTC"
   },
   {
    "brand": "extra",
@@ -260,21 +497,21 @@
    "url": "https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/gospelnewsaccess-com-press-skvlk-fest-2026-sheriff-investigation-no-stabbing-html.png",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
    "title": "HTA-newsroom",
    "url": "https://htaassociates.com/newsroom.html",
    "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/newsroom.html\nCall log:\nnavigating to \"https://htaassociates.com/newsroom.html\", waiti",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
    "title": "HTA-editorial",
    "url": "https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html",
    "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html\nCall log:\nnavigating to \"https://htaassociat",
-   "checked_at": "2026-11-19 00:24:16 UTC"
+   "checked_at": "2026-11-19 05:30:31 UTC"
   },
   {
    "brand": "extra",
@@ -282,7 +519,7 @@
    "url": "https://prstarpower.com/",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com.png",
-   "checked_at": "2026-11-19 00:24:19 UTC"
+   "checked_at": "2026-11-19 05:30:34 UTC"
   },
   {
    "brand": "extra",
@@ -290,7 +527,7 @@
    "url": "https://prstarpower.com/newsroom.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/prstarpower-com-newsroom-html.png",
-   "checked_at": "2026-11-19 00:24:22 UTC"
+   "checked_at": "2026-11-19 05:30:37 UTC"
   },
   {
    "brand": "extra",
@@ -298,7 +535,311 @@
    "url": "https://newswirehollywood.com/music.html",
    "http_status": 200,
    "screenshot": "runbook/receipts/tevin50-nov19/newswirehollywood-com-music-html.png",
-   "checked_at": "2026-11-19 00:24:25 UTC"
+   "checked_at": "2026-11-19 05:30:40 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122103764127533251/posts/122113525113533251",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122103764127533251-posts-122113525113533251.png",
+   "checked_at": "2026-11-19 05:30:45 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55hHJicO_/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55hhjico.png",
+   "checked_at": "2026-11-19 05:30:50 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122103764127533251/posts/122113525203533251",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122103764127533251-posts-122113525203533251.png",
+   "checked_at": "2026-11-19 05:30:53 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55jRpCTEZ/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55jrpctez.png",
+   "checked_at": "2026-11-19 05:30:57 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122103764127533251/posts/122113576023533251",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122103764127533251-posts-122113576023533251.png",
+   "checked_at": "2026-11-19 05:31:00 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df6UYRIE9yy/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df6uyrie9yy.png",
+   "checked_at": "2026-11-19 05:31:05 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/1470716655251583/posts/1479057974417451",
+   "title": "Gospel News Access facebook",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-1470716655251583-posts-1479057974417451.png",
+   "checked_at": "2026-11-19 05:31:09 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55lnEiUa5/",
+   "title": "Gospel News Access instagram",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55lneiua5.png",
+   "checked_at": "2026-11-19 05:31:13 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122105480991531256/posts/122112216789531256",
+   "title": "PR STARPOWER facebook",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122105480991531256-posts-122112216789531256.png",
+   "checked_at": "2026-11-19 05:31:16 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55nRVCcHt/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55nrvccht.png",
+   "checked_at": "2026-11-19 05:31:21 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=1136822419096446",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-1136822419096446.png",
+   "checked_at": "2026-11-19 05:31:25 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df55p2BCFgU/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df55p2bcfgu.png",
+   "checked_at": "2026-11-19 05:31:29 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/1429038352769908/posts/1442903598050050",
+   "title": "Hollywood News Access facebook",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-1429038352769908-posts-1442903598050050.png",
+   "checked_at": "2026-11-19 05:31:33 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55vfxiZqp/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55vfxizqp.png",
+   "checked_at": "2026-11-19 05:31:38 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122105480991531256/posts/122112217059531256",
+   "title": "PR STARPOWER facebook",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122105480991531256-posts-122112217059531256.png",
+   "checked_at": "2026-11-19 05:31:41 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df55xm8CYh6/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df55xm8cyh6.png",
+   "checked_at": "2026-11-19 05:31:46 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=999218129306527",
+   "title": "Gospel News Access facebook",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-999218129306527.png",
+   "checked_at": "2026-11-19 05:31:49 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df556OLiQuv/",
+   "title": "Gospel News Access instagram",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df556oliquv.png",
+   "checked_at": "2026-11-19 05:31:54 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=1151860824280361",
+   "title": "Hollywood News Access facebook",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-1151860824280361.png",
+   "checked_at": "2026-11-19 05:31:57 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6Ua3uksqF/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6ua3uksqf.png",
+   "checked_at": "2026-11-19 05:32:02 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=1154103363698051",
+   "title": "Gospel News Access facebook",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-1154103363698051.png",
+   "checked_at": "2026-11-19 05:32:06 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6UgNamRB1/",
+   "title": "Gospel News Access instagram",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6ugnamrb1.png",
+   "checked_at": "2026-11-19 05:32:10 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=1108815618643742",
+   "title": "PR STARPOWER facebook",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-1108815618643742.png",
+   "checked_at": "2026-11-19 05:32:14 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6UlxlGevr/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6ulxlgevr.png",
+   "checked_at": "2026-11-19 05:32:18 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=2621599401636483",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-2621599401636483.png",
+   "checked_at": "2026-11-19 05:32:22 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6UrJFjzg6/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6urjfjzg6.png",
+   "checked_at": "2026-11-19 05:32:27 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=1622808022949784",
+   "title": "Hollywood News Access facebook",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-1622808022949784.png",
+   "checked_at": "2026-11-19 05:32:30 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6U1HfDzFo/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6u1hfdzfo.png",
+   "checked_at": "2026-11-19 05:32:35 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/watch/?v=989290530441907",
+   "title": "PR STARPOWER facebook",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-watch-v-989290530441907.png",
+   "checked_at": "2026-11-19 05:32:38 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Df6U6k4jj0R/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-reel-df6u6k4jj0r.png",
+   "checked_at": "2026-11-19 05:32:43 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122103764127533251/posts/122113577043533251",
+   "title": "Newswire Hollywood facebook",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122103764127533251-posts-122113577043533251.png",
+   "checked_at": "2026-11-19 05:32:47 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df6U_0ykllb/",
+   "title": "Newswire Hollywood instagram",
+   "brand": "Newswire Hollywood",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df6u-0ykllb.png",
+   "checked_at": "2026-11-19 05:32:51 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/1470716655251583/posts/1479217151068200",
+   "title": "Gospel News Access facebook",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-1470716655251583-posts-1479217151068200.png",
+   "checked_at": "2026-11-19 05:32:54 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df6VBl1EtgC/",
+   "title": "Gospel News Access instagram",
+   "brand": "Gospel News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df6vbl1etgc.png",
+   "checked_at": "2026-11-19 05:32:58 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/1429038352769908/posts/1443064668033943",
+   "title": "Hollywood News Access facebook",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-1429038352769908-posts-1443064668033943.png",
+   "checked_at": "2026-11-19 05:33:01 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df6VIXRIHCf/",
+   "title": "Hollywood News Access instagram",
+   "brand": "Hollywood News Access",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df6vixrihcf.png",
+   "checked_at": "2026-11-19 05:33:05 UTC"
+  },
+  {
+   "url": "https://www.facebook.com/122105480991531256/posts/122112281163531256",
+   "title": "PR STARPOWER facebook",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-facebook-com-122105480991531256-posts-122112281163531256.png",
+   "checked_at": "2026-11-19 05:33:09 UTC"
+  },
+  {
+   "url": "https://www.instagram.com/p/Df6VJ61oIlM/",
+   "title": "PR STARPOWER instagram",
+   "brand": "PR STARPOWER",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/tevin50-nov19/www-instagram-com-p-df6vj61oilm.png",
+   "checked_at": "2026-11-19 05:33:13 UTC"
   }
  ]
 }
