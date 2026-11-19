@@ -1,0 +1,248 @@
+{
+ "since": "2026-11-19",
+ "generated": "2026-11-19 00:19:51 UTC",
+ "actions_run": "https://github.com/newswirehollywood-eng/newswire/actions/runs/44427959163",
+ "pages": [
+  {
+   "brand": "Gospel News Access",
+   "title": "\"I Thank God for That\": Freda Payne, 84, Will Sing for Veterans at Motown Benefit in Tempe",
+   "url": "https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html",
+   "published": "Thu, 19 Nov 2026 00:15:00 +0000",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com-story-freda-payne-motown-for-veterans-tempe-thank-god-still-working-h.png",
+   "checked_at": "2026-11-19 00:19:12 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-SKVLK-Fest-2026",
+   "url": "https://prstarpower.com/skvlk-fest.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com-skvlk-fest-html.png",
+   "checked_at": "2026-11-19 00:19:15 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-Press-Room",
+   "url": "https://newswirehollywood.com/pressroom.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-pressroom-html.png",
+   "checked_at": "2026-11-19 00:19:18 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-RSS-feed",
+   "url": "https://newswirehollywood.com/feed.xml",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-feed-xml.png",
+   "checked_at": "2026-11-19 00:19:21 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-news-sitemap",
+   "url": "https://newswirehollywood.com/news-sitemap.xml",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-news-sitemap-xml.png",
+   "checked_at": "2026-11-19 00:19:24 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-homepage",
+   "url": "https://newswirehollywood.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com.png",
+   "checked_at": "2026-11-19 00:19:27 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HNA-homepage",
+   "url": "https://hollywoodnewsaccess.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/hollywoodnewsaccess-com.png",
+   "checked_at": "2026-11-19 00:19:32 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "GNA-homepage",
+   "url": "https://gospelnewsaccess.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com.png",
+   "checked_at": "2026-11-19 00:19:36 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "GNA-press-release",
+   "url": "https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com-press-skvlk-fest-2026-sheriff-investigation-no-stabbing-html.png",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HTA-newsroom",
+   "url": "https://htaassociates.com/newsroom.html",
+   "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/newsroom.html\nCall log:\nnavigating to \"https://htaassociates.com/newsroom.html\", waiti",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HTA-editorial",
+   "url": "https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html",
+   "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html\nCall log:\nnavigating to \"https://htaassociat",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-homepage",
+   "url": "https://prstarpower.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com.png",
+   "checked_at": "2026-11-19 00:19:42 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-newsroom",
+   "url": "https://prstarpower.com/newsroom.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com-newsroom-html.png",
+   "checked_at": "2026-11-19 00:19:45 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Freda-Motown-press-release",
+   "url": "https://newswirehollywood.com/pr-freda-payne-motown-for-veterans.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-pr-freda-payne-motown-for-veterans-html.png",
+   "checked_at": "2026-11-19 00:19:48 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Freda-Motown-Newswire-story",
+   "url": "https://newswirehollywood.com/freda-payne-motown-for-veterans-tempe.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-freda-payne-motown-for-veterans-tempe-html.png",
+   "checked_at": "2026-11-19 00:19:51 UTC"
+  }
+ ],
+ "social_posts": [],
+ "screenshots": [
+  {
+   "brand": "Gospel News Access",
+   "title": "\"I Thank God for That\": Freda Payne, 84, Will Sing for Veterans at Motown Benefit in Tempe",
+   "url": "https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html",
+   "published": "Thu, 19 Nov 2026 00:15:00 +0000",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com-story-freda-payne-motown-for-veterans-tempe-thank-god-still-working-h.png",
+   "checked_at": "2026-11-19 00:19:12 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-SKVLK-Fest-2026",
+   "url": "https://prstarpower.com/skvlk-fest.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com-skvlk-fest-html.png",
+   "checked_at": "2026-11-19 00:19:15 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-Press-Room",
+   "url": "https://newswirehollywood.com/pressroom.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-pressroom-html.png",
+   "checked_at": "2026-11-19 00:19:18 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-RSS-feed",
+   "url": "https://newswirehollywood.com/feed.xml",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-feed-xml.png",
+   "checked_at": "2026-11-19 00:19:21 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-news-sitemap",
+   "url": "https://newswirehollywood.com/news-sitemap.xml",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-news-sitemap-xml.png",
+   "checked_at": "2026-11-19 00:19:24 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Newswire-homepage",
+   "url": "https://newswirehollywood.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com.png",
+   "checked_at": "2026-11-19 00:19:27 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HNA-homepage",
+   "url": "https://hollywoodnewsaccess.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/hollywoodnewsaccess-com.png",
+   "checked_at": "2026-11-19 00:19:32 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "GNA-homepage",
+   "url": "https://gospelnewsaccess.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com.png",
+   "checked_at": "2026-11-19 00:19:36 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "GNA-press-release",
+   "url": "https://gospelnewsaccess.com/press/skvlk-fest-2026-sheriff-investigation-no-stabbing.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/gospelnewsaccess-com-press-skvlk-fest-2026-sheriff-investigation-no-stabbing-html.png",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HTA-newsroom",
+   "url": "https://htaassociates.com/newsroom.html",
+   "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/newsroom.html\nCall log:\nnavigating to \"https://htaassociates.com/newsroom.html\", waiti",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "HTA-editorial",
+   "url": "https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html",
+   "shot_error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html\nCall log:\nnavigating to \"https://htaassociat",
+   "checked_at": "2026-11-19 00:19:39 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-homepage",
+   "url": "https://prstarpower.com/",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com.png",
+   "checked_at": "2026-11-19 00:19:42 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "PRSTARPOWER-newsroom",
+   "url": "https://prstarpower.com/newsroom.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/prstarpower-com-newsroom-html.png",
+   "checked_at": "2026-11-19 00:19:45 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Freda-Motown-press-release",
+   "url": "https://newswirehollywood.com/pr-freda-payne-motown-for-veterans.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-pr-freda-payne-motown-for-veterans-html.png",
+   "checked_at": "2026-11-19 00:19:48 UTC"
+  },
+  {
+   "brand": "extra",
+   "title": "Freda-Motown-Newswire-story",
+   "url": "https://newswirehollywood.com/freda-payne-motown-for-veterans-tempe.html",
+   "http_status": 200,
+   "screenshot": "runbook/receipts/freda-motown-nov19/newswirehollywood-com-freda-payne-motown-for-veterans-tempe-html.png",
+   "checked_at": "2026-11-19 00:19:51 UTC"
+  }
+ ]
+}
