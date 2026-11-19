@@ -21,3 +21,8 @@ What broke: adding matariterry-art/prstarpower-site to the session was blocked b
 What broke: the Receipts camera's Meta check got "HTTP 400 Bad Request" and the whole job stopped, so no screenshots were saved.
 Why: it cleaned the META_TOKEN key differently from the working social poster, and one failed call ended the run.
 Fix: it now uses the poster's exact key clean-up, a failed Meta call is recorded instead of fatal, and every later step runs anyway.
+
+## Nov 19, 2026 — PR STARPOWER and Hollywood News Access repos denied again
+What broke: adding matariterry-art/prstarpower-site and Hollywood-NewsAccess/hollywoodnewsaccess was blocked by the session's permission check (Gospel News Access was allowed).
+Why: this session has no standing approval for those two repos.
+Fix for now: copy-paste pages in runbook/press-releases/freda-payne/. Lasting fix: approve both repos for event-desk sessions.

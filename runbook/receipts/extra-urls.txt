@@ -13,3 +13,7 @@ HTA-newsroom https://htaassociates.com/newsroom.html
 HTA-editorial https://htaassociates.com/editorial-rush-to-publish-skvlk-fest.html
 PRSTARPOWER-homepage https://prstarpower.com/
 PRSTARPOWER-newsroom https://prstarpower.com/newsroom.html
+Freda-Motown-press-release https://newswirehollywood.com/pr-freda-payne-motown-for-veterans.html
+Freda-Motown-Newswire-story https://newswirehollywood.com/freda-payne-motown-for-veterans-tempe.html
+Freda-Motown-GNA-story https://gospelnewsaccess.com/story/freda-payne-motown-for-veterans-tempe-thank-god-still-working.html
+Freda-Motown-Press-Room https://newswirehollywood.com/pressroom.html

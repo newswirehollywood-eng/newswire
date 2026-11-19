@@ -138,3 +138,6 @@ Most of our pages are baked by a program (wire.py, render_site.py, build.py) fro
 
 ## Nov 11, 2026 — A real photo, the legal way, in the right shape
 Terry wanted real photographs instead of text cards. The free, legal source is Wikimedia Commons: photographers there let anyone reuse their pictures if we credit them and name the license (like CC BY, "credit the author"). Every story now names the photographer, the license and the Commons link. Two snags taught two lessons. First, Wikimedia slows down anyone who asks too fast, so we fetch its ready-made smaller copies (thumbnails) instead of giant originals. Second, Instagram only accepts photos between 4:5 (tall) and 1.91:1 (wide); a 2:3 portrait would be refused, so tall photos are trimmed to 4:5 before publishing.
+
+## Nov 19, 2026 — Check the source before you say "confirmed"
+Fan sites and ticket aggregators are like gossip: often right, sometimes stale. Search results showed Freda Payne with "no upcoming shows" on some sites and a Jan. 8 date on another. We only called it confirmed once the arena's own page and Ticketmaster, the people actually selling the seats, said the same thing. Lesson: for dates, the official source is whoever owns the room or sells the ticket; everything else is a lead, not a fact.

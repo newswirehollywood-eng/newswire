@@ -1,0 +1,12 @@
+{
+ "brand": "gospel",
+ "card": "docs/img/freda-motown-veterans-reel-card-gna.jpg",
+ "beats": [
+  {"big": "", "cap": "Photo: courtesy of Freda Payne / PR STARPOWER"},
+  {"big": "SINGING FOR\nTHOSE WHO\nSERVED", "cap": "Jan. 8, 2027 · 7 p.m."},
+  {"big": "MOTOWN FOR\nVETERANS\nBENEFIT\nCONCERT", "cap": "Mullett Arena, Tempe, Ariz."},
+  {"big": "FORMER LADIES\nOF THE SUPREMES\n+ TEMPTATIONS\nREVUE", "cap": "Jr. Walker's All-Star Band, Alli Starr"},
+  {"big": "PROCEEDS:\nGREEN HOMES\nFOR VETS", "cap": "Tickets on Ticketmaster"}
+ ],
+ "end": "gospelnewsaccess.com"
+}

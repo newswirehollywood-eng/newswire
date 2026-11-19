@@ -31,6 +31,7 @@ BRANDS = {
     "newswire": {"bg": "0x0A0003", "accent": "0xD1002E", "rule": "0xB8860B", "name": "NEWSWIRE HOLLYWOOD"},
     "hna": {"bg": "0x0C0811", "accent": "0xFF2E88", "rule": "0xFFC233", "name": "HOLLYWOOD NEWS ACCESS"},
     "gospel": {"bg": "0x0A0A0C", "accent": "0xF0B429", "rule": "0xF0B429", "name": "GOSPEL NEWS ACCESS"},
+    "prstarpower": {"bg": "0x15101A", "accent": "0xE8708D", "rule": "0xD9A857", "name": "PR STARPOWER"},
 }
 BOLD = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
 if not os.path.exists(BOLD):
