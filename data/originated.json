@@ -2,6 +2,21 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the syndicated wire cards. This is what stops a regeneration from wiping our own journalism off the site. When a new article page is published in docs/, add it here or it will not appear on any index page. Originated items do not expire on the 7-day wire timer - they are ours and they stay.",
   "articles": [
     {
+      "title": "Tevin Campbell Turns 50: The Quincy Jones Discovery Grabs the Mic at His Own Packed L.A. Party",
+      "dek": "The \"Can We Talk\" singer celebrated his 50th on Saturday in Los Angeles, and the birthday boy did not just blow out candles. He sang. Which Tevin song is your all-time favorite?",
+      "url": "tevin-campbell-50th-birthday-party-los-angeles.html",
+      "section": "music",
+      "tag": "Exclusive: we were there",
+      "byline": "By the News Desk, with on-scene reporting by Terry Bryant",
+      "date": "2026-11-19",
+      "image": "img/tevin-campbell-50th/tevin-campbell-50th-performing-web.jpg",
+      "photo_author": "Terry Bryant",
+      "photo_licence": "Newswire Hollywood / supplied by Terry Bryant",
+      "embargo": null,
+      "signed_off_by": "Terry Bryant, Senior Editor (standing sign-off, event desks, Nov 19 2026)",
+      "revenue_angle": "Amazon album links (T.E.V.I.N., I'm Ready, Back on the Block); reel views on FB/IG; event-access relationship for future Tevin Campbell coverage and bookings."
+    },
+    {
       "title": "PRESS RELEASE: Freda Payne to Perform at Motown for Veterans Benefit Concert Jan. 8 in Tempe, Ariz.",
       "dek": "The “Band of Gold” singer joins the Former Ladies of the Supremes, Glenn Leonard’s Temptations Revue and Jr. Walker’s All-Star Band at Mullett Arena. Proceeds benefit Green Homes for Vets.",
       "url": "pr-freda-payne-motown-for-veterans.html",

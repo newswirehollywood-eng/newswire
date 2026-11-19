@@ -1,0 +1,31 @@
+{
+ "brand": "prs",
+ "card": "docs/img/tevin-campbell-50th/tevin-campbell-50th-card-prs.jpg",
+ "beats": [
+  {
+   "big": "",
+   "cap": "Tevin Campbell's 50th."
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-save-the-date.jpg",
+   "big": "",
+   "cap": "Save the date: Nov 14\nLos Angeles, CA"
+  },
+  {
+   "clip": "docs/video/tevin-campbell-50th-party.mp4",
+   "big": "A FULL\nHOUSE",
+   "cap": "Friends, family and fans"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-performing-web.jpg",
+   "big": "HE SANG\nFOR HIS\nGUESTS",
+   "cap": "The night's best moment"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-party-photo.jpg",
+   "big": "HAPPY 50TH,\nTEVIN",
+   "cap": "Full story: prstarpower.com"
+  }
+ ],
+ "end": "prstarpower.com"
+}

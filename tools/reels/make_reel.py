@@ -22,6 +22,10 @@ Recipe example:
   ],
   "end": "newswirehollywood.com"
 }
+Optional per beat: "photo": "docs/img/x.jpg" (a licensed still, slow
+push-in, fills the frame) or "clip": "docs/video/x.mp4" (our own footage,
+muted, fills the frame). Big text then sits low over a dark fade.
+
 Images: only our cards, licensed or free-licensed images. Never another
 outlet's photo.
 """
@@ -32,6 +36,7 @@ BRANDS = {
     "hna": {"bg": "0x0C0811", "accent": "0xFF2E88", "rule": "0xFFC233", "name": "HOLLYWOOD NEWS ACCESS"},
     "gospel": {"bg": "0x0A0A0C", "accent": "0xF0B429", "rule": "0xF0B429", "name": "GOSPEL NEWS ACCESS"},
     "prstarpower": {"bg": "0x15101A", "accent": "0xE8708D", "rule": "0xD9A857", "name": "PR STARPOWER"},
+    "prs": {"bg": "0x0B0A09", "accent": "0xB08D57", "rule": "0xE8D9B5", "name": "PR STARPOWER"},
 }
 BOLD = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
 if not os.path.exists(BOLD):
@@ -40,6 +45,21 @@ REG = "/usr/share/fonts/opentype/inter/Inter-SemiBoldItalic.otf"
 if not os.path.exists(REG):
     REG = BOLD
 BEAT = 5.0
+
+
+def fade_png(tmp):
+    """A 1080x1920 transparent-to-black gradient, made once per run."""
+    path = os.path.join(tmp, "fade.png")
+    if not os.path.exists(path):
+        from PIL import Image
+        g = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
+        px = g.load()
+        for y in range(1920):
+            a = 0 if y < 700 else min(225, int((y - 700) / 560 * 225))
+            for x in range(1080):
+                px[x, y] = (0, 0, 0, a)
+        g.save(path)
+    return path
 
 
 def esc(t):
@@ -61,7 +81,24 @@ def shot(i, beat, b, card, tmp, end_text):
     alpha = "if(lt(t,0.6),t/0.6,1)"
     first = i == 0
     v = []
-    if first:
+    media = beat.get("photo") or beat.get("clip")
+    if media and not first:
+        if beat.get("clip"):
+            inputs = ["-stream_loop", "-1", "-t", str(BEAT), "-i", beat["clip"]]
+            v.append("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,")
+        else:
+            inputs = ["-loop", "1", "-t", str(BEAT), "-i", beat["photo"]]
+            v.append("[0:v]scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,"
+                     "zoompan=z='min(zoom+0.0007,1.06)':d=%d:s=1080x1920:fps=30,setsar=1," % int(BEAT * 30))
+        # Smooth dark fade over the lower half so the words stay readable.
+        inputs += ["-loop", "1", "-t", str(BEAT), "-i", fade_png(tmp)]
+        v[-1] += "format=yuv420p[m];[m][1:v]overlay=0:0,"
+        v[-1] += "drawbox=x=80:y=1090:w=140:h=12:color=%s:t=fill[bg]" % b["accent"]
+        ty = "1130+%s" % slide
+        size = min(size, 92)
+        big_draw = ("drawtext=fontfile=%s:textfile=%s:fontcolor=white:fontsize=%d:line_spacing=12:"
+                    "x=80:y='%s':alpha='%s':shadowcolor=black@0.6:shadowx=3:shadowy=3," % (BOLD, tf, size, ty, alpha))
+    elif first:
         inputs = ["-loop", "1", "-t", str(BEAT), "-i", card]
         # Slow push-in on the card, placed in the middle of the tall frame.
         v.append("[0:v]scale=1080:1080,zoompan=z='min(zoom+0.0009,1.08)':d=%d:s=1080x1080:fps=30,"
@@ -75,6 +112,8 @@ def shot(i, beat, b, card, tmp, end_text):
         big_draw = ("drawtext=fontfile=%s:textfile=%s:fontcolor=white:fontsize=%d:line_spacing=14:"
                     "x=80:y='%s':alpha='%s'," % (BOLD, tf, size, ty, alpha))
     cap_y = "1640" if not first else "1560"
+    if media and not first and not beat["big"].strip():
+        big_draw = ""
     chain = ("[bg]%s"
              "drawbox=x=0:y=1600:w=1080:h=4:color=%s:t=fill,"
              "drawtext=fontfile=%s:textfile=%s:fontcolor=0xF2E9DA:fontsize=46:x=80:y=%s:alpha='%s',"

@@ -1,0 +1,31 @@
+{
+ "brand": "newswire",
+ "card": "docs/img/tevin-campbell-50th/tevin-campbell-50th-card-newswire.jpg",
+ "beats": [
+  {
+   "big": "",
+   "cap": "Tevin Campbell is 50."
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-performing-web.jpg",
+   "big": "TEVIN\nCAMPBELL\nTURNS 50",
+   "cap": "Los Angeles, Saturday Nov 14"
+  },
+  {
+   "clip": "docs/video/tevin-campbell-50th-party.mp4",
+   "big": "THE PARTY\nWAS PACKED",
+   "cap": "Friends, family and fans"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-party-photo.jpg",
+   "big": "QUINCY JONES'\nDISCOVERY",
+   "cap": "\"Tomorrow,\" Back on the Block, 1989"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-save-the-date.jpg",
+   "big": "",
+   "cap": "50 and still singing\nFull story: newswirehollywood.com"
+  }
+ ],
+ "end": "newswirehollywood.com"
+}

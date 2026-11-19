@@ -1,0 +1,31 @@
+{
+ "brand": "gospel",
+ "card": "docs/img/tevin-campbell-50th/tevin-campbell-50th-card-gospel.jpg",
+ "beats": [
+  {
+   "big": "",
+   "cap": "He gave God the glory."
+  },
+  {
+   "clip": "docs/video/tevin-campbell-50th-party.mp4",
+   "big": "BELIEVERS\nCAME TO\nCELEBRATE",
+   "cap": "Tevin Campbell's 50th, Los Angeles"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-performing-web.jpg",
+   "big": "HE THANKED\nGOD FOR\nHIS BIRTHDAY",
+   "cap": "As Terry Bryant witnessed"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-party-photo.jpg",
+   "big": "FAITH.\nFRIENDS.\nFAMILY.",
+   "cap": "A night of thanksgiving"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-save-the-date.jpg",
+   "big": "",
+   "cap": "Happy 50th, Tevin! James 1:17:\n\"Every good gift... is from above\""
+  }
+ ],
+ "end": "gospelnewsaccess.com"
+}

@@ -1,0 +1,31 @@
+{
+ "brand": "hna",
+ "card": "docs/img/tevin-campbell-50th/tevin-campbell-50th-card-hna.jpg",
+ "beats": [
+  {
+   "big": "",
+   "cap": "Party of the week."
+  },
+  {
+   "clip": "docs/video/tevin-campbell-50th-party.mp4",
+   "big": "TEVIN\nCAMPBELL\nTURNED 50",
+   "cap": "Los Angeles, Saturday Nov 14"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-performing-web.jpg",
+   "big": "THE BIRTHDAY\nBOY TOOK\nTHE MIC",
+   "cap": "Can we talk? Yes, he sang."
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-party-photo.jpg",
+   "big": "THE ROOM\nWAS FULL",
+   "cap": "Friends, fans and family"
+  },
+  {
+   "photo": "docs/img/tevin-campbell-50th/tevin-campbell-50th-save-the-date.jpg",
+   "big": "",
+   "cap": "Happy 50th, Tevin!\nDrop a birthday wish below"
+  }
+ ],
+ "end": "hollywoodnewsaccess.com"
+}

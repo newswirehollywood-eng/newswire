@@ -141,3 +141,6 @@ Terry wanted real photographs instead of text cards. The free, legal source is W
 
 ## Nov 19, 2026 — Check the source before you say "confirmed"
 Fan sites and ticket aggregators are like gossip: often right, sometimes stale. Search results showed Freda Payne with "no upcoming shows" on some sites and a Jan. 8 date on another. We only called it confirmed once the arena's own page and Ticketmaster, the people actually selling the seats, said the same thing. Lesson: for dates, the official source is whoever owns the room or sells the ticket; everything else is a lead, not a fact.
+
+## Nov 19, 2026 — Say who saw it
+Gospel News Access wanted to say Tevin Campbell thanked God for his birthday. We searched and found no interview where he says that, so we could not print it as his quote. What we do have is a witness: Terry was in the room. So every faith line names its source ("according to Gospel News Access publisher Terry Bryant, who attended"). That is called attribution: telling readers who saw or said a thing. Without it, an eyewitness memory reads like a quote we made up, and one complaint from his team could cost us the access we just earned. Lesson: if you saw it, say you saw it; never put words in someone's mouth.
