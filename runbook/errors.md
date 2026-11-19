@@ -26,3 +26,8 @@ Fix: it now uses the poster's exact key clean-up, a failed Meta call is recorded
 What broke: adding matariterry-art/prstarpower-site and Hollywood-NewsAccess/hollywoodnewsaccess was blocked by the session's permission check (Gospel News Access was allowed).
 Why: this session has no standing approval for those two repos.
 Fix for now: copy-paste pages in runbook/press-releases/freda-payne/. Lasting fix: approve both repos for event-desk sessions.
+
+## Nov 19, 2026 — Social queue stalled for 4 hours (scheduler skipped runs)
+What broke: the Tevin Campbell 50th and Freda Payne posts were queued for 00:30 to 04:40 UTC, but by 05:20 only 1 queue post per brand had gone out. The social poster ran once (01:26 UTC) instead of about 8 times.
+Why: GitHub's free scheduler treats our "every 30 minutes" setting as a request, not a promise; on busy nights it skips most slots (runs on Nov 16 to 18 were 6 to 9 hours apart). Each run posts only 1 queue item per brand, so a big push backs up.
+Fix: ran the Social auto-poster by hand 3 times (normal mode, never "post latest"), waiting for each to finish; all 10 posts went out by 05:28 UTC with no errors. Standing practice for event desks: after queuing a multi-post push, dispatch the poster by hand once per queued post per brand instead of trusting the schedule.
