@@ -1,0 +1,4 @@
+{
+ "_note": "Last good wire items, so a run where every feed fails does not blank the site. Rewritten by wire.py every run.",
+ "items": []
+}

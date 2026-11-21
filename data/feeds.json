@@ -1,0 +1,185 @@
+{
+ "_note": "The public RSS feeds wire.py reads every hour. name = the outlet credit shown on every card. section = where its items go; 'world' means wire.py routes each item to the region whose place names appear most in it (no match: homepage and The Wire only). To add a feed, copy a line; to drop one, delete its line. Each feed's live status is in runbook/wire-feed-status.md after every run.",
+ "feeds": [
+  {
+   "name": "BBC News: World",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "section": "world"
+  },
+  {
+   "name": "BBC News: US & Canada",
+   "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+   "section": "americas"
+  },
+  {
+   "name": "BBC News: Latin America",
+   "url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+   "section": "americas"
+  },
+  {
+   "name": "BBC News: Europe",
+   "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
+   "section": "europe"
+  },
+  {
+   "name": "BBC News: Africa",
+   "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+   "section": "africa"
+  },
+  {
+   "name": "BBC News: Middle East",
+   "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+   "section": "middle-east"
+  },
+  {
+   "name": "BBC News: Asia",
+   "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "BBC News: Business",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "section": "business"
+  },
+  {
+   "name": "BBC News: Entertainment & Arts",
+   "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+   "section": "entertainment"
+  },
+  {
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "section": "world"
+  },
+  {
+   "name": "The Guardian: World",
+   "url": "https://www.theguardian.com/world/rss",
+   "section": "world"
+  },
+  {
+   "name": "The Guardian: Americas",
+   "url": "https://www.theguardian.com/world/americas/rss",
+   "section": "americas"
+  },
+  {
+   "name": "The Guardian: Africa",
+   "url": "https://www.theguardian.com/world/africa/rss",
+   "section": "africa"
+  },
+  {
+   "name": "The Guardian: Middle East",
+   "url": "https://www.theguardian.com/world/middleeast/rss",
+   "section": "middle-east"
+  },
+  {
+   "name": "The Guardian: Asia-Pacific",
+   "url": "https://www.theguardian.com/world/asia-pacific/rss",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "NPR: World",
+   "url": "https://feeds.npr.org/1004/rss.xml",
+   "section": "world"
+  },
+  {
+   "name": "DW: Top Stories",
+   "url": "https://rss.dw.com/rdf/rss-en-top",
+   "section": "world"
+  },
+  {
+   "name": "DW: Business",
+   "url": "https://rss.dw.com/rdf/rss-en-bus",
+   "section": "business"
+  },
+  {
+   "name": "France 24: World",
+   "url": "https://www.france24.com/en/rss",
+   "section": "world"
+  },
+  {
+   "name": "France 24: Africa",
+   "url": "https://www.france24.com/en/africa/rss",
+   "section": "africa"
+  },
+  {
+   "name": "France 24: Middle East",
+   "url": "https://www.france24.com/en/middle-east/rss",
+   "section": "middle-east"
+  },
+  {
+   "name": "CBC News: World",
+   "url": "https://www.cbc.ca/webfeed/rss/rss-world",
+   "section": "world"
+  },
+  {
+   "name": "Euronews",
+   "url": "https://www.euronews.com/rss?level=theme&name=news",
+   "section": "europe"
+  },
+  {
+   "name": "Africanews",
+   "url": "https://www.africanews.com/feed/rss",
+   "section": "africa"
+  },
+  {
+   "name": "ABC News (Australia)",
+   "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "South China Morning Post: World",
+   "url": "https://www.scmp.com/rss/91/feed",
+   "section": "world"
+  },
+  {
+   "name": "South China Morning Post: Asia",
+   "url": "https://www.scmp.com/rss/3/feed",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "The Times of India: World",
+   "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+   "section": "world"
+  },
+  {
+   "name": "The Times of India: Top Stories",
+   "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "The Japan Times",
+   "url": "https://www.japantimes.co.jp/feed/",
+   "section": "asia-pacific"
+  },
+  {
+   "name": "CNBC: World Markets",
+   "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+   "section": "business"
+  },
+  {
+   "name": "Variety",
+   "url": "https://variety.com/feed/",
+   "section": "entertainment"
+  },
+  {
+   "name": "Deadline",
+   "url": "https://deadline.com/feed/",
+   "section": "entertainment"
+  },
+  {
+   "name": "Religion News Service",
+   "url": "https://religionnews.com/feed/",
+   "section": "faith-culture"
+  },
+  {
+   "name": "Christianity Today",
+   "url": "https://www.christianitytoday.com/feed/",
+   "section": "faith-culture"
+  },
+  {
+   "name": "Vatican News",
+   "url": "https://www.vaticannews.va/en.rss.xml",
+   "section": "faith-culture"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "img/blue-marble.jpg": {
+  "credit": "NASA / Apollo 17 crew, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+  "license": "Public domain (NASA)",
+  "caption": "The Earth seen from Apollo 17, December 7, 1972"
+ },
+ "img/region-americas.jpg": {
+  "credit": "NASA / Reto Stöckli, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg",
+  "license": "Public domain (NASA)",
+  "caption": "From the Arctic to Patagonia"
+ },
+ "img/region-europe.jpg": {
+  "credit": "NASA / ISS Expedition 45, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:ISS-45_south_east_Europe_at_night.jpg",
+  "license": "Public domain (NASA)",
+  "caption": "Southeast Europe at night, from the ISS"
+ },
+ "img/region-africa.jpg": {
+  "credit": "NASA / Reto Stöckli, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Eastern_Hemisphere.jpg",
+  "license": "Public domain (NASA)",
+  "caption": "Fifty-four nations, one continent"
+ },
+ "img/region-middle-east.jpg": {
+  "credit": "NASA / JPL, Galileo spacecraft, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Northeast_Africa_and_the_Arabian_Peninsula_from_space.jpg",
+  "license": "Public domain (NASA)",
+  "caption": "Arabia and the Red Sea, from Galileo"
+ },
+ "img/region-asia-pacific.jpg": {
+  "credit": "NASA Earth Observatory / NOAA, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Black_Marble_-_Asia_and_Australia_(8246893143).jpg",
+  "license": "Public domain (NASA)",
+  "caption": "City lights from Asia to Australia"
+ },
+ "img/story-kutupalong.jpg": {
+  "credit": "John Owens / VOA, public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Kutupalong_Refugee_Camp_(John_Owens-VOA).jpg",
+  "license": "Public domain (US government work, Voice of America)",
+  "caption": "Kutupalong refugee camp, Cox's Bazar, Bangladesh"
+ },
+ "img/story-kyiv-podil-bridge.jpg": {
+  "credit": "Maksym Kozlenko, CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2019-07-13_Dnieper_River_in_Kyiv_and_Podil_Bridge.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "The Dnipro River and the Podilskyi bridge, Kyiv, 2019"
+ },
+ "img/story-antalya.jpg": {
+  "credit": "FingerWiki, CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:View_of_Konyaalt%C4%B1_Beach_and_Beyda%C4%9Flar%C4%B1_Mountains,_Antalya.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Konyaalti Beach and the Beydaglari mountains, Antalya, 2023"
+ }
+}
