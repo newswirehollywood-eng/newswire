@@ -285,5 +285,6 @@ img{display:block;max-width:100%;height:auto}
 @media(min-width:640px){.form .row{grid-template-columns:1fr 1fr}}
 .cols{display:grid;gap:16px;margin-top:14px}
 @media(min-width:760px){.cols{grid-template-columns:1fr 1fr}}
-.cols .panel{margin-top:0}
+.cols .panel,.cols .contact-card{margin-top:0}
 .note-small{font-family:var(--ui);font-size:13px;color:var(--muted)}
+.sect-hero p.credit{font-family:var(--ui);font-size:11px;color:#93A8C3;margin-top:16px;letter-spacing:.02em}

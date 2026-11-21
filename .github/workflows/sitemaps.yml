@@ -1,0 +1,59 @@
+name: Sitemaps and IndexNow
+
+# What this does, plain English: rewrites docs/sitemap.xml (every public page)
+# and docs/news-sitemap.xml (our own stories from the last 48 hours, the
+# window Google News reads), then tells IndexNow - which feeds Bing, Yandex,
+# Naver and Seznam - about fresh stories. Held stories (no sign-off, or
+# embargo not yet passed) are never listed.
+#
+# Trigger: every push to main that touches a page or the story list, hourly
+# at 41 minutes past as a safety net, or "Run workflow" on the Actions tab.
+# Cost: zero.
+#
+# The key file docs/56bacd32bafcff9940a1156e40beb164.txt proves to IndexNow
+# that we own the domain. Do not delete it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**/*.html"
+      - "data/originated.json"
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemaps
+  cancel-in-progress: false
+
+jobs:
+  sitemaps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so lastmod dates are real commit dates
+
+      - name: Rebuild both sitemaps and ping IndexNow
+        run: python3 sitemaps.py --indexnow
+
+      - name: Commit if changed
+        run: |
+          git config user.name "world-newswire-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- docs/sitemap.xml docs/news-sitemap.xml; then
+            echo "no change"
+          else
+            git add docs/sitemap.xml docs/news-sitemap.xml
+            git commit -m "Auto: regenerate sitemap.xml and news-sitemap.xml"
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git pull --rebase origin main || true
+              sleep $((attempt * 4))
+            done
+            exit 1
+          fi

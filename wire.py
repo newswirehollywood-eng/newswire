@@ -27,7 +27,9 @@ THE STANDING RULES IT ENFORCES
 * Our own stories come from data/originated.json. A story with no
   signed_off_by is HELD: it appears on no page, no feed, no sitemap.
 * A story whose embargo time is still in the future is HELD the same way.
-  It appears on its own the first hourly run after the embargo lifts.
+  Its page waits in drafts/ (wire.py moves it there if it finds it in docs/)
+  and moves into docs/ on its own the first hourly run after the embargo
+  lifts. The Press Room's release list follows the same two gates.
 * Sponsored items carry a visible SPONSORED label.
 * Nothing is invented. An item with no parseable date is dropped. If every
   feed fails, the last good wire (data/wire-items.json) is kept until it ages
@@ -714,7 +716,7 @@ def build_section(slug, ours, wire, now, ticker, credits, feed_count):
 <div class="wrap"><span class="kicker" style="color:var(--gold)">World Newswire Press</span>
 <h1>{t}</h1><p>{b}</p>{cap}</div></section><div class="wrap">""".format(
         style=style, img=hero_img, t=esc(title), b=esc(blurb),
-        cap=('<p class="credit">%s</p>' % esc(cap)) if cap else "")]
+        cap=('<p class="credit">Image: %s</p>' % esc(cap)) if cap else "")]
     if mine:
         body.append('<div class="sect-head"><h2>From the World Desk</h2></div><div class="grid">%s</div>'
                     % "".join(ours_card(a) for a in mine))
