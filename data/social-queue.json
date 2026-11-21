@@ -584,6 +584,37 @@
    "instagram_story": true,
    "facebook": false,
    "caption": "Story: proud of our client"
+  },
+  {
+   "id": "wnp-launch-1",
+   "brand": "World Newswire Press",
+   "image": "https://worldnewswirepress.com/img/blue-marble.jpg",
+   "link": "https://worldnewswirepress.com/world-newswire-press-launches-global-newsroom.html",
+   "caption": "🌍 World Newswire Press is LIVE.\n\nA global newsroom built to give the world a voice: the day's biggest stories from every region, original reporting from our World Desk, and a press room open to the world.\n\nFollow us for the world's stories, all day, from every region.\n\nworldnewswirepress.com\n\n#WorldNews #BreakingNews #GlobalNews #WorldNewswirePress #NewsLaunch"
+  },
+  {
+   "id": "wnp-icj-rohingya-1",
+   "brand": "World Newswire Press",
+   "image": "https://worldnewswirepress.com/img/story-kutupalong.jpg",
+   "link": "https://worldnewswirepress.com/icj-rules-myanmar-committed-genocide-against-rohingya.html",
+   "not_before": "2026-11-21T21:33",
+   "caption": "⚖️ HISTORIC: The World Court has ruled that Myanmar committed genocide against the Rohingya, a first for the International Court of Justice.\n\nWhat the ruling means and what happens next, from our World Desk.\n\nworldnewswirepress.com\n\n#ICJ #Rohingya #Myanmar #HumanRights #WorldNews #BreakingNews #GlobalNews #WorldNewswirePress"
+  },
+  {
+   "id": "wnp-kyiv-bridges-1",
+   "brand": "World Newswire Press",
+   "image": "https://worldnewswirepress.com/img/story-kyiv-podil-bridge.jpg",
+   "link": "https://worldnewswirepress.com/russia-strikes-kyiv-bridges-dnipro.html",
+   "not_before": "2026-11-21T23:33",
+   "caption": "🇺🇦 Russian missiles hit three Kyiv bridges over the Dnipro in a second strike on the city's crossings.\n\nThe latest from Ukraine on our World Desk.\n\nworldnewswirepress.com\n\n#Ukraine #Kyiv #Russia #Europe #WorldNews #BreakingNews #GlobalNews #WorldNewswirePress"
+  },
+  {
+   "id": "wnp-cop31-1",
+   "brand": "World Newswire Press",
+   "image": "https://worldnewswirepress.com/img/story-antalya.jpg",
+   "link": "https://worldnewswirepress.com/cop31-antalya-climate-talks-overtime-fossil-fuels.html",
+   "not_before": "2026-11-22T01:33",
+   "caption": "🌡️ COP31 runs into overtime in Antalya, and the words 'fossil fuels' have vanished from the draft deal.\n\nWhere the climate talks stand now.\n\nworldnewswirepress.com\n\n#COP31 #Climate #ClimateChange #Turkey #WorldNews #BreakingNews #GlobalNews #WorldNewswirePress"
   }
  ]
 }
