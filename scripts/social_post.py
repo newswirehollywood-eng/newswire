@@ -54,6 +54,9 @@ BRANDS = [
     {"name": "PR STARPOWER", "feed": "https://prstarpower.com/feed.xml",
      "page_match": "pr starpower", "site": "prstarpower.com",
      "tags": "#PRSTARPOWER #HollywoodPR #Publicity"},
+    {"name": "World Newswire Press", "feed": "https://worldnewswirepress.com/feed.xml",
+     "page_match": "world newswire press", "site": "worldnewswirepress.com",
+     "tags": "#WorldNews #BreakingNews #GlobalNews #WorldNewswirePress"},
 ]
 
 NS = {"media": "http://search.yahoo.com/mrss/"}
