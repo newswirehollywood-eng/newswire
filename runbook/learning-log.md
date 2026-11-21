@@ -147,3 +147,6 @@ Gospel News Access wanted to say Tevin Campbell thanked God for his birthday. We
 
 ## Nov 21, 2026 — A "flag" keeps a story off the front-page lead
 The homepage puts the newest story on top automatically. King Larry is a news item, not a feature, so its entry in data/originated.json carries `"no_lede": true`. Think of it as a sticky note that says "not for the window display." wire.py reads the note and slots the story after the top three, so the current lead stays put. Without it, the newest story would have bumped the lead.
+
+## Nov 21, 2026 — Google doesn't come when you ring the bell
+Big outlets show up in Google within minutes not because they ping Google, but because Google already trusts them and checks their sites almost constantly. That trust is earned: being the source others cite, owning a beat, clean fast pages, honest timestamps and named reporters. Bing has a doorbell (IndexNow, which we use); Google doesn't. Lesson: speed comes from trust, and trust comes from being first and original on our beats. Full playbook: reports/Top of Google News playbook.md.
