@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://worldnewswirepress.com/cop31-antalya-climate-talks-overtime-fossil-fuels.html</loc>
+    <news:news>
+      <news:publication><news:name>World Newswire Press</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-21T15:00:00+00:00</news:publication_date>
+      <news:title>COP31 Runs Into Overtime in Antalya as the Words 'Fossil Fuels' Vanish From the Draft Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://worldnewswirepress.com/russia-strikes-kyiv-bridges-dnipro.html</loc>
+    <news:news>
+      <news:publication><news:name>World Newswire Press</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-21T14:30:00+00:00</news:publication_date>
+      <news:title>Russian Missiles Hit Three Kyiv Bridges Over the Dnipro in a Second Strike on the City's Crossings in a Week</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://worldnewswirepress.com/icj-rules-myanmar-committed-genocide-against-rohingya.html</loc>
+    <news:news>
+      <news:publication><news:name>World Newswire Press</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-21T14:00:00+00:00</news:publication_date>
+      <news:title>World Court Rules Myanmar Committed Genocide Against the Rohingya, a First for the ICJ</news:title>
+    </news:news>
+  </url>
+</urlset>

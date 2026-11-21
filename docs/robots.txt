@@ -1,0 +1,6 @@
+# World Newswire Press: every page is open to search engines and readers.
+User-agent: *
+Allow: /
+
+Sitemap: https://worldnewswirepress.com/sitemap.xml
+Sitemap: https://worldnewswirepress.com/news-sitemap.xml

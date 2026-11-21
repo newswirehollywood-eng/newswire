@@ -462,7 +462,7 @@ def masthead_html(now):
 <div class="wrap">
 <a class="brand" href="index.html"><span class="w">World</span>Newswire <em>Press</em></a>
 <p class="tagline">{tag}</p>
-<p class="dateline"><b>{day}</b> &nbsp;&middot;&nbsp; Updated {time} UTC</p>
+<p class="dateline"><b>{day}</b><span class="upd">Updated {time} UTC</span></p>
 </div>
 </header>""".format(tag=TAGLINE, day=now.strftime("%A, %B ") + str(now.day) + now.strftime(", %Y"),
                     time=now.strftime("%H:%M"))
