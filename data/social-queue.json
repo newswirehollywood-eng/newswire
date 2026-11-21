@@ -1,5 +1,5 @@
 {
- "_note": "Social announcements that are not articles. The auto-poster (scripts/social_post.py) posts one per brand per run (every 30 min), photo + caption to Facebook and Instagram, then logs it in social-posted.json under 'queue'. Optional: not_before (UTC, YYYY-MM-DDTHH:MM), facebook/instagram false to skip one. Photos must be public JPGs; Instagram needs 4:5 to 1.91:1. Optional: video (public 1080x1920 MP4 URL) posts a Reel to Instagram and a video to Facebook; image is then used as the Reel cover.",
+ "_note": "Social announcements that are not articles. The auto-poster (scripts/social_post.py) posts one per brand per run (every 30 min), photo + caption to Facebook and Instagram, then logs it in social-posted.json under 'queue'. Optional: not_before (UTC, YYYY-MM-DDTHH:MM), facebook/instagram false to skip one. Photos must be public JPGs; Instagram needs 4:5 to 1.91:1. Optional: video (public 1080x1920 MP4 URL) posts a Reel to Instagram and a video to Facebook; image is then used as the Reel cover. Also optional: collaborators (list of Instagram usernames invited as collab authors), instagram_story true (posts the image as an Instagram Story; set facebook false), facebook_caption (a different text for Facebook).",
  "posts": [
   {
    "id": "agff26-nwh-1",
@@ -521,6 +521,69 @@
    "link": "https://prstarpower.com/news-tevin-campbell-50th-durability.html",
    "not_before": "2026-11-19T04:40",
    "caption": "Happy 50th, Tevin Campbell. 🥂\n\nA full room in Los Angeles on Saturday night for one of R&B's great voices. Thank you for the music, and for the song.\n\nPhoto: supplied by Terry Bryant\n\n#TevinCampbell #Tevin50 #HappyBirthdayTevin #RnB #PRSTARPOWER"
+  },
+  {
+   "id": "nwh-20261121-kinglarry-feed",
+   "brand": "Newswire Hollywood",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-newswire.jpg",
+   "link": "https://newswirehollywood.com/king-larry-party-god-life-of-party-tour.html",
+   "not_before": "2026-11-21T01:30",
+   "collaborators": [
+    "iampartygawddd"
+   ],
+   "caption": "New music, new tour. King Larry \"The Party God\" is coming off a standout season in LA and Vegas, and The Life of Party Tour is next. Full story at the link in bio.\n\n@iampartygawddd #ThePartyGod #KingLarry #TeamPartyyy #LifeOfPartyTour #NewMusic",
+   "facebook_caption": "New music, new tour. King Larry \"The Party God\" is coming off a standout season in Los Angeles and Las Vegas, and The Life of Party Tour is next. Read the full story: https://newswirehollywood.com/king-larry-party-god-life-of-party-tour.html\n\n#ThePartyGod #LifeOfPartyTour"
+  },
+  {
+   "id": "nwh-20261121-kinglarry-story",
+   "brand": "Newswire Hollywood",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-story.jpg",
+   "not_before": "2026-11-21T01:45",
+   "instagram_story": true,
+   "facebook": false,
+   "caption": "Story: King Larry, The Life of Party Tour"
+  },
+  {
+   "id": "hna-20261121-kinglarry-feed",
+   "brand": "Hollywood News Access",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-hna.jpg",
+   "link": "https://hollywoodnewsaccess.com/king-larry-party-god-life-of-party-tour-press-release.html",
+   "not_before": "2026-11-21T02:30",
+   "collaborators": [
+    "iampartygawddd"
+   ],
+   "caption": "From the studio to the biggest parties in Hollywood. King Larry \"The Party God\" is turning nights into moments, and his single \"Emotion Potion\" is the soundtrack. Tour news coming soon.\n\n@iampartygawddd #ThePartyGod #EmotionPotion #KingLarry #LifeOfPartyTour #NewMusic",
+   "facebook_caption": "From the studio to the biggest parties in Hollywood. King Larry \"The Party God\" just announced The Life of Party Tour. Read the release: https://hollywoodnewsaccess.com/king-larry-party-god-life-of-party-tour-press-release.html\n\n#EmotionPotion #ThePartyGod"
+  },
+  {
+   "id": "hna-20261121-kinglarry-story",
+   "brand": "Hollywood News Access",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-hna.jpg",
+   "not_before": "2026-11-21T02:45",
+   "instagram_story": true,
+   "facebook": false,
+   "caption": "Story: Emotion Potion"
+  },
+  {
+   "id": "prs-20261121-kinglarry-feed",
+   "brand": "PR STARPOWER",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-prstarpower.jpg",
+   "link": "https://prstarpower.com/news-king-larry-life-of-party-tour.html",
+   "not_before": "2026-11-21T03:30",
+   "collaborators": [
+    "iampartygawddd"
+   ],
+   "caption": "Client spotlight: King Larry \"The Party God.\" Artist, entertainer and connector. Congratulations on a big season, and we're proud to be part of what's next.\n\n@iampartygawddd #PRStarPower #ClientSpotlight #ThePartyGod #TeamPartyyy #LifeOfPartyTour",
+   "facebook_caption": "Client spotlight: King Larry \"The Party God\" announces The Life of Party Tour. Congratulations on a standout season, and we're proud to be part of what's next. https://prstarpower.com/news-king-larry-life-of-party-tour.html\n\n#PRStarPower #ClientSpotlight"
+  },
+  {
+   "id": "prs-20261121-kinglarry-story",
+   "brand": "PR STARPOWER",
+   "image": "https://newswirehollywood.com/img/king-larry/king-larry-graphic-story.jpg",
+   "not_before": "2026-11-21T03:45",
+   "instagram_story": true,
+   "facebook": false,
+   "caption": "Story: proud of our client"
   }
  ]
 }

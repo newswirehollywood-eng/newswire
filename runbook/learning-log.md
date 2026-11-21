@@ -144,3 +144,6 @@ Fan sites and ticket aggregators are like gossip: often right, sometimes stale. 
 
 ## Nov 19, 2026 — Say who saw it
 Gospel News Access wanted to say Tevin Campbell thanked God for his birthday. We searched and found no interview where he says that, so we could not print it as his quote. What we do have is a witness: Terry was in the room. So every faith line names its source ("according to Gospel News Access publisher Terry Bryant, who attended"). That is called attribution: telling readers who saw or said a thing. Without it, an eyewitness memory reads like a quote we made up, and one complaint from his team could cost us the access we just earned. Lesson: if you saw it, say you saw it; never put words in someone's mouth.
+
+## Nov 21, 2026 — A "flag" keeps a story off the front-page lead
+The homepage puts the newest story on top automatically. King Larry is a news item, not a feature, so its entry in data/originated.json carries `"no_lede": true`. Think of it as a sticky note that says "not for the window display." wire.py reads the note and slots the story after the top three, so the current lead stays put. Without it, the newest story would have bumped the lead.

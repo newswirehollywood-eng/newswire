@@ -138,13 +138,21 @@ def post_facebook_photo(page, image, message):
     return r.get("post_id") or r.get("id", "")
 
 
-def publish_instagram(page, image, text):
+def publish_instagram(page, image, text, collaborators=None, story=False):
+    """Feed photo, or a Story when story=True. collaborators: Instagram usernames
+    invited as collab authors (they accept the invite in their app)."""
     ig = (page.get("instagram_business_account") or {}).get("id")
     if not ig or not image:
         return ""
     tok = page["access_token"]
-    c = http("POST", "%s/%s/media" % (GRAPH, ig),
-             {"image_url": image, "caption": text, "access_token": tok})
+    params = {"image_url": image, "access_token": tok}
+    if story:
+        params["media_type"] = "STORIES"
+    else:
+        params["caption"] = text
+        if collaborators:
+            params["collaborators"] = json.dumps(collaborators)
+    c = http("POST", "%s/%s/media" % (GRAPH, ig), params)
     cid = c.get("id")
     for _ in range(20):
         st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
@@ -164,7 +172,7 @@ def post_facebook_video(page, video, message):
     return r.get("id", "")
 
 
-def publish_instagram_reel(page, video, text, cover=""):
+def publish_instagram_reel(page, video, text, cover="", collaborators=None):
     """Instagram Reel: upload by URL, wait while Instagram processes the video, then publish."""
     ig = (page.get("instagram_business_account") or {}).get("id")
     if not ig or not video:
@@ -174,6 +182,8 @@ def publish_instagram_reel(page, video, text, cover=""):
               "share_to_feed": "true", "access_token": tok}
     if cover:
         params["cover_url"] = cover
+    if collaborators:
+        params["collaborators"] = json.dumps(collaborators)
     cid = http("POST", "%s/%s/media" % (GRAPH, ig), params, timeout=120).get("id")
     for _ in range(60):  # video takes longer than a photo: up to ~5 minutes
         st = http("GET", "%s/%s" % (GRAPH, cid), {"fields": "status_code", "access_token": tok})
@@ -215,7 +225,8 @@ def run_queue(pages, state):
         used.add(q["brand"])
         text = q["caption"]
         rec = {"brand": q["brand"], "at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
-        fb_text = text + ("\n\n" + q["link"] if q.get("link") else "")
+        fb_text = q.get("facebook_caption") or (text + ("\n\n" + q["link"] if q.get("link") else ""))
+        collabs = q.get("collaborators") or None
         video = q.get("video")  # a public MP4 URL makes this a Reel / Facebook video
         if q.get("facebook", True):
             try:
@@ -228,9 +239,10 @@ def run_queue(pages, state):
         if q.get("instagram", True):
             try:
                 if video:
-                    rec["instagram"] = publish_instagram_reel(page, video, text, q.get("image", "")) or "skipped (no linked account)"
+                    rec["instagram"] = publish_instagram_reel(page, video, text, q.get("image", ""), collabs) or "skipped (no linked account)"
                 else:
-                    rec["instagram"] = publish_instagram(page, q["image"], text) or "skipped (no linked account)"
+                    rec["instagram"] = publish_instagram(page, q["image"], text, collabs,
+                                                         story=bool(q.get("instagram_story"))) or "skipped (no linked account)"
             except Exception as e:
                 rec["instagram_error"] = str(e)
         if not (rec.get("facebook") or str(rec.get("instagram", "")).isdigit()):
