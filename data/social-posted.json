@@ -414,6 +414,24 @@
         "title": "King Larry",
         "status": "handled by the social queue (collab posts, 1 hour apart), not the feed poster"
       }
+    },
+    "World Newswire Press": {
+      "https://worldnewswirepress.com/world-newswire-press-launches-global-newsroom.html": {
+        "title": "World Newswire Press Launches: A Global Newsroom Built to Give the World a Voice",
+        "status": "existing before poster started"
+      },
+      "https://worldnewswirepress.com/cop31-antalya-climate-talks-overtime-fossil-fuels.html": {
+        "title": "COP31 Runs Into Overtime in Antalya as the Words 'Fossil Fuels' Vanish From the Draft Deal",
+        "status": "existing before poster started"
+      },
+      "https://worldnewswirepress.com/russia-strikes-kyiv-bridges-dnipro.html": {
+        "title": "Russian Missiles Hit Three Kyiv Bridges Over the Dnipro in a Second Strike on the City's Crossings in a Week",
+        "status": "existing before poster started"
+      },
+      "https://worldnewswirepress.com/icj-rules-myanmar-committed-genocide-against-rohingya.html": {
+        "title": "World Court Rules Myanmar Committed Genocide Against the Rohingya, a First for the ICJ",
+        "status": "existing before poster started"
+      }
     }
   },
   "queue": {
@@ -991,6 +1009,14 @@
       "at": "2026-11-21 03:48 UTC",
       "instagram": "18146112766609813",
       "instagram_url": "https://www.instagram.com/stories/prstarpower/4035028561160926153"
+    },
+    "wnp-launch-1": {
+      "brand": "World Newswire Press",
+      "at": "2026-11-21 19:34 UTC",
+      "facebook": "104087625253740_1629443899391170",
+      "instagram": "18459358363192541",
+      "facebook_url": "https://www.facebook.com/104087625253740/posts/1629443899391170",
+      "instagram_url": "https://www.instagram.com/p/DgA_g6wo01I/"
     }
   }
 }
