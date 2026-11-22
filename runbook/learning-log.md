@@ -150,3 +150,6 @@ The homepage puts the newest story on top automatically. King Larry is a news it
 
 ## Nov 21, 2026 — Google doesn't come when you ring the bell
 Big outlets show up in Google within minutes not because they ping Google, but because Google already trusts them and checks their sites almost constantly. That trust is earned: being the source others cite, owning a beat, clean fast pages, honest timestamps and named reporters. Bing has a doorbell (IndexNow, which we use); Google doesn't. Lesson: speed comes from trust, and trust comes from being first and original on our beats. Full playbook: reports/Top of Google News playbook.md.
+
+## Nov 22, 2026 — One light switch for ads
+Google ads need a small line of code in the top section of every page (the "head", the part readers never see), plus a file called ads.txt that proves to advertisers we really sell space through Google. Instead of pasting that line into 50 pages by hand, there is one switch: ADSENSE_PUB at the top of wire.py. Fill it in and run tools/adsense.py, and every page gets the line between two marker comments; empty it and run again, and every line comes back out. The markers are like labels on a fuse box: the tool always knows exactly which wire is its own, so it never touches anything else. It also leaves press releases ad-free, because a client paid for that page.

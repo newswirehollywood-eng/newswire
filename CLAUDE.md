@@ -107,3 +107,10 @@ The homepage and the seven section pages (film, television, music, fashion, deal
 Everything else in docs/ — the individual article pages, calendar, press room, wire, sports — is hand-written and wire.py does not touch it, except to add or remove a takeover nav item inside the TAKEOVER markers.
 
 Wire cards carry another outlet's headline, their own feed photo credited to them, and a link out to their story. We never republish their article text.
+
+## MONEY SWITCHES — ads, media kit, privacy (Nov 22 2026)
+
+- GOOGLE ADS (AdSense): one line switches it on. Set ADSENSE_PUB = "pub-XXXXXXXXXXXXXXXX" at the top of wire.py, run `python3 tools/adsense.py`, commit. That puts Google's Auto ads tag between <!-- ADSENSE:START --> / <!-- ADSENSE:END --> in the <head> of every page in docs/ and writes docs/ads.txt. wire.py adds the same tag to the pages it rebuilds. Empty ADSENSE_PUB and re-run to switch ads off. Press releases (pr-*.html, "release" tags) and any page with <meta name="ads" content="off"> stay ad-free: no ads inside paid content. In AdSense, also switch on Privacy & messaging > European regulations (Google's free consent message), because docs/privacy.html promises it.
+- Advertise / media kit: docs/advertise.html (starting rates; contact advertising@newswirehollywood.com; "we confirm and invoice"). Linked from the nav, footer and follow band.
+- Privacy & ads disclosure: docs/privacy.html (Google ads cookies, partner-sites link, Ads Settings, affiliate links marked rel="sponsored", sponsored always labeled). Any affiliate link we add must carry rel="sponsored noopener".
+- Follow band carries "Add us as a preferred source on Google" (https://www.google.com/preferences/source?q=newswirehollywood.com) plus Advertise and Privacy links. Change the band in FOLLOW_BAND in wire.py, then copy it onto the hand-written pages between the FOLLOW markers.
